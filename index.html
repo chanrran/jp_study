@@ -99,7 +99,7 @@
     }
     .nav-item {
       display: flex; flex-direction: column; align-items: center; gap: 2px;
-      padding: 6px 20px; border-radius: var(--radius-sm);
+      padding: 6px 14px; border-radius: var(--radius-sm);
       background: none; border: none; color: var(--fg-tertiary);
       font-family: var(--font-kr); font-size: 11px; font-weight: 500;
       cursor: pointer; transition: color 0.15s;
@@ -500,6 +500,50 @@
       margin-left: 4px;
     }
 
+    /* ─── Vocab styles ─── */
+    .vocab-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 14px 16px;
+      box-shadow: var(--shadow-sm);
+    }
+    .vocab-card-top {
+      display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+    }
+    .vocab-word {
+      font-family: var(--font-jp); font-size: 1.4rem; font-weight: 700;
+      color: var(--fg);
+    }
+    .vocab-kanji {
+      font-family: var(--font-jp); font-size: 1.0rem;
+      color: var(--fg-secondary);
+    }
+    .vocab-meaning {
+      font-size: 0.95rem; font-weight: 600; color: var(--accent-text);
+      margin-top: 4px;
+    }
+    .vocab-meta {
+      display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px;
+    }
+    .vocab-meta-tag {
+      font-size: 0.7rem; padding: 1px 7px; border-radius: 4px;
+      background: var(--tag-bg); color: var(--tag-fg); font-weight: 500;
+    }
+    .vocab-example {
+      margin-top: 10px; padding: 10px 12px; border-radius: var(--radius-sm);
+      background: var(--tag-bg); border-left: 3px solid var(--accent);
+    }
+    .vocab-example-ja {
+      font-family: var(--font-jp); font-size: 0.92rem; font-weight: 500;
+      color: var(--fg); line-height: 1.5;
+    }
+    .vocab-example-reading {
+      font-family: var(--font-jp); font-size: 0.78rem;
+      color: var(--fg-secondary); margin-top: 2px;
+    }
+    .vocab-example-ko {
+      font-size: 0.82rem; color: var(--fg-secondary); margin-top: 4px;
+    }
+
     /* Empty state */
     .empty-state {
       text-align: center; padding: 48px 20px;
@@ -543,10 +587,10 @@
         <div class="label">한자</div>
         <div class="sub">상용한자 N5 80자</div>
       </div>
-      <div class="menu-card disabled">
+      <div class="menu-card" onclick="navigate('vocab')">
         <div class="icon">語</div>
         <div class="label">어휘</div>
-        <div class="sub">준비 중</div>
+        <div class="sub">N5 필수 단어 164개</div>
       </div>
       <div class="menu-card disabled">
         <div class="icon">文</div>
@@ -671,6 +715,45 @@
     <div class="char-list" id="charListKanji"></div>
   </div>
 
+  <!-- ═══ VOCAB PAGE ═══ -->
+  <div id="page-vocab" class="page">
+    <div class="sticky-controls">
+      <div class="sub-header">
+        <button class="back-btn" onclick="navigate('home')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <h2>어휘 · N5</h2>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" class="search-input" id="searchInputVocab"
+          placeholder="검색 (단어, 한자, 의미, 읽기)">
+      </div>
+
+      <div class="filter-bar" id="vocabFilter">
+        <button class="filter-btn active" data-cat="all">전체</button>
+        <button class="filter-btn" data-cat="사람">사람</button>
+        <button class="filter-btn" data-cat="가족">가족</button>
+        <button class="filter-btn" data-cat="동작">동작</button>
+        <button class="filter-btn" data-cat="형용사">형용사</button>
+        <button class="filter-btn" data-cat="음식">음식</button>
+        <button class="filter-btn" data-cat="장소">장소</button>
+        <button class="filter-btn" data-cat="시간">시간</button>
+        <button class="filter-btn" data-cat="사물">사물</button>
+        <button class="filter-btn" data-cat="자연">자연</button>
+        <button class="filter-btn" data-cat="위치">위치</button>
+        <button class="filter-btn" data-cat="숫자">숫자</button>
+        <button class="filter-btn" data-cat="감정">감정</button>
+        <button class="filter-btn" data-cat="생활">생활</button>
+        <button class="filter-btn" data-cat="표현">표현</button>
+        <button class="filter-btn" data-cat="인사">인사</button>
+      </div>
+    </div>
+
+    <div class="count-label" id="countLabelVocab"></div>
+    <div class="char-list" id="vocabList"></div>
+  </div>
+
   <!-- ═══ Bottom Nav ═══ -->
   <nav class="bottom-nav">
     <button class="nav-item active" data-page="home">
@@ -689,6 +772,10 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">漢</text></svg>
       한자
     </button>
+    <button class="nav-item" data-page="vocab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">語</text></svg>
+      어휘
+    </button>
   </nav>
 
   <script>
@@ -704,6 +791,9 @@
     let searchQuery = '';
     let searchQueryKata = '';
     let searchQueryKanji = '';
+    let vocabData = [];
+    let currentCatVocab = 'all';
+    let searchQueryVocab = '';
 
     // Kanji category mapping
     const kanjiCategories = {
@@ -740,20 +830,24 @@
     // ─── Load data ───
     async function loadData() {
       try {
-        const [hResp, kResp, kjResp] = await Promise.all([
+        const [hResp, kResp, kjResp, vResp] = await Promise.all([
           fetch('data/hiragana.json'),
           fetch('data/katakana.json'),
-          fetch('data/kanji_n5.json')
+          fetch('data/kanji_n5.json'),
+          fetch('data/vocab_n5.json')
         ]);
         const hJson = await hResp.json();
         const kJson = await kResp.json();
         const kjJson = await kjResp.json();
+        const vJson = await vResp.json();
         hiraganaData = hJson.data;
         katakanaData = kJson.data;
         kanjiData = kjJson.data;
+        vocabData = Array.isArray(vJson) ? vJson : vJson.data;
         renderList();
         renderListKata();
         renderListKanji();
+        renderListVocab();
         updateProgress();
       } catch (e) {
         document.getElementById('charList').innerHTML =
@@ -956,6 +1050,78 @@
       renderListKanji();
     });
 
+    // ─── Vocab card renderer ───
+    function renderVocabCard(v) {
+      const kanjiPart = v.kanji ? `<span class="vocab-kanji">【${v.kanji}】</span>` : '';
+      const exampleHtml = v.example ? `
+        <div class="vocab-example">
+          <div class="vocab-example-ja">${v.example.ja}</div>
+          <div class="vocab-example-reading">${v.example.reading}</div>
+          <div class="vocab-example-ko">${v.example.ko}</div>
+        </div>` : '';
+      return `
+        <div class="vocab-card">
+          <div class="vocab-card-top">
+            <span class="vocab-word">${v.word}</span>
+            ${kanjiPart}
+          </div>
+          <div class="vocab-meaning">${v.meaning}</div>
+          <div class="vocab-meta">
+            <span class="vocab-meta-tag">${v.pos}</span>
+            <span class="vocab-meta-tag">${v.category}</span>
+          </div>
+          ${exampleHtml}
+        </div>`;
+    }
+
+    // ─── Vocab list ───
+    function renderListVocab() {
+      let filtered = vocabData;
+      if (currentCatVocab !== 'all') {
+        filtered = filtered.filter(v => v.category === currentCatVocab);
+      }
+      if (searchQueryVocab) {
+        const q = searchQueryVocab.toLowerCase();
+        filtered = filtered.filter(v =>
+          v.word.toLowerCase().includes(q) ||
+          (v.kanji && v.kanji.toLowerCase().includes(q)) ||
+          v.meaning.includes(q) ||
+          v.pos.includes(q) ||
+          v.category.includes(q) ||
+          (v.example && (v.example.ja.includes(q) || v.example.reading.includes(q) || v.example.ko.includes(q)))
+        );
+      }
+      document.getElementById('countLabelVocab').textContent = `${filtered.length}개`;
+      const listEl = document.getElementById('vocabList');
+      if (filtered.length === 0) {
+        listEl.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
+        return;
+      }
+      listEl.innerHTML = filtered.map(v => renderVocabCard(v)).join('');
+    }
+
+    // ─── Vocab filter ───
+    document.getElementById('vocabFilter').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn || btn.dataset.cat === undefined) return;
+      const wasActive = btn.classList.contains('active') && btn.dataset.cat !== 'all';
+      document.querySelectorAll('#vocabFilter .filter-btn').forEach(b => b.classList.remove('active'));
+      if (wasActive) {
+        currentCatVocab = 'all';
+        document.querySelector('#vocabFilter .filter-btn[data-cat="all"]').classList.add('active');
+      } else {
+        btn.classList.add('active');
+        currentCatVocab = btn.dataset.cat;
+      }
+      renderListVocab();
+    });
+
+    // ─── Vocab search ───
+    document.getElementById('searchInputVocab').addEventListener('input', (e) => {
+      searchQueryVocab = e.target.value.trim();
+      renderListVocab();
+    });
+
     // ─── Combined filter (행 + 타입, 한 줄) ───
     document.getElementById('combinedFilter').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
@@ -1020,11 +1186,11 @@
 
     // ─── Progress (localStorage) ───
     function updateProgress() {
-      const total = hiraganaData.length + katakanaData.length + kanjiData.length;
+      const total = hiraganaData.length + katakanaData.length + kanjiData.length + vocabData.length;
       let learned = 0;
       try {
         const saved = JSON.parse(localStorage.getItem('jp_progress') || '{}');
-        learned = Object.keys(saved.hiragana || {}).length + Object.keys(saved.katakana || {}).length + Object.keys(saved.kanji || {}).length;
+        learned = Object.keys(saved.hiragana || {}).length + Object.keys(saved.katakana || {}).length + Object.keys(saved.kanji || {}).length + Object.keys(saved.vocab || {}).length;
       } catch (e) {}
       const pct = total > 0 ? Math.round((learned / total) * 100) : 0;
       const el = document.getElementById('totalProgress');

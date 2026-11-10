@@ -1,0 +1,1327 @@
+[
+  {
+    "word": "わたし",
+    "kanji": "私",
+    "meaning": "나, 저",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "私は学生です。", "reading": "わたしはがくせいです。", "ko": "저는 학생입니다."}
+  },
+  {
+    "word": "あなた",
+    "kanji": "",
+    "meaning": "당신, 너",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "あなたの名前は？", "reading": "あなたのなまえは？", "ko": "당신의 이름은?"}
+  },
+  {
+    "word": "かれ",
+    "kanji": "彼",
+    "meaning": "그, 그 사람(남)",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "彼は先生です。", "reading": "かれはせんせいです。", "ko": "그는 선생님입니다."}
+  },
+  {
+    "word": "かのじょ",
+    "kanji": "彼女",
+    "meaning": "그녀, 여자친구",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "彼女は日本人です。", "reading": "かのじょはにほんじんです。", "ko": "그녀는 일본인입니다."}
+  },
+  {
+    "word": "ひと",
+    "kanji": "人",
+    "meaning": "사람",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "あの人はだれですか。", "reading": "あのひとはだれですか。", "ko": "저 사람은 누구입니까?"}
+  },
+  {
+    "word": "おとこのこ",
+    "kanji": "男の子",
+    "meaning": "남자아이, 소년",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "男の子が走っています。", "reading": "おとこのこがはしっています。", "ko": "남자아이가 달리고 있습니다."}
+  },
+  {
+    "word": "おんなのこ",
+    "kanji": "女の子",
+    "meaning": "여자아이, 소녀",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "女の子が歌っています。", "reading": "おんなのこがうたっています。", "ko": "여자아이가 노래하고 있습니다."}
+  },
+  {
+    "word": "こども",
+    "kanji": "子供",
+    "meaning": "아이, 어린이",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "子供が三人います。", "reading": "こどもがさんにんいます。", "ko": "아이가 세 명 있습니다."}
+  },
+  {
+    "word": "ともだち",
+    "kanji": "友達",
+    "meaning": "친구",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "友達と映画を見ます。", "reading": "ともだちとえいがをみます。", "ko": "친구와 영화를 봅니다."}
+  },
+  {
+    "word": "せんせい",
+    "kanji": "先生",
+    "meaning": "선생님",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "先生はやさしいです。", "reading": "せんせいはやさしいです。", "ko": "선생님은 친절합니다."}
+  },
+  {
+    "word": "がくせい",
+    "kanji": "学生",
+    "meaning": "학생",
+    "pos": "명사",
+    "category": "사람",
+    "example": {"ja": "私は大学生です。", "reading": "わたしはだいがくせいです。", "ko": "저는 대학생입니다."}
+  },
+  {
+    "word": "おかあさん",
+    "kanji": "お母さん",
+    "meaning": "어머니",
+    "pos": "명사",
+    "category": "가족",
+    "example": {"ja": "お母さんは料理が上手です。", "reading": "おかあさんはりょうりがじょうずです。", "ko": "어머니는 요리를 잘합니다."}
+  },
+  {
+    "word": "おとうさん",
+    "kanji": "お父さん",
+    "meaning": "아버지",
+    "pos": "명사",
+    "category": "가족",
+    "example": {"ja": "お父さんは会社員です。", "reading": "おとうさんはかいしゃいんです。", "ko": "아버지는 회사원입니다."}
+  },
+  {
+    "word": "おにいさん",
+    "kanji": "お兄さん",
+    "meaning": "형, 오빠",
+    "pos": "명사",
+    "category": "가족",
+    "example": {"ja": "お兄さんは大学生です。", "reading": "おにいさんはだいがくせいです。", "ko": "형(오빠)은 대학생입니다."}
+  },
+  {
+    "word": "おねえさん",
+    "kanji": "お姉さん",
+    "meaning": "누나, 언니",
+    "pos": "명사",
+    "category": "가족",
+    "example": {"ja": "お姉さんは東京に住んでいます。", "reading": "おねえさんはとうきょうにすんでいます。", "ko": "누나(언니)는 도쿄에 살고 있습니다."}
+  },
+  {
+    "word": "おとうと",
+    "kanji": "弟",
+    "meaning": "남동생",
+    "pos": "명사",
+    "category": "가족",
+    "example": {"ja": "弟は高校生です。", "reading": "おとうとはこうこうせいです。", "ko": "남동생은 고등학생입니다."}
+  },
+  {
+    "word": "いもうと",
+    "kanji": "妹",
+    "meaning": "여동생",
+    "pos": "명사",
+    "category": "가족",
+    "example": {"ja": "妹は十歳です。", "reading": "いもうとはじゅっさいです。", "ko": "여동생은 열 살입니다."}
+  },
+  {
+    "word": "かぞく",
+    "kanji": "家族",
+    "meaning": "가족",
+    "pos": "명사",
+    "category": "가족",
+    "example": {"ja": "家族は四人です。", "reading": "かぞくはよにんです。", "ko": "가족은 네 명입니다."}
+  },
+
+  {
+    "word": "いえ",
+    "kanji": "家",
+    "meaning": "집",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "家に帰ります。", "reading": "いえにかえります。", "ko": "집에 돌아갑니다."}
+  },
+  {
+    "word": "がっこう",
+    "kanji": "学校",
+    "meaning": "학교",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "学校は八時に始まります。", "reading": "がっこうははちじにはじまります。", "ko": "학교는 8시에 시작합니다."}
+  },
+  {
+    "word": "びょういん",
+    "kanji": "病院",
+    "meaning": "병원",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "病院に行きます。", "reading": "びょういんにいきます。", "ko": "병원에 갑니다."}
+  },
+  {
+    "word": "えき",
+    "kanji": "駅",
+    "meaning": "역(기차역)",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "駅まで歩きます。", "reading": "えきまであるきます。", "ko": "역까지 걸어갑니다."}
+  },
+  {
+    "word": "みせ",
+    "kanji": "店",
+    "meaning": "가게",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "あの店は安いです。", "reading": "あのみせはやすいです。", "ko": "저 가게는 쌉니다."}
+  },
+  {
+    "word": "ぎんこう",
+    "kanji": "銀行",
+    "meaning": "은행",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "銀行は何時までですか。", "reading": "ぎんこうはなんじまでですか。", "ko": "은행은 몇 시까지입니까?"}
+  },
+  {
+    "word": "ゆうびんきょく",
+    "kanji": "郵便局",
+    "meaning": "우체국",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "郵便局で手紙を出します。", "reading": "ゆうびんきょくでてがみをだします。", "ko": "우체국에서 편지를 보냅니다."}
+  },
+  {
+    "word": "こうえん",
+    "kanji": "公園",
+    "meaning": "공원",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "公園で遊びます。", "reading": "こうえんであそびます。", "ko": "공원에서 놉니다."}
+  },
+  {
+    "word": "としょかん",
+    "kanji": "図書館",
+    "meaning": "도서관",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "図書館で勉強します。", "reading": "としょかんでべんきょうします。", "ko": "도서관에서 공부합니다."}
+  },
+  {
+    "word": "デパート",
+    "kanji": "",
+    "meaning": "백화점",
+    "pos": "명사",
+    "category": "장소",
+    "example": {"ja": "デパートで買い物をします。", "reading": "デパートでかいものをします。", "ko": "백화점에서 쇼핑합니다."}
+  },
+
+  {
+    "word": "たべる",
+    "kanji": "食べる",
+    "meaning": "먹다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "朝ごはんを食べます。", "reading": "あさごはんをたべます。", "ko": "아침밥을 먹습니다."}
+  },
+  {
+    "word": "のむ",
+    "kanji": "飲む",
+    "meaning": "마시다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "水を飲みます。", "reading": "みずをのみます。", "ko": "물을 마십니다."}
+  },
+  {
+    "word": "みる",
+    "kanji": "見る",
+    "meaning": "보다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "テレビを見ます。", "reading": "テレビをみます。", "ko": "텔레비전을 봅니다."}
+  },
+  {
+    "word": "きく",
+    "kanji": "聞く",
+    "meaning": "듣다, 묻다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "音楽を聞きます。", "reading": "おんがくをききます。", "ko": "음악을 듣습니다."}
+  },
+  {
+    "word": "よむ",
+    "kanji": "読む",
+    "meaning": "읽다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "本を読みます。", "reading": "ほんをよみます。", "ko": "책을 읽습니다."}
+  },
+  {
+    "word": "かく",
+    "kanji": "書く",
+    "meaning": "쓰다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "手紙を書きます。", "reading": "てがみをかきます。", "ko": "편지를 씁니다."}
+  },
+  {
+    "word": "はなす",
+    "kanji": "話す",
+    "meaning": "말하다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "日本語を話します。", "reading": "にほんごをはなします。", "ko": "일본어를 말합니다."}
+  },
+  {
+    "word": "いく",
+    "kanji": "行く",
+    "meaning": "가다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "学校に行きます。", "reading": "がっこうにいきます。", "ko": "학교에 갑니다."}
+  },
+  {
+    "word": "くる",
+    "kanji": "来る",
+    "meaning": "오다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "友達が来ます。", "reading": "ともだちがきます。", "ko": "친구가 옵니다."}
+  },
+  {
+    "word": "かえる",
+    "kanji": "帰る",
+    "meaning": "돌아가다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "家に帰ります。", "reading": "いえにかえります。", "ko": "집에 돌아갑니다."}
+  },
+  {
+    "word": "する",
+    "kanji": "",
+    "meaning": "하다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "勉強をします。", "reading": "べんきょうをします。", "ko": "공부를 합니다."}
+  },
+  {
+    "word": "あう",
+    "kanji": "会う",
+    "meaning": "만나다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "友達に会います。", "reading": "ともだちにあいます。", "ko": "친구를 만납니다."}
+  },
+  {
+    "word": "まつ",
+    "kanji": "待つ",
+    "meaning": "기다리다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "バスを待ちます。", "reading": "バスをまちます。", "ko": "버스를 기다립니다."}
+  },
+  {
+    "word": "わかる",
+    "kanji": "分かる",
+    "meaning": "알다, 이해하다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "日本語が分かります。", "reading": "にほんごがわかります。", "ko": "일본어를 압니다."}
+  },
+  {
+    "word": "おしえる",
+    "kanji": "教える",
+    "meaning": "가르치다, 알려주다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "日本語を教えます。", "reading": "にほんごをおしえます。", "ko": "일본어를 가르칩니다."}
+  },
+  {
+    "word": "べんきょうする",
+    "kanji": "勉強する",
+    "meaning": "공부하다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "毎日勉強します。", "reading": "まいにちべんきょうします。", "ko": "매일 공부합니다."}
+  },
+  {
+    "word": "あるく",
+    "kanji": "歩く",
+    "meaning": "걷다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "公園を歩きます。", "reading": "こうえんをあるきます。", "ko": "공원을 걷습니다."}
+  },
+  {
+    "word": "はしる",
+    "kanji": "走る",
+    "meaning": "달리다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "毎朝走ります。", "reading": "まいあさはしります。", "ko": "매일 아침 달립니다."}
+  },
+  {
+    "word": "ねる",
+    "kanji": "寝る",
+    "meaning": "자다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "十一時に寝ます。", "reading": "じゅういちじにねます。", "ko": "11시에 잡니다."}
+  },
+  {
+    "word": "おきる",
+    "kanji": "起きる",
+    "meaning": "일어나다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "六時に起きます。", "reading": "ろくじにおきます。", "ko": "6시에 일어납니다."}
+  },
+  {
+    "word": "かう",
+    "kanji": "買う",
+    "meaning": "사다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "本を買います。", "reading": "ほんをかいます。", "ko": "책을 삽니다."}
+  },
+  {
+    "word": "つくる",
+    "kanji": "作る",
+    "meaning": "만들다",
+    "pos": "동사",
+    "category": "동작",
+    "example": {"ja": "料理を作ります。", "reading": "りょうりをつくります。", "ko": "요리를 만듭니다."}
+  },
+
+  {
+    "word": "おおきい",
+    "kanji": "大きい",
+    "meaning": "크다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "大きい犬がいます。", "reading": "おおきいいぬがいます。", "ko": "큰 개가 있습니다."}
+  },
+  {
+    "word": "ちいさい",
+    "kanji": "小さい",
+    "meaning": "작다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "小さい猫がいます。", "reading": "ちいさいねこがいます。", "ko": "작은 고양이가 있습니다."}
+  },
+  {
+    "word": "たかい",
+    "kanji": "高い",
+    "meaning": "높다, 비싸다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "あの山は高いです。", "reading": "あのやまはたかいです。", "ko": "저 산은 높습니다."}
+  },
+  {
+    "word": "やすい",
+    "kanji": "安い",
+    "meaning": "싸다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "この本は安いです。", "reading": "このほんはやすいです。", "ko": "이 책은 쌉니다."}
+  },
+  {
+    "word": "あたらしい",
+    "kanji": "新しい",
+    "meaning": "새롭다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "新しい車を買いました。", "reading": "あたらしいくるまをかいました。", "ko": "새 차를 샀습니다."}
+  },
+  {
+    "word": "ふるい",
+    "kanji": "古い",
+    "meaning": "오래되다, 낡다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "古い家です。", "reading": "ふるいいえです。", "ko": "오래된 집입니다."}
+  },
+  {
+    "word": "いい",
+    "kanji": "",
+    "meaning": "좋다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "天気がいいです。", "reading": "てんきがいいです。", "ko": "날씨가 좋습니다."}
+  },
+  {
+    "word": "わるい",
+    "kanji": "悪い",
+    "meaning": "나쁘다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "天気が悪いです。", "reading": "てんきがわるいです。", "ko": "날씨가 나쁩니다."}
+  },
+  {
+    "word": "おいしい",
+    "kanji": "",
+    "meaning": "맛있다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "この料理はおいしいです。", "reading": "このりょうりはおいしいです。", "ko": "이 요리는 맛있습니다."}
+  },
+  {
+    "word": "あつい",
+    "kanji": "暑い",
+    "meaning": "덥다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "今日は暑いです。", "reading": "きょうはあついです。", "ko": "오늘은 덥습니다."}
+  },
+  {
+    "word": "さむい",
+    "kanji": "寒い",
+    "meaning": "춥다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "冬は寒いです。", "reading": "ふゆはさむいです。", "ko": "겨울은 춥습니다."}
+  },
+  {
+    "word": "はやい",
+    "kanji": "早い",
+    "meaning": "빠르다, 이르다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "朝早く起きます。", "reading": "あさはやくおきます。", "ko": "아침 일찍 일어납니다."}
+  },
+  {
+    "word": "おそい",
+    "kanji": "遅い",
+    "meaning": "늦다, 느리다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "電車が遅いです。", "reading": "でんしゃがおそいです。", "ko": "전철이 느립니다."}
+  },
+  {
+    "word": "ながい",
+    "kanji": "長い",
+    "meaning": "길다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "長い髪です。", "reading": "ながいかみです。", "ko": "긴 머리카락입니다."}
+  },
+  {
+    "word": "みじかい",
+    "kanji": "短い",
+    "meaning": "짧다",
+    "pos": "형용사",
+    "category": "형용사",
+    "example": {"ja": "短いスカートです。", "reading": "みじかいスカートです。", "ko": "짧은 치마입니다."}
+  },
+  {
+    "word": "しずか",
+    "kanji": "静か",
+    "meaning": "조용하다",
+    "pos": "な형용사",
+    "category": "형용사",
+    "example": {"ja": "図書館は静かです。", "reading": "としょかんはしずかです。", "ko": "도서관은 조용합니다."}
+  },
+  {
+    "word": "にぎやか",
+    "kanji": "",
+    "meaning": "활기차다, 번화하다",
+    "pos": "な형용사",
+    "category": "형용사",
+    "example": {"ja": "町はにぎやかです。", "reading": "まちはにぎやかです。", "ko": "거리는 활기찹니다."}
+  },
+  {
+    "word": "げんき",
+    "kanji": "元気",
+    "meaning": "건강하다, 활발하다",
+    "pos": "な형용사",
+    "category": "형용사",
+    "example": {"ja": "お元気ですか。", "reading": "おげんきですか。", "ko": "건강하십니까?"}
+  },
+
+  {
+    "word": "ごはん",
+    "kanji": "ご飯",
+    "meaning": "밥, 식사",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "ご飯を食べましょう。", "reading": "ごはんをたべましょう。", "ko": "밥을 먹읍시다."}
+  },
+  {
+    "word": "あさごはん",
+    "kanji": "朝ご飯",
+    "meaning": "아침밥",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "朝ご飯はパンです。", "reading": "あさごはんはパンです。", "ko": "아침밥은 빵입니다."}
+  },
+  {
+    "word": "ひるごはん",
+    "kanji": "昼ご飯",
+    "meaning": "점심",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "昼ご飯を食べました。", "reading": "ひるごはんをたべました。", "ko": "점심을 먹었습니다."}
+  },
+  {
+    "word": "ばんごはん",
+    "kanji": "晩ご飯",
+    "meaning": "저녁밥",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "晩ご飯は何ですか。", "reading": "ばんごはんはなんですか。", "ko": "저녁은 뭡니까?"}
+  },
+  {
+    "word": "みず",
+    "kanji": "水",
+    "meaning": "물",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "水をください。", "reading": "みずをください。", "ko": "물을 주세요."}
+  },
+  {
+    "word": "おちゃ",
+    "kanji": "お茶",
+    "meaning": "차",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "お茶を飲みませんか。", "reading": "おちゃをのみませんか。", "ko": "차를 마시지 않겠습니까?"}
+  },
+  {
+    "word": "にく",
+    "kanji": "肉",
+    "meaning": "고기",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "肉が好きです。", "reading": "にくがすきです。", "ko": "고기를 좋아합니다."}
+  },
+  {
+    "word": "さかな",
+    "kanji": "魚",
+    "meaning": "생선",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "魚を食べます。", "reading": "さかなをたべます。", "ko": "생선을 먹습니다."}
+  },
+  {
+    "word": "やさい",
+    "kanji": "野菜",
+    "meaning": "야채, 채소",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "野菜を食べましょう。", "reading": "やさいをたべましょう。", "ko": "채소를 먹읍시다."}
+  },
+  {
+    "word": "くだもの",
+    "kanji": "果物",
+    "meaning": "과일",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "果物が好きです。", "reading": "くだものがすきです。", "ko": "과일을 좋아합니다."}
+  },
+  {
+    "word": "たまご",
+    "kanji": "卵",
+    "meaning": "달걀",
+    "pos": "명사",
+    "category": "음식",
+    "example": {"ja": "卵を二つください。", "reading": "たまごをふたつください。", "ko": "달걀 두 개 주세요."}
+  },
+
+  {
+    "word": "いま",
+    "kanji": "今",
+    "meaning": "지금",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "今、何時ですか。", "reading": "いま、なんじですか。", "ko": "지금 몇 시입니까?"}
+  },
+  {
+    "word": "きょう",
+    "kanji": "今日",
+    "meaning": "오늘",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "今日は月曜日です。", "reading": "きょうはげつようびです。", "ko": "오늘은 월요일입니다."}
+  },
+  {
+    "word": "あした",
+    "kanji": "明日",
+    "meaning": "내일",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "明日は日曜日です。", "reading": "あしたはにちようびです。", "ko": "내일은 일요일입니다."}
+  },
+  {
+    "word": "きのう",
+    "kanji": "昨日",
+    "meaning": "어제",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "昨日、映画を見ました。", "reading": "きのう、えいがをみました。", "ko": "어제 영화를 봤습니다."}
+  },
+  {
+    "word": "まいにち",
+    "kanji": "毎日",
+    "meaning": "매일",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "毎日日本語を勉強します。", "reading": "まいにちにほんごをべんきょうします。", "ko": "매일 일본어를 공부합니다."}
+  },
+  {
+    "word": "あさ",
+    "kanji": "朝",
+    "meaning": "아침",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "朝七時に起きます。", "reading": "あさしちじにおきます。", "ko": "아침 7시에 일어납니다."}
+  },
+  {
+    "word": "ひる",
+    "kanji": "昼",
+    "meaning": "낮, 점심",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "昼は暑いです。", "reading": "ひるはあついです。", "ko": "낮은 덥습니다."}
+  },
+  {
+    "word": "よる",
+    "kanji": "夜",
+    "meaning": "밤",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "夜、本を読みます。", "reading": "よる、ほんをよみます。", "ko": "밤에 책을 읽습니다."}
+  },
+  {
+    "word": "しゅうまつ",
+    "kanji": "週末",
+    "meaning": "주말",
+    "pos": "명사",
+    "category": "시간",
+    "example": {"ja": "週末は何をしますか。", "reading": "しゅうまつはなにをしますか。", "ko": "주말에 무엇을 합니까?"}
+  },
+
+  {
+    "word": "ほん",
+    "kanji": "本",
+    "meaning": "책",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "本を読みます。", "reading": "ほんをよみます。", "ko": "책을 읽습니다."}
+  },
+  {
+    "word": "でんわ",
+    "kanji": "電話",
+    "meaning": "전화",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "電話をかけます。", "reading": "でんわをかけます。", "ko": "전화를 겁니다."}
+  },
+  {
+    "word": "くるま",
+    "kanji": "車",
+    "meaning": "자동차",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "車で行きます。", "reading": "くるまでいきます。", "ko": "차로 갑니다."}
+  },
+  {
+    "word": "でんしゃ",
+    "kanji": "電車",
+    "meaning": "전철",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "電車に乗ります。", "reading": "でんしゃにのります。", "ko": "전철을 탑니다."}
+  },
+  {
+    "word": "かばん",
+    "kanji": "",
+    "meaning": "가방",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "かばんの中に本があります。", "reading": "かばんのなかにほんがあります。", "ko": "가방 안에 책이 있습니다."}
+  },
+  {
+    "word": "かさ",
+    "kanji": "傘",
+    "meaning": "우산",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "傘を持っていきます。", "reading": "かさをもっていきます。", "ko": "우산을 가져갑니다."}
+  },
+  {
+    "word": "とけい",
+    "kanji": "時計",
+    "meaning": "시계",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "時計を見てください。", "reading": "とけいをみてください。", "ko": "시계를 봐 주세요."}
+  },
+  {
+    "word": "しんぶん",
+    "kanji": "新聞",
+    "meaning": "신문",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "新聞を読みます。", "reading": "しんぶんをよみます。", "ko": "신문을 읽습니다."}
+  },
+  {
+    "word": "テレビ",
+    "kanji": "",
+    "meaning": "텔레비전",
+    "pos": "명사",
+    "category": "사물",
+    "example": {"ja": "テレビを見ます。", "reading": "テレビをみます。", "ko": "텔레비전을 봅니다."}
+  },
+
+  {
+    "word": "てんき",
+    "kanji": "天気",
+    "meaning": "날씨",
+    "pos": "명사",
+    "category": "자연",
+    "example": {"ja": "今日は天気がいいです。", "reading": "きょうはてんきがいいです。", "ko": "오늘은 날씨가 좋습니다."}
+  },
+  {
+    "word": "あめ",
+    "kanji": "雨",
+    "meaning": "비",
+    "pos": "명사",
+    "category": "자연",
+    "example": {"ja": "雨が降っています。", "reading": "あめがふっています。", "ko": "비가 내리고 있습니다."}
+  },
+  {
+    "word": "ゆき",
+    "kanji": "雪",
+    "meaning": "눈",
+    "pos": "명사",
+    "category": "자연",
+    "example": {"ja": "雪が降ります。", "reading": "ゆきがふります。", "ko": "눈이 옵니다."}
+  },
+  {
+    "word": "やま",
+    "kanji": "山",
+    "meaning": "산",
+    "pos": "명사",
+    "category": "자연",
+    "example": {"ja": "山に登ります。", "reading": "やまにのぼります。", "ko": "산에 오릅니다."}
+  },
+  {
+    "word": "かわ",
+    "kanji": "川",
+    "meaning": "강",
+    "pos": "명사",
+    "category": "자연",
+    "example": {"ja": "川で泳ぎます。", "reading": "かわでおよぎます。", "ko": "강에서 수영합니다."}
+  },
+  {
+    "word": "うみ",
+    "kanji": "海",
+    "meaning": "바다",
+    "pos": "명사",
+    "category": "자연",
+    "example": {"ja": "海で泳ぎたいです。", "reading": "うみでおよぎたいです。", "ko": "바다에서 수영하고 싶습니다."}
+  },
+  {
+    "word": "はな",
+    "kanji": "花",
+    "meaning": "꽃",
+    "pos": "명사",
+    "category": "자연",
+    "example": {"ja": "花がきれいです。", "reading": "はながきれいです。", "ko": "꽃이 예쁩니다."}
+  },
+
+  {
+    "word": "ひとつ",
+    "kanji": "一つ",
+    "meaning": "하나",
+    "pos": "명사",
+    "category": "숫자",
+    "example": {"ja": "りんごを一つください。", "reading": "りんごをひとつください。", "ko": "사과 하나 주세요."}
+  },
+  {
+    "word": "ふたつ",
+    "kanji": "二つ",
+    "meaning": "둘",
+    "pos": "명사",
+    "category": "숫자",
+    "example": {"ja": "二つあります。", "reading": "ふたつあります。", "ko": "두 개 있습니다."}
+  },
+  {
+    "word": "みっつ",
+    "kanji": "三つ",
+    "meaning": "셋",
+    "pos": "명사",
+    "category": "숫자",
+    "example": {"ja": "三つ買いました。", "reading": "みっつかいました。", "ko": "세 개 샀습니다."}
+  },
+  {
+    "word": "いくつ",
+    "kanji": "",
+    "meaning": "몇 개, 몇 살",
+    "pos": "명사",
+    "category": "숫자",
+    "example": {"ja": "いくつですか。", "reading": "いくつですか。", "ko": "몇 개입니까?"}
+  },
+  {
+    "word": "いくら",
+    "kanji": "",
+    "meaning": "얼마",
+    "pos": "명사",
+    "category": "숫자",
+    "example": {"ja": "これはいくらですか。", "reading": "これはいくらですか。", "ko": "이것은 얼마입니까?"}
+  },
+
+  {
+    "word": "にほんご",
+    "kanji": "日本語",
+    "meaning": "일본어",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "日本語を勉強しています。", "reading": "にほんごをべんきょうしています。", "ko": "일본어를 공부하고 있습니다."}
+  },
+  {
+    "word": "えいご",
+    "kanji": "英語",
+    "meaning": "영어",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "英語が少し分かります。", "reading": "えいごがすこしわかります。", "ko": "영어를 조금 압니다."}
+  },
+  {
+    "word": "しごと",
+    "kanji": "仕事",
+    "meaning": "일, 직업",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "仕事は何ですか。", "reading": "しごとはなんですか。", "ko": "직업이 무엇입니까?"}
+  },
+  {
+    "word": "かいもの",
+    "kanji": "買い物",
+    "meaning": "쇼핑",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "買い物に行きます。", "reading": "かいものにいきます。", "ko": "쇼핑하러 갑니다."}
+  },
+  {
+    "word": "りょこう",
+    "kanji": "旅行",
+    "meaning": "여행",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "日本に旅行します。", "reading": "にほんにりょこうします。", "ko": "일본에 여행합니다."}
+  },
+  {
+    "word": "えいが",
+    "kanji": "映画",
+    "meaning": "영화",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "映画を見ましょう。", "reading": "えいがをみましょう。", "ko": "영화를 봅시다."}
+  },
+  {
+    "word": "おんがく",
+    "kanji": "音楽",
+    "meaning": "음악",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "音楽を聞きます。", "reading": "おんがくをききます。", "ko": "음악을 듣습니다."}
+  },
+  {
+    "word": "スポーツ",
+    "kanji": "",
+    "meaning": "스포츠",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "スポーツが好きです。", "reading": "スポーツがすきです。", "ko": "스포츠를 좋아합니다."}
+  },
+  {
+    "word": "なまえ",
+    "kanji": "名前",
+    "meaning": "이름",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "名前は何ですか。", "reading": "なまえはなんですか。", "ko": "이름이 무엇입니까?"}
+  },
+  {
+    "word": "でんき",
+    "kanji": "電気",
+    "meaning": "전기, 전등",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "電気をつけてください。", "reading": "でんきをつけてください。", "ko": "전등을 켜 주세요."}
+  },
+  {
+    "word": "おかね",
+    "kanji": "お金",
+    "meaning": "돈",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "お金がありません。", "reading": "おかねがありません。", "ko": "돈이 없습니다."}
+  },
+  {
+    "word": "きって",
+    "kanji": "切手",
+    "meaning": "우표",
+    "pos": "명사",
+    "category": "생활",
+    "example": {"ja": "切手を買います。", "reading": "きってをかいます。", "ko": "우표를 삽니다."}
+  },
+
+  {
+    "word": "うえ",
+    "kanji": "上",
+    "meaning": "위",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "机の上にあります。", "reading": "つくえのうえにあります。", "ko": "책상 위에 있습니다."}
+  },
+  {
+    "word": "した",
+    "kanji": "下",
+    "meaning": "아래",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "椅子の下にあります。", "reading": "いすのしたにあります。", "ko": "의자 아래에 있습니다."}
+  },
+  {
+    "word": "まえ",
+    "kanji": "前",
+    "meaning": "앞",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "駅の前にあります。", "reading": "えきのまえにあります。", "ko": "역 앞에 있습니다."}
+  },
+  {
+    "word": "うしろ",
+    "kanji": "後ろ",
+    "meaning": "뒤",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "後ろを見てください。", "reading": "うしろをみてください。", "ko": "뒤를 봐 주세요."}
+  },
+  {
+    "word": "なか",
+    "kanji": "中",
+    "meaning": "안, 속",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "箱の中にあります。", "reading": "はこのなかにあります。", "ko": "상자 안에 있습니다."}
+  },
+  {
+    "word": "そと",
+    "kanji": "外",
+    "meaning": "밖, 외부",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "外は寒いです。", "reading": "そとはさむいです。", "ko": "밖은 춥습니다."}
+  },
+  {
+    "word": "みぎ",
+    "kanji": "右",
+    "meaning": "오른쪽",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "右に曲がってください。", "reading": "みぎにまがってください。", "ko": "오른쪽으로 도세요."}
+  },
+  {
+    "word": "ひだり",
+    "kanji": "左",
+    "meaning": "왼쪽",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "左にあります。", "reading": "ひだりにあります。", "ko": "왼쪽에 있습니다."}
+  },
+  {
+    "word": "となり",
+    "kanji": "隣",
+    "meaning": "옆, 이웃",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "隣に座ってください。", "reading": "となりにすわってください。", "ko": "옆에 앉아 주세요."}
+  },
+  {
+    "word": "ちかく",
+    "kanji": "近く",
+    "meaning": "가까이, 근처",
+    "pos": "명사",
+    "category": "위치",
+    "example": {"ja": "駅の近くに住んでいます。", "reading": "えきのちかくにすんでいます。", "ko": "역 근처에 살고 있습니다."}
+  },
+
+  {
+    "word": "すき",
+    "kanji": "好き",
+    "meaning": "좋아하다",
+    "pos": "な형용사",
+    "category": "감정",
+    "example": {"ja": "猫が好きです。", "reading": "ねこがすきです。", "ko": "고양이를 좋아합니다."}
+  },
+  {
+    "word": "きらい",
+    "kanji": "嫌い",
+    "meaning": "싫어하다",
+    "pos": "な형용사",
+    "category": "감정",
+    "example": {"ja": "野菜が嫌いです。", "reading": "やさいがきらいです。", "ko": "야채를 싫어합니다."}
+  },
+  {
+    "word": "じょうず",
+    "kanji": "上手",
+    "meaning": "잘하다, 능숙하다",
+    "pos": "な형용사",
+    "category": "감정",
+    "example": {"ja": "日本語が上手ですね。", "reading": "にほんごがじょうずですね。", "ko": "일본어를 잘하시네요."}
+  },
+  {
+    "word": "へた",
+    "kanji": "下手",
+    "meaning": "못하다, 서투르다",
+    "pos": "な형용사",
+    "category": "감정",
+    "example": {"ja": "料理が下手です。", "reading": "りょうりがへたです。", "ko": "요리를 못합니다."}
+  },
+  {
+    "word": "たいへん",
+    "kanji": "大変",
+    "meaning": "힘들다, 대단하다",
+    "pos": "な형용사",
+    "category": "감정",
+    "example": {"ja": "仕事が大変です。", "reading": "しごとがたいへんです。", "ko": "일이 힘듭니다."}
+  },
+  {
+    "word": "だいじょうぶ",
+    "kanji": "大丈夫",
+    "meaning": "괜찮다",
+    "pos": "な형용사",
+    "category": "감정",
+    "example": {"ja": "大丈夫ですか。", "reading": "だいじょうぶですか。", "ko": "괜찮습니까?"}
+  },
+
+  {
+    "word": "これ",
+    "kanji": "",
+    "meaning": "이것",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "これは何ですか。", "reading": "これはなんですか。", "ko": "이것은 무엇입니까?"}
+  },
+  {
+    "word": "それ",
+    "kanji": "",
+    "meaning": "그것",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "それをください。", "reading": "それをください。", "ko": "그것을 주세요."}
+  },
+  {
+    "word": "あれ",
+    "kanji": "",
+    "meaning": "저것",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "あれは何ですか。", "reading": "あれはなんですか。", "ko": "저것은 무엇입니까?"}
+  },
+  {
+    "word": "ここ",
+    "kanji": "",
+    "meaning": "여기",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "ここに座ってください。", "reading": "ここにすわってください。", "ko": "여기에 앉아 주세요."}
+  },
+  {
+    "word": "そこ",
+    "kanji": "",
+    "meaning": "거기",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "そこに置いてください。", "reading": "そこにおいてください。", "ko": "거기에 놓아 주세요."}
+  },
+  {
+    "word": "あそこ",
+    "kanji": "",
+    "meaning": "저기",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "あそこにトイレがあります。", "reading": "あそこにトイレがあります。", "ko": "저기에 화장실이 있습니다."}
+  },
+  {
+    "word": "どこ",
+    "kanji": "",
+    "meaning": "어디",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "トイレはどこですか。", "reading": "トイレはどこですか。", "ko": "화장실은 어디입니까?"}
+  },
+  {
+    "word": "だれ",
+    "kanji": "",
+    "meaning": "누구",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "あの人はだれですか。", "reading": "あのひとはだれですか。", "ko": "저 사람은 누구입니까?"}
+  },
+  {
+    "word": "なに",
+    "kanji": "何",
+    "meaning": "무엇",
+    "pos": "대명사",
+    "category": "표현",
+    "example": {"ja": "何を食べますか。", "reading": "なにをたべますか。", "ko": "무엇을 먹습니까?"}
+  },
+  {
+    "word": "いつ",
+    "kanji": "",
+    "meaning": "언제",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "いつ日本に行きますか。", "reading": "いつにほんにいきますか。", "ko": "언제 일본에 갑니까?"}
+  },
+  {
+    "word": "どう",
+    "kanji": "",
+    "meaning": "어떻게",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "日本語はどうですか。", "reading": "にほんごはどうですか。", "ko": "일본어는 어떻습니까?"}
+  },
+  {
+    "word": "なぜ",
+    "kanji": "",
+    "meaning": "왜",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "なぜ日本語を勉強しますか。", "reading": "なぜにほんごをべんきょうしますか。", "ko": "왜 일본어를 공부합니까?"}
+  },
+  {
+    "word": "すこし",
+    "kanji": "少し",
+    "meaning": "조금",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "少し分かります。", "reading": "すこしわかります。", "ko": "조금 압니다."}
+  },
+  {
+    "word": "たくさん",
+    "kanji": "",
+    "meaning": "많이",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "たくさん食べました。", "reading": "たくさんたべました。", "ko": "많이 먹었습니다."}
+  },
+  {
+    "word": "とても",
+    "kanji": "",
+    "meaning": "매우, 아주",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "とてもおいしいです。", "reading": "とてもおいしいです。", "ko": "매우 맛있습니다."}
+  },
+  {
+    "word": "まだ",
+    "kanji": "",
+    "meaning": "아직",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "まだ食べていません。", "reading": "まだたべていません。", "ko": "아직 먹지 않았습니다."}
+  },
+  {
+    "word": "もう",
+    "kanji": "",
+    "meaning": "이미, 벌써",
+    "pos": "부사",
+    "category": "표현",
+    "example": {"ja": "もう食べました。", "reading": "もうたべました。", "ko": "이미 먹었습니다."}
+  },
+
+  {
+    "word": "すみません",
+    "kanji": "",
+    "meaning": "실례합니다, 죄송합니다",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "すみません、駅はどこですか。", "reading": "すみません、えきはどこですか。", "ko": "실례합니다, 역은 어디입니까?"}
+  },
+  {
+    "word": "ありがとうございます",
+    "kanji": "",
+    "meaning": "감사합니다",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "ありがとうございます。", "reading": "ありがとうございます。", "ko": "감사합니다."}
+  },
+  {
+    "word": "おはようございます",
+    "kanji": "",
+    "meaning": "안녕하세요(아침)",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "おはようございます。", "reading": "おはようございます。", "ko": "안녕하세요.(아침 인사)"}
+  },
+  {
+    "word": "こんにちは",
+    "kanji": "",
+    "meaning": "안녕하세요(낮)",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "こんにちは。", "reading": "こんにちは。", "ko": "안녕하세요.(낮 인사)"}
+  },
+  {
+    "word": "こんばんは",
+    "kanji": "",
+    "meaning": "안녕하세요(저녁)",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "こんばんは。", "reading": "こんばんは。", "ko": "안녕하세요.(저녁 인사)"}
+  },
+  {
+    "word": "さようなら",
+    "kanji": "",
+    "meaning": "안녕히 가세요",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "さようなら。", "reading": "さようなら。", "ko": "안녕히 가세요."}
+  },
+  {
+    "word": "おねがいします",
+    "kanji": "お願いします",
+    "meaning": "부탁합니다",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "これ、お願いします。", "reading": "これ、おねがいします。", "ko": "이것, 부탁합니다."}
+  },
+  {
+    "word": "いただきます",
+    "kanji": "",
+    "meaning": "잘 먹겠습니다",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "いただきます。", "reading": "いただきます。", "ko": "잘 먹겠습니다."}
+  },
+  {
+    "word": "ごちそうさまでした",
+    "kanji": "",
+    "meaning": "잘 먹었습니다",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "ごちそうさまでした。", "reading": "ごちそうさまでした。", "ko": "잘 먹었습니다."}
+  },
+  {
+    "word": "おやすみなさい",
+    "kanji": "",
+    "meaning": "안녕히 주무세요",
+    "pos": "표현",
+    "category": "인사",
+    "example": {"ja": "おやすみなさい。", "reading": "おやすみなさい。", "ko": "안녕히 주무세요."}
+  }
+]
