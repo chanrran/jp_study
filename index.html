@@ -4,40 +4,608 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>일본어 공부</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg: #fafaf9;
+      --bg-card: #ffffff;
+      --bg-nav: rgba(255,255,255,0.92);
+      --fg: #1c1917;
+      --fg-secondary: #78716c;
+      --fg-tertiary: #a8a29e;
+      --accent: #dc2626;
+      --accent-soft: #fef2f2;
+      --accent-text: #dc2626;
+      --border: #e7e5e4;
+      --border-strong: #d6d3d1;
+      --tag-bg: #f5f5f4;
+      --tag-fg: #57534e;
+      --highlight: #fef9c3;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+      --radius: 12px;
+      --radius-sm: 8px;
+      --font-jp: 'Noto Sans JP', sans-serif;
+      --font-kr: 'Noto Sans KR', sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #1c1917;
+        --bg-card: #292524;
+        --bg-nav: rgba(28,25,23,0.92);
+        --fg: #fafaf9;
+        --fg-secondary: #a8a29e;
+        --fg-tertiary: #78716c;
+        --accent: #ef4444;
+        --accent-soft: #451a03;
+        --accent-text: #fca5a5;
+        --border: #44403c;
+        --border-strong: #57534e;
+        --tag-bg: #44403c;
+        --tag-fg: #d6d3d1;
+        --highlight: #422006;
+        --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+        --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+        color-scheme: dark;
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: #1c1917;
+      --bg-card: #292524;
+      --bg-nav: rgba(28,25,23,0.92);
+      --fg: #fafaf9;
+      --fg-secondary: #a8a29e;
+      --fg-tertiary: #78716c;
+      --accent: #ef4444;
+      --accent-soft: #451a03;
+      --accent-text: #fca5a5;
+      --border: #44403c;
+      --border-strong: #57534e;
+      --tag-bg: #44403c;
+      --tag-fg: #d6d3d1;
+      --highlight: #422006;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+      color-scheme: dark;
+    }
+
     * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background: #f5f5f5;
-      color: #333;
+      font-family: var(--font-kr);
+      background: var(--bg);
+      color: var(--fg);
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
+      -webkit-font-smoothing: antialiased;
     }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    .subtitle { font-size: 1.1rem; color: #666; margin-bottom: 2rem; }
-    .status {
-      background: #fff;
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+    /* ─── Page container ─── */
+    .page { display: none; min-height: 100vh; padding-bottom: 80px; }
+    .page.active { display: block; }
+
+    /* ─── Bottom nav ─── */
+    .bottom-nav {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: var(--bg-nav);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-top: 1px solid var(--border);
+      display: flex; justify-content: center; gap: 0;
+      padding: 8px 0 calc(8px + env(safe-area-inset-bottom, 0px));
+      z-index: 100;
+    }
+    .nav-item {
+      display: flex; flex-direction: column; align-items: center; gap: 2px;
+      padding: 6px 20px; border-radius: var(--radius-sm);
+      background: none; border: none; color: var(--fg-tertiary);
+      font-family: var(--font-kr); font-size: 11px; font-weight: 500;
+      cursor: pointer; transition: color 0.15s;
+    }
+    .nav-item.active { color: var(--accent-text); }
+    .nav-item svg { width: 22px; height: 22px; }
+
+    /* ─── Home page ─── */
+    .home-header {
+      padding: 48px 20px 24px;
       text-align: center;
-      max-width: 400px;
-      width: 100%;
     }
-    .check { font-size: 3rem; margin-bottom: 12px; }
-    .status p { color: #555; line-height: 1.6; }
+    .home-header h1 {
+      font-family: var(--font-jp);
+      font-size: 2rem; font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .home-header h1 span { color: var(--accent); }
+    .home-header p {
+      margin-top: 6px;
+      color: var(--fg-secondary); font-size: 0.9rem;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      padding: 16px 20px;
+      max-width: 480px; margin: 0 auto;
+    }
+    .menu-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 16px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.12s, box-shadow 0.12s;
+      box-shadow: var(--shadow-sm);
+      text-decoration: none; color: inherit;
+    }
+    .menu-card:active { transform: scale(0.97); }
+    .menu-card .icon { font-size: 2rem; margin-bottom: 8px; }
+    .menu-card .label {
+      font-size: 0.95rem; font-weight: 600;
+    }
+    .menu-card .sub {
+      font-size: 0.75rem; color: var(--fg-secondary);
+      margin-top: 4px;
+    }
+    .menu-card.disabled {
+      opacity: 0.4; pointer-events: none;
+    }
+
+    /* ─── Progress bar (home) ─── */
+    .progress-section {
+      padding: 16px 20px;
+      max-width: 480px; margin: 0 auto;
+    }
+    .progress-section h3 {
+      font-size: 0.85rem; font-weight: 600;
+      color: var(--fg-secondary);
+      margin-bottom: 10px;
+    }
+    .progress-bar-track {
+      height: 6px; background: var(--border);
+      border-radius: 3px; overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%; background: var(--accent);
+      border-radius: 3px; transition: width 0.3s;
+    }
+    .progress-stats {
+      display: flex; justify-content: space-between;
+      font-size: 0.75rem; color: var(--fg-tertiary);
+      margin-top: 6px;
+    }
+
+    /* ─── Hiragana page ─── */
+    .sub-header {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--bg-nav);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 20px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .back-btn {
+      background: none; border: none; color: var(--fg);
+      cursor: pointer; padding: 4px; display: flex;
+    }
+    .back-btn svg { width: 20px; height: 20px; }
+    .sub-header h2 {
+      font-size: 1.1rem; font-weight: 600;
+      flex: 1;
+    }
+
+    /* Row filter tabs */
+    .filter-bar {
+      display: flex; gap: 6px; overflow-x: auto;
+      padding: 12px 20px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .filter-bar::-webkit-scrollbar { display: none; }
+    .filter-btn {
+      flex-shrink: 0;
+      padding: 6px 14px; border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--bg-card); color: var(--fg-secondary);
+      font-family: var(--font-jp); font-size: 0.85rem; font-weight: 500;
+      cursor: pointer; white-space: nowrap;
+      transition: all 0.12s;
+    }
+    .filter-btn.active {
+      background: var(--accent); color: #fff;
+      border-color: var(--accent);
+    }
+
+    /* Character list */
+    .char-list {
+      padding: 0 20px 20px;
+      display: flex; flex-direction: column; gap: 12px;
+      max-width: 600px; margin: 0 auto;
+    }
+
+    /* Single character card — reference style, all info visible */
+    .char-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    .char-card-main {
+      display: flex; gap: 16px; padding: 16px;
+      align-items: flex-start;
+    }
+
+    .char-big {
+      font-family: var(--font-jp);
+      font-size: 4rem; font-weight: 300;
+      line-height: 1;
+      min-width: 80px; text-align: center;
+      color: var(--fg);
+    }
+    .char-big .katakana {
+      display: block;
+      font-size: 1.2rem; font-weight: 400;
+      color: var(--fg-tertiary);
+      margin-top: 4px;
+    }
+
+    .char-info { flex: 1; min-width: 0; }
+    .char-info-row {
+      display: flex; align-items: baseline; gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 4px;
+    }
+    .hangul-reading {
+      font-size: 1.4rem; font-weight: 700;
+      color: var(--accent-text);
+    }
+    .romaji {
+      font-size: 0.9rem; color: var(--fg-secondary);
+    }
+    .type-tag {
+      display: inline-block;
+      padding: 2px 8px; border-radius: 4px;
+      font-size: 0.7rem; font-weight: 600;
+      background: var(--tag-bg); color: var(--tag-fg);
+    }
+    .type-tag.탁음 { background: #dbeafe; color: #1e40af; }
+    .type-tag.반탁음 { background: #f3e8ff; color: #7c3aed; }
+    .type-tag.요음 { background: #fef3c7; color: #92400e; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) .type-tag.탁음 { background: #1e3a5f; color: #93c5fd; }
+      :root:not([data-theme="light"]) .type-tag.반탁음 { background: #3b1f6e; color: #c4b5fd; }
+      :root:not([data-theme="light"]) .type-tag.요음 { background: #451a03; color: #fcd34d; }
+    }
+    :root[data-theme="dark"] .type-tag.탁음 { background: #1e3a5f; color: #93c5fd; }
+    :root[data-theme="dark"] .type-tag.반탁음 { background: #3b1f6e; color: #c4b5fd; }
+    :root[data-theme="dark"] .type-tag.요음 { background: #451a03; color: #fcd34d; }
+
+    .mnemonic {
+      font-size: 0.82rem; color: var(--fg-secondary);
+      line-height: 1.5; margin-top: 4px;
+    }
+
+    .sample-word {
+      display: inline-flex; align-items: baseline; gap: 6px;
+      margin-top: 6px; padding: 4px 10px;
+      background: var(--tag-bg); border-radius: var(--radius-sm);
+      font-size: 0.82rem;
+    }
+    .sample-word .jp { font-family: var(--font-jp); font-weight: 500; }
+    .sample-word .meaning { color: var(--fg-secondary); }
+
+    /* Origin (etymology) section */
+    .char-origin {
+      border-top: 1px solid var(--border);
+      padding: 12px 16px;
+      background: var(--accent-soft);
+    }
+    .origin-title {
+      font-size: 0.72rem; font-weight: 600;
+      color: var(--fg-tertiary);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+    .origin-content {
+      display: flex; align-items: baseline; gap: 10px;
+      flex-wrap: wrap;
+    }
+    .origin-kanji {
+      font-family: var(--font-jp);
+      font-size: 1.8rem; font-weight: 400;
+      color: var(--fg);
+    }
+    .origin-hanja {
+      font-size: 1rem; font-weight: 600;
+      color: var(--accent-text);
+    }
+    .origin-meaning {
+      font-size: 0.82rem; color: var(--fg-secondary);
+    }
+    .origin-explain {
+      width: 100%;
+      font-size: 0.78rem; color: var(--fg-secondary);
+      line-height: 1.5; margin-top: 4px;
+    }
+
+    /* Confusable */
+    .confusable {
+      border-top: 1px solid var(--border);
+      padding: 8px 16px;
+      font-size: 0.78rem; color: var(--fg-tertiary);
+    }
+    .confusable span {
+      font-family: var(--font-jp);
+      font-weight: 500; color: var(--fg-secondary);
+    }
+
+    /* Search */
+    .search-bar {
+      padding: 0 20px 8px;
+    }
+    .search-input {
+      width: 100%; padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg-card); color: var(--fg);
+      font-family: var(--font-kr); font-size: 0.9rem;
+      outline: none; transition: border-color 0.15s;
+    }
+    .search-input:focus { border-color: var(--accent); }
+    .search-input::placeholder { color: var(--fg-tertiary); }
+
+    .count-label {
+      padding: 4px 20px 8px;
+      font-size: 0.78rem; color: var(--fg-tertiary);
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center; padding: 48px 20px;
+      color: var(--fg-tertiary); font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <h1>日本語 공부</h1>
-  <p class="subtitle">일본어 학습 웹앱</p>
-  <div class="status">
-    <div class="check">✅</div>
-    <p>GitHub Pages 배포 성공!<br>이 화면이 보이면 정상입니다.</p>
+
+  <!-- ═══ HOME PAGE ═══ -->
+  <div id="page-home" class="page active">
+    <div class="home-header">
+      <h1>日本語 <span>공부</span></h1>
+      <p>일본어 학습 웹앱 · JLPT N5→N1</p>
+    </div>
+
+    <div class="progress-section">
+      <h3>전체 학습 진행률</h3>
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="totalProgress" style="width:0%"></div>
+      </div>
+      <div class="progress-stats">
+        <span id="progressLabel">0 / 0 항목 학습</span>
+        <span id="progressPct">0%</span>
+      </div>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-card" onclick="navigate('hiragana')">
+        <div class="icon">あ</div>
+        <div class="label">히라가나</div>
+        <div class="sub">청음·탁음·반탁음·요음 104자</div>
+      </div>
+      <div class="menu-card disabled">
+        <div class="icon">ア</div>
+        <div class="label">카타카나</div>
+        <div class="sub">준비 중</div>
+      </div>
+      <div class="menu-card disabled">
+        <div class="icon">漢</div>
+        <div class="label">한자</div>
+        <div class="sub">준비 중</div>
+      </div>
+      <div class="menu-card disabled">
+        <div class="icon">語</div>
+        <div class="label">어휘</div>
+        <div class="sub">준비 중</div>
+      </div>
+      <div class="menu-card disabled">
+        <div class="icon">文</div>
+        <div class="label">문법</div>
+        <div class="sub">준비 중</div>
+      </div>
+      <div class="menu-card disabled">
+        <div class="icon">話</div>
+        <div class="label">회화</div>
+        <div class="sub">준비 중</div>
+      </div>
+    </div>
   </div>
+
+  <!-- ═══ HIRAGANA PAGE ═══ -->
+  <div id="page-hiragana" class="page">
+    <div class="sub-header">
+      <button class="back-btn" onclick="navigate('home')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <h2>히라가나</h2>
+    </div>
+
+    <div class="search-bar" style="margin-top:8px">
+      <input type="text" class="search-input" id="searchInput"
+        placeholder="검색 (히라가나, 한글, 로마자)">
+    </div>
+
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-btn active" data-filter="all">전체</button>
+      <button class="filter-btn" data-filter="청음">청음</button>
+      <button class="filter-btn" data-filter="탁음">탁음</button>
+      <button class="filter-btn" data-filter="반탁음">반탁음</button>
+      <button class="filter-btn" data-filter="요음">요음</button>
+    </div>
+
+    <div class="count-label" id="countLabel"></div>
+    <div class="char-list" id="charList"></div>
+  </div>
+
+  <!-- ═══ Bottom Nav ═══ -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-page="home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      홈
+    </button>
+    <button class="nav-item" data-page="hiragana">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">あ</text></svg>
+      히라가나
+    </button>
+  </nav>
+
+  <script>
+    // ─── State ───
+    let hiraganaData = [];
+    let currentFilter = 'all';
+    let searchQuery = '';
+
+    // ─── Navigation ───
+    function navigate(page) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById('page-' + page).classList.add('active');
+      document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+      const navBtn = document.querySelector(`.nav-item[data-page="${page}"]`);
+      if (navBtn) navBtn.classList.add('active');
+      window.scrollTo(0, 0);
+    }
+
+    // Nav button clicks
+    document.querySelectorAll('.nav-item').forEach(btn => {
+      btn.addEventListener('click', () => navigate(btn.dataset.page));
+    });
+
+    // ─── Load data ───
+    async function loadData() {
+      try {
+        const resp = await fetch('data/hiragana.json');
+        const json = await resp.json();
+        hiraganaData = json.data;
+        renderList();
+        updateProgress();
+      } catch (e) {
+        document.getElementById('charList').innerHTML =
+          '<div class="empty-state">데이터를 불러올 수 없습니다.</div>';
+      }
+    }
+
+    // ─── Render character cards ───
+    function renderList() {
+      const list = document.getElementById('charList');
+      let filtered = hiraganaData;
+
+      if (currentFilter !== 'all') {
+        filtered = filtered.filter(c => c.type === currentFilter);
+      }
+
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        filtered = filtered.filter(c =>
+          c.char.includes(q) ||
+          c.hangul.includes(q) ||
+          c.romaji.toLowerCase().includes(q) ||
+          (c.katakana && c.katakana.includes(q))
+        );
+      }
+
+      document.getElementById('countLabel').textContent = `${filtered.length}자`;
+
+      if (filtered.length === 0) {
+        list.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
+        return;
+      }
+
+      list.innerHTML = filtered.map(c => {
+        const origin = c.origin && c.origin.kanji ? `
+          <div class="char-origin">
+            <div class="origin-title">유래 由来</div>
+            <div class="origin-content">
+              <span class="origin-kanji">${c.origin.kanji}</span>
+              <span class="origin-hanja">${c.origin.hanja}</span>
+              <span class="origin-meaning">${c.origin.meaning}</span>
+              <div class="origin-explain">${c.origin.explanation}</div>
+            </div>
+          </div>` : '';
+
+        const confusable = c.confusableWith && c.confusableWith.length > 0 ? `
+          <div class="confusable">
+            헷갈림 주의: <span>${c.confusableWith.join(' ')}</span>
+          </div>` : '';
+
+        return `
+          <div class="char-card">
+            <div class="char-card-main">
+              <div class="char-big">
+                ${c.char}
+                <span class="katakana">${c.katakana || ''}</span>
+              </div>
+              <div class="char-info">
+                <div class="char-info-row">
+                  <span class="hangul-reading">${c.hangul}</span>
+                  <span class="romaji">${c.romaji}</span>
+                  <span class="type-tag ${c.type}">${c.type} · ${c.row}행${c.strokeCount != null ? ' · ' + c.strokeCount + '획' : ''}</span>
+                </div>
+                <div class="mnemonic">${c.mnemonic}</div>
+                ${c.sampleWord ? `
+                  <div class="sample-word">
+                    <span class="jp">${c.sampleWord.reading}</span>
+                    <span class="jp">${c.sampleWord.word}</span>
+                    <span class="meaning">${c.sampleWord.meaning}</span>
+                  </div>` : ''}
+              </div>
+            </div>
+            ${origin}
+            ${confusable}
+          </div>`;
+      }).join('');
+    }
+
+    // ─── Filters ───
+    document.getElementById('filterBar').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilter = btn.dataset.filter;
+      renderList();
+    });
+
+    // ─── Search ───
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      renderList();
+    });
+
+    // ─── Progress (localStorage) ───
+    function updateProgress() {
+      const total = hiraganaData.length;
+      let learned = 0;
+      try {
+        const saved = JSON.parse(localStorage.getItem('jp_progress') || '{}');
+        learned = Object.keys(saved.hiragana || {}).length;
+      } catch (e) {}
+      const pct = total > 0 ? Math.round((learned / total) * 100) : 0;
+      const el = document.getElementById('totalProgress');
+      if (el) el.style.width = pct + '%';
+      const label = document.getElementById('progressLabel');
+      if (label) label.textContent = `${learned} / ${total} 항목 학습`;
+      const pctEl = document.getElementById('progressPct');
+      if (pctEl) pctEl.textContent = pct + '%';
+    }
+
+    // ─── Init ───
+    loadData();
+  </script>
 </body>
 </html>
