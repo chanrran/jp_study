@@ -1204,17 +1204,36 @@
     }
 
     // ─── Stroke SVG loading ───
+    // svgCache: 원본 SVG 텍스트 (애니메이션 포함)
     const svgCache = {};
+
+    // SVG에서 모든 애니메이션 요소를 제거하여 정적 완성 글자로 만듦
+    function stripAnimations(svgEl) {
+      svgEl.querySelectorAll('animate, animateTransform, set, animateMotion').forEach(a => a.remove());
+      // clip-path로 가려진 획을 모두 보이게: stroke-dasharray/dashoffset 초기화
+      svgEl.querySelectorAll('path[clip-path]').forEach(p => {
+        p.style.strokeDasharray = 'none';
+        p.style.strokeDashoffset = '0';
+        p.style.opacity = '1';
+      });
+    }
+
+    // 정적 SVG 삽입 (애니메이션 없이 완성된 글자만 표시)
+    function insertStaticSvg(box, svgText) {
+      const hint = '<span class="replay-hint" onclick="event.stopPropagation(); replayStroke(this.parentNode)">▶</span>';
+      box.innerHTML = svgText + hint;
+      const svg = box.querySelector('svg.acjk');
+      if (svg) stripAnimations(svg);
+    }
 
     async function loadStrokeSvg(box) {
       const code = box.dataset.unicode;
       if (!code) return;
       const svgDir = box.dataset.svgDir || 'kana-svg';
-
       const cacheKey = svgDir + '/' + code;
+
       if (svgCache[cacheKey]) {
-        box.innerHTML = svgCache[cacheKey] + '<span class="replay-hint" onclick="event.stopPropagation(); replayStroke(this.parentNode)">▶</span>';
-        pauseStrokeSvg(box);
+        insertStaticSvg(box, svgCache[cacheKey]);
         return;
       }
 
@@ -1227,35 +1246,25 @@
         }
         const text = await resp.text();
         svgCache[cacheKey] = text;
-        box.innerHTML = text + '<span class="replay-hint" onclick="event.stopPropagation(); replayStroke(this.parentNode)">▶</span>';
-        pauseStrokeSvg(box);
+        insertStaticSvg(box, text);
       } catch (e) {
         const ch = String.fromCodePoint(parseInt(code));
         box.outerHTML = `<div class="char-text-fallback">${ch}</div>`;
       }
     }
 
-    // SVG 로드 후 애니메이션을 즉시 정지 (최종 프레임 표시)
-    function pauseStrokeSvg(box) {
-      const svg = box.querySelector('svg.acjk');
-      if (!svg) return;
-      // 모든 animate/animateTransform을 제거하고 최종 상태만 보여줌
-      svg.pauseAnimations && svg.pauseAnimations();
-      // SVG 시간을 끝으로 보내서 완성된 글자를 표시
-      try { svg.setCurrentTime(9999); } catch(e) {}
-    }
-
     function replayStroke(box) {
-      const svg = box.querySelector('svg.acjk');
-      if (!svg) {
+      const code = box.dataset.unicode;
+      const svgDir = box.dataset.svgDir || 'kana-svg';
+      const cacheKey = svgDir + '/' + code;
+      const cached = svgCache[cacheKey];
+      if (!cached) {
         loadStrokeSvg(box);
         return;
       }
-      // 애니메이션 리플레이: SVG를 복제해서 다시 넣기
-      const parent = svg.parentNode;
-      const clone = svg.cloneNode(true);
-      svg.remove();
-      parent.insertBefore(clone, parent.querySelector('.replay-hint'));
+      // 원본(애니메이션 포함) SVG를 다시 삽입 → 해당 박스만 재생
+      const hint = '<span class="replay-hint" onclick="event.stopPropagation(); replayStroke(this.parentNode)">▶</span>';
+      box.innerHTML = cached + hint;
     }
 
     // Intersection Observer로 화면에 보이면 SVG 로드
