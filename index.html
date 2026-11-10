@@ -241,18 +241,46 @@
       align-items: flex-start;
     }
 
-    .char-big {
-      font-family: var(--font-jp);
-      font-size: 4rem; font-weight: 300;
-      line-height: 1;
-      min-width: 80px; text-align: center;
-      color: var(--fg);
+    .char-left {
+      display: flex; flex-direction: column; align-items: center;
+      min-width: 88px; gap: 4px;
     }
-    .char-big .katakana {
+    .stroke-box {
+      width: 88px; height: 88px;
+      position: relative;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .stroke-box svg.acjk {
+      width: 100%; height: 100%;
       display: block;
-      font-size: 1.2rem; font-weight: 400;
+    }
+    /* animCJK의 획 색상을 테마에 맞게 */
+    .stroke-box svg.acjk path[id] { fill: var(--border); }
+    .stroke-box svg.acjk path[clip-path] { stroke: var(--fg); }
+    .stroke-box .replay-hint {
+      position: absolute; bottom: 2px; right: 4px;
+      font-size: 0.6rem; color: var(--fg-tertiary);
+      pointer-events: none; opacity: 0.7;
+    }
+    .char-left .katakana {
+      font-family: var(--font-jp);
+      font-size: 1.1rem; font-weight: 400;
       color: var(--fg-tertiary);
-      margin-top: 4px;
+    }
+    /* 요음 등 SVG 없는 경우 텍스트 폴백 */
+    .char-text-fallback {
+      width: 88px; height: 88px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-jp);
+      font-size: 3.2rem; font-weight: 300;
+      color: var(--fg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
     }
 
     .char-info { flex: 1; min-width: 0; }
@@ -543,11 +571,18 @@
             헷갈림 주의: <span>${c.confusableWith.join(' ')}</span>
           </div>` : '';
 
+        const hasStrokeSvg = c.unicode != null;
+        const strokeArea = hasStrokeSvg
+          ? `<div class="stroke-box" data-unicode="${c.unicode}" onclick="replayStroke(this)">
+               <span class="replay-hint">▶ 획순</span>
+             </div>`
+          : `<div class="char-text-fallback">${c.char}</div>`;
+
         return `
           <div class="char-card">
             <div class="char-card-main">
-              <div class="char-big">
-                ${c.char}
+              <div class="char-left">
+                ${strokeArea}
                 <span class="katakana">${c.katakana || ''}</span>
               </div>
               <div class="char-info">
@@ -603,6 +638,73 @@
       const pctEl = document.getElementById('progressPct');
       if (pctEl) pctEl.textContent = pct + '%';
     }
+
+    // ─── Stroke SVG loading ───
+    const svgCache = {};
+
+    async function loadStrokeSvg(box) {
+      const code = box.dataset.unicode;
+      if (!code) return;
+
+      if (svgCache[code]) {
+        box.innerHTML = svgCache[code] + '<span class="replay-hint">▶ 다시</span>';
+        replayStroke(box);
+        return;
+      }
+
+      try {
+        const resp = await fetch(`assets/kana-svg/${code}.svg`);
+        if (!resp.ok) {
+          // SVG 없으면 텍스트 폴백
+          const ch = String.fromCodePoint(parseInt(code));
+          box.outerHTML = `<div class="char-text-fallback">${ch}</div>`;
+          return;
+        }
+        const text = await resp.text();
+        svgCache[code] = text;
+        box.innerHTML = text + '<span class="replay-hint">▶ 다시</span>';
+      } catch (e) {
+        const ch = String.fromCodePoint(parseInt(code));
+        box.outerHTML = `<div class="char-text-fallback">${ch}</div>`;
+      }
+    }
+
+    function replayStroke(box) {
+      const svg = box.querySelector('svg.acjk');
+      if (!svg) {
+        loadStrokeSvg(box);
+        return;
+      }
+      // 애니메이션 리플레이: SVG를 복제해서 다시 넣기
+      const parent = svg.parentNode;
+      const clone = svg.cloneNode(true);
+      svg.remove();
+      parent.insertBefore(clone, parent.querySelector('.replay-hint'));
+    }
+
+    // Intersection Observer로 화면에 보이면 SVG 로드
+    function observeStrokeBoxes() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const box = entry.target;
+            if (!box.querySelector('svg.acjk')) {
+              loadStrokeSvg(box);
+            }
+            observer.unobserve(box);
+          }
+        });
+      }, { rootMargin: '200px' });
+
+      document.querySelectorAll('.stroke-box').forEach(box => observer.observe(box));
+    }
+
+    // renderList 후 SVG observer 시작
+    const origRenderList = renderList;
+    renderList = function() {
+      origRenderList();
+      requestAnimationFrame(() => observeStrokeBoxes());
+    };
 
     // ─── Init ───
     loadData();
