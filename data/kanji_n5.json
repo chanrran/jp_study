@@ -1,0 +1,1446 @@
+{
+  "level": "N5",
+  "description": "JLPT N5 한자 80자",
+  "data": [
+    {
+      "char": "一",
+      "unicode": 19968,
+      "strokeCount": 1,
+      "radical": "一",
+      "radicalName": "いち",
+      "jlpt": "N5",
+      "hanja": "일",
+      "meaning": "하나, 한",
+      "onyomi": [{"reading": "イチ", "hangul": "이치"}, {"reading": "イツ", "hangul": "이쓰"}],
+      "kunyomi": [{"reading": "ひと.つ", "hangul": "히토쓰"}],
+      "words": [
+        {"word": "一人", "reading": "ひとり", "meaning": "한 사람"},
+        {"word": "一つ", "reading": "ひとつ", "meaning": "하나"},
+        {"word": "一日", "reading": "いちにち", "meaning": "하루"}
+      ],
+      "mnemonic": "가로 획 하나 — 숫자 1을 나타내는 가장 단순한 한자"
+    },
+    {
+      "char": "二",
+      "unicode": 20108,
+      "strokeCount": 2,
+      "radical": "二",
+      "radicalName": "に",
+      "jlpt": "N5",
+      "hanja": "이",
+      "meaning": "둘",
+      "onyomi": [{"reading": "ニ", "hangul": "니"}, {"reading": "ジ", "hangul": "지"}],
+      "kunyomi": [{"reading": "ふた.つ", "hangul": "후타쓰"}],
+      "words": [
+        {"word": "二人", "reading": "ふたり", "meaning": "두 사람"},
+        {"word": "二月", "reading": "にがつ", "meaning": "2월"},
+        {"word": "二つ", "reading": "ふたつ", "meaning": "둘"}
+      ],
+      "mnemonic": "가로 획 두 개 — 一 위에 하나 더"
+    },
+    {
+      "char": "三",
+      "unicode": 19977,
+      "strokeCount": 3,
+      "radical": "一",
+      "radicalName": "いち",
+      "jlpt": "N5",
+      "hanja": "삼",
+      "meaning": "셋",
+      "onyomi": [{"reading": "サン", "hangul": "산"}],
+      "kunyomi": [{"reading": "み.つ", "hangul": "미쓰"}, {"reading": "み", "hangul": "미"}],
+      "words": [
+        {"word": "三人", "reading": "さんにん", "meaning": "세 사람"},
+        {"word": "三月", "reading": "さんがつ", "meaning": "3월"},
+        {"word": "三つ", "reading": "みっつ", "meaning": "셋"}
+      ],
+      "mnemonic": "가로 획 세 개 — 一, 二의 연장"
+    },
+    {
+      "char": "四",
+      "unicode": 22235,
+      "strokeCount": 5,
+      "radical": "囗",
+      "radicalName": "くにがまえ",
+      "jlpt": "N5",
+      "hanja": "사",
+      "meaning": "넷",
+      "onyomi": [{"reading": "シ", "hangul": "시"}],
+      "kunyomi": [{"reading": "よ.つ", "hangul": "요쓰"}, {"reading": "よん", "hangul": "욘"}],
+      "words": [
+        {"word": "四人", "reading": "よにん", "meaning": "네 사람"},
+        {"word": "四月", "reading": "しがつ", "meaning": "4월"},
+        {"word": "四つ", "reading": "よっつ", "meaning": "넷"}
+      ],
+      "mnemonic": "입(口) 안에 다리가 있는 모양 — 四의 중국 발음 sì와 한국 한자음 '사'가 비슷"
+    },
+    {
+      "char": "五",
+      "unicode": 20116,
+      "strokeCount": 4,
+      "radical": "二",
+      "radicalName": "に",
+      "jlpt": "N5",
+      "hanja": "오",
+      "meaning": "다섯",
+      "onyomi": [{"reading": "ゴ", "hangul": "고"}],
+      "kunyomi": [{"reading": "いつ.つ", "hangul": "이쓰쓰"}],
+      "words": [
+        {"word": "五人", "reading": "ごにん", "meaning": "다섯 사람"},
+        {"word": "五月", "reading": "ごがつ", "meaning": "5월"},
+        {"word": "五つ", "reading": "いつつ", "meaning": "다섯"}
+      ],
+      "mnemonic": "위아래 가로 획 사이에 교차하는 모양 — 다섯 손가락이 교차"
+    },
+    {
+      "char": "六",
+      "unicode": 20845,
+      "strokeCount": 4,
+      "radical": "八",
+      "radicalName": "はち",
+      "jlpt": "N5",
+      "hanja": "육",
+      "meaning": "여섯",
+      "onyomi": [{"reading": "ロク", "hangul": "로쿠"}],
+      "kunyomi": [{"reading": "む.つ", "hangul": "무쓰"}, {"reading": "むい", "hangul": "무이"}],
+      "words": [
+        {"word": "六人", "reading": "ろくにん", "meaning": "여섯 사람"},
+        {"word": "六月", "reading": "ろくがつ", "meaning": "6월"},
+        {"word": "六つ", "reading": "むっつ", "meaning": "여섯"}
+      ],
+      "mnemonic": "지붕(亠) 아래 팔(八) — 한자음 '육'과 ロク의 느낌이 유사"
+    },
+    {
+      "char": "七",
+      "unicode": 19971,
+      "strokeCount": 2,
+      "radical": "一",
+      "radicalName": "いち",
+      "jlpt": "N5",
+      "hanja": "칠",
+      "meaning": "일곱",
+      "onyomi": [{"reading": "シチ", "hangul": "시치"}],
+      "kunyomi": [{"reading": "なな.つ", "hangul": "나나쓰"}, {"reading": "なの", "hangul": "나노"}],
+      "words": [
+        {"word": "七人", "reading": "しちにん", "meaning": "일곱 사람"},
+        {"word": "七月", "reading": "しちがつ", "meaning": "7월"},
+        {"word": "七つ", "reading": "ななつ", "meaning": "일곱"}
+      ],
+      "mnemonic": "구부러진 획이 숫자 7을 닮은 모양"
+    },
+    {
+      "char": "八",
+      "unicode": 20843,
+      "strokeCount": 2,
+      "radical": "八",
+      "radicalName": "はち",
+      "jlpt": "N5",
+      "hanja": "팔",
+      "meaning": "여덟",
+      "onyomi": [{"reading": "ハチ", "hangul": "하치"}],
+      "kunyomi": [{"reading": "や.つ", "hangul": "야쓰"}, {"reading": "よう", "hangul": "요"}],
+      "words": [
+        {"word": "八人", "reading": "はちにん", "meaning": "여덟 사람"},
+        {"word": "八月", "reading": "はちがつ", "meaning": "8월"},
+        {"word": "八つ", "reading": "やっつ", "meaning": "여덟"}
+      ],
+      "mnemonic": "양쪽으로 벌어진 두 획 — 둘로 나누는(八) 모양"
+    },
+    {
+      "char": "九",
+      "unicode": 20061,
+      "strokeCount": 2,
+      "radical": "乙",
+      "radicalName": "おつ",
+      "jlpt": "N5",
+      "hanja": "구",
+      "meaning": "아홉",
+      "onyomi": [{"reading": "キュウ", "hangul": "큐"}, {"reading": "ク", "hangul": "쿠"}],
+      "kunyomi": [{"reading": "ここの.つ", "hangul": "코코노쓰"}],
+      "words": [
+        {"word": "九人", "reading": "くにん", "meaning": "아홉 사람"},
+        {"word": "九月", "reading": "くがつ", "meaning": "9월"},
+        {"word": "九つ", "reading": "ここのつ", "meaning": "아홉"}
+      ],
+      "mnemonic": "한자음 '구'와 ク가 비슷한 발음"
+    },
+    {
+      "char": "十",
+      "unicode": 21313,
+      "strokeCount": 2,
+      "radical": "十",
+      "radicalName": "じゅう",
+      "jlpt": "N5",
+      "hanja": "십",
+      "meaning": "열",
+      "onyomi": [{"reading": "ジュウ", "hangul": "쥬"}],
+      "kunyomi": [{"reading": "とお", "hangul": "토오"}, {"reading": "と", "hangul": "토"}],
+      "words": [
+        {"word": "十人", "reading": "じゅうにん", "meaning": "열 사람"},
+        {"word": "十月", "reading": "じゅうがつ", "meaning": "10월"},
+        {"word": "十日", "reading": "とおか", "meaning": "10일"}
+      ],
+      "mnemonic": "십자가(+) 모양 — 열 개를 하나로 묶는 매듭"
+    },
+    {
+      "char": "百",
+      "unicode": 30334,
+      "strokeCount": 6,
+      "radical": "白",
+      "radicalName": "しろ",
+      "jlpt": "N5",
+      "hanja": "백",
+      "meaning": "백, 100",
+      "onyomi": [{"reading": "ヒャク", "hangul": "햐쿠"}, {"reading": "ビャク", "hangul": "뱌쿠"}],
+      "kunyomi": [],
+      "words": [
+        {"word": "百円", "reading": "ひゃくえん", "meaning": "100엔"},
+        {"word": "三百", "reading": "さんびゃく", "meaning": "300"},
+        {"word": "百人", "reading": "ひゃくにん", "meaning": "100명"}
+      ],
+      "mnemonic": "一 + 白 — 하나(一)의 흰(白) 단위, 즉 깨끗한 단위 100"
+    },
+    {
+      "char": "千",
+      "unicode": 21315,
+      "strokeCount": 3,
+      "radical": "十",
+      "radicalName": "じゅう",
+      "jlpt": "N5",
+      "hanja": "천",
+      "meaning": "천, 1000",
+      "onyomi": [{"reading": "セン", "hangul": "센"}],
+      "kunyomi": [{"reading": "ち", "hangul": "치"}],
+      "words": [
+        {"word": "千円", "reading": "せんえん", "meaning": "1000엔"},
+        {"word": "三千", "reading": "さんぜん", "meaning": "3000"},
+        {"word": "千人", "reading": "せんにん", "meaning": "1000명"}
+      ],
+      "mnemonic": "한자음 '천'과 セン이 거의 같은 발음"
+    },
+    {
+      "char": "万",
+      "unicode": 19975,
+      "strokeCount": 3,
+      "radical": "一",
+      "radicalName": "いち",
+      "jlpt": "N5",
+      "hanja": "만",
+      "meaning": "만, 10000",
+      "onyomi": [{"reading": "マン", "hangul": "만"}, {"reading": "バン", "hangul": "반"}],
+      "kunyomi": [],
+      "words": [
+        {"word": "一万", "reading": "いちまん", "meaning": "1만"},
+        {"word": "万年筆", "reading": "まんねんひつ", "meaning": "만년필"},
+        {"word": "万一", "reading": "まんいち", "meaning": "만일"}
+      ],
+      "mnemonic": "한자음 '만'과 マン이 같은 발음"
+    },
+    {
+      "char": "円",
+      "unicode": 20870,
+      "strokeCount": 4,
+      "radical": "冂",
+      "radicalName": "けいがまえ",
+      "jlpt": "N5",
+      "hanja": "원",
+      "meaning": "엔, 둥글다",
+      "onyomi": [{"reading": "エン", "hangul": "엔"}],
+      "kunyomi": [{"reading": "まる.い", "hangul": "마루이"}],
+      "words": [
+        {"word": "百円", "reading": "ひゃくえん", "meaning": "100엔"},
+        {"word": "円い", "reading": "まるい", "meaning": "둥글다"},
+        {"word": "五千円", "reading": "ごせんえん", "meaning": "5000엔"}
+      ],
+      "mnemonic": "한국 화폐 단위 '원(圓)'의 간체 — エン = 엔"
+    },
+    {
+      "char": "日",
+      "unicode": 26085,
+      "strokeCount": 4,
+      "radical": "日",
+      "radicalName": "にち",
+      "jlpt": "N5",
+      "hanja": "일",
+      "meaning": "날, 해, 일본",
+      "onyomi": [{"reading": "ニチ", "hangul": "니치"}, {"reading": "ジツ", "hangul": "지쓰"}],
+      "kunyomi": [{"reading": "ひ", "hangul": "히"}, {"reading": "か", "hangul": "카"}],
+      "words": [
+        {"word": "日本", "reading": "にほん", "meaning": "일본"},
+        {"word": "今日", "reading": "きょう", "meaning": "오늘"},
+        {"word": "毎日", "reading": "まいにち", "meaning": "매일"}
+      ],
+      "mnemonic": "태양을 네모로 그린 상형문자 — 한자음 '일'과 日의 의미가 같음"
+    },
+    {
+      "char": "月",
+      "unicode": 26376,
+      "strokeCount": 4,
+      "radical": "月",
+      "radicalName": "つき",
+      "jlpt": "N5",
+      "hanja": "월",
+      "meaning": "달, 월",
+      "onyomi": [{"reading": "ゲツ", "hangul": "게쓰"}, {"reading": "ガツ", "hangul": "가쓰"}],
+      "kunyomi": [{"reading": "つき", "hangul": "쓰키"}],
+      "words": [
+        {"word": "一月", "reading": "いちがつ", "meaning": "1월"},
+        {"word": "月曜日", "reading": "げつようび", "meaning": "월요일"},
+        {"word": "今月", "reading": "こんげつ", "meaning": "이번 달"}
+      ],
+      "mnemonic": "초승달 모양의 상형문자 — 한자음 '월'과 月의 의미가 같음"
+    },
+    {
+      "char": "火",
+      "unicode": 28779,
+      "strokeCount": 4,
+      "radical": "火",
+      "radicalName": "ひ",
+      "jlpt": "N5",
+      "hanja": "화",
+      "meaning": "불",
+      "onyomi": [{"reading": "カ", "hangul": "카"}],
+      "kunyomi": [{"reading": "ひ", "hangul": "히"}, {"reading": "ほ", "hangul": "호"}],
+      "words": [
+        {"word": "火曜日", "reading": "かようび", "meaning": "화요일"},
+        {"word": "花火", "reading": "はなび", "meaning": "불꽃놀이"},
+        {"word": "火事", "reading": "かじ", "meaning": "화재"}
+      ],
+      "mnemonic": "불꽃이 타오르는 모양의 상형문자 — 한자음 '화'(火)"
+    },
+    {
+      "char": "水",
+      "unicode": 27700,
+      "strokeCount": 4,
+      "radical": "水",
+      "radicalName": "みず",
+      "jlpt": "N5",
+      "hanja": "수",
+      "meaning": "물",
+      "onyomi": [{"reading": "スイ", "hangul": "스이"}],
+      "kunyomi": [{"reading": "みず", "hangul": "미즈"}],
+      "words": [
+        {"word": "水曜日", "reading": "すいようび", "meaning": "수요일"},
+        {"word": "お水", "reading": "おみず", "meaning": "물"},
+        {"word": "水泳", "reading": "すいえい", "meaning": "수영"}
+      ],
+      "mnemonic": "물이 흐르는 모양의 상형문자 — 한자음 '수'(水)"
+    },
+    {
+      "char": "木",
+      "unicode": 26408,
+      "strokeCount": 4,
+      "radical": "木",
+      "radicalName": "き",
+      "jlpt": "N5",
+      "hanja": "목",
+      "meaning": "나무",
+      "onyomi": [{"reading": "ボク", "hangul": "보쿠"}, {"reading": "モク", "hangul": "모쿠"}],
+      "kunyomi": [{"reading": "き", "hangul": "키"}, {"reading": "こ", "hangul": "코"}],
+      "words": [
+        {"word": "木曜日", "reading": "もくようび", "meaning": "목요일"},
+        {"word": "木", "reading": "き", "meaning": "나무"},
+        {"word": "大木", "reading": "たいぼく", "meaning": "큰 나무"}
+      ],
+      "mnemonic": "나무의 줄기와 가지를 그린 상형문자 — 한자음 '목'(木)"
+    },
+    {
+      "char": "金",
+      "unicode": 37329,
+      "strokeCount": 8,
+      "radical": "金",
+      "radicalName": "かね",
+      "jlpt": "N5",
+      "hanja": "금",
+      "meaning": "금, 돈",
+      "onyomi": [{"reading": "キン", "hangul": "킨"}, {"reading": "コン", "hangul": "콘"}],
+      "kunyomi": [{"reading": "かね", "hangul": "카네"}, {"reading": "かな", "hangul": "카나"}],
+      "words": [
+        {"word": "金曜日", "reading": "きんようび", "meaning": "금요일"},
+        {"word": "お金", "reading": "おかね", "meaning": "돈"},
+        {"word": "金色", "reading": "きんいろ", "meaning": "금색"}
+      ],
+      "mnemonic": "땅 속 광물(金)을 캐는 모양 — 한자음 '금'과 キン 모두 금속 의미"
+    },
+    {
+      "char": "土",
+      "unicode": 22303,
+      "strokeCount": 3,
+      "radical": "土",
+      "radicalName": "つち",
+      "jlpt": "N5",
+      "hanja": "토",
+      "meaning": "흙, 땅",
+      "onyomi": [{"reading": "ド", "hangul": "도"}, {"reading": "ト", "hangul": "토"}],
+      "kunyomi": [{"reading": "つち", "hangul": "쓰치"}],
+      "words": [
+        {"word": "土曜日", "reading": "どようび", "meaning": "토요일"},
+        {"word": "土地", "reading": "とち", "meaning": "토지"},
+        {"word": "土", "reading": "つち", "meaning": "흙"}
+      ],
+      "mnemonic": "땅(一) 위에 싹이 나는 모양 — 한자음 '토'와 ト가 같은 발음"
+    },
+    {
+      "char": "人",
+      "unicode": 20154,
+      "strokeCount": 2,
+      "radical": "人",
+      "radicalName": "ひと",
+      "jlpt": "N5",
+      "hanja": "인",
+      "meaning": "사람",
+      "onyomi": [{"reading": "ジン", "hangul": "진"}, {"reading": "ニン", "hangul": "닌"}],
+      "kunyomi": [{"reading": "ひと", "hangul": "히토"}],
+      "words": [
+        {"word": "日本人", "reading": "にほんじん", "meaning": "일본인"},
+        {"word": "一人", "reading": "ひとり", "meaning": "한 사람"},
+        {"word": "大人", "reading": "おとな", "meaning": "어른"}
+      ],
+      "mnemonic": "사람이 서 있는 모습의 상형문자"
+    },
+    {
+      "char": "大",
+      "unicode": 22823,
+      "strokeCount": 3,
+      "radical": "大",
+      "radicalName": "だい",
+      "jlpt": "N5",
+      "hanja": "대",
+      "meaning": "크다",
+      "onyomi": [{"reading": "ダイ", "hangul": "다이"}, {"reading": "タイ", "hangul": "타이"}],
+      "kunyomi": [{"reading": "おお.きい", "hangul": "오오키이"}],
+      "words": [
+        {"word": "大学", "reading": "だいがく", "meaning": "대학"},
+        {"word": "大きい", "reading": "おおきい", "meaning": "크다"},
+        {"word": "大人", "reading": "おとな", "meaning": "어른"}
+      ],
+      "mnemonic": "사람(人)이 팔을 크게 벌린 모양 — 한자음 '대'와 ダイ가 유사"
+    },
+    {
+      "char": "小",
+      "unicode": 23567,
+      "strokeCount": 3,
+      "radical": "小",
+      "radicalName": "しょう",
+      "jlpt": "N5",
+      "hanja": "소",
+      "meaning": "작다",
+      "onyomi": [{"reading": "ショウ", "hangul": "쇼"}],
+      "kunyomi": [{"reading": "ちい.さい", "hangul": "치이사이"}, {"reading": "こ", "hangul": "코"}, {"reading": "お", "hangul": "오"}],
+      "words": [
+        {"word": "小学校", "reading": "しょうがっこう", "meaning": "초등학교"},
+        {"word": "小さい", "reading": "ちいさい", "meaning": "작다"},
+        {"word": "小説", "reading": "しょうせつ", "meaning": "소설"}
+      ],
+      "mnemonic": "작은 것을 양쪽으로 쪼개는 모양"
+    },
+    {
+      "char": "中",
+      "unicode": 20013,
+      "strokeCount": 4,
+      "radical": "丨",
+      "radicalName": "ぼう",
+      "jlpt": "N5",
+      "hanja": "중",
+      "meaning": "가운데, 안",
+      "onyomi": [{"reading": "チュウ", "hangul": "추"}],
+      "kunyomi": [{"reading": "なか", "hangul": "나카"}, {"reading": "うち", "hangul": "우치"}],
+      "words": [
+        {"word": "中学校", "reading": "ちゅうがっこう", "meaning": "중학교"},
+        {"word": "中国", "reading": "ちゅうごく", "meaning": "중국"},
+        {"word": "中", "reading": "なか", "meaning": "안, 가운데"}
+      ],
+      "mnemonic": "네모(口) 한가운데를 관통하는 선 — 한자음 '중'(中)"
+    },
+    {
+      "char": "上",
+      "unicode": 19978,
+      "strokeCount": 3,
+      "radical": "一",
+      "radicalName": "いち",
+      "jlpt": "N5",
+      "hanja": "상",
+      "meaning": "위",
+      "onyomi": [{"reading": "ジョウ", "hangul": "조"}, {"reading": "ショウ", "hangul": "쇼"}],
+      "kunyomi": [{"reading": "うえ", "hangul": "우에"}, {"reading": "あ.げる", "hangul": "아게루"}, {"reading": "のぼ.る", "hangul": "노보루"}],
+      "words": [
+        {"word": "上手", "reading": "じょうず", "meaning": "잘하다"},
+        {"word": "上", "reading": "うえ", "meaning": "위"},
+        {"word": "以上", "reading": "いじょう", "meaning": "이상"}
+      ],
+      "mnemonic": "기준선(一) 위를 가리키는 지사문자 — 한자음 '상'(上)"
+    },
+    {
+      "char": "下",
+      "unicode": 19979,
+      "strokeCount": 3,
+      "radical": "一",
+      "radicalName": "いち",
+      "jlpt": "N5",
+      "hanja": "하",
+      "meaning": "아래",
+      "onyomi": [{"reading": "カ", "hangul": "카"}, {"reading": "ゲ", "hangul": "게"}],
+      "kunyomi": [{"reading": "した", "hangul": "시타"}, {"reading": "さ.げる", "hangul": "사게루"}, {"reading": "くだ.る", "hangul": "쿠다루"}],
+      "words": [
+        {"word": "下手", "reading": "へた", "meaning": "서투르다"},
+        {"word": "下", "reading": "した", "meaning": "아래"},
+        {"word": "地下鉄", "reading": "ちかてつ", "meaning": "지하철"}
+      ],
+      "mnemonic": "기준선(一) 아래를 가리키는 지사문자 — 한자음 '하'(下)"
+    },
+    {
+      "char": "左",
+      "unicode": 24038,
+      "strokeCount": 5,
+      "radical": "工",
+      "radicalName": "こう",
+      "jlpt": "N5",
+      "hanja": "좌",
+      "meaning": "왼쪽",
+      "onyomi": [{"reading": "サ", "hangul": "사"}],
+      "kunyomi": [{"reading": "ひだり", "hangul": "히다리"}],
+      "words": [
+        {"word": "左", "reading": "ひだり", "meaning": "왼쪽"},
+        {"word": "左手", "reading": "ひだりて", "meaning": "왼손"},
+        {"word": "左右", "reading": "さゆう", "meaning": "좌우"}
+      ],
+      "mnemonic": "왼손(ナ)으로 도구(工)를 잡는 모양"
+    },
+    {
+      "char": "右",
+      "unicode": 21491,
+      "strokeCount": 5,
+      "radical": "口",
+      "radicalName": "くち",
+      "jlpt": "N5",
+      "hanja": "우",
+      "meaning": "오른쪽",
+      "onyomi": [{"reading": "ウ", "hangul": "우"}, {"reading": "ユウ", "hangul": "유"}],
+      "kunyomi": [{"reading": "みぎ", "hangul": "미기"}],
+      "words": [
+        {"word": "右", "reading": "みぎ", "meaning": "오른쪽"},
+        {"word": "右手", "reading": "みぎて", "meaning": "오른손"},
+        {"word": "左右", "reading": "さゆう", "meaning": "좌우"}
+      ],
+      "mnemonic": "오른손(ナ)으로 입(口)에 밥을 넣는 모양 — 한자음 '우'와 ウ가 같은 발음"
+    },
+    {
+      "char": "北",
+      "unicode": 21271,
+      "strokeCount": 5,
+      "radical": "匕",
+      "radicalName": "ひ",
+      "jlpt": "N5",
+      "hanja": "북",
+      "meaning": "북쪽",
+      "onyomi": [{"reading": "ホク", "hangul": "호쿠"}],
+      "kunyomi": [{"reading": "きた", "hangul": "키타"}],
+      "words": [
+        {"word": "北", "reading": "きた", "meaning": "북쪽"},
+        {"word": "北海道", "reading": "ほっかいどう", "meaning": "홋카이도"},
+        {"word": "東北", "reading": "とうほく", "meaning": "동북"}
+      ],
+      "mnemonic": "두 사람이 등을 맞대고 있는 모양 — 추운 북쪽에서 등을 돌린 모습"
+    },
+    {
+      "char": "南",
+      "unicode": 21335,
+      "strokeCount": 9,
+      "radical": "十",
+      "radicalName": "じゅう",
+      "jlpt": "N5",
+      "hanja": "남",
+      "meaning": "남쪽",
+      "onyomi": [{"reading": "ナン", "hangul": "난"}, {"reading": "ナ", "hangul": "나"}],
+      "kunyomi": [{"reading": "みなみ", "hangul": "미나미"}],
+      "words": [
+        {"word": "南", "reading": "みなみ", "meaning": "남쪽"},
+        {"word": "南口", "reading": "みなみぐち", "meaning": "남쪽 출구"},
+        {"word": "東南", "reading": "とうなん", "meaning": "동남"}
+      ],
+      "mnemonic": "한자음 '남'과 ナン이 유사한 발음"
+    },
+    {
+      "char": "東",
+      "unicode": 26481,
+      "strokeCount": 8,
+      "radical": "木",
+      "radicalName": "き",
+      "jlpt": "N5",
+      "hanja": "동",
+      "meaning": "동쪽",
+      "onyomi": [{"reading": "トウ", "hangul": "토"}],
+      "kunyomi": [{"reading": "ひがし", "hangul": "히가시"}],
+      "words": [
+        {"word": "東京", "reading": "とうきょう", "meaning": "도쿄"},
+        {"word": "東", "reading": "ひがし", "meaning": "동쪽"},
+        {"word": "東口", "reading": "ひがしぐち", "meaning": "동쪽 출구"}
+      ],
+      "mnemonic": "나무(木) 사이로 해(日)가 뜨는 모양 — 해가 뜨는 방향이 동쪽"
+    },
+    {
+      "char": "西",
+      "unicode": 35199,
+      "strokeCount": 6,
+      "radical": "西",
+      "radicalName": "にし",
+      "jlpt": "N5",
+      "hanja": "서",
+      "meaning": "서쪽",
+      "onyomi": [{"reading": "セイ", "hangul": "세이"}, {"reading": "サイ", "hangul": "사이"}],
+      "kunyomi": [{"reading": "にし", "hangul": "니시"}],
+      "words": [
+        {"word": "西", "reading": "にし", "meaning": "서쪽"},
+        {"word": "西口", "reading": "にしぐち", "meaning": "서쪽 출구"},
+        {"word": "東西", "reading": "とうざい", "meaning": "동서"}
+      ],
+      "mnemonic": "새가 둥지에 앉는 모양 — 해가 지는 서쪽에서 새가 쉰다"
+    },
+    {
+      "char": "国",
+      "unicode": 22269,
+      "strokeCount": 8,
+      "radical": "囗",
+      "radicalName": "くにがまえ",
+      "jlpt": "N5",
+      "hanja": "국",
+      "meaning": "나라",
+      "onyomi": [{"reading": "コク", "hangul": "코쿠"}],
+      "kunyomi": [{"reading": "くに", "hangul": "쿠니"}],
+      "words": [
+        {"word": "外国", "reading": "がいこく", "meaning": "외국"},
+        {"word": "中国", "reading": "ちゅうごく", "meaning": "중국"},
+        {"word": "国", "reading": "くに", "meaning": "나라"}
+      ],
+      "mnemonic": "국경(囗) 안에 보물(玉)이 있는 모양 — 한자음 '국'과 コク가 유사"
+    },
+    {
+      "char": "外",
+      "unicode": 22806,
+      "strokeCount": 5,
+      "radical": "夕",
+      "radicalName": "ゆう",
+      "jlpt": "N5",
+      "hanja": "외",
+      "meaning": "바깥",
+      "onyomi": [{"reading": "ガイ", "hangul": "가이"}, {"reading": "ゲ", "hangul": "게"}],
+      "kunyomi": [{"reading": "そと", "hangul": "소토"}, {"reading": "ほか", "hangul": "호카"}, {"reading": "はず.す", "hangul": "하즈스"}],
+      "words": [
+        {"word": "外国", "reading": "がいこく", "meaning": "외국"},
+        {"word": "外", "reading": "そと", "meaning": "바깥"},
+        {"word": "外出", "reading": "がいしゅつ", "meaning": "외출"}
+      ],
+      "mnemonic": "저녁(夕)에 점(卜)을 치러 밖에 나가는 모양"
+    },
+    {
+      "char": "年",
+      "unicode": 24180,
+      "strokeCount": 6,
+      "radical": "干",
+      "radicalName": "かん",
+      "jlpt": "N5",
+      "hanja": "년",
+      "meaning": "해, 년",
+      "onyomi": [{"reading": "ネン", "hangul": "넨"}],
+      "kunyomi": [{"reading": "とし", "hangul": "토시"}],
+      "words": [
+        {"word": "今年", "reading": "ことし", "meaning": "올해"},
+        {"word": "去年", "reading": "きょねん", "meaning": "작년"},
+        {"word": "一年", "reading": "いちねん", "meaning": "1년"}
+      ],
+      "mnemonic": "곡식이 익어 수확하는 한 해의 주기 — 한자음 '년'과 ネン이 같은 발음"
+    },
+    {
+      "char": "時",
+      "unicode": 26178,
+      "strokeCount": 10,
+      "radical": "日",
+      "radicalName": "にち",
+      "jlpt": "N5",
+      "hanja": "시",
+      "meaning": "때, 시간",
+      "onyomi": [{"reading": "ジ", "hangul": "지"}],
+      "kunyomi": [{"reading": "とき", "hangul": "토키"}],
+      "words": [
+        {"word": "時間", "reading": "じかん", "meaning": "시간"},
+        {"word": "一時", "reading": "いちじ", "meaning": "1시"},
+        {"word": "時計", "reading": "とけい", "meaning": "시계"}
+      ],
+      "mnemonic": "해(日)가 절(寺)에 비치는 때 — 한자음 '시'(時)"
+    },
+    {
+      "char": "間",
+      "unicode": 38291,
+      "strokeCount": 12,
+      "radical": "門",
+      "radicalName": "もん",
+      "jlpt": "N5",
+      "hanja": "간",
+      "meaning": "사이, 공간",
+      "onyomi": [{"reading": "カン", "hangul": "칸"}, {"reading": "ケン", "hangul": "켄"}],
+      "kunyomi": [{"reading": "あいだ", "hangul": "아이다"}, {"reading": "ま", "hangul": "마"}],
+      "words": [
+        {"word": "時間", "reading": "じかん", "meaning": "시간"},
+        {"word": "間", "reading": "あいだ", "meaning": "사이"},
+        {"word": "一週間", "reading": "いっしゅうかん", "meaning": "1주일"}
+      ],
+      "mnemonic": "문(門) 틈으로 해(日)가 비치는 사이 — 한자음 '간'과 カン이 유사"
+    },
+    {
+      "char": "今",
+      "unicode": 20170,
+      "strokeCount": 4,
+      "radical": "人",
+      "radicalName": "ひと",
+      "jlpt": "N5",
+      "hanja": "금",
+      "meaning": "지금",
+      "onyomi": [{"reading": "コン", "hangul": "콘"}, {"reading": "キン", "hangul": "킨"}],
+      "kunyomi": [{"reading": "いま", "hangul": "이마"}],
+      "words": [
+        {"word": "今日", "reading": "きょう", "meaning": "오늘"},
+        {"word": "今", "reading": "いま", "meaning": "지금"},
+        {"word": "今月", "reading": "こんげつ", "meaning": "이번 달"}
+      ],
+      "mnemonic": "지붕(亼) 아래 이 순간을 나타내는 지사문자"
+    },
+    {
+      "char": "半",
+      "unicode": 21322,
+      "strokeCount": 5,
+      "radical": "十",
+      "radicalName": "じゅう",
+      "jlpt": "N5",
+      "hanja": "반",
+      "meaning": "반, 절반",
+      "onyomi": [{"reading": "ハン", "hangul": "한"}],
+      "kunyomi": [{"reading": "なか.ば", "hangul": "나카바"}],
+      "words": [
+        {"word": "半分", "reading": "はんぶん", "meaning": "절반"},
+        {"word": "三時半", "reading": "さんじはん", "meaning": "3시 반"},
+        {"word": "半年", "reading": "はんとし", "meaning": "반년"}
+      ],
+      "mnemonic": "소(牛)를 둘로 나누는(八) 모양 — 한자음 '반'과 ハン이 같은 발음"
+    },
+    {
+      "char": "午",
+      "unicode": 21320,
+      "strokeCount": 4,
+      "radical": "十",
+      "radicalName": "じゅう",
+      "jlpt": "N5",
+      "hanja": "오",
+      "meaning": "낮, 정오",
+      "onyomi": [{"reading": "ゴ", "hangul": "고"}],
+      "kunyomi": [],
+      "words": [
+        {"word": "午前", "reading": "ごぜん", "meaning": "오전"},
+        {"word": "午後", "reading": "ごご", "meaning": "오후"},
+        {"word": "正午", "reading": "しょうご", "meaning": "정오"}
+      ],
+      "mnemonic": "12지의 말(午) — 정오의 한자 '오'와 ゴ"
+    },
+    {
+      "char": "前",
+      "unicode": 21069,
+      "strokeCount": 9,
+      "radical": "刀",
+      "radicalName": "かたな",
+      "jlpt": "N5",
+      "hanja": "전",
+      "meaning": "앞, 이전",
+      "onyomi": [{"reading": "ゼン", "hangul": "젠"}],
+      "kunyomi": [{"reading": "まえ", "hangul": "마에"}],
+      "words": [
+        {"word": "午前", "reading": "ごぜん", "meaning": "오전"},
+        {"word": "前", "reading": "まえ", "meaning": "앞"},
+        {"word": "名前", "reading": "なまえ", "meaning": "이름"}
+      ],
+      "mnemonic": "칼(刂)로 앞의 풀을 베는 모양 — 한자음 '전'과 ゼン이 유사"
+    },
+    {
+      "char": "後",
+      "unicode": 24460,
+      "strokeCount": 9,
+      "radical": "彳",
+      "radicalName": "ぎょうにんべん",
+      "jlpt": "N5",
+      "hanja": "후",
+      "meaning": "뒤, 나중",
+      "onyomi": [{"reading": "ゴ", "hangul": "고"}, {"reading": "コウ", "hangul": "코"}],
+      "kunyomi": [{"reading": "のち", "hangul": "노치"}, {"reading": "うし.ろ", "hangul": "우시로"}, {"reading": "あと", "hangul": "아토"}],
+      "words": [
+        {"word": "午後", "reading": "ごご", "meaning": "오후"},
+        {"word": "後ろ", "reading": "うしろ", "meaning": "뒤"},
+        {"word": "最後", "reading": "さいご", "meaning": "마지막"}
+      ],
+      "mnemonic": "길(彳)을 걸으며 뒤를 돌아보는 모양"
+    },
+    {
+      "char": "毎",
+      "unicode": 27598,
+      "strokeCount": 6,
+      "radical": "母",
+      "radicalName": "はは",
+      "jlpt": "N5",
+      "hanja": "매",
+      "meaning": "매번, 마다",
+      "onyomi": [{"reading": "マイ", "hangul": "마이"}],
+      "kunyomi": [{"reading": "ごと", "hangul": "고토"}],
+      "words": [
+        {"word": "毎日", "reading": "まいにち", "meaning": "매일"},
+        {"word": "毎週", "reading": "まいしゅう", "meaning": "매주"},
+        {"word": "毎朝", "reading": "まいあさ", "meaning": "매일 아침"}
+      ],
+      "mnemonic": "한자음 '매'와 マイ가 같은 발음 — 매번 반복하는 의미"
+    },
+    {
+      "char": "本",
+      "unicode": 26412,
+      "strokeCount": 5,
+      "radical": "木",
+      "radicalName": "き",
+      "jlpt": "N5",
+      "hanja": "본",
+      "meaning": "책, 근본, ~권",
+      "onyomi": [{"reading": "ホン", "hangul": "혼"}],
+      "kunyomi": [{"reading": "もと", "hangul": "모토"}],
+      "words": [
+        {"word": "日本", "reading": "にほん", "meaning": "일본"},
+        {"word": "本", "reading": "ほん", "meaning": "책"},
+        {"word": "三本", "reading": "さんぼん", "meaning": "세 개(긴 것)"}
+      ],
+      "mnemonic": "나무(木) 뿌리 부분에 밑줄(一) — 근본을 나타내는 지사문자"
+    },
+    {
+      "char": "出",
+      "unicode": 20986,
+      "strokeCount": 5,
+      "radical": "凵",
+      "radicalName": "かんにょう",
+      "jlpt": "N5",
+      "hanja": "출",
+      "meaning": "나가다, 내다",
+      "onyomi": [{"reading": "シュツ", "hangul": "슈쓰"}, {"reading": "スイ", "hangul": "스이"}],
+      "kunyomi": [{"reading": "で.る", "hangul": "데루"}, {"reading": "だ.す", "hangul": "다스"}],
+      "words": [
+        {"word": "出口", "reading": "でぐち", "meaning": "출구"},
+        {"word": "出る", "reading": "でる", "meaning": "나가다"},
+        {"word": "出す", "reading": "だす", "meaning": "내다"}
+      ],
+      "mnemonic": "산(山)에서 무언가 솟아나오는 모양 — 한자음 '출'(出)"
+    },
+    {
+      "char": "入",
+      "unicode": 20837,
+      "strokeCount": 2,
+      "radical": "入",
+      "radicalName": "いる",
+      "jlpt": "N5",
+      "hanja": "입",
+      "meaning": "들어가다",
+      "onyomi": [{"reading": "ニュウ", "hangul": "뉴"}],
+      "kunyomi": [{"reading": "い.る", "hangul": "이루"}, {"reading": "はい.る", "hangul": "하이루"}],
+      "words": [
+        {"word": "入口", "reading": "いりぐち", "meaning": "입구"},
+        {"word": "入る", "reading": "はいる", "meaning": "들어가다"},
+        {"word": "入れる", "reading": "いれる", "meaning": "넣다"}
+      ],
+      "mnemonic": "안으로 들어가는 화살표 모양 — 한자음 '입'(入)"
+    },
+    {
+      "char": "来",
+      "unicode": 26469,
+      "strokeCount": 7,
+      "radical": "木",
+      "radicalName": "き",
+      "jlpt": "N5",
+      "hanja": "래",
+      "meaning": "오다",
+      "onyomi": [{"reading": "ライ", "hangul": "라이"}],
+      "kunyomi": [{"reading": "く.る", "hangul": "쿠루"}, {"reading": "きた.る", "hangul": "키타루"}],
+      "words": [
+        {"word": "来年", "reading": "らいねん", "meaning": "내년"},
+        {"word": "来る", "reading": "くる", "meaning": "오다"},
+        {"word": "来月", "reading": "らいげつ", "meaning": "다음 달"}
+      ],
+      "mnemonic": "보리(來) — 보리가 다가오는 계절을 알리듯, 오다의 의미"
+    },
+    {
+      "char": "行",
+      "unicode": 34892,
+      "strokeCount": 6,
+      "radical": "行",
+      "radicalName": "ぎょう",
+      "jlpt": "N5",
+      "hanja": "행",
+      "meaning": "가다, 줄, 행하다",
+      "onyomi": [{"reading": "コウ", "hangul": "코"}, {"reading": "ギョウ", "hangul": "교"}],
+      "kunyomi": [{"reading": "い.く", "hangul": "이쿠"}, {"reading": "ゆ.く", "hangul": "유쿠"}, {"reading": "おこな.う", "hangul": "오코나우"}],
+      "words": [
+        {"word": "銀行", "reading": "ぎんこう", "meaning": "은행"},
+        {"word": "行く", "reading": "いく", "meaning": "가다"},
+        {"word": "旅行", "reading": "りょこう", "meaning": "여행"}
+      ],
+      "mnemonic": "사거리(十) 길을 가는 모양 — 한자음 '행'과 コウ"
+    },
+    {
+      "char": "見",
+      "unicode": 35211,
+      "strokeCount": 7,
+      "radical": "見",
+      "radicalName": "みる",
+      "jlpt": "N5",
+      "hanja": "견",
+      "meaning": "보다",
+      "onyomi": [{"reading": "ケン", "hangul": "켄"}],
+      "kunyomi": [{"reading": "み.る", "hangul": "미루"}, {"reading": "み.せる", "hangul": "미세루"}],
+      "words": [
+        {"word": "見る", "reading": "みる", "meaning": "보다"},
+        {"word": "見せる", "reading": "みせる", "meaning": "보여주다"},
+        {"word": "意見", "reading": "いけん", "meaning": "의견"}
+      ],
+      "mnemonic": "눈(目)이 달린 사람(儿)이 보는 모양 — 한자음 '견'(見)"
+    },
+    {
+      "char": "聞",
+      "unicode": 32862,
+      "strokeCount": 14,
+      "radical": "耳",
+      "radicalName": "みみ",
+      "jlpt": "N5",
+      "hanja": "문",
+      "meaning": "듣다",
+      "onyomi": [{"reading": "ブン", "hangul": "분"}, {"reading": "モン", "hangul": "몬"}],
+      "kunyomi": [{"reading": "き.く", "hangul": "키쿠"}],
+      "words": [
+        {"word": "聞く", "reading": "きく", "meaning": "듣다"},
+        {"word": "新聞", "reading": "しんぶん", "meaning": "신문"},
+        {"word": "聞こえる", "reading": "きこえる", "meaning": "들리다"}
+      ],
+      "mnemonic": "문(門) 앞에서 귀(耳)를 기울이는 모양 — 한자음 '문'(聞)"
+    },
+    {
+      "char": "話",
+      "unicode": 35441,
+      "strokeCount": 13,
+      "radical": "言",
+      "radicalName": "ごんべん",
+      "jlpt": "N5",
+      "hanja": "화",
+      "meaning": "말하다, 이야기",
+      "onyomi": [{"reading": "ワ", "hangul": "와"}],
+      "kunyomi": [{"reading": "はな.す", "hangul": "하나스"}, {"reading": "はなし", "hangul": "하나시"}],
+      "words": [
+        {"word": "電話", "reading": "でんわ", "meaning": "전화"},
+        {"word": "話す", "reading": "はなす", "meaning": "말하다"},
+        {"word": "話", "reading": "はなし", "meaning": "이야기"}
+      ],
+      "mnemonic": "말(言) + 혀(舌) — 혀로 말을 하는 것 — 한자음 '화'(話)"
+    },
+    {
+      "char": "読",
+      "unicode": 35501,
+      "strokeCount": 14,
+      "radical": "言",
+      "radicalName": "ごんべん",
+      "jlpt": "N5",
+      "hanja": "독",
+      "meaning": "읽다",
+      "onyomi": [{"reading": "ドク", "hangul": "도쿠"}, {"reading": "トク", "hangul": "토쿠"}],
+      "kunyomi": [{"reading": "よ.む", "hangul": "요무"}],
+      "words": [
+        {"word": "読む", "reading": "よむ", "meaning": "읽다"},
+        {"word": "読書", "reading": "どくしょ", "meaning": "독서"},
+        {"word": "読者", "reading": "どくしゃ", "meaning": "독자"}
+      ],
+      "mnemonic": "말(言) + 팔다(売) — 글을 소리 내어 읽는 것 — 한자음 '독'(讀)"
+    },
+    {
+      "char": "書",
+      "unicode": 26360,
+      "strokeCount": 10,
+      "radical": "曰",
+      "radicalName": "いわく",
+      "jlpt": "N5",
+      "hanja": "서",
+      "meaning": "쓰다, 책",
+      "onyomi": [{"reading": "ショ", "hangul": "쇼"}],
+      "kunyomi": [{"reading": "か.く", "hangul": "카쿠"}],
+      "words": [
+        {"word": "書く", "reading": "かく", "meaning": "쓰다"},
+        {"word": "図書館", "reading": "としょかん", "meaning": "도서관"},
+        {"word": "辞書", "reading": "じしょ", "meaning": "사전"}
+      ],
+      "mnemonic": "붓(聿)으로 써서 말하는(曰) 것 — 한자음 '서'(書)"
+    },
+    {
+      "char": "語",
+      "unicode": 35486,
+      "strokeCount": 14,
+      "radical": "言",
+      "radicalName": "ごんべん",
+      "jlpt": "N5",
+      "hanja": "어",
+      "meaning": "말, 언어",
+      "onyomi": [{"reading": "ゴ", "hangul": "고"}],
+      "kunyomi": [{"reading": "かた.る", "hangul": "카타루"}],
+      "words": [
+        {"word": "日本語", "reading": "にほんご", "meaning": "일본어"},
+        {"word": "英語", "reading": "えいご", "meaning": "영어"},
+        {"word": "言語", "reading": "げんご", "meaning": "언어"}
+      ],
+      "mnemonic": "말(言) + 나(吾) — 내가 하는 말, 언어 — 한자음 '어'(語)"
+    },
+    {
+      "char": "食",
+      "unicode": 39135,
+      "strokeCount": 9,
+      "radical": "食",
+      "radicalName": "しょく",
+      "jlpt": "N5",
+      "hanja": "식",
+      "meaning": "먹다, 음식",
+      "onyomi": [{"reading": "ショク", "hangul": "쇼쿠"}, {"reading": "ジキ", "hangul": "지키"}],
+      "kunyomi": [{"reading": "た.べる", "hangul": "타베루"}, {"reading": "く.う", "hangul": "쿠우"}],
+      "words": [
+        {"word": "食べる", "reading": "たべる", "meaning": "먹다"},
+        {"word": "食事", "reading": "しょくじ", "meaning": "식사"},
+        {"word": "食堂", "reading": "しょくどう", "meaning": "식당"}
+      ],
+      "mnemonic": "지붕(亼) 아래 맛(良)있는 것 — 한자음 '식'(食)"
+    },
+    {
+      "char": "生",
+      "unicode": 29983,
+      "strokeCount": 5,
+      "radical": "生",
+      "radicalName": "せい",
+      "jlpt": "N5",
+      "hanja": "생",
+      "meaning": "살다, 태어나다, 날것",
+      "onyomi": [{"reading": "セイ", "hangul": "세이"}, {"reading": "ショウ", "hangul": "쇼"}],
+      "kunyomi": [{"reading": "い.きる", "hangul": "이키루"}, {"reading": "う.む", "hangul": "우무"}, {"reading": "なま", "hangul": "나마"}],
+      "words": [
+        {"word": "先生", "reading": "せんせい", "meaning": "선생님"},
+        {"word": "学生", "reading": "がくせい", "meaning": "학생"},
+        {"word": "生まれる", "reading": "うまれる", "meaning": "태어나다"}
+      ],
+      "mnemonic": "땅에서 새싹이 나는 모양 — 한자음 '생'과 セイ가 유사"
+    },
+    {
+      "char": "学",
+      "unicode": 23398,
+      "strokeCount": 8,
+      "radical": "子",
+      "radicalName": "こ",
+      "jlpt": "N5",
+      "hanja": "학",
+      "meaning": "배우다",
+      "onyomi": [{"reading": "ガク", "hangul": "가쿠"}],
+      "kunyomi": [{"reading": "まな.ぶ", "hangul": "마나부"}],
+      "words": [
+        {"word": "学校", "reading": "がっこう", "meaning": "학교"},
+        {"word": "大学", "reading": "だいがく", "meaning": "대학"},
+        {"word": "学生", "reading": "がくせい", "meaning": "학생"}
+      ],
+      "mnemonic": "아이(子)가 지붕(⺍) 아래서 배우는 모양 — 한자음 '학'(學)"
+    },
+    {
+      "char": "校",
+      "unicode": 26657,
+      "strokeCount": 10,
+      "radical": "木",
+      "radicalName": "き",
+      "jlpt": "N5",
+      "hanja": "교",
+      "meaning": "학교",
+      "onyomi": [{"reading": "コウ", "hangul": "코"}],
+      "kunyomi": [],
+      "words": [
+        {"word": "学校", "reading": "がっこう", "meaning": "학교"},
+        {"word": "小学校", "reading": "しょうがっこう", "meaning": "초등학교"},
+        {"word": "高校", "reading": "こうこう", "meaning": "고등학교"}
+      ],
+      "mnemonic": "나무(木) 기둥이 교차(交)하는 학교 건물 — 한자음 '교'(校)"
+    },
+    {
+      "char": "先",
+      "unicode": 20808,
+      "strokeCount": 6,
+      "radical": "儿",
+      "radicalName": "ひとあし",
+      "jlpt": "N5",
+      "hanja": "선",
+      "meaning": "먼저, 앞",
+      "onyomi": [{"reading": "セン", "hangul": "센"}],
+      "kunyomi": [{"reading": "さき", "hangul": "사키"}, {"reading": "ま.ず", "hangul": "마즈"}],
+      "words": [
+        {"word": "先生", "reading": "せんせい", "meaning": "선생님"},
+        {"word": "先", "reading": "さき", "meaning": "앞, 먼저"},
+        {"word": "先週", "reading": "せんしゅう", "meaning": "지난주"}
+      ],
+      "mnemonic": "발(儿) 위에 흙(土) — 먼저 앞서 가는 모양 — 한자음 '선'과 セン이 같은 발음"
+    },
+    {
+      "char": "名",
+      "unicode": 21517,
+      "strokeCount": 6,
+      "radical": "口",
+      "radicalName": "くち",
+      "jlpt": "N5",
+      "hanja": "명",
+      "meaning": "이름",
+      "onyomi": [{"reading": "メイ", "hangul": "메이"}, {"reading": "ミョウ", "hangul": "묘"}],
+      "kunyomi": [{"reading": "な", "hangul": "나"}],
+      "words": [
+        {"word": "名前", "reading": "なまえ", "meaning": "이름"},
+        {"word": "有名", "reading": "ゆうめい", "meaning": "유명"},
+        {"word": "名人", "reading": "めいじん", "meaning": "명인"}
+      ],
+      "mnemonic": "저녁(夕)에 입(口)으로 이름을 대는 모양 — 한자음 '명'(名)"
+    },
+    {
+      "char": "友",
+      "unicode": 21451,
+      "strokeCount": 4,
+      "radical": "又",
+      "radicalName": "また",
+      "jlpt": "N5",
+      "hanja": "우",
+      "meaning": "벗, 친구",
+      "onyomi": [{"reading": "ユウ", "hangul": "유"}],
+      "kunyomi": [{"reading": "とも", "hangul": "토모"}],
+      "words": [
+        {"word": "友達", "reading": "ともだち", "meaning": "친구"},
+        {"word": "友人", "reading": "ゆうじん", "meaning": "벗"},
+        {"word": "親友", "reading": "しんゆう", "meaning": "친한 친구"}
+      ],
+      "mnemonic": "두 손(ナ+又)이 같은 방향으로 — 같이 가는 친구 — 한자음 '우'와 ユウ가 유사"
+    },
+    {
+      "char": "子",
+      "unicode": 23376,
+      "strokeCount": 3,
+      "radical": "子",
+      "radicalName": "こ",
+      "jlpt": "N5",
+      "hanja": "자",
+      "meaning": "아이",
+      "onyomi": [{"reading": "シ", "hangul": "시"}, {"reading": "ス", "hangul": "스"}],
+      "kunyomi": [{"reading": "こ", "hangul": "코"}],
+      "words": [
+        {"word": "子供", "reading": "こども", "meaning": "아이"},
+        {"word": "女の子", "reading": "おんなのこ", "meaning": "여자아이"},
+        {"word": "男の子", "reading": "おとこのこ", "meaning": "남자아이"}
+      ],
+      "mnemonic": "강보에 싸인 아기의 상형문자 — 한자음 '자'(子)"
+    },
+    {
+      "char": "女",
+      "unicode": 22899,
+      "strokeCount": 3,
+      "radical": "女",
+      "radicalName": "おんな",
+      "jlpt": "N5",
+      "hanja": "여",
+      "meaning": "여자",
+      "onyomi": [{"reading": "ジョ", "hangul": "조"}, {"reading": "ニョ", "hangul": "뇨"}],
+      "kunyomi": [{"reading": "おんな", "hangul": "온나"}, {"reading": "め", "hangul": "메"}],
+      "words": [
+        {"word": "女の人", "reading": "おんなのひと", "meaning": "여자"},
+        {"word": "女子", "reading": "じょし", "meaning": "여자"},
+        {"word": "彼女", "reading": "かのじょ", "meaning": "그녀"}
+      ],
+      "mnemonic": "무릎 꿇고 앉은 여성의 상형문자 — 한자음 '여'(女)"
+    },
+    {
+      "char": "男",
+      "unicode": 30007,
+      "strokeCount": 7,
+      "radical": "田",
+      "radicalName": "た",
+      "jlpt": "N5",
+      "hanja": "남",
+      "meaning": "남자",
+      "onyomi": [{"reading": "ダン", "hangul": "단"}, {"reading": "ナン", "hangul": "난"}],
+      "kunyomi": [{"reading": "おとこ", "hangul": "오토코"}],
+      "words": [
+        {"word": "男の人", "reading": "おとこのひと", "meaning": "남자"},
+        {"word": "男子", "reading": "だんし", "meaning": "남자"},
+        {"word": "長男", "reading": "ちょうなん", "meaning": "장남"}
+      ],
+      "mnemonic": "밭(田)에서 힘(力)쓰는 사람 — 한자음 '남'(男)"
+    },
+    {
+      "char": "父",
+      "unicode": 29238,
+      "strokeCount": 4,
+      "radical": "父",
+      "radicalName": "ちち",
+      "jlpt": "N5",
+      "hanja": "부",
+      "meaning": "아버지",
+      "onyomi": [{"reading": "フ", "hangul": "후"}],
+      "kunyomi": [{"reading": "ちち", "hangul": "치치"}],
+      "words": [
+        {"word": "お父さん", "reading": "おとうさん", "meaning": "아버지"},
+        {"word": "父", "reading": "ちち", "meaning": "(나의) 아버지"},
+        {"word": "父母", "reading": "ふぼ", "meaning": "부모"}
+      ],
+      "mnemonic": "도끼를 든 남자 — 가장(家長)의 모습 — 한자음 '부'(父)"
+    },
+    {
+      "char": "母",
+      "unicode": 27597,
+      "strokeCount": 5,
+      "radical": "母",
+      "radicalName": "はは",
+      "jlpt": "N5",
+      "hanja": "모",
+      "meaning": "어머니",
+      "onyomi": [{"reading": "ボ", "hangul": "보"}],
+      "kunyomi": [{"reading": "はは", "hangul": "하하"}],
+      "words": [
+        {"word": "お母さん", "reading": "おかあさん", "meaning": "어머니"},
+        {"word": "母", "reading": "はは", "meaning": "(나의) 어머니"},
+        {"word": "父母", "reading": "ふぼ", "meaning": "부모"}
+      ],
+      "mnemonic": "여성의 가슴을 나타내는 상형문자 — 한자음 '모'(母)"
+    },
+    {
+      "char": "長",
+      "unicode": 38263,
+      "strokeCount": 8,
+      "radical": "長",
+      "radicalName": "ながい",
+      "jlpt": "N5",
+      "hanja": "장",
+      "meaning": "길다, 우두머리",
+      "onyomi": [{"reading": "チョウ", "hangul": "초"}],
+      "kunyomi": [{"reading": "なが.い", "hangul": "나가이"}],
+      "words": [
+        {"word": "長い", "reading": "ながい", "meaning": "길다"},
+        {"word": "社長", "reading": "しゃちょう", "meaning": "사장"},
+        {"word": "校長", "reading": "こうちょう", "meaning": "교장"}
+      ],
+      "mnemonic": "머리카락이 긴 노인의 모습 — 한자음 '장'(長)"
+    },
+    {
+      "char": "高",
+      "unicode": 39640,
+      "strokeCount": 10,
+      "radical": "高",
+      "radicalName": "たかい",
+      "jlpt": "N5",
+      "hanja": "고",
+      "meaning": "높다, 비싸다",
+      "onyomi": [{"reading": "コウ", "hangul": "코"}],
+      "kunyomi": [{"reading": "たか.い", "hangul": "타카이"}],
+      "words": [
+        {"word": "高い", "reading": "たかい", "meaning": "높다, 비싸다"},
+        {"word": "高校", "reading": "こうこう", "meaning": "고등학교"},
+        {"word": "最高", "reading": "さいこう", "meaning": "최고"}
+      ],
+      "mnemonic": "높은 건물(亭)의 모양 — 한자음 '고'와 コウ가 유사"
+    },
+    {
+      "char": "山",
+      "unicode": 23665,
+      "strokeCount": 3,
+      "radical": "山",
+      "radicalName": "やま",
+      "jlpt": "N5",
+      "hanja": "산",
+      "meaning": "산",
+      "onyomi": [{"reading": "サン", "hangul": "산"}, {"reading": "セン", "hangul": "센"}],
+      "kunyomi": [{"reading": "やま", "hangul": "야마"}],
+      "words": [
+        {"word": "山", "reading": "やま", "meaning": "산"},
+        {"word": "富士山", "reading": "ふじさん", "meaning": "후지산"},
+        {"word": "火山", "reading": "かざん", "meaning": "화산"}
+      ],
+      "mnemonic": "산봉우리 세 개의 상형문자 — 한자음 '산'과 サン이 같은 발음"
+    },
+    {
+      "char": "川",
+      "unicode": 24029,
+      "strokeCount": 3,
+      "radical": "川",
+      "radicalName": "かわ",
+      "jlpt": "N5",
+      "hanja": "천",
+      "meaning": "강, 내",
+      "onyomi": [{"reading": "セン", "hangul": "센"}],
+      "kunyomi": [{"reading": "かわ", "hangul": "카와"}],
+      "words": [
+        {"word": "川", "reading": "かわ", "meaning": "강"},
+        {"word": "小川", "reading": "おがわ", "meaning": "시냇물"},
+        {"word": "河川", "reading": "かせん", "meaning": "하천"}
+      ],
+      "mnemonic": "물이 흐르는 세 줄기의 상형문자 — 한자음 '천'과 セン이 같은 발음"
+    },
+    {
+      "char": "天",
+      "unicode": 22825,
+      "strokeCount": 4,
+      "radical": "大",
+      "radicalName": "だい",
+      "jlpt": "N5",
+      "hanja": "천",
+      "meaning": "하늘",
+      "onyomi": [{"reading": "テン", "hangul": "텐"}],
+      "kunyomi": [{"reading": "あま", "hangul": "아마"}],
+      "words": [
+        {"word": "天気", "reading": "てんき", "meaning": "날씨"},
+        {"word": "天", "reading": "てん", "meaning": "하늘"},
+        {"word": "天国", "reading": "てんごく", "meaning": "천국"}
+      ],
+      "mnemonic": "사람(大) 위의 한 획(一) — 머리 위 하늘 — 한자음 '천'과 テン이 유사"
+    },
+    {
+      "char": "雨",
+      "unicode": 38632,
+      "strokeCount": 8,
+      "radical": "雨",
+      "radicalName": "あめ",
+      "jlpt": "N5",
+      "hanja": "우",
+      "meaning": "비",
+      "onyomi": [{"reading": "ウ", "hangul": "우"}],
+      "kunyomi": [{"reading": "あめ", "hangul": "아메"}, {"reading": "あま", "hangul": "아마"}],
+      "words": [
+        {"word": "雨", "reading": "あめ", "meaning": "비"},
+        {"word": "大雨", "reading": "おおあめ", "meaning": "폭우"},
+        {"word": "梅雨", "reading": "つゆ", "meaning": "장마"}
+      ],
+      "mnemonic": "구름에서 빗방울이 떨어지는 상형문자 — 한자음 '우'와 ウ가 같은 발음"
+    },
+    {
+      "char": "白",
+      "unicode": 30333,
+      "strokeCount": 5,
+      "radical": "白",
+      "radicalName": "しろ",
+      "jlpt": "N5",
+      "hanja": "백",
+      "meaning": "희다",
+      "onyomi": [{"reading": "ハク", "hangul": "하쿠"}, {"reading": "ビャク", "hangul": "뱌쿠"}],
+      "kunyomi": [{"reading": "しろ.い", "hangul": "시로이"}, {"reading": "しろ", "hangul": "시로"}],
+      "words": [
+        {"word": "白い", "reading": "しろい", "meaning": "하얗다"},
+        {"word": "白", "reading": "しろ", "meaning": "흰색"},
+        {"word": "白人", "reading": "はくじん", "meaning": "백인"}
+      ],
+      "mnemonic": "해(日) 위에 빛이 비치는 모양 — 밝고 하얀 빛"
+    },
+    {
+      "char": "気",
+      "unicode": 27671,
+      "strokeCount": 6,
+      "radical": "气",
+      "radicalName": "きがまえ",
+      "jlpt": "N5",
+      "hanja": "기",
+      "meaning": "기운, 마음",
+      "onyomi": [{"reading": "キ", "hangul": "키"}, {"reading": "ケ", "hangul": "케"}],
+      "kunyomi": [],
+      "words": [
+        {"word": "天気", "reading": "てんき", "meaning": "날씨"},
+        {"word": "元気", "reading": "げんき", "meaning": "건강, 활기"},
+        {"word": "気持ち", "reading": "きもち", "meaning": "기분"}
+      ],
+      "mnemonic": "기(气)운이 퍼지는 모양 — 한자음 '기'와 キ가 같은 발음"
+    },
+    {
+      "char": "電",
+      "unicode": 38651,
+      "strokeCount": 13,
+      "radical": "雨",
+      "radicalName": "あめ",
+      "jlpt": "N5",
+      "hanja": "전",
+      "meaning": "전기, 번개",
+      "onyomi": [{"reading": "デン", "hangul": "덴"}],
+      "kunyomi": [],
+      "words": [
+        {"word": "電話", "reading": "でんわ", "meaning": "전화"},
+        {"word": "電車", "reading": "でんしゃ", "meaning": "전철"},
+        {"word": "電気", "reading": "でんき", "meaning": "전기"}
+      ],
+      "mnemonic": "비(雨) 구름에서 번개가 내리치는 모양 — 한자음 '전'과 デン이 유사"
+    },
+    {
+      "char": "車",
+      "unicode": 36554,
+      "strokeCount": 7,
+      "radical": "車",
+      "radicalName": "くるま",
+      "jlpt": "N5",
+      "hanja": "차",
+      "meaning": "수레, 차",
+      "onyomi": [{"reading": "シャ", "hangul": "샤"}],
+      "kunyomi": [{"reading": "くるま", "hangul": "쿠루마"}],
+      "words": [
+        {"word": "電車", "reading": "でんしゃ", "meaning": "전철"},
+        {"word": "車", "reading": "くるま", "meaning": "차"},
+        {"word": "自転車", "reading": "じてんしゃ", "meaning": "자전거"}
+      ],
+      "mnemonic": "수레를 위에서 내려다본 상형문자 — 한자음 '차'(車)"
+    },
+    {
+      "char": "何",
+      "unicode": 20309,
+      "strokeCount": 7,
+      "radical": "人",
+      "radicalName": "ひと",
+      "jlpt": "N5",
+      "hanja": "하",
+      "meaning": "무엇",
+      "onyomi": [{"reading": "カ", "hangul": "카"}],
+      "kunyomi": [{"reading": "なに", "hangul": "나니"}, {"reading": "なん", "hangul": "난"}],
+      "words": [
+        {"word": "何", "reading": "なに", "meaning": "무엇"},
+        {"word": "何人", "reading": "なんにん", "meaning": "몇 명"},
+        {"word": "何時", "reading": "なんじ", "meaning": "몇 시"}
+      ],
+      "mnemonic": "사람(亻)이 짐(可)을 지고 '이게 뭐지?' 하는 모양"
+    },
+    {
+      "char": "分",
+      "unicode": 20998,
+      "strokeCount": 4,
+      "radical": "刀",
+      "radicalName": "かたな",
+      "jlpt": "N5",
+      "hanja": "분",
+      "meaning": "나누다, 분, 알다",
+      "onyomi": [{"reading": "ブン", "hangul": "분"}, {"reading": "フン", "hangul": "훈"}, {"reading": "ブ", "hangul": "부"}],
+      "kunyomi": [{"reading": "わ.ける", "hangul": "와케루"}, {"reading": "わ.かる", "hangul": "와카루"}],
+      "words": [
+        {"word": "十分", "reading": "じゅっぷん", "meaning": "10분"},
+        {"word": "半分", "reading": "はんぶん", "meaning": "절반"},
+        {"word": "自分", "reading": "じぶん", "meaning": "자기 자신"}
+      ],
+      "mnemonic": "칼(刀)로 둘(八)로 나누는 모양 — 한자음 '분'과 ブン/フン이 유사"
+    },
+    {
+      "char": "休",
+      "unicode": 20241,
+      "strokeCount": 6,
+      "radical": "人",
+      "radicalName": "ひと",
+      "jlpt": "N5",
+      "hanja": "휴",
+      "meaning": "쉬다",
+      "onyomi": [{"reading": "キュウ", "hangul": "큐"}],
+      "kunyomi": [{"reading": "やす.む", "hangul": "야스무"}],
+      "words": [
+        {"word": "休む", "reading": "やすむ", "meaning": "쉬다"},
+        {"word": "休み", "reading": "やすみ", "meaning": "휴일"},
+        {"word": "休日", "reading": "きゅうじつ", "meaning": "휴일"}
+      ],
+      "mnemonic": "사람(亻)이 나무(木) 그늘에서 쉬는 모양 — 한자음 '휴'(休)"
+    }
+  ]
+}

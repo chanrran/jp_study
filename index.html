@@ -410,6 +410,96 @@
       padding-bottom: 2px;
     }
 
+    /* ─── Kanji card specifics ─── */
+    .kanji-reading-group {
+      margin-top: 4px;
+    }
+    .kanji-reading-label {
+      font-size: 0.68rem; font-weight: 600;
+      color: var(--fg-tertiary);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+    .kanji-readings {
+      display: flex; flex-wrap: wrap; gap: 4px;
+    }
+    .kanji-reading-tag {
+      display: inline-flex; align-items: baseline; gap: 4px;
+      padding: 2px 8px; border-radius: 4px;
+      font-size: 0.78rem;
+      background: var(--tag-bg);
+    }
+    .kanji-reading-tag .jp {
+      font-family: var(--font-jp); font-weight: 500; color: var(--fg);
+    }
+    .kanji-reading-tag .kr {
+      font-size: 0.72rem; color: var(--fg-secondary);
+    }
+    .kanji-reading-tag.onyomi {
+      background: #dbeafe; color: #1e40af;
+    }
+    .kanji-reading-tag.onyomi .jp { color: #1e40af; }
+    .kanji-reading-tag.onyomi .kr { color: #3b82f6; }
+    .kanji-reading-tag.kunyomi {
+      background: #dcfce7; color: #166534;
+    }
+    .kanji-reading-tag.kunyomi .jp { color: #166534; }
+    .kanji-reading-tag.kunyomi .kr { color: #22c55e; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) .kanji-reading-tag.onyomi { background: #1e3a5f; }
+      :root:not([data-theme="light"]) .kanji-reading-tag.onyomi .jp { color: #93c5fd; }
+      :root:not([data-theme="light"]) .kanji-reading-tag.onyomi .kr { color: #60a5fa; }
+      :root:not([data-theme="light"]) .kanji-reading-tag.kunyomi { background: #14532d; }
+      :root:not([data-theme="light"]) .kanji-reading-tag.kunyomi .jp { color: #86efac; }
+      :root:not([data-theme="light"]) .kanji-reading-tag.kunyomi .kr { color: #4ade80; }
+    }
+    :root[data-theme="dark"] .kanji-reading-tag.onyomi { background: #1e3a5f; }
+    :root[data-theme="dark"] .kanji-reading-tag.onyomi .jp { color: #93c5fd; }
+    :root[data-theme="dark"] .kanji-reading-tag.onyomi .kr { color: #60a5fa; }
+    :root[data-theme="dark"] .kanji-reading-tag.kunyomi { background: #14532d; }
+    :root[data-theme="dark"] .kanji-reading-tag.kunyomi .jp { color: #86efac; }
+    :root[data-theme="dark"] .kanji-reading-tag.kunyomi .kr { color: #4ade80; }
+
+    .kanji-words {
+      display: flex; flex-wrap: wrap; gap: 4px;
+      margin-top: 6px;
+    }
+    .kanji-word-tag {
+      display: inline-flex; align-items: baseline; gap: 4px;
+      padding: 3px 8px; border-radius: var(--radius-sm);
+      background: var(--tag-bg); font-size: 0.78rem;
+    }
+    .kanji-word-tag .jp {
+      font-family: var(--font-jp); font-weight: 500;
+    }
+    .kanji-word-tag .rd {
+      font-family: var(--font-jp); color: var(--fg-secondary);
+      font-size: 0.72rem;
+    }
+    .kanji-word-tag .mn {
+      color: var(--fg-tertiary); font-size: 0.72rem;
+    }
+
+    .kanji-meta {
+      display: flex; gap: 6px; flex-wrap: wrap;
+      margin-top: 2px;
+    }
+    .kanji-meta-tag {
+      font-size: 0.7rem;
+      padding: 1px 7px; border-radius: 4px;
+      background: var(--tag-bg); color: var(--tag-fg);
+      font-weight: 500;
+    }
+    .kanji-hanja {
+      font-size: 1.3rem; font-weight: 700;
+      color: var(--accent-text);
+    }
+    .kanji-meaning {
+      font-size: 0.9rem; color: var(--fg-secondary);
+      margin-left: 4px;
+    }
+
     /* Empty state */
     .empty-state {
       text-align: center; padding: 48px 20px;
@@ -448,10 +538,10 @@
         <div class="label">카타카나</div>
         <div class="sub">청음·탁음·반탁음·요음 104자</div>
       </div>
-      <div class="menu-card disabled">
+      <div class="menu-card" onclick="navigate('kanji')">
         <div class="icon">漢</div>
         <div class="label">한자</div>
-        <div class="sub">준비 중</div>
+        <div class="sub">상용한자 N5 80자</div>
       </div>
       <div class="menu-card disabled">
         <div class="icon">語</div>
@@ -549,6 +639,38 @@
     <div class="char-list" id="charListKata"></div>
   </div>
 
+  <!-- ═══ KANJI PAGE ═══ -->
+  <div id="page-kanji" class="page">
+    <div class="sticky-controls">
+      <div class="sub-header">
+        <button class="back-btn" onclick="navigate('home')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <h2>한자 · N5</h2>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" class="search-input" id="searchInputKanji"
+          placeholder="검색 (한자, 한글, 읽기, 의미)">
+      </div>
+
+      <div class="filter-bar" id="kanjiFilter">
+        <button class="filter-btn active" data-cat="all">전체</button>
+        <button class="filter-btn" data-cat="숫자">숫자</button>
+        <button class="filter-btn" data-cat="시간">시간</button>
+        <button class="filter-btn" data-cat="방향">방향</button>
+        <button class="filter-btn" data-cat="사람">사람</button>
+        <button class="filter-btn" data-cat="자연">자연</button>
+        <button class="filter-btn" data-cat="학교">학교</button>
+        <button class="filter-btn" data-cat="생활">생활</button>
+        <button class="filter-btn" data-cat="기타">기타</button>
+      </div>
+    </div>
+
+    <div class="count-label" id="countLabelKanji"></div>
+    <div class="char-list" id="charListKanji"></div>
+  </div>
+
   <!-- ═══ Bottom Nav ═══ -->
   <nav class="bottom-nav">
     <button class="nav-item active" data-page="home">
@@ -563,18 +685,42 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">ア</text></svg>
       카타카나
     </button>
+    <button class="nav-item" data-page="kanji">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">漢</text></svg>
+      한자
+    </button>
   </nav>
 
   <script>
     // ─── State ───
     let hiraganaData = [];
     let katakanaData = [];
+    let kanjiData = [];
     let currentRow = 'all';
     let currentRowKata = 'all';
     let currentFilter = 'all';
     let currentFilterKata = 'all';
+    let currentCatKanji = 'all';
     let searchQuery = '';
     let searchQueryKata = '';
+    let searchQueryKanji = '';
+
+    // Kanji category mapping
+    const kanjiCategories = {
+      '숫자': '一二三四五六七八九十百千万円',
+      '시간': '日月火水木金土年時間今半午前後毎',
+      '방향': '上下左右北南東西中外',
+      '사람': '人大小子女男父母友',
+      '자연': '山川天雨白',
+      '학교': '学校先生名語書読',
+      '생활': '食車電話聞見行来出入休気電',
+    };
+    function getKanjiCategory(char) {
+      for (const [cat, chars] of Object.entries(kanjiCategories)) {
+        if (chars.includes(char)) return cat;
+      }
+      return '기타';
+    }
 
     // ─── Navigation ───
     function navigate(page) {
@@ -594,16 +740,20 @@
     // ─── Load data ───
     async function loadData() {
       try {
-        const [hResp, kResp] = await Promise.all([
+        const [hResp, kResp, kjResp] = await Promise.all([
           fetch('data/hiragana.json'),
-          fetch('data/katakana.json')
+          fetch('data/katakana.json'),
+          fetch('data/kanji_n5.json')
         ]);
         const hJson = await hResp.json();
         const kJson = await kResp.json();
+        const kjJson = await kjResp.json();
         hiraganaData = hJson.data;
         katakanaData = kJson.data;
+        kanjiData = kjJson.data;
         renderList();
         renderListKata();
+        renderListKanji();
         updateProgress();
       } catch (e) {
         document.getElementById('charList').innerHTML =
@@ -709,6 +859,103 @@
       listEl.innerHTML = filtered.map(c => renderCard(c, 'hiragana')).join('');
     }
 
+    // ─── Kanji card renderer ───
+    function renderKanjiCard(k) {
+      const onyomiHtml = k.onyomi.length > 0
+        ? k.onyomi.map(r => `<span class="kanji-reading-tag onyomi"><span class="jp">${r.reading}</span><span class="kr">${r.hangul}</span></span>`).join('')
+        : '<span class="kanji-reading-tag" style="opacity:0.4">—</span>';
+
+      const kunyomiHtml = k.kunyomi.length > 0
+        ? k.kunyomi.map(r => `<span class="kanji-reading-tag kunyomi"><span class="jp">${r.reading}</span><span class="kr">${r.hangul}</span></span>`).join('')
+        : '<span class="kanji-reading-tag" style="opacity:0.4">—</span>';
+
+      const wordsHtml = k.words.map(w =>
+        `<span class="kanji-word-tag"><span class="jp">${w.word}</span><span class="rd">${w.reading}</span><span class="mn">${w.meaning}</span></span>`
+      ).join('');
+
+      const cat = getKanjiCategory(k.char);
+
+      return `
+        <div class="char-card">
+          <div class="char-card-main">
+            <div class="char-left">
+              <div class="stroke-box" data-unicode="${k.unicode}" data-svg-dir="kanji-svg" onclick="replayStroke(this)">
+                <span class="replay-hint">▶ 획순</span>
+              </div>
+            </div>
+            <div class="char-info">
+              <div class="char-info-row">
+                <span class="kanji-hanja">${k.hanja}</span>
+                <span class="kanji-meaning">${k.meaning}</span>
+              </div>
+              <div class="kanji-meta">
+                <span class="kanji-meta-tag">${k.strokeCount}획</span>
+                <span class="kanji-meta-tag">부수 ${k.radical} ${k.radicalName}</span>
+                <span class="kanji-meta-tag">${cat}</span>
+              </div>
+              <div class="kanji-reading-group">
+                <div class="kanji-reading-label">음독 おんよみ</div>
+                <div class="kanji-readings">${onyomiHtml}</div>
+              </div>
+              <div class="kanji-reading-group">
+                <div class="kanji-reading-label">훈독 くんよみ</div>
+                <div class="kanji-readings">${kunyomiHtml}</div>
+              </div>
+              <div class="mnemonic">${k.mnemonic}</div>
+              <div class="kanji-words">${wordsHtml}</div>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    // ─── Render kanji list ───
+    function renderListKanji() {
+      let filtered = kanjiData;
+      if (currentCatKanji !== 'all') {
+        filtered = filtered.filter(k => getKanjiCategory(k.char) === currentCatKanji);
+      }
+      if (searchQueryKanji) {
+        const q = searchQueryKanji.toLowerCase();
+        filtered = filtered.filter(k =>
+          k.char.includes(q) ||
+          k.hanja.includes(q) ||
+          k.meaning.includes(q) ||
+          k.onyomi.some(r => r.reading.toLowerCase().includes(q) || r.hangul.includes(q)) ||
+          k.kunyomi.some(r => r.reading.toLowerCase().includes(q) || r.hangul.includes(q)) ||
+          k.words.some(w => w.word.includes(q) || w.reading.includes(q) || w.meaning.includes(q))
+        );
+      }
+      document.getElementById('countLabelKanji').textContent = `${filtered.length}자`;
+      const listEl = document.getElementById('charListKanji');
+      if (filtered.length === 0) {
+        listEl.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
+        return;
+      }
+      listEl.innerHTML = filtered.map(k => renderKanjiCard(k)).join('');
+    }
+
+    // ─── Kanji filter ───
+    document.getElementById('kanjiFilter').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn || btn.dataset.cat === undefined) return;
+      const wasActive = btn.classList.contains('active') && btn.dataset.cat !== 'all';
+      document.querySelectorAll('#kanjiFilter .filter-btn').forEach(b => b.classList.remove('active'));
+      if (wasActive) {
+        currentCatKanji = 'all';
+        document.querySelector('#kanjiFilter .filter-btn[data-cat="all"]').classList.add('active');
+      } else {
+        btn.classList.add('active');
+        currentCatKanji = btn.dataset.cat;
+      }
+      renderListKanji();
+    });
+
+    // ─── Kanji search ───
+    document.getElementById('searchInputKanji').addEventListener('input', (e) => {
+      searchQueryKanji = e.target.value.trim();
+      renderListKanji();
+    });
+
     // ─── Combined filter (행 + 타입, 한 줄) ───
     document.getElementById('combinedFilter').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
@@ -773,11 +1020,11 @@
 
     // ─── Progress (localStorage) ───
     function updateProgress() {
-      const total = hiraganaData.length + katakanaData.length;
+      const total = hiraganaData.length + katakanaData.length + kanjiData.length;
       let learned = 0;
       try {
         const saved = JSON.parse(localStorage.getItem('jp_progress') || '{}');
-        learned = Object.keys(saved.hiragana || {}).length + Object.keys(saved.katakana || {}).length;
+        learned = Object.keys(saved.hiragana || {}).length + Object.keys(saved.katakana || {}).length + Object.keys(saved.kanji || {}).length;
       } catch (e) {}
       const pct = total > 0 ? Math.round((learned / total) * 100) : 0;
       const el = document.getElementById('totalProgress');
@@ -794,23 +1041,24 @@
     async function loadStrokeSvg(box) {
       const code = box.dataset.unicode;
       if (!code) return;
+      const svgDir = box.dataset.svgDir || 'kana-svg';
 
-      if (svgCache[code]) {
-        box.innerHTML = svgCache[code] + '<span class="replay-hint">▶ 다시</span>';
+      const cacheKey = svgDir + '/' + code;
+      if (svgCache[cacheKey]) {
+        box.innerHTML = svgCache[cacheKey] + '<span class="replay-hint">▶ 다시</span>';
         replayStroke(box);
         return;
       }
 
       try {
-        const resp = await fetch(`assets/kana-svg/${code}.svg`);
+        const resp = await fetch(`assets/${svgDir}/${code}.svg`);
         if (!resp.ok) {
-          // SVG 없으면 텍스트 폴백
           const ch = String.fromCodePoint(parseInt(code));
           box.outerHTML = `<div class="char-text-fallback">${ch}</div>`;
           return;
         }
         const text = await resp.text();
-        svgCache[code] = text;
+        svgCache[cacheKey] = text;
         box.innerHTML = text + '<span class="replay-hint">▶ 다시</span>';
       } catch (e) {
         const ch = String.fromCodePoint(parseInt(code));
@@ -858,6 +1106,12 @@
     const origRenderListKata = renderListKata;
     renderListKata = function() {
       origRenderListKata();
+      requestAnimationFrame(() => observeStrokeBoxes());
+    };
+
+    const origRenderListKanji = renderListKanji;
+    renderListKanji = function() {
+      origRenderListKanji();
       requestAnimationFrame(() => observeStrokeBoxes());
     };
 
