@@ -394,6 +394,43 @@
       font-size: 0.78rem; color: var(--fg-tertiary);
     }
 
+    /* Row jump tabs */
+    .row-nav {
+      display: flex; gap: 4px; overflow-x: auto;
+      padding: 0 20px 10px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .row-nav::-webkit-scrollbar { display: none; }
+    .row-jump {
+      flex-shrink: 0;
+      padding: 5px 12px; border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg-card); color: var(--fg-secondary);
+      font-family: var(--font-jp); font-size: 0.82rem; font-weight: 500;
+      cursor: pointer; white-space: nowrap;
+      transition: all 0.12s;
+    }
+    .row-jump:active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    /* Section header per row group */
+    .row-section-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 18px 0 8px;
+    }
+    .row-section-header .row-label {
+      font-family: var(--font-jp);
+      font-size: 1.3rem; font-weight: 700;
+      color: var(--accent-text);
+    }
+    .row-section-header .row-sub {
+      font-size: 0.78rem; color: var(--fg-tertiary);
+    }
+    .row-section-header .row-line {
+      flex: 1; height: 1px;
+      background: var(--border);
+    }
+
     /* Empty state */
     .empty-state {
       text-align: center; padding: 48px 20px;
@@ -477,6 +514,7 @@
       <button class="filter-btn" data-filter="요음">요음</button>
     </div>
 
+    <div class="row-nav" id="rowNav"></div>
     <div class="count-label" id="countLabel"></div>
     <div class="char-list" id="charList"></div>
   </div>
@@ -503,6 +541,7 @@
       <button class="filter-btn" data-filter="요음">요음</button>
     </div>
 
+    <div class="row-nav" id="rowNavKata"></div>
     <div class="count-label" id="countLabelKata"></div>
     <div class="char-list" id="charListKata"></div>
   </div>
@@ -567,160 +606,149 @@
       }
     }
 
-    // ─── Render character cards ───
-    function renderList() {
-      const list = document.getElementById('charList');
-      let filtered = hiraganaData;
+    // ─── Row order ───
+    const ROW_ORDER = ['あ','か','さ','た','な','は','ま','や','ら','わ'];
+    const ROW_ORDER_KATA = ['ア','カ','サ','タ','ナ','ハ','マ','ヤ','ラ','ワ'];
+    const ROW_ROMAJI = {
+      'あ':'a','か':'ka','さ':'sa','た':'ta','な':'na',
+      'は':'ha','ま':'ma','や':'ya','ら':'ra','わ':'wa',
+      'ア':'a','カ':'ka','サ':'sa','タ':'ta','ナ':'na',
+      'ハ':'ha','マ':'ma','ヤ':'ya','ラ':'ra','ワ':'wa'
+    };
 
-      if (currentFilter !== 'all') {
-        filtered = filtered.filter(c => c.type === currentFilter);
+    // ─── Shared card renderer ───
+    function renderCard(c, counterpartKey) {
+      const origin = c.origin && c.origin.kanji ? `
+        <div class="char-origin">
+          <div class="origin-title">유래 由来</div>
+          <div class="origin-content">
+            <span class="origin-kanji">${c.origin.kanji}</span>
+            <span class="origin-hanja">${c.origin.hanja}</span>
+            <span class="origin-meaning">${c.origin.meaning}</span>
+            <div class="origin-explain">${c.origin.explanation}</div>
+          </div>
+        </div>` : '';
+
+      const confusable = c.confusableWith && c.confusableWith.length > 0 ? `
+        <div class="confusable">
+          헷갈림 주의: <span>${c.confusableWith.join(' ')}</span>
+        </div>` : '';
+
+      const hasStrokeSvg = c.unicode != null;
+      const strokeArea = hasStrokeSvg
+        ? `<div class="stroke-box" data-unicode="${c.unicode}" onclick="replayStroke(this)">
+             <span class="replay-hint">▶ 획순</span>
+           </div>`
+        : `<div class="char-text-fallback">${c.char}</div>`;
+
+      const counterpart = c[counterpartKey] || '';
+
+      return `
+        <div class="char-card">
+          <div class="char-card-main">
+            <div class="char-left">
+              ${strokeArea}
+              <span class="katakana">${counterpart}</span>
+            </div>
+            <div class="char-info">
+              <div class="char-info-row">
+                <span class="hangul-reading">${c.hangul}</span>
+                <span class="romaji">${c.romaji}</span>
+                <span class="type-tag ${c.type}">${c.type} · ${c.row}행${c.strokeCount != null ? ' · ' + c.strokeCount + '획' : ''}</span>
+              </div>
+              <div class="mnemonic">${c.mnemonic}</div>
+              ${c.sampleWord ? `
+                <div class="sample-word">
+                  <span class="jp">${c.sampleWord.reading}</span>
+                  <span class="jp">${c.sampleWord.word}</span>
+                  <span class="meaning">${c.sampleWord.meaning}</span>
+                </div>` : ''}
+            </div>
+          </div>
+          ${origin}
+          ${confusable}
+        </div>`;
+    }
+
+    // ─── Group by row and render with section headers ───
+    function renderGrouped(filtered, listEl, navEl, countEl, rowOrder, counterpartKey, idPrefix) {
+      countEl.textContent = `${filtered.length}자`;
+
+      if (filtered.length === 0) {
+        navEl.innerHTML = '';
+        listEl.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
+        return;
       }
 
+      // Group by row, preserving order
+      const groups = new Map();
+      for (const c of filtered) {
+        if (!groups.has(c.row)) groups.set(c.row, []);
+        groups.get(c.row).push(c);
+      }
+
+      // Sort groups by defined row order
+      const sortedRows = [...groups.keys()].sort((a, b) => {
+        const ia = rowOrder.indexOf(a);
+        const ib = rowOrder.indexOf(b);
+        return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+      });
+
+      // Row jump nav
+      navEl.innerHTML = sortedRows.map(row =>
+        `<button class="row-jump" onclick="document.getElementById('${idPrefix}-${row}').scrollIntoView({behavior:'smooth',block:'start'})">${row}행</button>`
+      ).join('');
+
+      // Render grouped cards
+      let html = '';
+      for (const row of sortedRows) {
+        const chars = groups.get(row);
+        const romaji = ROW_ROMAJI[row] || '';
+        html += `
+          <div class="row-section-header" id="${idPrefix}-${row}">
+            <span class="row-label">${row}행</span>
+            <span class="row-sub">${romaji} · ${chars.length}자</span>
+            <span class="row-line"></span>
+          </div>`;
+        html += chars.map(c => renderCard(c, counterpartKey)).join('');
+      }
+      listEl.innerHTML = html;
+    }
+
+    // ─── Render hiragana ───
+    function renderList() {
+      let filtered = hiraganaData;
+      if (currentFilter !== 'all') filtered = filtered.filter(c => c.type === currentFilter);
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
         filtered = filtered.filter(c =>
-          c.char.includes(q) ||
-          c.hangul.includes(q) ||
-          c.romaji.toLowerCase().includes(q) ||
-          (c.katakana && c.katakana.includes(q))
+          c.char.includes(q) || c.hangul.includes(q) ||
+          c.romaji.toLowerCase().includes(q) || (c.katakana && c.katakana.includes(q))
         );
       }
-
-      document.getElementById('countLabel').textContent = `${filtered.length}자`;
-
-      if (filtered.length === 0) {
-        list.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
-        return;
-      }
-
-      list.innerHTML = filtered.map(c => {
-        const origin = c.origin && c.origin.kanji ? `
-          <div class="char-origin">
-            <div class="origin-title">유래 由来</div>
-            <div class="origin-content">
-              <span class="origin-kanji">${c.origin.kanji}</span>
-              <span class="origin-hanja">${c.origin.hanja}</span>
-              <span class="origin-meaning">${c.origin.meaning}</span>
-              <div class="origin-explain">${c.origin.explanation}</div>
-            </div>
-          </div>` : '';
-
-        const confusable = c.confusableWith && c.confusableWith.length > 0 ? `
-          <div class="confusable">
-            헷갈림 주의: <span>${c.confusableWith.join(' ')}</span>
-          </div>` : '';
-
-        const hasStrokeSvg = c.unicode != null;
-        const strokeArea = hasStrokeSvg
-          ? `<div class="stroke-box" data-unicode="${c.unicode}" onclick="replayStroke(this)">
-               <span class="replay-hint">▶ 획순</span>
-             </div>`
-          : `<div class="char-text-fallback">${c.char}</div>`;
-
-        return `
-          <div class="char-card">
-            <div class="char-card-main">
-              <div class="char-left">
-                ${strokeArea}
-                <span class="katakana">${c.katakana || ''}</span>
-              </div>
-              <div class="char-info">
-                <div class="char-info-row">
-                  <span class="hangul-reading">${c.hangul}</span>
-                  <span class="romaji">${c.romaji}</span>
-                  <span class="type-tag ${c.type}">${c.type} · ${c.row}행${c.strokeCount != null ? ' · ' + c.strokeCount + '획' : ''}</span>
-                </div>
-                <div class="mnemonic">${c.mnemonic}</div>
-                ${c.sampleWord ? `
-                  <div class="sample-word">
-                    <span class="jp">${c.sampleWord.reading}</span>
-                    <span class="jp">${c.sampleWord.word}</span>
-                    <span class="meaning">${c.sampleWord.meaning}</span>
-                  </div>` : ''}
-              </div>
-            </div>
-            ${origin}
-            ${confusable}
-          </div>`;
-      }).join('');
+      renderGrouped(filtered,
+        document.getElementById('charList'),
+        document.getElementById('rowNav'),
+        document.getElementById('countLabel'),
+        ROW_ORDER, 'katakana', 'hrow');
     }
 
-    // ─── Render katakana cards ───
+    // ─── Render katakana ───
     function renderListKata() {
-      const list = document.getElementById('charListKata');
       let filtered = katakanaData;
-
-      if (currentFilterKata !== 'all') {
-        filtered = filtered.filter(c => c.type === currentFilterKata);
-      }
-
+      if (currentFilterKata !== 'all') filtered = filtered.filter(c => c.type === currentFilterKata);
       if (searchQueryKata) {
         const q = searchQueryKata.toLowerCase();
         filtered = filtered.filter(c =>
-          c.char.includes(q) ||
-          c.hangul.includes(q) ||
-          c.romaji.toLowerCase().includes(q) ||
-          (c.hiragana && c.hiragana.includes(q))
+          c.char.includes(q) || c.hangul.includes(q) ||
+          c.romaji.toLowerCase().includes(q) || (c.hiragana && c.hiragana.includes(q))
         );
       }
-
-      document.getElementById('countLabelKata').textContent = `${filtered.length}자`;
-
-      if (filtered.length === 0) {
-        list.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
-        return;
-      }
-
-      list.innerHTML = filtered.map(c => {
-        const origin = c.origin && c.origin.kanji ? `
-          <div class="char-origin">
-            <div class="origin-title">유래 由来</div>
-            <div class="origin-content">
-              <span class="origin-kanji">${c.origin.kanji}</span>
-              <span class="origin-hanja">${c.origin.hanja}</span>
-              <span class="origin-meaning">${c.origin.meaning}</span>
-              <div class="origin-explain">${c.origin.explanation}</div>
-            </div>
-          </div>` : '';
-
-        const confusable = c.confusableWith && c.confusableWith.length > 0 ? `
-          <div class="confusable">
-            헷갈림 주의: <span>${c.confusableWith.join(' ')}</span>
-          </div>` : '';
-
-        const hasStrokeSvg = c.unicode != null;
-        const strokeArea = hasStrokeSvg
-          ? `<div class="stroke-box" data-unicode="${c.unicode}" onclick="replayStroke(this)">
-               <span class="replay-hint">▶ 획순</span>
-             </div>`
-          : `<div class="char-text-fallback">${c.char}</div>`;
-
-        return `
-          <div class="char-card">
-            <div class="char-card-main">
-              <div class="char-left">
-                ${strokeArea}
-                <span class="katakana">${c.hiragana || ''}</span>
-              </div>
-              <div class="char-info">
-                <div class="char-info-row">
-                  <span class="hangul-reading">${c.hangul}</span>
-                  <span class="romaji">${c.romaji}</span>
-                  <span class="type-tag ${c.type}">${c.type} · ${c.row}행${c.strokeCount != null ? ' · ' + c.strokeCount + '획' : ''}</span>
-                </div>
-                <div class="mnemonic">${c.mnemonic}</div>
-                ${c.sampleWord ? `
-                  <div class="sample-word">
-                    <span class="jp">${c.sampleWord.reading}</span>
-                    <span class="jp">${c.sampleWord.word}</span>
-                    <span class="meaning">${c.sampleWord.meaning}</span>
-                  </div>` : ''}
-              </div>
-            </div>
-            ${origin}
-            ${confusable}
-          </div>`;
-      }).join('');
+      renderGrouped(filtered,
+        document.getElementById('charListKata'),
+        document.getElementById('rowNavKata'),
+        document.getElementById('countLabelKata'),
+        ROW_ORDER_KATA, 'hiragana', 'krow');
     }
 
     // ─── Filters ───
