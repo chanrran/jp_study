@@ -215,13 +215,12 @@
       background: var(--accent); color: #fff;
       border-color: var(--accent);
     }
-    /* 타입 필터(청음/탁음 등)는 더 작게 */
-    .filter-bar-sub {
-      padding: 2px 16px 4px;
-    }
-    .filter-bar-sub .filter-btn {
-      padding: 3px 9px; font-size: 0.75rem;
-      border-radius: 12px;
+    .filter-divider {
+      flex-shrink: 0;
+      width: 1px; height: 20px;
+      background: var(--border-strong);
+      margin: 0 2px;
+      align-self: center;
     }
 
     /* Character list */
@@ -482,7 +481,7 @@
           placeholder="검색 (히라가나, 한글, 로마자)">
       </div>
 
-      <div class="filter-bar" id="rowNav">
+      <div class="filter-bar" id="combinedFilter">
         <button class="filter-btn active" data-row="all">전체</button>
         <button class="filter-btn" data-row="あ">あ행</button>
         <button class="filter-btn" data-row="か">か행</button>
@@ -494,10 +493,7 @@
         <button class="filter-btn" data-row="や">や행</button>
         <button class="filter-btn" data-row="ら">ら행</button>
         <button class="filter-btn" data-row="わ">わ행</button>
-      </div>
-
-      <div class="filter-bar filter-bar-sub" id="filterBar">
-        <button class="filter-btn active" data-filter="all">전체</button>
+        <span class="filter-divider"></span>
         <button class="filter-btn" data-filter="청음">청음</button>
         <button class="filter-btn" data-filter="탁음">탁음</button>
         <button class="filter-btn" data-filter="반탁음">반탁음</button>
@@ -524,7 +520,7 @@
           placeholder="검색 (카타카나, 한글, 로마자)">
       </div>
 
-      <div class="filter-bar" id="rowNavKata">
+      <div class="filter-bar" id="combinedFilterKata">
         <button class="filter-btn active" data-row="all">전체</button>
         <button class="filter-btn" data-row="ア">ア행</button>
         <button class="filter-btn" data-row="カ">カ행</button>
@@ -536,10 +532,7 @@
         <button class="filter-btn" data-row="ヤ">ヤ행</button>
         <button class="filter-btn" data-row="ラ">ラ행</button>
         <button class="filter-btn" data-row="ワ">ワ행</button>
-      </div>
-
-      <div class="filter-bar filter-bar-sub" id="filterBarKata">
-        <button class="filter-btn active" data-filter="all">전체</button>
+        <span class="filter-divider"></span>
         <button class="filter-btn" data-filter="청음">청음</button>
         <button class="filter-btn" data-filter="탁음">탁음</button>
         <button class="filter-btn" data-filter="반탁음">반탁음</button>
@@ -710,41 +703,54 @@
       listEl.innerHTML = filtered.map(c => renderCard(c, 'hiragana')).join('');
     }
 
-    // ─── Row nav (행 필터) ───
-    document.getElementById('rowNav').addEventListener('click', (e) => {
+    // ─── Combined filter (행 + 타입, 한 줄) ───
+    document.getElementById('combinedFilter').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
-      if (!btn || !btn.dataset.row) return;
-      document.querySelectorAll('#rowNav .filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentRow = btn.dataset.row;
+      if (!btn) return;
+      if (btn.dataset.row !== undefined) {
+        document.querySelectorAll('#combinedFilter .filter-btn[data-row]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentRow = btn.dataset.row;
+        // "전체" 행 선택 시 타입 필터도 초기화
+        if (btn.dataset.row === 'all') {
+          document.querySelectorAll('#combinedFilter .filter-btn[data-filter]').forEach(b => b.classList.remove('active'));
+          currentFilter = 'all';
+        }
+      } else if (btn.dataset.filter !== undefined) {
+        // 타입 필터는 토글 방식 (다시 누르면 해제)
+        const wasActive = btn.classList.contains('active');
+        document.querySelectorAll('#combinedFilter .filter-btn[data-filter]').forEach(b => b.classList.remove('active'));
+        if (wasActive) {
+          currentFilter = 'all';
+        } else {
+          btn.classList.add('active');
+          currentFilter = btn.dataset.filter;
+        }
+      }
       renderList();
     });
 
-    document.getElementById('rowNavKata').addEventListener('click', (e) => {
+    document.getElementById('combinedFilterKata').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
-      if (!btn || !btn.dataset.row) return;
-      document.querySelectorAll('#rowNavKata .filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentRowKata = btn.dataset.row;
-      renderListKata();
-    });
-
-    // ─── Type filters ───
-    document.getElementById('filterBar').addEventListener('click', (e) => {
-      const btn = e.target.closest('.filter-btn');
-      if (!btn || !btn.dataset.filter) return;
-      document.querySelectorAll('#filterBar .filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentFilter = btn.dataset.filter;
-      renderList();
-    });
-
-    document.getElementById('filterBarKata').addEventListener('click', (e) => {
-      const btn = e.target.closest('.filter-btn');
-      if (!btn || !btn.dataset.filter) return;
-      document.querySelectorAll('#filterBarKata .filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentFilterKata = btn.dataset.filter;
+      if (!btn) return;
+      if (btn.dataset.row !== undefined) {
+        document.querySelectorAll('#combinedFilterKata .filter-btn[data-row]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentRowKata = btn.dataset.row;
+        if (btn.dataset.row === 'all') {
+          document.querySelectorAll('#combinedFilterKata .filter-btn[data-filter]').forEach(b => b.classList.remove('active'));
+          currentFilterKata = 'all';
+        }
+      } else if (btn.dataset.filter !== undefined) {
+        const wasActive = btn.classList.contains('active');
+        document.querySelectorAll('#combinedFilterKata .filter-btn[data-filter]').forEach(b => b.classList.remove('active'));
+        if (wasActive) {
+          currentFilterKata = 'all';
+        } else {
+          btn.classList.add('active');
+          currentFilterKata = btn.dataset.filter;
+        }
+      }
       renderListKata();
     });
 
