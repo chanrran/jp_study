@@ -1024,7 +1024,7 @@
               </div>
               <div class="kanji-meta">
                 <span class="kanji-meta-tag">${k.strokeCount}획</span>
-                <span class="kanji-meta-tag">부수 ${k.radical} ${k.radicalName}</span>
+                ${k.radical ? `<span class="kanji-meta-tag">부수 ${k.radical} ${k.radicalName || ''}</span>` : ''}
                 <span class="kanji-meta-tag">${cat}</span>
               </div>
               <div class="kanji-reading-group">
