@@ -1,0 +1,756 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-11-10",
+    "description": "히라가나 학습 데이터 (청음 46자 + 탁음 20자 + 반탁음 5자 + 요음 33자 = 104건)",
+    "sources": ["animCJK (LGPL)", "직접 작성"],
+    "cardStyle": "single-view",
+    "schema": {
+      "char": "히라가나 문자",
+      "unicode": "10진수 유니코드 (animCJK SVG 파일명용)",
+      "hangul": "한글 발음",
+      "romaji": "로마자 발음 (참고용)",
+      "row": "행",
+      "type": "청음|탁음|반탁음|요음",
+      "strokeCount": "획수",
+      "origin": {"kanji": "유래 한자", "hanja": "한자음", "meaning": "뜻", "explanation": "유래 설명"},
+      "mnemonic": "모양 연상법 (한국어)",
+      "sampleWord": {"word": "대표 단어", "reading": "히라가나 읽기", "meaning": "한국어 뜻"},
+      "katakana": "대응 카타카나",
+      "confusableWith": "헷갈리는 글자 목록 (선택)"
+    }
+  },
+  "data": [
+    {
+      "char": "あ", "unicode": 12354, "hangul": "아", "romaji": "a", "row": "あ", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "安", "hanja": "안", "meaning": "편안하다", "explanation": "安의 초서체에서 변형. 한자음 '안'과 발음 '아'가 비슷"},
+      "mnemonic": "아기를 안고 있는 모양 — 왼쪽 곡선이 팔, 오른쪽이 몸통",
+      "sampleWord": {"word": "朝", "reading": "あさ", "meaning": "아침"},
+      "katakana": "ア", "confusableWith": ["お"]
+    },
+    {
+      "char": "い", "unicode": 12356, "hangul": "이", "romaji": "i", "row": "あ", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "以", "hanja": "이", "meaning": "써, ~로써", "explanation": "以의 왼쪽 두 획이 간략화. 한자음 '이'와 발음 동일"},
+      "mnemonic": "두 사람이 나란히 서 있는 모양",
+      "sampleWord": {"word": "犬", "reading": "いぬ", "meaning": "개"},
+      "katakana": "イ", "confusableWith": ["り"]
+    },
+    {
+      "char": "う", "unicode": 12358, "hangul": "우", "romaji": "u", "row": "あ", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "宇", "hanja": "우", "meaning": "집, 우주", "explanation": "宇의 윗부분(갓머리)에서 변형. 한자음 '우'와 발음 동일"},
+      "mnemonic": "우산의 손잡이 모양 — 위에 점, 아래로 곡선",
+      "sampleWord": {"word": "海", "reading": "うみ", "meaning": "바다"},
+      "katakana": "ウ", "confusableWith": []
+    },
+    {
+      "char": "え", "unicode": 12360, "hangul": "에", "romaji": "e", "row": "あ", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "衣", "hanja": "의", "meaning": "옷", "explanation": "衣의 아랫부분에서 변형. 한자음 '의'에서 '에'로 변화"},
+      "mnemonic": "에스컬레이터 계단 모양 — 위에서 아래로 꺾이는 선",
+      "sampleWord": {"word": "駅", "reading": "えき", "meaning": "역"},
+      "katakana": "エ", "confusableWith": ["ん"]
+    },
+    {
+      "char": "お", "unicode": 12362, "hangul": "오", "romaji": "o", "row": "あ", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "於", "hanja": "어", "meaning": "~에서", "explanation": "於의 초서체에서 변형. 일본어 발음 '오'로 정착"},
+      "mnemonic": "오리가 물 위에 떠 있는 모양 — 오른쪽 끝이 꼬리",
+      "sampleWord": {"word": "お茶", "reading": "おちゃ", "meaning": "차(음료)"},
+      "katakana": "オ", "confusableWith": ["あ"]
+    },
+    {
+      "char": "か", "unicode": 12363, "hangul": "카", "romaji": "ka", "row": "か", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "加", "hanja": "가", "meaning": "더하다", "explanation": "加의 초서체에서 변형. 한자음 '가'와 발음 '카' 대응"},
+      "mnemonic": "칼로 무언가를 베는 모양 — 세로획이 칼날",
+      "sampleWord": {"word": "顔", "reading": "かお", "meaning": "얼굴"},
+      "katakana": "カ", "confusableWith": ["が", "か"]
+    },
+    {
+      "char": "き", "unicode": 12365, "hangul": "키", "romaji": "ki", "row": "か", "type": "청음", "strokeCount": 4,
+      "origin": {"kanji": "幾", "hanja": "기", "meaning": "몇, 얼마", "explanation": "幾의 초서체에서 변형. 한자음 '기'와 발음 '키' 대응"},
+      "mnemonic": "나무(木)의 가지가 키 크게 뻗은 모양",
+      "sampleWord": {"word": "木", "reading": "き", "meaning": "나무"},
+      "katakana": "キ", "confusableWith": ["さ"]
+    },
+    {
+      "char": "く", "unicode": 12367, "hangul": "쿠", "romaji": "ku", "row": "か", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "久", "hanja": "구", "meaning": "오래다", "explanation": "久의 왼쪽 획에서 변형. 한자음 '구'와 발음 '쿠' 대응"},
+      "mnemonic": "부리(くちばし) 모양 — 새의 부리처럼 꺾인 선",
+      "sampleWord": {"word": "口", "reading": "くち", "meaning": "입"},
+      "katakana": "ク", "confusableWith": ["へ"]
+    },
+    {
+      "char": "け", "unicode": 12369, "hangul": "케", "romaji": "ke", "row": "か", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "計", "hanja": "계", "meaning": "세다, 계획", "explanation": "計의 초서체에서 변형. 한자음 '계'에서 '케'로"},
+      "mnemonic": "케이크를 자르는 칼 모양 — 세로 직선에서 갈라지는 선",
+      "sampleWord": {"word": "今朝", "reading": "けさ", "meaning": "오늘 아침"},
+      "katakana": "ケ", "confusableWith": ["は", "け"]
+    },
+    {
+      "char": "こ", "unicode": 12371, "hangul": "코", "romaji": "ko", "row": "か", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "己", "hanja": "기", "meaning": "자기, 자신", "explanation": "己의 초서체에서 변형. 일본어 발음 '코'로 정착"},
+      "mnemonic": "코를 옆에서 본 모양 — 위아래 두 획",
+      "sampleWord": {"word": "子供", "reading": "こども", "meaning": "아이"},
+      "katakana": "コ", "confusableWith": ["に"]
+    },
+    {
+      "char": "さ", "unicode": 12373, "hangul": "사", "romaji": "sa", "row": "さ", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "左", "hanja": "좌", "meaning": "왼쪽", "explanation": "左의 초서체에서 변형. 일본어 발음 '사'로 정착"},
+      "mnemonic": "사탕을 들고 있는 손 모양",
+      "sampleWord": {"word": "魚", "reading": "さかな", "meaning": "생선"},
+      "katakana": "サ", "confusableWith": ["き", "ち"]
+    },
+    {
+      "char": "し", "unicode": 12375, "hangul": "시", "romaji": "shi", "row": "さ", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "之", "hanja": "지", "meaning": "~의, 가다", "explanation": "之의 초서체에서 변형. 일본어 발음 '시'로 정착"},
+      "mnemonic": "낚시 바늘 모양 — 아래에서 위로 휘어 올라감",
+      "sampleWord": {"word": "白", "reading": "しろ", "meaning": "흰색"},
+      "katakana": "シ", "confusableWith": ["じ"]
+    },
+    {
+      "char": "す", "unicode": 12377, "hangul": "스", "romaji": "su", "row": "さ", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "寸", "hanja": "촌", "meaning": "마디, 치수", "explanation": "寸의 초서체에서 변형. 일본어 발음 '스'로 정착"},
+      "mnemonic": "스키를 타고 내려가는 모양 — 세로선이 스키 폴",
+      "sampleWord": {"word": "好き", "reading": "すき", "meaning": "좋아하다"},
+      "katakana": "ス", "confusableWith": ["む"]
+    },
+    {
+      "char": "せ", "unicode": 12379, "hangul": "세", "romaji": "se", "row": "さ", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "世", "hanja": "세", "meaning": "세상", "explanation": "世의 초서체에서 변형. 한자음 '세'와 발음 동일"},
+      "mnemonic": "세 개의 획이 좌우로 뻗은 세상(世) 모양",
+      "sampleWord": {"word": "先生", "reading": "せんせい", "meaning": "선생님"},
+      "katakana": "セ", "confusableWith": []
+    },
+    {
+      "char": "そ", "unicode": 12381, "hangul": "소", "romaji": "so", "row": "さ", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "曽", "hanja": "증", "meaning": "일찍이", "explanation": "曽의 초서체에서 변형. 일본어 발음 '소'로 정착"},
+      "mnemonic": "소용돌이처럼 한 획으로 빙글 도는 모양",
+      "sampleWord": {"word": "空", "reading": "そら", "meaning": "하늘"},
+      "katakana": "ソ", "confusableWith": ["て"]
+    },
+    {
+      "char": "た", "unicode": 12383, "hangul": "타", "romaji": "ta", "row": "た", "type": "청음", "strokeCount": 4,
+      "origin": {"kanji": "太", "hanja": "태", "meaning": "크다, 두껍다", "explanation": "太의 초서체에서 변형. 한자음 '태'와 발음 '타' 대응"},
+      "mnemonic": "타조가 서 있는 모양 — 긴 목과 다리",
+      "sampleWord": {"word": "食べる", "reading": "たべる", "meaning": "먹다"},
+      "katakana": "タ", "confusableWith": ["な"]
+    },
+    {
+      "char": "ち", "unicode": 12385, "hangul": "치", "romaji": "chi", "row": "た", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "知", "hanja": "지", "meaning": "알다", "explanation": "知의 초서체에서 변형. 일본어 발음 '치'로 정착"},
+      "mnemonic": "숫자 5를 거꾸로 뒤집은 모양",
+      "sampleWord": {"word": "近い", "reading": "ちかい", "meaning": "가깝다"},
+      "katakana": "チ", "confusableWith": ["さ", "ら"]
+    },
+    {
+      "char": "つ", "unicode": 12388, "hangul": "쓰", "romaji": "tsu", "row": "た", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "川", "hanja": "천", "meaning": "강", "explanation": "川의 초서체에서 변형. 일본어 발음 '쓰'로 정착"},
+      "mnemonic": "쓰윽 미끄러지는 모양 — 한 획으로 부드럽게",
+      "sampleWord": {"word": "月", "reading": "つき", "meaning": "달"},
+      "katakana": "ツ", "confusableWith": []
+    },
+    {
+      "char": "て", "unicode": 12390, "hangul": "테", "romaji": "te", "row": "た", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "天", "hanja": "천", "meaning": "하늘", "explanation": "天의 초서체에서 변형. 일본어 발음 '테'로 정착"},
+      "mnemonic": "테이블 모양 — 평평한 선에서 아래로 내려감",
+      "sampleWord": {"word": "手", "reading": "て", "meaning": "손"},
+      "katakana": "テ", "confusableWith": ["そ"]
+    },
+    {
+      "char": "と", "unicode": 12392, "hangul": "토", "romaji": "to", "row": "た", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "止", "hanja": "지", "meaning": "멈추다", "explanation": "止의 초서체에서 변형. 일본어 발음 '토'로 정착"},
+      "mnemonic": "토끼 귀 모양 — 세로선에서 삐죽 나온 귀",
+      "sampleWord": {"word": "友達", "reading": "ともだち", "meaning": "친구"},
+      "katakana": "ト", "confusableWith": []
+    },
+    {
+      "char": "な", "unicode": 12394, "hangul": "나", "romaji": "na", "row": "な", "type": "청음", "strokeCount": 4,
+      "origin": {"kanji": "奈", "hanja": "나/내", "meaning": "어찌", "explanation": "奈의 초서체에서 변형. 한자음 '나'와 발음 동일"},
+      "mnemonic": "나무에 열매가 달린 모양 — 복잡하지만 '나'라 기억",
+      "sampleWord": {"word": "名前", "reading": "なまえ", "meaning": "이름"},
+      "katakana": "ナ", "confusableWith": ["た"]
+    },
+    {
+      "char": "に", "unicode": 12395, "hangul": "니", "romaji": "ni", "row": "な", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "仁", "hanja": "인", "meaning": "어질다", "explanation": "仁의 초서체에서 변형. 일본어 발음 '니'로 정착"},
+      "mnemonic": "니코니코(にこにこ) 웃는 얼굴의 눈과 입",
+      "sampleWord": {"word": "日本", "reading": "にほん", "meaning": "일본"},
+      "katakana": "ニ", "confusableWith": ["こ"]
+    },
+    {
+      "char": "ぬ", "unicode": 12396, "hangul": "누", "romaji": "nu", "row": "な", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "奴", "hanja": "노", "meaning": "종", "explanation": "奴의 초서체에서 변형. 일본어 발음 '누'로 정착"},
+      "mnemonic": "누에가 실을 감는 모양 — 마지막 획이 동그랗게 감김",
+      "sampleWord": {"word": "犬", "reading": "いぬ", "meaning": "개"},
+      "katakana": "ヌ", "confusableWith": ["め"]
+    },
+    {
+      "char": "ね", "unicode": 12397, "hangul": "네", "romaji": "ne", "row": "な", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "祢", "hanja": "니", "meaning": "아버지 사당", "explanation": "祢의 초서체에서 변형. 일본어 발음 '네'로 정착"},
+      "mnemonic": "네잎클로버의 줄기 모양 — 왼쪽에서 오른쪽으로 감기며",
+      "sampleWord": {"word": "猫", "reading": "ねこ", "meaning": "고양이"},
+      "katakana": "ネ", "confusableWith": ["れ", "わ"]
+    },
+    {
+      "char": "の", "unicode": 12398, "hangul": "노", "romaji": "no", "row": "な", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "乃", "hanja": "내", "meaning": "이에, 곧", "explanation": "乃의 초서체에서 변형. 일본어 발음 '노'로 정착"},
+      "mnemonic": "노란 소용돌이 — 한 획으로 동그랗게",
+      "sampleWord": {"word": "飲む", "reading": "のむ", "meaning": "마시다"},
+      "katakana": "ノ", "confusableWith": []
+    },
+    {
+      "char": "は", "unicode": 12399, "hangul": "하", "romaji": "ha", "row": "は", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "波", "hanja": "파", "meaning": "파도", "explanation": "波의 초서체에서 변형. 일본어 발음 '하'로 정착"},
+      "mnemonic": "하프(악기)를 세운 모양 — 세로선에 곡선",
+      "sampleWord": {"word": "花", "reading": "はな", "meaning": "꽃"},
+      "katakana": "ハ", "confusableWith": ["ほ", "け"]
+    },
+    {
+      "char": "ひ", "unicode": 12402, "hangul": "히", "romaji": "hi", "row": "は", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "比", "hanja": "비", "meaning": "비교하다", "explanation": "比의 초서체에서 변형. 일본어 발음 '히'로 정착"},
+      "mnemonic": "히히 웃는 입 모양 — 한 획으로 웃음",
+      "sampleWord": {"word": "人", "reading": "ひと", "meaning": "사람"},
+      "katakana": "ヒ", "confusableWith": []
+    },
+    {
+      "char": "ふ", "unicode": 12405, "hangul": "후", "romaji": "fu", "row": "は", "type": "청음", "strokeCount": 4,
+      "origin": {"kanji": "不", "hanja": "불/부", "meaning": "아니다", "explanation": "不의 초서체에서 변형. 일본어 발음 '후'로 정착"},
+      "mnemonic": "후지산(富士山) 꼭대기의 눈 모양",
+      "sampleWord": {"word": "古い", "reading": "ふるい", "meaning": "오래되다"},
+      "katakana": "フ", "confusableWith": []
+    },
+    {
+      "char": "へ", "unicode": 12408, "hangul": "헤", "romaji": "he", "row": "は", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "部", "hanja": "부", "meaning": "나누다, 부분", "explanation": "部의 초서체에서 변형. 일본어 발음 '헤'로 정착"},
+      "mnemonic": "산의 능선 모양 — 한 획으로 올라갔다 내려감. 카타카나 ヘ와 거의 동일",
+      "sampleWord": {"word": "部屋", "reading": "へや", "meaning": "방"},
+      "katakana": "ヘ", "confusableWith": ["く"]
+    },
+    {
+      "char": "ほ", "unicode": 12411, "hangul": "호", "romaji": "ho", "row": "は", "type": "청음", "strokeCount": 4,
+      "origin": {"kanji": "保", "hanja": "보", "meaning": "지키다", "explanation": "保의 초서체에서 변형. 일본어 발음 '호'로 정착"},
+      "mnemonic": "호수 위에 떠 있는 배 — は에 가로획 하나 추가",
+      "sampleWord": {"word": "本", "reading": "ほん", "meaning": "책"},
+      "katakana": "ホ", "confusableWith": ["は"]
+    },
+    {
+      "char": "ま", "unicode": 12414, "hangul": "마", "romaji": "ma", "row": "ま", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "末", "hanja": "말", "meaning": "끝", "explanation": "末의 초서체에서 변형. 한자음 '말'에서 '마'로"},
+      "mnemonic": "마스크를 쓴 얼굴 — 가운데 동그란 부분이 마스크",
+      "sampleWord": {"word": "前", "reading": "まえ", "meaning": "앞"},
+      "katakana": "マ", "confusableWith": ["も"]
+    },
+    {
+      "char": "み", "unicode": 12415, "hangul": "미", "romaji": "mi", "row": "ま", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "美", "hanja": "미", "meaning": "아름답다", "explanation": "美의 초서체에서 변형. 한자음 '미'와 발음 동일"},
+      "mnemonic": "미끄럼틀 모양 — 위에서 아래로 부드럽게",
+      "sampleWord": {"word": "水", "reading": "みず", "meaning": "물"},
+      "katakana": "ミ", "confusableWith": []
+    },
+    {
+      "char": "む", "unicode": 12416, "hangul": "무", "romaji": "mu", "row": "ま", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "武", "hanja": "무", "meaning": "무예, 힘", "explanation": "武의 초서체에서 변형. 한자음 '무'와 발음 동일"},
+      "mnemonic": "무지개가 피어오르는 모양 — 복잡한 곡선",
+      "sampleWord": {"word": "虫", "reading": "むし", "meaning": "벌레"},
+      "katakana": "ム", "confusableWith": ["す"]
+    },
+    {
+      "char": "め", "unicode": 12417, "hangul": "메", "romaji": "me", "row": "ま", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "女", "hanja": "녀/여", "meaning": "여자", "explanation": "女의 초서체에서 변형. 일본어 발음 '메'로 정착"},
+      "mnemonic": "눈(目)을 옆에서 본 모양 — め는 '눈'이라는 뜻도 있음",
+      "sampleWord": {"word": "目", "reading": "め", "meaning": "눈"},
+      "katakana": "メ", "confusableWith": ["ぬ"]
+    },
+    {
+      "char": "も", "unicode": 12418, "hangul": "모", "romaji": "mo", "row": "ま", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "毛", "hanja": "모", "meaning": "털", "explanation": "毛의 초서체에서 변형. 한자음 '모'와 발음 동일"},
+      "mnemonic": "모자를 쓴 모양 — 위에 가로획, 아래로 흐르는 선",
+      "sampleWord": {"word": "物", "reading": "もの", "meaning": "물건"},
+      "katakana": "モ", "confusableWith": ["ま"]
+    },
+    {
+      "char": "や", "unicode": 12420, "hangul": "야", "romaji": "ya", "row": "や", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "也", "hanja": "야", "meaning": "~이다, 또한", "explanation": "也의 초서체에서 변형. 한자음 '야'와 발음 동일"},
+      "mnemonic": "야구 방망이를 들고 있는 모양",
+      "sampleWord": {"word": "山", "reading": "やま", "meaning": "산"},
+      "katakana": "ヤ", "confusableWith": ["か"]
+    },
+    {
+      "char": "ゆ", "unicode": 12422, "hangul": "유", "romaji": "yu", "row": "や", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "由", "hanja": "유", "meaning": "말미암다", "explanation": "由의 초서체에서 변형. 한자음 '유'와 발음 동일"},
+      "mnemonic": "유리잔 모양 — 왼쪽이 잔의 몸통, 오른쪽이 손잡이",
+      "sampleWord": {"word": "雪", "reading": "ゆき", "meaning": "눈(snow)"},
+      "katakana": "ユ", "confusableWith": []
+    },
+    {
+      "char": "よ", "unicode": 12424, "hangul": "요", "romaji": "yo", "row": "や", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "与", "hanja": "여", "meaning": "주다", "explanation": "与의 초서체에서 변형. 일본어 발음 '요'로 정착"},
+      "mnemonic": "요요를 들고 있는 손 모양 — 동그란 부분이 요요",
+      "sampleWord": {"word": "夜", "reading": "よる", "meaning": "밤"},
+      "katakana": "ヨ", "confusableWith": []
+    },
+    {
+      "char": "ら", "unicode": 12425, "hangul": "라", "romaji": "ra", "row": "ら", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "良", "hanja": "량/양", "meaning": "좋다", "explanation": "良의 초서체에서 변형. 일본어 발음 '라'로 정착"},
+      "mnemonic": "라면 면발이 늘어지는 모양",
+      "sampleWord": {"word": "来年", "reading": "らいねん", "meaning": "내년"},
+      "katakana": "ラ", "confusableWith": ["ち"]
+    },
+    {
+      "char": "り", "unicode": 12426, "hangul": "리", "romaji": "ri", "row": "ら", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "利", "hanja": "리/이", "meaning": "이롭다", "explanation": "利의 초서체에서 변형. 한자음 '리'와 발음 동일"},
+      "mnemonic": "리본이 펄럭이는 모양 — 두 획이 나란히",
+      "sampleWord": {"word": "林檎", "reading": "りんご", "meaning": "사과"},
+      "katakana": "リ", "confusableWith": ["い"]
+    },
+    {
+      "char": "る", "unicode": 12427, "hangul": "루", "romaji": "ru", "row": "ら", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "留", "hanja": "류/유", "meaning": "머무르다", "explanation": "留의 초서체에서 변형. 한자음 '류'와 발음 '루' 대응"},
+      "mnemonic": "루프(loop) 모양 — 끝이 동그랗게 감김",
+      "sampleWord": {"word": "昼", "reading": "ひる", "meaning": "낮"},
+      "katakana": "ル", "confusableWith": ["ろ"]
+    },
+    {
+      "char": "れ", "unicode": 12428, "hangul": "레", "romaji": "re", "row": "ら", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "礼", "hanja": "례/예", "meaning": "예의, 예절", "explanation": "礼의 초서체에서 변형. 한자음 '례'에서 '레'로"},
+      "mnemonic": "레이스 리본이 늘어진 모양 — ね와 비슷하지만 끝이 다름",
+      "sampleWord": {"word": "嬉しい", "reading": "うれしい", "meaning": "기쁘다"},
+      "katakana": "レ", "confusableWith": ["ね", "わ"]
+    },
+    {
+      "char": "ろ", "unicode": 12429, "hangul": "로", "romaji": "ro", "row": "ら", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "呂", "hanja": "려/여", "meaning": "등뼈", "explanation": "呂의 초서체에서 변형. 일본어 발음 '로'로 정착"},
+      "mnemonic": "로마자 3의 모양 — 한 획으로 위에서 아래로",
+      "sampleWord": {"word": "六", "reading": "ろく", "meaning": "여섯"},
+      "katakana": "ロ", "confusableWith": ["る"]
+    },
+    {
+      "char": "わ", "unicode": 12431, "hangul": "와", "romaji": "wa", "row": "わ", "type": "청음", "strokeCount": 2,
+      "origin": {"kanji": "和", "hanja": "화", "meaning": "화합, 일본", "explanation": "和의 초서체에서 변형. 일본어 발음 '와'로 정착"},
+      "mnemonic": "와인잔 모양 — ね, れ와 비슷하지만 끝이 열림",
+      "sampleWord": {"word": "私", "reading": "わたし", "meaning": "나"},
+      "katakana": "ワ", "confusableWith": ["ね", "れ"]
+    },
+    {
+      "char": "を", "unicode": 12434, "hangul": "오", "romaji": "wo", "row": "わ", "type": "청음", "strokeCount": 3,
+      "origin": {"kanji": "遠", "hanja": "원", "meaning": "멀다", "explanation": "遠의 초서체에서 변형. 조사 '~을/를'에만 사용"},
+      "mnemonic": "을(를) 조사 전용 — 복잡하지만 문장에서 자주 만남",
+      "sampleWord": {"word": "水を飲む", "reading": "みずをのむ", "meaning": "물을 마시다"},
+      "katakana": "ヲ", "confusableWith": []
+    },
+    {
+      "char": "ん", "unicode": 12435, "hangul": "은/응", "romaji": "n", "row": "わ", "type": "청음", "strokeCount": 1,
+      "origin": {"kanji": "无", "hanja": "무", "meaning": "없다", "explanation": "无의 초서체에서 변형. 받침 'ん'으로만 사용"},
+      "mnemonic": "은근히 많이 보이는 글자 — 부드럽게 흘러가는 곡선",
+      "sampleWord": {"word": "本", "reading": "ほん", "meaning": "책"},
+      "katakana": "ン", "confusableWith": ["え"]
+    },
+
+    {
+      "char": "が", "unicode": 12364, "hangul": "가", "romaji": "ga", "row": "か", "type": "탁음", "strokeCount": 3,
+      "origin": {"kanji": "加", "hanja": "가", "meaning": "더하다", "explanation": "か(加)에 탁점(゛) 추가. か→が로 유성음화"},
+      "mnemonic": "か에 점 두 개 — 성대가 울리는 소리",
+      "sampleWord": {"word": "学校", "reading": "がっこう", "meaning": "학교"},
+      "katakana": "ガ", "confusableWith": ["か"]
+    },
+    {
+      "char": "ぎ", "unicode": 12366, "hangul": "기", "romaji": "gi", "row": "か", "type": "탁음", "strokeCount": 4,
+      "origin": {"kanji": "幾", "hanja": "기", "meaning": "몇", "explanation": "き(幾)에 탁점 추가"},
+      "mnemonic": "き에 점 두 개",
+      "sampleWord": {"word": "銀行", "reading": "ぎんこう", "meaning": "은행"},
+      "katakana": "ギ", "confusableWith": ["き"]
+    },
+    {
+      "char": "ぐ", "unicode": 12368, "hangul": "구", "romaji": "gu", "row": "か", "type": "탁음", "strokeCount": 1,
+      "origin": {"kanji": "久", "hanja": "구", "meaning": "오래다", "explanation": "く(久)에 탁점 추가"},
+      "mnemonic": "く에 점 두 개",
+      "sampleWord": {"word": "薬", "reading": "くすり", "meaning": "약"},
+      "katakana": "グ", "confusableWith": ["く"]
+    },
+    {
+      "char": "げ", "unicode": 12370, "hangul": "게", "romaji": "ge", "row": "か", "type": "탁음", "strokeCount": 3,
+      "origin": {"kanji": "計", "hanja": "계", "meaning": "세다", "explanation": "け(計)에 탁점 추가"},
+      "mnemonic": "け에 점 두 개",
+      "sampleWord": {"word": "元気", "reading": "げんき", "meaning": "건강, 활기"},
+      "katakana": "ゲ", "confusableWith": ["け"]
+    },
+    {
+      "char": "ご", "unicode": 12372, "hangul": "고", "romaji": "go", "row": "か", "type": "탁음", "strokeCount": 2,
+      "origin": {"kanji": "己", "hanja": "기", "meaning": "자기", "explanation": "こ(己)에 탁점 추가"},
+      "mnemonic": "こ에 점 두 개",
+      "sampleWord": {"word": "午後", "reading": "ごご", "meaning": "오후"},
+      "katakana": "ゴ", "confusableWith": ["こ"]
+    },
+    {
+      "char": "ざ", "unicode": 12374, "hangul": "자", "romaji": "za", "row": "さ", "type": "탁음", "strokeCount": 3,
+      "origin": {"kanji": "左", "hanja": "좌", "meaning": "왼쪽", "explanation": "さ(左)에 탁점 추가"},
+      "mnemonic": "さ에 점 두 개",
+      "sampleWord": {"word": "雑誌", "reading": "ざっし", "meaning": "잡지"},
+      "katakana": "ザ", "confusableWith": ["さ"]
+    },
+    {
+      "char": "じ", "unicode": 12376, "hangul": "지", "romaji": "ji", "row": "さ", "type": "탁음", "strokeCount": 1,
+      "origin": {"kanji": "之", "hanja": "지", "meaning": "~의", "explanation": "し(之)에 탁점 추가. 한자음 '지'와 발음 동일"},
+      "mnemonic": "し에 점 두 개",
+      "sampleWord": {"word": "時間", "reading": "じかん", "meaning": "시간"},
+      "katakana": "ジ", "confusableWith": ["し"]
+    },
+    {
+      "char": "ず", "unicode": 12378, "hangul": "즈", "romaji": "zu", "row": "さ", "type": "탁음", "strokeCount": 2,
+      "origin": {"kanji": "寸", "hanja": "촌", "meaning": "마디", "explanation": "す(寸)에 탁점 추가"},
+      "mnemonic": "す에 점 두 개",
+      "sampleWord": {"word": "数字", "reading": "すうじ", "meaning": "숫자"},
+      "katakana": "ズ", "confusableWith": ["す"]
+    },
+    {
+      "char": "ぜ", "unicode": 12380, "hangul": "제", "romaji": "ze", "row": "さ", "type": "탁음", "strokeCount": 3,
+      "origin": {"kanji": "世", "hanja": "세", "meaning": "세상", "explanation": "せ(世)에 탁점 추가"},
+      "mnemonic": "せ에 점 두 개",
+      "sampleWord": {"word": "全部", "reading": "ぜんぶ", "meaning": "전부"},
+      "katakana": "ゼ", "confusableWith": ["せ"]
+    },
+    {
+      "char": "ぞ", "unicode": 12382, "hangul": "조", "romaji": "zo", "row": "さ", "type": "탁음", "strokeCount": 1,
+      "origin": {"kanji": "曽", "hanja": "증", "meaning": "일찍이", "explanation": "そ(曽)에 탁점 추가"},
+      "mnemonic": "そ에 점 두 개",
+      "sampleWord": {"word": "象", "reading": "ぞう", "meaning": "코끼리"},
+      "katakana": "ゾ", "confusableWith": ["そ"]
+    },
+    {
+      "char": "だ", "unicode": 12384, "hangul": "다", "romaji": "da", "row": "た", "type": "탁음", "strokeCount": 4,
+      "origin": {"kanji": "太", "hanja": "태", "meaning": "크다", "explanation": "た(太)에 탁점 추가"},
+      "mnemonic": "た에 점 두 개",
+      "sampleWord": {"word": "大学", "reading": "だいがく", "meaning": "대학"},
+      "katakana": "ダ", "confusableWith": ["た"]
+    },
+    {
+      "char": "ぢ", "unicode": 12386, "hangul": "지", "romaji": "di/ji", "row": "た", "type": "탁음", "strokeCount": 2,
+      "origin": {"kanji": "知", "hanja": "지", "meaning": "알다", "explanation": "ち(知)에 탁점 추가. じ와 같은 발음, 드물게 사용"},
+      "mnemonic": "ち에 점 두 개 — じ와 발음 같지만 표기 구분",
+      "sampleWord": {"word": "鼻血", "reading": "はなぢ", "meaning": "코피"},
+      "katakana": "ヂ", "confusableWith": ["ち", "じ"]
+    },
+    {
+      "char": "づ", "unicode": 12389, "hangul": "즈", "romaji": "du/zu", "row": "た", "type": "탁음", "strokeCount": 1,
+      "origin": {"kanji": "川", "hanja": "천", "meaning": "강", "explanation": "つ(川)에 탁점 추가. ず와 같은 발음, 드물게 사용"},
+      "mnemonic": "つ에 점 두 개 — ず와 발음 같지만 표기 구분",
+      "sampleWord": {"word": "続く", "reading": "つづく", "meaning": "계속되다"},
+      "katakana": "ヅ", "confusableWith": ["つ", "ず"]
+    },
+    {
+      "char": "で", "unicode": 12391, "hangul": "데", "romaji": "de", "row": "た", "type": "탁음", "strokeCount": 1,
+      "origin": {"kanji": "天", "hanja": "천", "meaning": "하늘", "explanation": "て(天)에 탁점 추가"},
+      "mnemonic": "て에 점 두 개",
+      "sampleWord": {"word": "電話", "reading": "でんわ", "meaning": "전화"},
+      "katakana": "デ", "confusableWith": ["て"]
+    },
+    {
+      "char": "ど", "unicode": 12393, "hangul": "도", "romaji": "do", "row": "た", "type": "탁음", "strokeCount": 2,
+      "origin": {"kanji": "止", "hanja": "지", "meaning": "멈추다", "explanation": "と(止)에 탁점 추가"},
+      "mnemonic": "と에 점 두 개",
+      "sampleWord": {"word": "土曜日", "reading": "どようび", "meaning": "토요일"},
+      "katakana": "ド", "confusableWith": ["と"]
+    },
+    {
+      "char": "ば", "unicode": 12400, "hangul": "바", "romaji": "ba", "row": "は", "type": "탁음", "strokeCount": 3,
+      "origin": {"kanji": "波", "hanja": "파", "meaning": "파도", "explanation": "は(波)에 탁점 추가. は→ば 유성음화"},
+      "mnemonic": "は에 점 두 개",
+      "sampleWord": {"word": "場所", "reading": "ばしょ", "meaning": "장소"},
+      "katakana": "バ", "confusableWith": ["は", "ぱ"]
+    },
+    {
+      "char": "び", "unicode": 12403, "hangul": "비", "romaji": "bi", "row": "は", "type": "탁음", "strokeCount": 1,
+      "origin": {"kanji": "比", "hanja": "비", "meaning": "비교하다", "explanation": "ひ(比)에 탁점 추가. 한자음 '비'와 발음 동일"},
+      "mnemonic": "ひ에 점 두 개",
+      "sampleWord": {"word": "美術館", "reading": "びじゅつかん", "meaning": "미술관"},
+      "katakana": "ビ", "confusableWith": ["ひ", "ぴ"]
+    },
+    {
+      "char": "ぶ", "unicode": 12406, "hangul": "부", "romaji": "bu", "row": "は", "type": "탁음", "strokeCount": 4,
+      "origin": {"kanji": "不", "hanja": "불/부", "meaning": "아니다", "explanation": "ふ(不)에 탁점 추가"},
+      "mnemonic": "ふ에 점 두 개",
+      "sampleWord": {"word": "文化", "reading": "ぶんか", "meaning": "문화"},
+      "katakana": "ブ", "confusableWith": ["ふ", "ぷ"]
+    },
+    {
+      "char": "べ", "unicode": 12409, "hangul": "베", "romaji": "be", "row": "は", "type": "탁음", "strokeCount": 1,
+      "origin": {"kanji": "部", "hanja": "부", "meaning": "나누다", "explanation": "へ(部)에 탁점 추가"},
+      "mnemonic": "へ에 점 두 개",
+      "sampleWord": {"word": "勉強", "reading": "べんきょう", "meaning": "공부"},
+      "katakana": "ベ", "confusableWith": ["へ", "ぺ"]
+    },
+    {
+      "char": "ぼ", "unicode": 12412, "hangul": "보", "romaji": "bo", "row": "は", "type": "탁음", "strokeCount": 4,
+      "origin": {"kanji": "保", "hanja": "보", "meaning": "지키다", "explanation": "ほ(保)에 탁점 추가. 한자음 '보'와 발음 동일"},
+      "mnemonic": "ほ에 점 두 개",
+      "sampleWord": {"word": "帽子", "reading": "ぼうし", "meaning": "모자"},
+      "katakana": "ボ", "confusableWith": ["ほ", "ぽ"]
+    },
+
+    {
+      "char": "ぱ", "unicode": 12401, "hangul": "파", "romaji": "pa", "row": "は", "type": "반탁음", "strokeCount": 3,
+      "origin": {"kanji": "波", "hanja": "파", "meaning": "파도", "explanation": "は(波)에 반탁점(゜) 추가. 한자음 '파'와 발음 동일"},
+      "mnemonic": "は에 동그라미 — 파열음",
+      "sampleWord": {"word": "パン", "reading": "ぱん", "meaning": "빵"},
+      "katakana": "パ", "confusableWith": ["は", "ば"]
+    },
+    {
+      "char": "ぴ", "unicode": 12404, "hangul": "피", "romaji": "pi", "row": "は", "type": "반탁음", "strokeCount": 1,
+      "origin": {"kanji": "比", "hanja": "비", "meaning": "비교하다", "explanation": "ひ(比)에 반탁점 추가"},
+      "mnemonic": "ひ에 동그라미",
+      "sampleWord": {"word": "ピアノ", "reading": "ぴあの", "meaning": "피아노"},
+      "katakana": "ピ", "confusableWith": ["ひ", "び"]
+    },
+    {
+      "char": "ぷ", "unicode": 12407, "hangul": "푸", "romaji": "pu", "row": "は", "type": "반탁음", "strokeCount": 4,
+      "origin": {"kanji": "不", "hanja": "불/부", "meaning": "아니다", "explanation": "ふ(不)에 반탁점 추가"},
+      "mnemonic": "ふ에 동그라미",
+      "sampleWord": {"word": "プール", "reading": "ぷーる", "meaning": "수영장"},
+      "katakana": "プ", "confusableWith": ["ふ", "ぶ"]
+    },
+    {
+      "char": "ぺ", "unicode": 12410, "hangul": "페", "romaji": "pe", "row": "は", "type": "반탁음", "strokeCount": 1,
+      "origin": {"kanji": "部", "hanja": "부", "meaning": "나누다", "explanation": "へ(部)에 반탁점 추가"},
+      "mnemonic": "へ에 동그라미",
+      "sampleWord": {"word": "ページ", "reading": "ぺーじ", "meaning": "페이지"},
+      "katakana": "ペ", "confusableWith": ["へ", "べ"]
+    },
+    {
+      "char": "ぽ", "unicode": 12413, "hangul": "포", "romaji": "po", "row": "は", "type": "반탁음", "strokeCount": 4,
+      "origin": {"kanji": "保", "hanja": "보", "meaning": "지키다", "explanation": "ほ(保)에 반탁점 추가"},
+      "mnemonic": "ほ에 동그라미",
+      "sampleWord": {"word": "ポスト", "reading": "ぽすと", "meaning": "우체통"},
+      "katakana": "ポ", "confusableWith": ["ほ", "ぼ"]
+    },
+
+    {
+      "char": "きゃ", "unicode": null, "hangul": "캬", "romaji": "kya", "row": "か", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "き + 작은 や = 캬. き의 'i' 모음이 や의 'ya'와 결합"},
+      "mnemonic": "き + ゃ 결합 — い단 + 작은 や/ゆ/よ가 요음 규칙",
+      "sampleWord": {"word": "客", "reading": "きゃく", "meaning": "손님"},
+      "katakana": "キャ", "confusableWith": []
+    },
+    {
+      "char": "きゅ", "unicode": null, "hangul": "큐", "romaji": "kyu", "row": "か", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "き + 작은 ゆ = 큐"},
+      "mnemonic": "き + ゅ 결합",
+      "sampleWord": {"word": "牛乳", "reading": "ぎゅうにゅう", "meaning": "우유"},
+      "katakana": "キュ", "confusableWith": []
+    },
+    {
+      "char": "きょ", "unicode": null, "hangul": "쿄", "romaji": "kyo", "row": "か", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "き + 작은 よ = 쿄"},
+      "mnemonic": "き + ょ 결합",
+      "sampleWord": {"word": "今日", "reading": "きょう", "meaning": "오늘"},
+      "katakana": "キョ", "confusableWith": []
+    },
+    {
+      "char": "しゃ", "unicode": null, "hangul": "샤", "romaji": "sha", "row": "さ", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "し + 작은 や = 샤"},
+      "mnemonic": "し + ゃ 결합",
+      "sampleWord": {"word": "写真", "reading": "しゃしん", "meaning": "사진"},
+      "katakana": "シャ", "confusableWith": []
+    },
+    {
+      "char": "しゅ", "unicode": null, "hangul": "슈", "romaji": "shu", "row": "さ", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "し + 작은 ゆ = 슈"},
+      "mnemonic": "し + ゅ 결합",
+      "sampleWord": {"word": "宿題", "reading": "しゅくだい", "meaning": "숙제"},
+      "katakana": "シュ", "confusableWith": []
+    },
+    {
+      "char": "しょ", "unicode": null, "hangul": "쇼", "romaji": "sho", "row": "さ", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "し + 작은 よ = 쇼"},
+      "mnemonic": "し + ょ 결합",
+      "sampleWord": {"word": "食堂", "reading": "しょくどう", "meaning": "식당"},
+      "katakana": "ショ", "confusableWith": []
+    },
+    {
+      "char": "ちゃ", "unicode": null, "hangul": "챠", "romaji": "cha", "row": "た", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ち + 작은 や = 챠"},
+      "mnemonic": "ち + ゃ 결합",
+      "sampleWord": {"word": "お茶", "reading": "おちゃ", "meaning": "차"},
+      "katakana": "チャ", "confusableWith": []
+    },
+    {
+      "char": "ちゅ", "unicode": null, "hangul": "츄", "romaji": "chu", "row": "た", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ち + 작은 ゆ = 츄"},
+      "mnemonic": "ち + ゅ 결합",
+      "sampleWord": {"word": "中国", "reading": "ちゅうごく", "meaning": "중국"},
+      "katakana": "チュ", "confusableWith": []
+    },
+    {
+      "char": "ちょ", "unicode": null, "hangul": "쵸", "romaji": "cho", "row": "た", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ち + 작은 よ = 쵸"},
+      "mnemonic": "ち + ょ 결합",
+      "sampleWord": {"word": "朝食", "reading": "ちょうしょく", "meaning": "아침 식사"},
+      "katakana": "チョ", "confusableWith": []
+    },
+    {
+      "char": "にゃ", "unicode": null, "hangul": "냐", "romaji": "nya", "row": "な", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "に + 작은 や = 냐"},
+      "mnemonic": "に + ゃ 결합 — 고양이 울음소리 にゃー",
+      "sampleWord": {"word": "入院", "reading": "にゅういん", "meaning": "입원"},
+      "katakana": "ニャ", "confusableWith": []
+    },
+    {
+      "char": "にゅ", "unicode": null, "hangul": "뉴", "romaji": "nyu", "row": "な", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "に + 작은 ゆ = 뉴"},
+      "mnemonic": "に + ゅ 결합",
+      "sampleWord": {"word": "ニュース", "reading": "にゅーす", "meaning": "뉴스"},
+      "katakana": "ニュ", "confusableWith": []
+    },
+    {
+      "char": "にょ", "unicode": null, "hangul": "뇨", "romaji": "nyo", "row": "な", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "に + 작은 よ = 뇨"},
+      "mnemonic": "に + ょ 결합",
+      "sampleWord": {"word": "女房", "reading": "にょうぼう", "meaning": "아내"},
+      "katakana": "ニョ", "confusableWith": []
+    },
+    {
+      "char": "ひゃ", "unicode": null, "hangul": "햐", "romaji": "hya", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ひ + 작은 や = 햐"},
+      "mnemonic": "ひ + ゃ 결합",
+      "sampleWord": {"word": "百", "reading": "ひゃく", "meaning": "백"},
+      "katakana": "ヒャ", "confusableWith": []
+    },
+    {
+      "char": "ひゅ", "unicode": null, "hangul": "휴", "romaji": "hyu", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ひ + 작은 ゆ = 휴"},
+      "mnemonic": "ひ + ゅ 결합",
+      "sampleWord": {"word": "日向", "reading": "ひゅうが", "meaning": "히나타(지명)"},
+      "katakana": "ヒュ", "confusableWith": []
+    },
+    {
+      "char": "ひょ", "unicode": null, "hangul": "효", "romaji": "hyo", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ひ + 작은 よ = 효"},
+      "mnemonic": "ひ + ょ 결합",
+      "sampleWord": {"word": "病院", "reading": "びょういん", "meaning": "병원"},
+      "katakana": "ヒョ", "confusableWith": []
+    },
+    {
+      "char": "みゃ", "unicode": null, "hangul": "먀", "romaji": "mya", "row": "ま", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "み + 작은 や = 먀"},
+      "mnemonic": "み + ゃ 결합",
+      "sampleWord": {"word": "宮城", "reading": "みやぎ", "meaning": "미야기(지명)"},
+      "katakana": "ミャ", "confusableWith": []
+    },
+    {
+      "char": "みゅ", "unicode": null, "hangul": "뮤", "romaji": "myu", "row": "ま", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "み + 작은 ゆ = 뮤"},
+      "mnemonic": "み + ゅ 결합",
+      "sampleWord": {"word": "ミュージック", "reading": "みゅーじっく", "meaning": "음악"},
+      "katakana": "ミュ", "confusableWith": []
+    },
+    {
+      "char": "みょ", "unicode": null, "hangul": "묘", "romaji": "myo", "row": "ま", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "み + 작은 よ = 묘"},
+      "mnemonic": "み + ょ 결합",
+      "sampleWord": {"word": "名字", "reading": "みょうじ", "meaning": "성(姓)"},
+      "katakana": "ミョ", "confusableWith": []
+    },
+    {
+      "char": "りゃ", "unicode": null, "hangul": "랴", "romaji": "rya", "row": "ら", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "り + 작은 や = 랴"},
+      "mnemonic": "り + ゃ 결합",
+      "sampleWord": {"word": "旅行", "reading": "りょこう", "meaning": "여행"},
+      "katakana": "リャ", "confusableWith": []
+    },
+    {
+      "char": "りゅ", "unicode": null, "hangul": "류", "romaji": "ryu", "row": "ら", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "り + 작은 ゆ = 류"},
+      "mnemonic": "り + ゅ 결합",
+      "sampleWord": {"word": "留学", "reading": "りゅうがく", "meaning": "유학"},
+      "katakana": "リュ", "confusableWith": []
+    },
+    {
+      "char": "りょ", "unicode": null, "hangul": "료", "romaji": "ryo", "row": "ら", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "り + 작은 よ = 료"},
+      "mnemonic": "り + ょ 결합",
+      "sampleWord": {"word": "料理", "reading": "りょうり", "meaning": "요리"},
+      "katakana": "リョ", "confusableWith": []
+    },
+    {
+      "char": "ぎゃ", "unicode": null, "hangul": "갸", "romaji": "gya", "row": "か", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ぎ + 작은 や = 갸. 탁음+요음 결합"},
+      "mnemonic": "ぎ + ゃ 결합",
+      "sampleWord": {"word": "逆", "reading": "ぎゃく", "meaning": "반대"},
+      "katakana": "ギャ", "confusableWith": []
+    },
+    {
+      "char": "ぎゅ", "unicode": null, "hangul": "규", "romaji": "gyu", "row": "か", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ぎ + 작은 ゆ = 규"},
+      "mnemonic": "ぎ + ゅ 결합",
+      "sampleWord": {"word": "牛肉", "reading": "ぎゅうにく", "meaning": "소고기"},
+      "katakana": "ギュ", "confusableWith": []
+    },
+    {
+      "char": "ぎょ", "unicode": null, "hangul": "교", "romaji": "gyo", "row": "か", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ぎ + 작은 よ = 교"},
+      "mnemonic": "ぎ + ょ 결합",
+      "sampleWord": {"word": "餃子", "reading": "ぎょうざ", "meaning": "만두"},
+      "katakana": "ギョ", "confusableWith": []
+    },
+    {
+      "char": "じゃ", "unicode": null, "hangul": "자", "romaji": "ja", "row": "さ", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "じ + 작은 や = 자"},
+      "mnemonic": "じ + ゃ 결합",
+      "sampleWord": {"word": "邪魔", "reading": "じゃま", "meaning": "방해"},
+      "katakana": "ジャ", "confusableWith": []
+    },
+    {
+      "char": "じゅ", "unicode": null, "hangul": "주", "romaji": "ju", "row": "さ", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "じ + 작은 ゆ = 주"},
+      "mnemonic": "じ + ゅ 결합",
+      "sampleWord": {"word": "授業", "reading": "じゅぎょう", "meaning": "수업"},
+      "katakana": "ジュ", "confusableWith": []
+    },
+    {
+      "char": "じょ", "unicode": null, "hangul": "조", "romaji": "jo", "row": "さ", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "じ + 작은 よ = 조"},
+      "mnemonic": "じ + ょ 결합",
+      "sampleWord": {"word": "上手", "reading": "じょうず", "meaning": "잘하다"},
+      "katakana": "ジョ", "confusableWith": []
+    },
+    {
+      "char": "びゃ", "unicode": null, "hangul": "뱌", "romaji": "bya", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "び + 작은 や = 뱌"},
+      "mnemonic": "び + ゃ 결합",
+      "sampleWord": {"word": "百", "reading": "びゃく", "meaning": "백 (음독)"},
+      "katakana": "ビャ", "confusableWith": []
+    },
+    {
+      "char": "びゅ", "unicode": null, "hangul": "뷰", "romaji": "byu", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "び + 작은 ゆ = 뷰"},
+      "mnemonic": "び + ゅ 결합",
+      "sampleWord": {"word": "ビュー", "reading": "びゅー", "meaning": "전망"},
+      "katakana": "ビュ", "confusableWith": []
+    },
+    {
+      "char": "びょ", "unicode": null, "hangul": "뵤", "romaji": "byo", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "び + 작은 よ = 뵤"},
+      "mnemonic": "び + ょ 결합",
+      "sampleWord": {"word": "病院", "reading": "びょういん", "meaning": "병원"},
+      "katakana": "ビョ", "confusableWith": []
+    },
+    {
+      "char": "ぴゃ", "unicode": null, "hangul": "퍄", "romaji": "pya", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ぴ + 작은 や = 퍄. 반탁음+요음 결합"},
+      "mnemonic": "ぴ + ゃ 결합",
+      "sampleWord": {"word": "六百", "reading": "ろっぴゃく", "meaning": "육백"},
+      "katakana": "ピャ", "confusableWith": []
+    },
+    {
+      "char": "ぴゅ", "unicode": null, "hangul": "퓨", "romaji": "pyu", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ぴ + 작은 ゆ = 퓨"},
+      "mnemonic": "ぴ + ゅ 결합",
+      "sampleWord": {"word": "ピュア", "reading": "ぴゅあ", "meaning": "순수한"},
+      "katakana": "ピュ", "confusableWith": []
+    },
+    {
+      "char": "ぴょ", "unicode": null, "hangul": "표", "romaji": "pyo", "row": "は", "type": "요음", "strokeCount": null,
+      "origin": {"kanji": null, "hanja": null, "meaning": null, "explanation": "ぴ + 작은 よ = 표"},
+      "mnemonic": "ぴ + ょ 결합",
+      "sampleWord": {"word": "ぴょんぴょん", "reading": "ぴょんぴょん", "meaning": "깡충깡충"},
+      "katakana": "ピョ", "confusableWith": []
+    }
+  ]
+}
