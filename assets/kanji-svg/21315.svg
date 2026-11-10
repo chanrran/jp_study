@@ -1,0 +1,44 @@
+<!--
+AnimCJK 2016-2026 Copyright FM-SH, https://github.com/parsimonhi/animCJK
+Derived from:
+    MakeMeAHanzi project - https://github.com/skishore/makemeahanzi
+    Arphic PL KaitiM GB font
+    Arphic PL KaitiM Big5 font
+You can redistribute and/or modify this file under the terms of the Arphic Public License
+as published by Arphic Technology Co., Ltd.
+You should have received a copy of this license along with this file.
+If not, see https://ftp.gnu.org/non-gnu/chinese-fonts-truetype/LICENSE.
+-->
+<svg id="z21315" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+@keyframes zk {
+	to {
+		stroke-dashoffset:0;
+	}
+}
+svg.acjk path[clip-path] {
+	--t:0.8s;
+	animation:zk var(--t) linear forwards var(--d);
+	stroke-dasharray:3337;
+	stroke-dashoffset:3339;
+	stroke-width:128;
+	stroke-linecap:round;
+	fill:none;
+	stroke:#000;
+}
+svg.acjk path[id] {fill:#ccc;}
+]]>
+</style>
+<path id="z21315d1" d="M510 192C553 177 639 148 678 137C718 124 697 105 651 76C624 59 600 42 586 74C564 133 372 200 282 239C274 242 276 250 282 252C291 255 401 226 460 208C493 197 493 197 510 192Z"/>
+<path id="z21315d2" d="M545 459C671 447 768 443 839 449C863 450 950 458 913 421C891 400 863 381 833 372C802 362 744 386 545 411C508 416 508 416 489 418C370 432 252 447 133 450C120 450 100 461 136 490C160 509 191 516 225 508C280 493 402 471 489 464C526 461 526 461 545 459Z"/>
+<path id="z21315d3" d="M486 891C502 948 518 953 533 891C535 882 539 861 540 830C542 747 545 643 545 459C545 427 545 427 545 411C545 339 550 282 559 242C562 224 547 207 510 192C494 186 451 193 460 208C495 260 489 338 489 418C489 449 489 449 489 464C489 677 482 780 480 830C478 851 481 874 486 891Z"/>
+<defs>
+	<clipPath id="z21315c1"><use href="#z21315d1"/></clipPath>
+	<clipPath id="z21315c2"><use href="#z21315d2"/></clipPath>
+	<clipPath id="z21315c3"><use href="#z21315d3"/></clipPath>
+</defs>
+<path style="--d:1s;" pathLength="3333" clip-path="url(#z21315c1)" d="M606 59L639 113L284 245"/>
+<path style="--d:2s;" pathLength="3333" clip-path="url(#z21315c2)" d="M121 464L212 478L785 409L916 428"/>
+<path style="--d:3s;" pathLength="3333" clip-path="url(#z21315c3)" d="M466 202L504 220L521 257L511 930"/>
+</svg>

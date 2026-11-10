@@ -1,0 +1,41 @@
+<!--
+AnimCJK 2016-2026 Copyright FM-SH, https://github.com/parsimonhi/animCJK
+Derived from:
+    MakeMeAHanzi project - https://github.com/skishore/makemeahanzi
+    Arphic PL KaitiM GB font
+    Arphic PL KaitiM Big5 font
+You can redistribute and/or modify this file under the terms of the Arphic Public License
+as published by Arphic Technology Co., Ltd.
+You should have received a copy of this license along with this file.
+If not, see https://ftp.gnu.org/non-gnu/chinese-fonts-truetype/LICENSE.
+-->
+<svg id="z20102" class="acjk" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<style>
+<![CDATA[
+@keyframes zk {
+	to {
+		stroke-dashoffset:0;
+	}
+}
+svg.acjk path[clip-path] {
+	--t:0.8s;
+	animation:zk var(--t) linear forwards var(--d);
+	stroke-dasharray:3337;
+	stroke-dashoffset:3339;
+	stroke-width:128;
+	stroke-linecap:round;
+	fill:none;
+	stroke:#000;
+}
+svg.acjk path[id] {fill:#ccc;}
+]]>
+</style>
+<path id="z20102d1" d="M526 351C621 290 679 253 732 231C759 219 780 215 784 202C786 191 768 171 749 147C729 122 714 104 682 110C459 154 432 161 368 171C316 180 279 183 244 181C222 179 203 185 222 210C229 219 241 228 260 243C285 262 301 265 328 247C370 217 469 188 626 159C692 146 689 152 660 184C631 216 575 271 508 335C502 341 520 356 526 351Z"/>
+<path id="z20102d2" d="M508 335C486 319 470 314 461 312C452 310 447 315 448 333C448 343 456 353 471 367C508 403 519 442 525 483C531 529 536 653 524 720C510 804 487 783 383 759C365 754 345 750 379 780C424 819 459 849 496 903C512 927 545 885 563 858C595 806 591 689 587 510C586 437 571 398 526 351C520 345 514 339 508 335Z"/>
+<defs>
+	<clipPath id="z20102c1"><use href="#z20102d1"/></clipPath>
+	<clipPath id="z20102c2"><use href="#z20102d2"/></clipPath>
+</defs>
+<path style="--d:1s;" pathLength="3333" clip-path="url(#z20102c1)" d="M218 192L310 218L697 134L722 197L513 343"/>
+<path style="--d:2s;" pathLength="3333" clip-path="url(#z20102c2)" d="M456 317L550 448L552 757L501 856L367 761"/>
+</svg>
