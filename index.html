@@ -427,10 +427,10 @@
         <div class="label">히라가나</div>
         <div class="sub">청음·탁음·반탁음·요음 104자</div>
       </div>
-      <div class="menu-card disabled">
+      <div class="menu-card" onclick="navigate('katakana')">
         <div class="icon">ア</div>
         <div class="label">카타카나</div>
-        <div class="sub">준비 중</div>
+        <div class="sub">청음·탁음·반탁음·요음 104자</div>
       </div>
       <div class="menu-card disabled">
         <div class="icon">漢</div>
@@ -481,6 +481,32 @@
     <div class="char-list" id="charList"></div>
   </div>
 
+  <!-- ═══ KATAKANA PAGE ═══ -->
+  <div id="page-katakana" class="page">
+    <div class="sub-header">
+      <button class="back-btn" onclick="navigate('home')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <h2>카타카나</h2>
+    </div>
+
+    <div class="search-bar" style="margin-top:8px">
+      <input type="text" class="search-input" id="searchInputKata"
+        placeholder="검색 (카타카나, 한글, 로마자)">
+    </div>
+
+    <div class="filter-bar" id="filterBarKata">
+      <button class="filter-btn active" data-filter="all">전체</button>
+      <button class="filter-btn" data-filter="청음">청음</button>
+      <button class="filter-btn" data-filter="탁음">탁음</button>
+      <button class="filter-btn" data-filter="반탁음">반탁음</button>
+      <button class="filter-btn" data-filter="요음">요음</button>
+    </div>
+
+    <div class="count-label" id="countLabelKata"></div>
+    <div class="char-list" id="charListKata"></div>
+  </div>
+
   <!-- ═══ Bottom Nav ═══ -->
   <nav class="bottom-nav">
     <button class="nav-item active" data-page="home">
@@ -491,13 +517,20 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">あ</text></svg>
       히라가나
     </button>
+    <button class="nav-item" data-page="katakana">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">ア</text></svg>
+      카타카나
+    </button>
   </nav>
 
   <script>
     // ─── State ───
     let hiraganaData = [];
+    let katakanaData = [];
     let currentFilter = 'all';
+    let currentFilterKata = 'all';
     let searchQuery = '';
+    let searchQueryKata = '';
 
     // ─── Navigation ───
     function navigate(page) {
@@ -517,10 +550,16 @@
     // ─── Load data ───
     async function loadData() {
       try {
-        const resp = await fetch('data/hiragana.json');
-        const json = await resp.json();
-        hiraganaData = json.data;
+        const [hResp, kResp] = await Promise.all([
+          fetch('data/hiragana.json'),
+          fetch('data/katakana.json')
+        ]);
+        const hJson = await hResp.json();
+        const kJson = await kResp.json();
+        hiraganaData = hJson.data;
+        katakanaData = kJson.data;
         renderList();
+        renderListKata();
         updateProgress();
       } catch (e) {
         document.getElementById('charList').innerHTML =
@@ -606,14 +645,101 @@
       }).join('');
     }
 
+    // ─── Render katakana cards ───
+    function renderListKata() {
+      const list = document.getElementById('charListKata');
+      let filtered = katakanaData;
+
+      if (currentFilterKata !== 'all') {
+        filtered = filtered.filter(c => c.type === currentFilterKata);
+      }
+
+      if (searchQueryKata) {
+        const q = searchQueryKata.toLowerCase();
+        filtered = filtered.filter(c =>
+          c.char.includes(q) ||
+          c.hangul.includes(q) ||
+          c.romaji.toLowerCase().includes(q) ||
+          (c.hiragana && c.hiragana.includes(q))
+        );
+      }
+
+      document.getElementById('countLabelKata').textContent = `${filtered.length}자`;
+
+      if (filtered.length === 0) {
+        list.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
+        return;
+      }
+
+      list.innerHTML = filtered.map(c => {
+        const origin = c.origin && c.origin.kanji ? `
+          <div class="char-origin">
+            <div class="origin-title">유래 由来</div>
+            <div class="origin-content">
+              <span class="origin-kanji">${c.origin.kanji}</span>
+              <span class="origin-hanja">${c.origin.hanja}</span>
+              <span class="origin-meaning">${c.origin.meaning}</span>
+              <div class="origin-explain">${c.origin.explanation}</div>
+            </div>
+          </div>` : '';
+
+        const confusable = c.confusableWith && c.confusableWith.length > 0 ? `
+          <div class="confusable">
+            헷갈림 주의: <span>${c.confusableWith.join(' ')}</span>
+          </div>` : '';
+
+        const hasStrokeSvg = c.unicode != null;
+        const strokeArea = hasStrokeSvg
+          ? `<div class="stroke-box" data-unicode="${c.unicode}" onclick="replayStroke(this)">
+               <span class="replay-hint">▶ 획순</span>
+             </div>`
+          : `<div class="char-text-fallback">${c.char}</div>`;
+
+        return `
+          <div class="char-card">
+            <div class="char-card-main">
+              <div class="char-left">
+                ${strokeArea}
+                <span class="katakana">${c.hiragana || ''}</span>
+              </div>
+              <div class="char-info">
+                <div class="char-info-row">
+                  <span class="hangul-reading">${c.hangul}</span>
+                  <span class="romaji">${c.romaji}</span>
+                  <span class="type-tag ${c.type}">${c.type} · ${c.row}행${c.strokeCount != null ? ' · ' + c.strokeCount + '획' : ''}</span>
+                </div>
+                <div class="mnemonic">${c.mnemonic}</div>
+                ${c.sampleWord ? `
+                  <div class="sample-word">
+                    <span class="jp">${c.sampleWord.reading}</span>
+                    <span class="jp">${c.sampleWord.word}</span>
+                    <span class="meaning">${c.sampleWord.meaning}</span>
+                  </div>` : ''}
+              </div>
+            </div>
+            ${origin}
+            ${confusable}
+          </div>`;
+      }).join('');
+    }
+
     // ─── Filters ───
     document.getElementById('filterBar').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
       if (!btn) return;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('#filterBar .filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentFilter = btn.dataset.filter;
       renderList();
+    });
+
+    document.getElementById('filterBarKata').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      document.querySelectorAll('#filterBarKata .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentFilterKata = btn.dataset.filter;
+      renderListKata();
     });
 
     // ─── Search ───
@@ -622,13 +748,18 @@
       renderList();
     });
 
+    document.getElementById('searchInputKata').addEventListener('input', (e) => {
+      searchQueryKata = e.target.value.trim();
+      renderListKata();
+    });
+
     // ─── Progress (localStorage) ───
     function updateProgress() {
-      const total = hiraganaData.length;
+      const total = hiraganaData.length + katakanaData.length;
       let learned = 0;
       try {
         const saved = JSON.parse(localStorage.getItem('jp_progress') || '{}');
-        learned = Object.keys(saved.hiragana || {}).length;
+        learned = Object.keys(saved.hiragana || {}).length + Object.keys(saved.katakana || {}).length;
       } catch (e) {}
       const pct = total > 0 ? Math.round((learned / total) * 100) : 0;
       const el = document.getElementById('totalProgress');
@@ -703,6 +834,12 @@
     const origRenderList = renderList;
     renderList = function() {
       origRenderList();
+      requestAnimationFrame(() => observeStrokeBoxes());
+    };
+
+    const origRenderListKata = renderListKata;
+    renderListKata = function() {
+      origRenderListKata();
       requestAnimationFrame(() => observeStrokeBoxes());
     };
 
