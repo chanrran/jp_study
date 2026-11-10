@@ -180,11 +180,7 @@
 
     /* ─── Hiragana page ─── */
     .sub-header {
-      position: sticky; top: 0; z-index: 50;
-      background: var(--bg-nav);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
+      background: var(--bg);
       padding: 12px 20px;
       display: flex; align-items: center; gap: 12px;
     }
@@ -394,41 +390,12 @@
       font-size: 0.78rem; color: var(--fg-tertiary);
     }
 
-    /* Row jump tabs */
-    .row-nav {
-      display: flex; gap: 4px; overflow-x: auto;
-      padding: 0 20px 10px;
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: none;
-    }
-    .row-nav::-webkit-scrollbar { display: none; }
-    .row-jump {
-      flex-shrink: 0;
-      padding: 5px 12px; border-radius: 6px;
-      border: 1px solid var(--border);
-      background: var(--bg-card); color: var(--fg-secondary);
-      font-family: var(--font-jp); font-size: 0.82rem; font-weight: 500;
-      cursor: pointer; white-space: nowrap;
-      transition: all 0.12s;
-    }
-    .row-jump:active { background: var(--accent); color: #fff; border-color: var(--accent); }
-
-    /* Section header per row group */
-    .row-section-header {
-      display: flex; align-items: center; gap: 10px;
-      padding: 18px 0 8px;
-    }
-    .row-section-header .row-label {
-      font-family: var(--font-jp);
-      font-size: 1.3rem; font-weight: 700;
-      color: var(--accent-text);
-    }
-    .row-section-header .row-sub {
-      font-size: 0.78rem; color: var(--fg-tertiary);
-    }
-    .row-section-header .row-line {
-      flex: 1; height: 1px;
-      background: var(--border);
+    /* Sticky top controls wrapper */
+    .sticky-controls {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
     }
 
     /* Empty state */
@@ -494,54 +461,84 @@
 
   <!-- ═══ HIRAGANA PAGE ═══ -->
   <div id="page-hiragana" class="page">
-    <div class="sub-header">
-      <button class="back-btn" onclick="navigate('home')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-      <h2>히라가나</h2>
+    <div class="sticky-controls">
+      <div class="sub-header">
+        <button class="back-btn" onclick="navigate('home')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <h2>히라가나</h2>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" class="search-input" id="searchInput"
+          placeholder="검색 (히라가나, 한글, 로마자)">
+      </div>
+
+      <div class="filter-bar" id="rowNav">
+        <button class="filter-btn active" data-row="all">전체</button>
+        <button class="filter-btn" data-row="あ">あ행</button>
+        <button class="filter-btn" data-row="か">か행</button>
+        <button class="filter-btn" data-row="さ">さ행</button>
+        <button class="filter-btn" data-row="た">た행</button>
+        <button class="filter-btn" data-row="な">な행</button>
+        <button class="filter-btn" data-row="は">は행</button>
+        <button class="filter-btn" data-row="ま">ま행</button>
+        <button class="filter-btn" data-row="や">や행</button>
+        <button class="filter-btn" data-row="ら">ら행</button>
+        <button class="filter-btn" data-row="わ">わ행</button>
+      </div>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="청음">청음</button>
+        <button class="filter-btn" data-filter="탁음">탁음</button>
+        <button class="filter-btn" data-filter="반탁음">반탁음</button>
+        <button class="filter-btn" data-filter="요음">요음</button>
+      </div>
     </div>
 
-    <div class="search-bar" style="margin-top:8px">
-      <input type="text" class="search-input" id="searchInput"
-        placeholder="검색 (히라가나, 한글, 로마자)">
-    </div>
-
-    <div class="filter-bar" id="filterBar">
-      <button class="filter-btn active" data-filter="all">전체</button>
-      <button class="filter-btn" data-filter="청음">청음</button>
-      <button class="filter-btn" data-filter="탁음">탁음</button>
-      <button class="filter-btn" data-filter="반탁음">반탁음</button>
-      <button class="filter-btn" data-filter="요음">요음</button>
-    </div>
-
-    <div class="row-nav" id="rowNav"></div>
     <div class="count-label" id="countLabel"></div>
     <div class="char-list" id="charList"></div>
   </div>
 
   <!-- ═══ KATAKANA PAGE ═══ -->
   <div id="page-katakana" class="page">
-    <div class="sub-header">
-      <button class="back-btn" onclick="navigate('home')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-      <h2>카타카나</h2>
+    <div class="sticky-controls">
+      <div class="sub-header">
+        <button class="back-btn" onclick="navigate('home')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <h2>카타카나</h2>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" class="search-input" id="searchInputKata"
+          placeholder="검색 (카타카나, 한글, 로마자)">
+      </div>
+
+      <div class="filter-bar" id="rowNavKata">
+        <button class="filter-btn active" data-row="all">전체</button>
+        <button class="filter-btn" data-row="ア">ア행</button>
+        <button class="filter-btn" data-row="カ">カ행</button>
+        <button class="filter-btn" data-row="サ">サ행</button>
+        <button class="filter-btn" data-row="タ">タ행</button>
+        <button class="filter-btn" data-row="ナ">ナ행</button>
+        <button class="filter-btn" data-row="ハ">ハ행</button>
+        <button class="filter-btn" data-row="マ">マ행</button>
+        <button class="filter-btn" data-row="ヤ">ヤ행</button>
+        <button class="filter-btn" data-row="ラ">ラ행</button>
+        <button class="filter-btn" data-row="ワ">ワ행</button>
+      </div>
+
+      <div class="filter-bar" id="filterBarKata">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="청음">청음</button>
+        <button class="filter-btn" data-filter="탁음">탁음</button>
+        <button class="filter-btn" data-filter="반탁음">반탁음</button>
+        <button class="filter-btn" data-filter="요음">요음</button>
+      </div>
     </div>
 
-    <div class="search-bar" style="margin-top:8px">
-      <input type="text" class="search-input" id="searchInputKata"
-        placeholder="검색 (카타카나, 한글, 로마자)">
-    </div>
-
-    <div class="filter-bar" id="filterBarKata">
-      <button class="filter-btn active" data-filter="all">전체</button>
-      <button class="filter-btn" data-filter="청음">청음</button>
-      <button class="filter-btn" data-filter="탁음">탁음</button>
-      <button class="filter-btn" data-filter="반탁음">반탁음</button>
-      <button class="filter-btn" data-filter="요음">요음</button>
-    </div>
-
-    <div class="row-nav" id="rowNavKata"></div>
     <div class="count-label" id="countLabelKata"></div>
     <div class="char-list" id="charListKata"></div>
   </div>
@@ -566,6 +563,8 @@
     // ─── State ───
     let hiraganaData = [];
     let katakanaData = [];
+    let currentRow = 'all';
+    let currentRowKata = 'all';
     let currentFilter = 'all';
     let currentFilterKata = 'all';
     let searchQuery = '';
@@ -606,15 +605,6 @@
       }
     }
 
-    // ─── Row order ───
-    const ROW_ORDER = ['あ','か','さ','た','な','は','ま','や','ら','わ'];
-    const ROW_ORDER_KATA = ['ア','カ','サ','タ','ナ','ハ','マ','ヤ','ラ','ワ'];
-    const ROW_ROMAJI = {
-      'あ':'a','か':'ka','さ':'sa','た':'ta','な':'na',
-      'は':'ha','ま':'ma','や':'ya','ら':'ra','わ':'wa',
-      'ア':'a','カ':'ka','サ':'sa','タ':'ta','ナ':'na',
-      'ハ':'ha','マ':'ma','ヤ':'ya','ラ':'ra','ワ':'wa'
-    };
 
     // ─── Shared card renderer ───
     function renderCard(c, counterpartKey) {
@@ -670,54 +660,10 @@
         </div>`;
     }
 
-    // ─── Group by row and render with section headers ───
-    function renderGrouped(filtered, listEl, navEl, countEl, rowOrder, counterpartKey, idPrefix) {
-      countEl.textContent = `${filtered.length}자`;
-
-      if (filtered.length === 0) {
-        navEl.innerHTML = '';
-        listEl.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
-        return;
-      }
-
-      // Group by row, preserving order
-      const groups = new Map();
-      for (const c of filtered) {
-        if (!groups.has(c.row)) groups.set(c.row, []);
-        groups.get(c.row).push(c);
-      }
-
-      // Sort groups by defined row order
-      const sortedRows = [...groups.keys()].sort((a, b) => {
-        const ia = rowOrder.indexOf(a);
-        const ib = rowOrder.indexOf(b);
-        return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
-      });
-
-      // Row jump nav
-      navEl.innerHTML = sortedRows.map(row =>
-        `<button class="row-jump" onclick="document.getElementById('${idPrefix}-${row}').scrollIntoView({behavior:'smooth',block:'start'})">${row}행</button>`
-      ).join('');
-
-      // Render grouped cards
-      let html = '';
-      for (const row of sortedRows) {
-        const chars = groups.get(row);
-        const romaji = ROW_ROMAJI[row] || '';
-        html += `
-          <div class="row-section-header" id="${idPrefix}-${row}">
-            <span class="row-label">${row}행</span>
-            <span class="row-sub">${romaji} · ${chars.length}자</span>
-            <span class="row-line"></span>
-          </div>`;
-        html += chars.map(c => renderCard(c, counterpartKey)).join('');
-      }
-      listEl.innerHTML = html;
-    }
-
-    // ─── Render hiragana ───
+    // ─── Render hiragana (행 필터링) ───
     function renderList() {
       let filtered = hiraganaData;
+      if (currentRow !== 'all') filtered = filtered.filter(c => c.row === currentRow);
       if (currentFilter !== 'all') filtered = filtered.filter(c => c.type === currentFilter);
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
@@ -726,16 +672,19 @@
           c.romaji.toLowerCase().includes(q) || (c.katakana && c.katakana.includes(q))
         );
       }
-      renderGrouped(filtered,
-        document.getElementById('charList'),
-        document.getElementById('rowNav'),
-        document.getElementById('countLabel'),
-        ROW_ORDER, 'katakana', 'hrow');
+      document.getElementById('countLabel').textContent = `${filtered.length}자`;
+      const listEl = document.getElementById('charList');
+      if (filtered.length === 0) {
+        listEl.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
+        return;
+      }
+      listEl.innerHTML = filtered.map(c => renderCard(c, 'katakana')).join('');
     }
 
-    // ─── Render katakana ───
+    // ─── Render katakana (행 필터링) ───
     function renderListKata() {
       let filtered = katakanaData;
+      if (currentRowKata !== 'all') filtered = filtered.filter(c => c.row === currentRowKata);
       if (currentFilterKata !== 'all') filtered = filtered.filter(c => c.type === currentFilterKata);
       if (searchQueryKata) {
         const q = searchQueryKata.toLowerCase();
@@ -744,17 +693,38 @@
           c.romaji.toLowerCase().includes(q) || (c.hiragana && c.hiragana.includes(q))
         );
       }
-      renderGrouped(filtered,
-        document.getElementById('charListKata'),
-        document.getElementById('rowNavKata'),
-        document.getElementById('countLabelKata'),
-        ROW_ORDER_KATA, 'hiragana', 'krow');
+      document.getElementById('countLabelKata').textContent = `${filtered.length}자`;
+      const listEl = document.getElementById('charListKata');
+      if (filtered.length === 0) {
+        listEl.innerHTML = '<div class="empty-state">검색 결과가 없습니다.</div>';
+        return;
+      }
+      listEl.innerHTML = filtered.map(c => renderCard(c, 'hiragana')).join('');
     }
 
-    // ─── Filters ───
+    // ─── Row nav (행 필터) ───
+    document.getElementById('rowNav').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn || !btn.dataset.row) return;
+      document.querySelectorAll('#rowNav .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentRow = btn.dataset.row;
+      renderList();
+    });
+
+    document.getElementById('rowNavKata').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn || !btn.dataset.row) return;
+      document.querySelectorAll('#rowNavKata .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentRowKata = btn.dataset.row;
+      renderListKata();
+    });
+
+    // ─── Type filters ───
     document.getElementById('filterBar').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
-      if (!btn) return;
+      if (!btn || !btn.dataset.filter) return;
       document.querySelectorAll('#filterBar .filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentFilter = btn.dataset.filter;
@@ -763,7 +733,7 @@
 
     document.getElementById('filterBarKata').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
-      if (!btn) return;
+      if (!btn || !btn.dataset.filter) return;
       document.querySelectorAll('#filterBarKata .filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentFilterKata = btn.dataset.filter;
