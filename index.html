@@ -181,33 +181,33 @@
     /* ─── Hiragana page ─── */
     .sub-header {
       background: var(--bg);
-      padding: 12px 20px;
-      display: flex; align-items: center; gap: 12px;
+      padding: 10px 16px 4px;
+      display: flex; align-items: center; gap: 10px;
     }
     .back-btn {
       background: none; border: none; color: var(--fg);
       cursor: pointer; padding: 4px; display: flex;
     }
-    .back-btn svg { width: 20px; height: 20px; }
+    .back-btn svg { width: 18px; height: 18px; }
     .sub-header h2 {
-      font-size: 1.1rem; font-weight: 600;
+      font-size: 1rem; font-weight: 600;
       flex: 1;
     }
 
     /* Row filter tabs */
     .filter-bar {
-      display: flex; gap: 6px; overflow-x: auto;
-      padding: 12px 20px;
+      display: flex; gap: 5px; overflow-x: auto;
+      padding: 4px 16px;
       -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
     }
     .filter-bar::-webkit-scrollbar { display: none; }
     .filter-btn {
       flex-shrink: 0;
-      padding: 6px 14px; border-radius: 20px;
+      padding: 4px 11px; border-radius: 16px;
       border: 1px solid var(--border);
       background: var(--bg-card); color: var(--fg-secondary);
-      font-family: var(--font-jp); font-size: 0.85rem; font-weight: 500;
+      font-family: var(--font-jp); font-size: 0.8rem; font-weight: 500;
       cursor: pointer; white-space: nowrap;
       transition: all 0.12s;
     }
@@ -215,11 +215,19 @@
       background: var(--accent); color: #fff;
       border-color: var(--accent);
     }
+    /* 타입 필터(청음/탁음 등)는 더 작게 */
+    .filter-bar-sub {
+      padding: 2px 16px 4px;
+    }
+    .filter-bar-sub .filter-btn {
+      padding: 3px 9px; font-size: 0.75rem;
+      border-radius: 12px;
+    }
 
     /* Character list */
     .char-list {
-      padding: 0 20px 20px;
-      display: flex; flex-direction: column; gap: 12px;
+      padding: 0 16px 20px;
+      display: flex; flex-direction: column; gap: 10px;
       max-width: 600px; margin: 0 auto;
     }
 
@@ -372,22 +380,22 @@
 
     /* Search */
     .search-bar {
-      padding: 0 20px 8px;
+      padding: 0 16px 2px;
     }
     .search-input {
-      width: 100%; padding: 10px 14px;
+      width: 100%; padding: 7px 12px;
       border: 1px solid var(--border);
       border-radius: var(--radius-sm);
       background: var(--bg-card); color: var(--fg);
-      font-family: var(--font-kr); font-size: 0.9rem;
+      font-family: var(--font-kr); font-size: 0.85rem;
       outline: none; transition: border-color 0.15s;
     }
     .search-input:focus { border-color: var(--accent); }
     .search-input::placeholder { color: var(--fg-tertiary); }
 
     .count-label {
-      padding: 4px 20px 8px;
-      font-size: 0.78rem; color: var(--fg-tertiary);
+      padding: 4px 16px 6px;
+      font-size: 0.75rem; color: var(--fg-tertiary);
     }
 
     /* Sticky top controls wrapper */
@@ -395,7 +403,7 @@
       position: sticky; top: 0; z-index: 50;
       background: var(--bg);
       border-bottom: 1px solid var(--border);
-      padding-bottom: 4px;
+      padding-bottom: 2px;
     }
 
     /* Empty state */
@@ -488,7 +496,7 @@
         <button class="filter-btn" data-row="わ">わ행</button>
       </div>
 
-      <div class="filter-bar" id="filterBar">
+      <div class="filter-bar filter-bar-sub" id="filterBar">
         <button class="filter-btn active" data-filter="all">전체</button>
         <button class="filter-btn" data-filter="청음">청음</button>
         <button class="filter-btn" data-filter="탁음">탁음</button>
@@ -530,7 +538,7 @@
         <button class="filter-btn" data-row="ワ">ワ행</button>
       </div>
 
-      <div class="filter-bar" id="filterBarKata">
+      <div class="filter-bar filter-bar-sub" id="filterBarKata">
         <button class="filter-btn active" data-filter="all">전체</button>
         <button class="filter-btn" data-filter="청음">청음</button>
         <button class="filter-btn" data-filter="탁음">탁음</button>
