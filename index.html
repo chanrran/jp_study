@@ -215,6 +215,14 @@
       background: var(--accent); color: #fff;
       border-color: var(--accent);
     }
+    .level-tab {
+      font-family: var(--font-ui); font-weight: 600; font-size: 0.85rem;
+      padding: 6px 14px;
+    }
+    .level-tab .level-count {
+      font-size: 0.7rem; opacity: 0.8; margin-left: 2px;
+    }
+    .level-tab.active .level-count { opacity: 1; }
     .filter-divider {
       flex-shrink: 0;
       width: 1px; height: 20px;
@@ -587,7 +595,7 @@
       <div class="menu-card" onclick="navigate('kanji')">
         <div class="icon">漢</div>
         <div class="label">한자</div>
-        <div class="sub">상용한자 N5 80자</div>
+        <div class="sub">상용한자 N5~N2 980자</div>
       </div>
       <div class="menu-card" onclick="navigate('vocab')">
         <div class="icon">語</div>
@@ -692,7 +700,15 @@
         <button class="back-btn" onclick="navigate('home')">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
         </button>
-        <h2>한자 · N5</h2>
+        <h2>한자</h2>
+      </div>
+
+      <!-- Level tabs (1st tier) -->
+      <div class="filter-bar" id="kanjiLevelTabs">
+        <button class="filter-btn level-tab active" data-level="N5">N5 <span class="level-count">80</span></button>
+        <button class="filter-btn level-tab" data-level="N4">N4 <span class="level-count">166</span></button>
+        <button class="filter-btn level-tab" data-level="N3">N3 <span class="level-count">367</span></button>
+        <button class="filter-btn level-tab" data-level="N2">N2 <span class="level-count">367</span></button>
       </div>
 
       <div class="search-bar">
@@ -700,16 +716,9 @@
           placeholder="검색 (한자, 한글, 읽기, 의미)">
       </div>
 
+      <!-- Category filters (2nd tier, dynamically populated) -->
       <div class="filter-bar" id="kanjiFilter">
         <button class="filter-btn active" data-cat="all">전체</button>
-        <button class="filter-btn" data-cat="숫자">숫자</button>
-        <button class="filter-btn" data-cat="시간">시간</button>
-        <button class="filter-btn" data-cat="방향">방향</button>
-        <button class="filter-btn" data-cat="사람">사람</button>
-        <button class="filter-btn" data-cat="자연">자연</button>
-        <button class="filter-btn" data-cat="학교">학교</button>
-        <button class="filter-btn" data-cat="생활">생활</button>
-        <button class="filter-btn" data-cat="기타">기타</button>
       </div>
     </div>
 
@@ -790,6 +799,7 @@
     let currentFilter = 'all';
     let currentFilterKata = 'all';
     let currentCatKanji = 'all';
+    let currentKanjiLevel = 'N5';
     let searchQuery = '';
     let searchQueryKata = '';
     let searchQueryKanji = '';
@@ -797,21 +807,51 @@
     let currentCatVocab = 'all';
     let searchQueryVocab = '';
 
-    // Kanji category mapping
-    const kanjiCategories = {
-      '숫자': '一二三四五六七八九十百千万円',
-      '시간': '日月火水木金土年時間今半午前後毎',
-      '방향': '上下左右北南東西中外',
-      '사람': '人大小子女男父母友',
-      '자연': '山川天雨白',
-      '학교': '学校先生名語書読',
-      '생활': '食車電話聞見行来出入休気電',
-    };
+    // Kanji level data cache
+    const kanjiCache = {};
+
     function getKanjiCategory(char) {
-      for (const [cat, chars] of Object.entries(kanjiCategories)) {
-        if (chars.includes(char)) return cat;
+      const entry = kanjiData.find(k => k.char === char);
+      return entry && entry.category ? entry.category : '기타';
+    }
+
+    // Load kanji data for a level (lazy)
+    async function loadKanjiLevel(level) {
+      if (kanjiCache[level]) {
+        kanjiData = kanjiCache[level];
+        buildKanjiCategoryFilter();
+        renderListKanji();
+        return;
       }
-      return '기타';
+      const listEl = document.getElementById('charListKanji');
+      listEl.innerHTML = '<div class="empty-state">불러오는 중...</div>';
+      try {
+        const resp = await fetch(`data/kanji_${level.toLowerCase()}.json`);
+        const json = await resp.json();
+        kanjiCache[level] = json.data;
+        kanjiData = json.data;
+        buildKanjiCategoryFilter();
+        renderListKanji();
+      } catch (e) {
+        listEl.innerHTML = '<div class="empty-state">데이터를 불러올 수 없습니다.</div>';
+      }
+    }
+
+    // Build category filter buttons from current kanjiData
+    function buildKanjiCategoryFilter() {
+      const cats = {};
+      kanjiData.forEach(k => {
+        const c = k.category || '기타';
+        cats[c] = (cats[c] || 0) + 1;
+      });
+      const sorted = Object.entries(cats).sort((a, b) => b[1] - a[1]);
+      const filterEl = document.getElementById('kanjiFilter');
+      let html = '<button class="filter-btn active" data-cat="all">전체</button>';
+      sorted.forEach(([cat, count]) => {
+        html += `<button class="filter-btn" data-cat="${cat}">${cat}</button>`;
+      });
+      filterEl.innerHTML = html;
+      currentCatKanji = 'all';
     }
 
     // ─── Navigation ───
@@ -832,24 +872,22 @@
     // ─── Load data ───
     async function loadData() {
       try {
-        const [hResp, kResp, kjResp, vResp] = await Promise.all([
+        const [hResp, kResp, vResp] = await Promise.all([
           fetch('data/hiragana.json'),
           fetch('data/katakana.json'),
-          fetch('data/kanji_n5.json'),
           fetch('data/vocab_n5.json')
         ]);
         const hJson = await hResp.json();
         const kJson = await kResp.json();
-        const kjJson = await kjResp.json();
         const vJson = await vResp.json();
         hiraganaData = hJson.data;
         katakanaData = kJson.data;
-        kanjiData = kjJson.data;
         vocabData = Array.isArray(vJson) ? vJson : vJson.data;
         renderList();
         renderListKata();
-        renderListKanji();
         renderListVocab();
+        // Load kanji N5 as default
+        await loadKanjiLevel('N5');
         updateProgress();
       } catch (e) {
         document.getElementById('charList').innerHTML =
@@ -969,7 +1007,7 @@
         `<span class="kanji-word-tag"><span class="jp">${w.word}</span><span class="rd">${w.reading}</span><span class="mn">${w.meaning}</span></span>`
       ).join('');
 
-      const cat = getKanjiCategory(k.char);
+      const cat = k.category || '기타';
 
       return `
         <div class="char-card">
@@ -1008,7 +1046,7 @@
     function renderListKanji() {
       let filtered = kanjiData;
       if (currentCatKanji !== 'all') {
-        filtered = filtered.filter(k => getKanjiCategory(k.char) === currentCatKanji);
+        filtered = filtered.filter(k => (k.category || '기타') === currentCatKanji);
       }
       if (searchQueryKanji) {
         const q = searchQueryKanji.toLowerCase();
@@ -1029,6 +1067,19 @@
       }
       listEl.innerHTML = filtered.map(k => renderKanjiCard(k)).join('');
     }
+
+    // ─── Kanji level tabs ───
+    document.getElementById('kanjiLevelTabs').addEventListener('click', (e) => {
+      const btn = e.target.closest('.level-tab');
+      if (!btn || !btn.dataset.level) return;
+      if (btn.classList.contains('active')) return;
+      document.querySelectorAll('#kanjiLevelTabs .level-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentKanjiLevel = btn.dataset.level;
+      searchQueryKanji = '';
+      document.getElementById('searchInputKanji').value = '';
+      loadKanjiLevel(currentKanjiLevel);
+    });
 
     // ─── Kanji filter ───
     document.getElementById('kanjiFilter').addEventListener('click', (e) => {
@@ -1188,7 +1239,8 @@
 
     // ─── Progress (localStorage) ───
     function updateProgress() {
-      const total = hiraganaData.length + katakanaData.length + kanjiData.length + vocabData.length;
+      const kanjiTotal = Object.values(kanjiCache).reduce((s, d) => s + d.length, 0) || kanjiData.length;
+      const total = hiraganaData.length + katakanaData.length + kanjiTotal + vocabData.length;
       let learned = 0;
       try {
         const saved = JSON.parse(localStorage.getItem('jp_progress') || '{}');

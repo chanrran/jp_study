@@ -1,0 +1,9723 @@
+{
+  "level": "N2",
+  "description": "JLPT N2 한자 367자",
+  "data": [
+    {
+      "char": "了",
+      "unicode": 20102,
+      "strokeCount": 2,
+      "jlpt": "N2",
+      "hanja": "료",
+      "meaning": "마치다",
+      "onyomi": [
+        {
+          "reading": "リょウ",
+          "hangul": "리ょ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "丸",
+      "unicode": 20024,
+      "strokeCount": 3,
+      "jlpt": "N2",
+      "hanja": "환",
+      "meaning": "둥글다",
+      "onyomi": [
+        {
+          "reading": "ガン",
+          "hangul": "가응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "まる",
+          "hangul": "마루"
+        },
+        {
+          "reading": "まる.める",
+          "hangul": "마루"
+        },
+        {
+          "reading": "まる.い",
+          "hangul": "마루"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "久",
+      "unicode": 20037,
+      "strokeCount": 3,
+      "jlpt": "N2",
+      "hanja": "구",
+      "meaning": "오래다",
+      "onyomi": [
+        {
+          "reading": "キゅウ",
+          "hangul": "키ゅ우"
+        },
+        {
+          "reading": "ク",
+          "hangul": "쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ひさ.しい",
+          "hangul": "히사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "干",
+      "unicode": 24178,
+      "strokeCount": 3,
+      "jlpt": "N2",
+      "hanja": "간",
+      "meaning": "마르다",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほ.す",
+          "hangul": "호"
+        },
+        {
+          "reading": "ほ.し-",
+          "hangul": "호"
+        },
+        {
+          "reading": "-ぼ.し",
+          "hangul": "-보"
+        },
+        {
+          "reading": "ひ.る",
+          "hangul": "히"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "介",
+      "unicode": 20171,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "개",
+      "meaning": "사이에 끼다",
+      "onyomi": [
+        {
+          "reading": "カイ",
+          "hangul": "카이"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "仏",
+      "unicode": 20175,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "불",
+      "meaning": "부처",
+      "onyomi": [
+        {
+          "reading": "ブツ",
+          "hangul": "부쓰"
+        },
+        {
+          "reading": "フツ",
+          "hangul": "후쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほとけ",
+          "hangul": "호토케"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "匹",
+      "unicode": 21305,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "필",
+      "meaning": "짝, 마리",
+      "onyomi": [
+        {
+          "reading": "ヒツ",
+          "hangul": "히쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ひき",
+          "hangul": "히키"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "区",
+      "unicode": 21306,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "구",
+      "meaning": "구역",
+      "onyomi": [
+        {
+          "reading": "ク",
+          "hangul": "쿠"
+        },
+        {
+          "reading": "オウ",
+          "hangul": "오우"
+        },
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "双",
+      "unicode": 21452,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "쌍",
+      "meaning": "쌍",
+      "onyomi": [
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふた",
+          "hangul": "후타"
+        },
+        {
+          "reading": "たぐい",
+          "hangul": "타구이"
+        },
+        {
+          "reading": "ならぶ",
+          "hangul": "나라부"
+        },
+        {
+          "reading": "ふたつ",
+          "hangul": "후타쓰"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "戸",
+      "unicode": 25144,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "호",
+      "meaning": "문, 집",
+      "onyomi": [
+        {
+          "reading": "コ",
+          "hangul": "코"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "と",
+          "hangul": "토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "比",
+      "unicode": 27604,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "비",
+      "meaning": "비교하다",
+      "onyomi": [
+        {
+          "reading": "ヒ",
+          "hangul": "히"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "くら.べる",
+          "hangul": "쿠라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "毛",
+      "unicode": 27611,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "모",
+      "meaning": "털",
+      "onyomi": [
+        {
+          "reading": "モウ",
+          "hangul": "모우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "け",
+          "hangul": "케"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "片",
+      "unicode": 29255,
+      "strokeCount": 4,
+      "jlpt": "N2",
+      "hanja": "편",
+      "meaning": "조각",
+      "onyomi": [
+        {
+          "reading": "ヘン",
+          "hangul": "헤응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かた-",
+          "hangul": "카타-"
+        },
+        {
+          "reading": "かた",
+          "hangul": "카타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "令",
+      "unicode": 20196,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "령",
+      "meaning": "명령",
+      "onyomi": [
+        {
+          "reading": "レイ",
+          "hangul": "레이"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "冊",
+      "unicode": 20874,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "책",
+      "meaning": "책",
+      "onyomi": [
+        {
+          "reading": "サツ",
+          "hangul": "사쓰"
+        },
+        {
+          "reading": "サク",
+          "hangul": "사쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふみ",
+          "hangul": "후미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "刊",
+      "unicode": 21002,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "간",
+      "meaning": "새기다, 출판",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "包",
+      "unicode": 21253,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "포",
+      "meaning": "싸다",
+      "onyomi": [
+        {
+          "reading": "ホウ",
+          "hangul": "호우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つつ.む",
+          "hangul": "쓰쓰"
+        },
+        {
+          "reading": "くる.む",
+          "hangul": "쿠루"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "占",
+      "unicode": 21344,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "점",
+      "meaning": "차지하다",
+      "onyomi": [
+        {
+          "reading": "セン",
+          "hangul": "세응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "し.める",
+          "hangul": "시"
+        },
+        {
+          "reading": "うらな.う",
+          "hangul": "우라나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "召",
+      "unicode": 21484,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "소",
+      "meaning": "부르다",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "め.す",
+          "hangul": "메"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "史",
+      "unicode": 21490,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "역사",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "圧",
+      "unicode": 22311,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "압",
+      "meaning": "누르다",
+      "onyomi": [
+        {
+          "reading": "アツ",
+          "hangul": "아쓰"
+        },
+        {
+          "reading": "エン",
+          "hangul": "에응"
+        },
+        {
+          "reading": "オウ",
+          "hangul": "오우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "お.す",
+          "hangul": "오"
+        },
+        {
+          "reading": "へ.す",
+          "hangul": "헤"
+        },
+        {
+          "reading": "おさ.える",
+          "hangul": "오사"
+        },
+        {
+          "reading": "お.さえる",
+          "hangul": "오"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "央",
+      "unicode": 22830,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "앙",
+      "meaning": "가운데",
+      "onyomi": [
+        {
+          "reading": "オウ",
+          "hangul": "오우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "巨",
+      "unicode": 24040,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "거",
+      "meaning": "크다",
+      "onyomi": [
+        {
+          "reading": "キょ",
+          "hangul": "키ょ"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "布",
+      "unicode": 24067,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "포",
+      "meaning": "헝겊, 펴다",
+      "onyomi": [
+        {
+          "reading": "フ",
+          "hangul": "후"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ぬの",
+          "hangul": "누노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "幼",
+      "unicode": 24188,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "유",
+      "meaning": "어리다",
+      "onyomi": [
+        {
+          "reading": "ヨウ",
+          "hangul": "요우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おさな.い",
+          "hangul": "오사나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "庁",
+      "unicode": 24193,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "청",
+      "meaning": "관청",
+      "onyomi": [
+        {
+          "reading": "チょウ",
+          "hangul": "치ょ우"
+        },
+        {
+          "reading": "テイ",
+          "hangul": "테이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "やくしょ",
+          "hangul": "야쿠시ょ"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "旧",
+      "unicode": 26087,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "구",
+      "meaning": "예스럽다",
+      "onyomi": [
+        {
+          "reading": "キゅウ",
+          "hangul": "키ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふる.い",
+          "hangul": "후루"
+        },
+        {
+          "reading": "もと",
+          "hangul": "모토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "札",
+      "unicode": 26413,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "찰",
+      "meaning": "패, 지폐",
+      "onyomi": [
+        {
+          "reading": "サツ",
+          "hangul": "사쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふだ",
+          "hangul": "후다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "氷",
+      "unicode": 27703,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "빙",
+      "meaning": "얼음",
+      "onyomi": [
+        {
+          "reading": "ヒょウ",
+          "hangul": "히ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こおり",
+          "hangul": "코오리"
+        },
+        {
+          "reading": "ひ",
+          "hangul": "히"
+        },
+        {
+          "reading": "こお.る",
+          "hangul": "코오"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "永",
+      "unicode": 27704,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "영",
+      "meaning": "길다",
+      "onyomi": [
+        {
+          "reading": "エイ",
+          "hangul": "에이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "なが.い",
+          "hangul": "나가"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "玉",
+      "unicode": 29577,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "옥",
+      "meaning": "구슬",
+      "onyomi": [
+        {
+          "reading": "ギょク",
+          "hangul": "기ょ쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たま",
+          "hangul": "타마"
+        },
+        {
+          "reading": "たま-",
+          "hangul": "타마-"
+        },
+        {
+          "reading": "-だま",
+          "hangul": "-다마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "甘",
+      "unicode": 29976,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "감",
+      "meaning": "달다",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あま.い",
+          "hangul": "아마"
+        },
+        {
+          "reading": "あま.える",
+          "hangul": "아마"
+        },
+        {
+          "reading": "あま.やかす",
+          "hangul": "아마"
+        },
+        {
+          "reading": "うま.い",
+          "hangul": "우마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "皮",
+      "unicode": 30382,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "피",
+      "meaning": "가죽",
+      "onyomi": [
+        {
+          "reading": "ヒ",
+          "hangul": "히"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かわ",
+          "hangul": "카와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "皿",
+      "unicode": 30399,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "명",
+      "meaning": "접시",
+      "onyomi": [
+        {
+          "reading": "ベイ",
+          "hangul": "베이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さら",
+          "hangul": "사라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "辺",
+      "unicode": 36794,
+      "strokeCount": 5,
+      "jlpt": "N2",
+      "hanja": "변",
+      "meaning": "근처",
+      "onyomi": [
+        {
+          "reading": "ヘン",
+          "hangul": "헤응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あた.り",
+          "hangul": "아타"
+        },
+        {
+          "reading": "ほと.り",
+          "hangul": "호토"
+        },
+        {
+          "reading": "-べ",
+          "hangul": "-베"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "仲",
+      "unicode": 20210,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "중",
+      "meaning": "사이",
+      "onyomi": [
+        {
+          "reading": "チゅウ",
+          "hangul": "치ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "なか",
+          "hangul": "나카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "兆",
+      "unicode": 20806,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "조",
+      "meaning": "조짐",
+      "onyomi": [
+        {
+          "reading": "チょウ",
+          "hangul": "치ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "きざ.す",
+          "hangul": "키자"
+        },
+        {
+          "reading": "きざ.し",
+          "hangul": "키자"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "再",
+      "unicode": 20877,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "재",
+      "meaning": "다시",
+      "onyomi": [
+        {
+          "reading": "サイ",
+          "hangul": "사이"
+        },
+        {
+          "reading": "サ",
+          "hangul": "사"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふたた.び",
+          "hangul": "후타타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "印",
+      "unicode": 21360,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "인",
+      "meaning": "도장, 찍다",
+      "onyomi": [
+        {
+          "reading": "イン",
+          "hangul": "이응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しるし",
+          "hangul": "시루시"
+        },
+        {
+          "reading": "-じるし",
+          "hangul": "-지루시"
+        },
+        {
+          "reading": "しる.す",
+          "hangul": "시루"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "叫",
+      "unicode": 21483,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "규",
+      "meaning": "부르짖다",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さけ.ぶ",
+          "hangul": "사케"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "各",
+      "unicode": 21508,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "각",
+      "meaning": "각각",
+      "onyomi": [
+        {
+          "reading": "カク",
+          "hangul": "카쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おのおの",
+          "hangul": "오노오노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "団",
+      "unicode": 22243,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "단",
+      "meaning": "단체",
+      "onyomi": [
+        {
+          "reading": "ダン",
+          "hangul": "다응"
+        },
+        {
+          "reading": "トン",
+          "hangul": "토응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かたまり",
+          "hangul": "카타마리"
+        },
+        {
+          "reading": "まる.い",
+          "hangul": "마루"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "宇",
+      "unicode": 23431,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "우",
+      "meaning": "집, 우주",
+      "onyomi": [
+        {
+          "reading": "ウ",
+          "hangul": "우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "寺",
+      "unicode": 23546,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "절",
+      "onyomi": [
+        {
+          "reading": "ジ",
+          "hangul": "지"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "てら",
+          "hangul": "테라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "州",
+      "unicode": 24030,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "주",
+      "meaning": "고을",
+      "onyomi": [
+        {
+          "reading": "シゅウ",
+          "hangul": "시ゅ우"
+        },
+        {
+          "reading": "ス",
+          "hangul": "스"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "す",
+          "hangul": "스"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "机",
+      "unicode": 26426,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "기",
+      "meaning": "책상",
+      "onyomi": [
+        {
+          "reading": "キ",
+          "hangul": "키"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つくえ",
+          "hangul": "쓰쿠에"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "汗",
+      "unicode": 27735,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "한",
+      "meaning": "땀",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あせ",
+          "hangul": "아세"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "汚",
+      "unicode": 27738,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "오",
+      "meaning": "더럽다",
+      "onyomi": [
+        {
+          "reading": "オ",
+          "hangul": "오"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "けが.す",
+          "hangul": "케가"
+        },
+        {
+          "reading": "けが.れる",
+          "hangul": "케가"
+        },
+        {
+          "reading": "けが.らわしい",
+          "hangul": "케가"
+        },
+        {
+          "reading": "よご.す",
+          "hangul": "요고"
+        },
+        {
+          "reading": "よご.れる",
+          "hangul": "요고"
+        },
+        {
+          "reading": "きたな.い",
+          "hangul": "키타나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "池",
+      "unicode": 27744,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "지",
+      "meaning": "못",
+      "onyomi": [
+        {
+          "reading": "チ",
+          "hangul": "치"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いけ",
+          "hangul": "이케"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "灯",
+      "unicode": 28783,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "등",
+      "meaning": "등불",
+      "onyomi": [
+        {
+          "reading": "トウ",
+          "hangul": "토우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ひ",
+          "hangul": "히"
+        },
+        {
+          "reading": "ほ-",
+          "hangul": "호-"
+        },
+        {
+          "reading": "ともしび",
+          "hangul": "토모시비"
+        },
+        {
+          "reading": "とも.す",
+          "hangul": "토모"
+        },
+        {
+          "reading": "あかり",
+          "hangul": "아카리"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "灰",
+      "unicode": 28784,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "회",
+      "meaning": "재",
+      "onyomi": [
+        {
+          "reading": "カイ",
+          "hangul": "카이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はい",
+          "hangul": "하이"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "竹",
+      "unicode": 31481,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "죽",
+      "meaning": "대나무",
+      "onyomi": [
+        {
+          "reading": "チク",
+          "hangul": "치쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たけ",
+          "hangul": "타케"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "糸",
+      "unicode": 31992,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "실",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いと",
+          "hangul": "이토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "缶",
+      "unicode": 32566,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "관",
+      "meaning": "깡통",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かま",
+          "hangul": "카마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "羽",
+      "unicode": 32701,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "우",
+      "meaning": "깃",
+      "onyomi": [
+        {
+          "reading": "ウ",
+          "hangul": "우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "は",
+          "hangul": "하"
+        },
+        {
+          "reading": "わ",
+          "hangul": "와"
+        },
+        {
+          "reading": "はね",
+          "hangul": "하네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "肌",
+      "unicode": 32908,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "기",
+      "meaning": "살갗",
+      "onyomi": [
+        {
+          "reading": "キ",
+          "hangul": "키"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はだ",
+          "hangul": "하다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "舟",
+      "unicode": 33311,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "주",
+      "meaning": "배",
+      "onyomi": [
+        {
+          "reading": "シゅウ",
+          "hangul": "시ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふね",
+          "hangul": "후네"
+        },
+        {
+          "reading": "ふな-",
+          "hangul": "후나-"
+        },
+        {
+          "reading": "-ぶね",
+          "hangul": "-부네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "虫",
+      "unicode": 34411,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "충",
+      "meaning": "벌레",
+      "onyomi": [
+        {
+          "reading": "チゅウ",
+          "hangul": "치ゅ우"
+        },
+        {
+          "reading": "キ",
+          "hangul": "키"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "むし",
+          "hangul": "무시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "血",
+      "unicode": 34880,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "혈",
+      "meaning": "피",
+      "onyomi": [
+        {
+          "reading": "ケツ",
+          "hangul": "케쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ち",
+          "hangul": "치"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "衣",
+      "unicode": 34915,
+      "strokeCount": 6,
+      "jlpt": "N2",
+      "hanja": "의",
+      "meaning": "옷",
+      "onyomi": [
+        {
+          "reading": "イ",
+          "hangul": "이"
+        },
+        {
+          "reading": "エ",
+          "hangul": "에"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ころも",
+          "hangul": "코로모"
+        },
+        {
+          "reading": "きぬ",
+          "hangul": "키누"
+        },
+        {
+          "reading": "-ぎ",
+          "hangul": "-기"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "乱",
+      "unicode": 20081,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "란",
+      "meaning": "어지럽다",
+      "onyomi": [
+        {
+          "reading": "ラン",
+          "hangul": "라응"
+        },
+        {
+          "reading": "ロン",
+          "hangul": "로응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "みだ.れる",
+          "hangul": "미다"
+        },
+        {
+          "reading": "みだ.る",
+          "hangul": "미다"
+        },
+        {
+          "reading": "みだ.す",
+          "hangul": "미다"
+        },
+        {
+          "reading": "みだ",
+          "hangul": "미다"
+        },
+        {
+          "reading": "おさ.める",
+          "hangul": "오사"
+        },
+        {
+          "reading": "わた.る",
+          "hangul": "와타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "伸",
+      "unicode": 20280,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "신",
+      "meaning": "펴다",
+      "onyomi": [
+        {
+          "reading": "シン",
+          "hangul": "시응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "の.びる",
+          "hangul": "노"
+        },
+        {
+          "reading": "の.ばす",
+          "hangul": "노"
+        },
+        {
+          "reading": "の.べる",
+          "hangul": "노"
+        },
+        {
+          "reading": "の.す",
+          "hangul": "노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "伺",
+      "unicode": 20282,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "엿보다",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うかが.う",
+          "hangul": "우카가"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "低",
+      "unicode": 20302,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "저",
+      "meaning": "낮다",
+      "onyomi": [
+        {
+          "reading": "テイ",
+          "hangul": "테이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ひく.い",
+          "hangul": "히쿠"
+        },
+        {
+          "reading": "ひく.める",
+          "hangul": "히쿠"
+        },
+        {
+          "reading": "ひく.まる",
+          "hangul": "히쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "児",
+      "unicode": 20816,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "아",
+      "meaning": "아이",
+      "onyomi": [
+        {
+          "reading": "ジ",
+          "hangul": "지"
+        },
+        {
+          "reading": "ニ",
+          "hangul": "니"
+        },
+        {
+          "reading": "ゲイ",
+          "hangul": "게이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こ",
+          "hangul": "코"
+        },
+        {
+          "reading": "-こ",
+          "hangul": "-코"
+        },
+        {
+          "reading": "-っこ",
+          "hangul": "-っ코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "兵",
+      "unicode": 20853,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "병",
+      "meaning": "군사",
+      "onyomi": [
+        {
+          "reading": "ヘイ",
+          "hangul": "헤이"
+        },
+        {
+          "reading": "ヒょウ",
+          "hangul": "히ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つわもの",
+          "hangul": "쓰와모노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "卵",
+      "unicode": 21365,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "란",
+      "meaning": "알",
+      "onyomi": [
+        {
+          "reading": "ラン",
+          "hangul": "라응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たまご",
+          "hangul": "타마고"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "含",
+      "unicode": 21547,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "함",
+      "meaning": "머금다",
+      "onyomi": [
+        {
+          "reading": "ガン",
+          "hangul": "가응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふく.む",
+          "hangul": "후쿠"
+        },
+        {
+          "reading": "ふく.める",
+          "hangul": "후쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "囲",
+      "unicode": 22258,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "위",
+      "meaning": "둘러싸다",
+      "onyomi": [
+        {
+          "reading": "イ",
+          "hangul": "이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かこ.む",
+          "hangul": "카코"
+        },
+        {
+          "reading": "かこ.う",
+          "hangul": "카코"
+        },
+        {
+          "reading": "かこ.い",
+          "hangul": "카코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "坂",
+      "unicode": 22338,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "판",
+      "meaning": "비탈",
+      "onyomi": [
+        {
+          "reading": "ハン",
+          "hangul": "하응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さか",
+          "hangul": "사카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "均",
+      "unicode": 22343,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "균",
+      "meaning": "고르다",
+      "onyomi": [
+        {
+          "reading": "キン",
+          "hangul": "키응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "なら.す",
+          "hangul": "나라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "希",
+      "unicode": 24076,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "희",
+      "meaning": "바라다",
+      "onyomi": [
+        {
+          "reading": "キ",
+          "hangul": "키"
+        },
+        {
+          "reading": "ケ",
+          "hangul": "케"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "まれ",
+          "hangul": "마레"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "床",
+      "unicode": 24202,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "상",
+      "meaning": "침상",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "とこ",
+          "hangul": "토코"
+        },
+        {
+          "reading": "ゆか",
+          "hangul": "유카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "快",
+      "unicode": 24555,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "쾌",
+      "meaning": "쾌활하다",
+      "onyomi": [
+        {
+          "reading": "カイ",
+          "hangul": "카이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こころよ.い",
+          "hangul": "코코로요"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "技",
+      "unicode": 25216,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "기",
+      "meaning": "기술, 재주",
+      "onyomi": [
+        {
+          "reading": "ギ",
+          "hangul": "기"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "わざ",
+          "hangul": "와자"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "改",
+      "unicode": 25913,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "개",
+      "meaning": "고치다",
+      "onyomi": [
+        {
+          "reading": "カイ",
+          "hangul": "카이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あらた.める",
+          "hangul": "아라타"
+        },
+        {
+          "reading": "あらた.まる",
+          "hangul": "아라타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "材",
+      "unicode": 26448,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "재",
+      "meaning": "재료",
+      "onyomi": [
+        {
+          "reading": "ザイ",
+          "hangul": "자이"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "村",
+      "unicode": 26449,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "촌",
+      "meaning": "마을",
+      "onyomi": [
+        {
+          "reading": "ソン",
+          "hangul": "소응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "むら",
+          "hangul": "무라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "沈",
+      "unicode": 27784,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "침",
+      "meaning": "가라앉다",
+      "onyomi": [
+        {
+          "reading": "チン",
+          "hangul": "치응"
+        },
+        {
+          "reading": "ジン",
+          "hangul": "지응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しず.む",
+          "hangul": "시즈"
+        },
+        {
+          "reading": "しず.める",
+          "hangul": "시즈"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "臣",
+      "unicode": 33251,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "신",
+      "meaning": "신하",
+      "onyomi": [
+        {
+          "reading": "シン",
+          "hangul": "시응"
+        },
+        {
+          "reading": "ジン",
+          "hangul": "지응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "芸",
+      "unicode": 33464,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "예",
+      "meaning": "기예",
+      "onyomi": [
+        {
+          "reading": "ゲイ",
+          "hangul": "게이"
+        },
+        {
+          "reading": "ウン",
+          "hangul": "우응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "う.える",
+          "hangul": "우"
+        },
+        {
+          "reading": "のり",
+          "hangul": "노리"
+        },
+        {
+          "reading": "わざ",
+          "hangul": "와자"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "角",
+      "unicode": 35282,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "각",
+      "meaning": "뿔, 각",
+      "onyomi": [
+        {
+          "reading": "カク",
+          "hangul": "카쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かど",
+          "hangul": "카도"
+        },
+        {
+          "reading": "つの",
+          "hangul": "쓰노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "谷",
+      "unicode": 35895,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "곡",
+      "meaning": "골짜기",
+      "onyomi": [
+        {
+          "reading": "コク",
+          "hangul": "코쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たに",
+          "hangul": "타니"
+        },
+        {
+          "reading": "きわ.まる",
+          "hangul": "키와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "貝",
+      "unicode": 35997,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "패",
+      "meaning": "조개",
+      "onyomi": [
+        {
+          "reading": "バイ",
+          "hangul": "바이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かい",
+          "hangul": "카이"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "辛",
+      "unicode": 36763,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "신",
+      "meaning": "매울",
+      "onyomi": [
+        {
+          "reading": "シン",
+          "hangul": "시응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "から.い",
+          "hangul": "카라"
+        },
+        {
+          "reading": "つら.い",
+          "hangul": "쓰라"
+        },
+        {
+          "reading": "-づら.い",
+          "hangul": "-즈라"
+        },
+        {
+          "reading": "かのと",
+          "hangul": "카노토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "防",
+      "unicode": 38450,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "방",
+      "meaning": "막다",
+      "onyomi": [
+        {
+          "reading": "ボウ",
+          "hangul": "보우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふせ.ぐ",
+          "hangul": "후세"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "麦",
+      "unicode": 40614,
+      "strokeCount": 7,
+      "jlpt": "N2",
+      "hanja": "맥",
+      "meaning": "보리",
+      "onyomi": [
+        {
+          "reading": "バク",
+          "hangul": "바쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "むぎ",
+          "hangul": "무기"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "並",
+      "unicode": 20006,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "병",
+      "meaning": "나란히",
+      "onyomi": [
+        {
+          "reading": "ヘイ",
+          "hangul": "헤이"
+        },
+        {
+          "reading": "ホウ",
+          "hangul": "호우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "な.み",
+          "hangul": "나"
+        },
+        {
+          "reading": "なみ",
+          "hangul": "나미"
+        },
+        {
+          "reading": "なら.べる",
+          "hangul": "나라"
+        },
+        {
+          "reading": "なら.ぶ",
+          "hangul": "나라"
+        },
+        {
+          "reading": "なら.びに",
+          "hangul": "나라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "乳",
+      "unicode": 20083,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "유",
+      "meaning": "젖",
+      "onyomi": [
+        {
+          "reading": "ニゅウ",
+          "hangul": "니ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ちち",
+          "hangul": "치치"
+        },
+        {
+          "reading": "ち",
+          "hangul": "치"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "依",
+      "unicode": 20381,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "의",
+      "meaning": "의지하다",
+      "onyomi": [
+        {
+          "reading": "イ",
+          "hangul": "이"
+        },
+        {
+          "reading": "エ",
+          "hangul": "에"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "よ.る",
+          "hangul": "요"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "刷",
+      "unicode": 21047,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "쇄",
+      "meaning": "인쇄하다",
+      "onyomi": [
+        {
+          "reading": "サツ",
+          "hangul": "사쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "す.る",
+          "hangul": "스"
+        },
+        {
+          "reading": "-ず.り",
+          "hangul": "-즈"
+        },
+        {
+          "reading": "-ずり",
+          "hangul": "-즈리"
+        },
+        {
+          "reading": "は.く",
+          "hangul": "하"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "券",
+      "unicode": 21048,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "권",
+      "meaning": "문서, 표",
+      "onyomi": [
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "刺",
+      "unicode": 21050,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "자",
+      "meaning": "찌르다",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さ.す",
+          "hangul": "사"
+        },
+        {
+          "reading": "さ.さる",
+          "hangul": "사"
+        },
+        {
+          "reading": "さ.し",
+          "hangul": "사"
+        },
+        {
+          "reading": "さし",
+          "hangul": "사시"
+        },
+        {
+          "reading": "とげ",
+          "hangul": "토게"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "効",
+      "unicode": 21177,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "효",
+      "meaning": "효과",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "き.く",
+          "hangul": "키"
+        },
+        {
+          "reading": "ききめ",
+          "hangul": "키키메"
+        },
+        {
+          "reading": "なら.う",
+          "hangul": "나라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "卒",
+      "unicode": 21330,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "졸",
+      "meaning": "마치다",
+      "onyomi": [
+        {
+          "reading": "ソツ",
+          "hangul": "소쓰"
+        },
+        {
+          "reading": "シゅツ",
+          "hangul": "시ゅ쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "そっ.する",
+          "hangul": "소っ"
+        },
+        {
+          "reading": "お.える",
+          "hangul": "오"
+        },
+        {
+          "reading": "お.わる",
+          "hangul": "오"
+        },
+        {
+          "reading": "ついに",
+          "hangul": "쓰이니"
+        },
+        {
+          "reading": "にわか",
+          "hangul": "니와카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "協",
+      "unicode": 21332,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "협",
+      "meaning": "협력하다",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "周",
+      "unicode": 21608,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "주",
+      "meaning": "두루",
+      "onyomi": [
+        {
+          "reading": "シゅウ",
+          "hangul": "시ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "まわ.り",
+          "hangul": "마와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "固",
+      "unicode": 22266,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "고",
+      "meaning": "굳다",
+      "onyomi": [
+        {
+          "reading": "コ",
+          "hangul": "코"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かた.める",
+          "hangul": "카타"
+        },
+        {
+          "reading": "かた.まる",
+          "hangul": "카타"
+        },
+        {
+          "reading": "かた.まり",
+          "hangul": "카타"
+        },
+        {
+          "reading": "かた.い",
+          "hangul": "카타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "姓",
+      "unicode": 22995,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "성",
+      "meaning": "성",
+      "onyomi": [
+        {
+          "reading": "セイ",
+          "hangul": "세이"
+        },
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "委",
+      "unicode": 22996,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "위",
+      "meaning": "맡기다",
+      "onyomi": [
+        {
+          "reading": "イ",
+          "hangul": "이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ゆだ.ねる",
+          "hangul": "유다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "季",
+      "unicode": 23395,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "계",
+      "meaning": "계절",
+      "onyomi": [
+        {
+          "reading": "キ",
+          "hangul": "키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "宝",
+      "unicode": 23453,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "보",
+      "meaning": "보배",
+      "onyomi": [
+        {
+          "reading": "ホウ",
+          "hangul": "호우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たから",
+          "hangul": "타카라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "届",
+      "unicode": 23626,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "届(일본)",
+      "meaning": "닿다, 届け出(신고)",
+      "onyomi": [
+        {
+          "reading": "カイ",
+          "hangul": "카이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "とど.ける",
+          "hangul": "토도"
+        },
+        {
+          "reading": "-とど.け",
+          "hangul": "-토도"
+        },
+        {
+          "reading": "とど.く",
+          "hangul": "토도"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "岩",
+      "unicode": 23721,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "암",
+      "meaning": "바위",
+      "onyomi": [
+        {
+          "reading": "ガン",
+          "hangul": "가응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いわ",
+          "hangul": "이와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "岸",
+      "unicode": 23736,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "안",
+      "meaning": "언덕",
+      "onyomi": [
+        {
+          "reading": "ガン",
+          "hangul": "가응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "きし",
+          "hangul": "키시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "底",
+      "unicode": 24213,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "저",
+      "meaning": "밑바닥",
+      "onyomi": [
+        {
+          "reading": "テイ",
+          "hangul": "테이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "そこ",
+          "hangul": "소코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "府",
+      "unicode": 24220,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "부",
+      "meaning": "관청, 정부",
+      "onyomi": [
+        {
+          "reading": "フ",
+          "hangul": "후"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "延",
+      "unicode": 24310,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "연",
+      "meaning": "늘이다",
+      "onyomi": [
+        {
+          "reading": "エン",
+          "hangul": "에응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "の.びる",
+          "hangul": "노"
+        },
+        {
+          "reading": "の.べる",
+          "hangul": "노"
+        },
+        {
+          "reading": "の.べ",
+          "hangul": "노"
+        },
+        {
+          "reading": "の.ばす",
+          "hangul": "노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "承",
+      "unicode": 25215,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "승",
+      "meaning": "잇다, 받다",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        },
+        {
+          "reading": "ジょウ",
+          "hangul": "지ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うけたまわ.る",
+          "hangul": "우케타마와"
+        },
+        {
+          "reading": "う.ける",
+          "hangul": "우"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "担",
+      "unicode": 25285,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "담",
+      "meaning": "메다, 맡다",
+      "onyomi": [
+        {
+          "reading": "タン",
+          "hangul": "타응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かつ.ぐ",
+          "hangul": "카쓰"
+        },
+        {
+          "reading": "にな.う",
+          "hangul": "니나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "拝",
+      "unicode": 25309,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "배",
+      "meaning": "절하다",
+      "onyomi": [
+        {
+          "reading": "ハイ",
+          "hangul": "하이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おが.む",
+          "hangul": "오가"
+        },
+        {
+          "reading": "おろが.む",
+          "hangul": "오로가"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "昇",
+      "unicode": 26119,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "승",
+      "meaning": "오르다",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "のぼ.る",
+          "hangul": "노보"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "板",
+      "unicode": 26495,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "판",
+      "meaning": "널빤지",
+      "onyomi": [
+        {
+          "reading": "ハン",
+          "hangul": "하응"
+        },
+        {
+          "reading": "バン",
+          "hangul": "바응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いた",
+          "hangul": "이타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "林",
+      "unicode": 26519,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "림",
+      "meaning": "수풀",
+      "onyomi": [
+        {
+          "reading": "リン",
+          "hangul": "리응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はやし",
+          "hangul": "하야시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "枚",
+      "unicode": 26522,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "매",
+      "meaning": "장(얇은 것)",
+      "onyomi": [
+        {
+          "reading": "マイ",
+          "hangul": "마이"
+        },
+        {
+          "reading": "バイ",
+          "hangul": "바이"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "枝",
+      "unicode": 26525,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "지",
+      "meaning": "가지",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "えだ",
+          "hangul": "에다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "欧",
+      "unicode": 27431,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "구",
+      "meaning": "유럽",
+      "onyomi": [
+        {
+          "reading": "オウ",
+          "hangul": "오우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うた.う",
+          "hangul": "우타"
+        },
+        {
+          "reading": "は.く",
+          "hangul": "하"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "武",
+      "unicode": 27494,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "무",
+      "meaning": "무사, 무력",
+      "onyomi": [
+        {
+          "reading": "ブ",
+          "hangul": "부"
+        },
+        {
+          "reading": "ム",
+          "hangul": "무"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たけ",
+          "hangul": "타케"
+        },
+        {
+          "reading": "たけ.し",
+          "hangul": "타케"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "毒",
+      "unicode": 27602,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "독",
+      "meaning": "독",
+      "onyomi": [
+        {
+          "reading": "ドク",
+          "hangul": "도쿠"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "河",
+      "unicode": 27827,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "하",
+      "meaning": "물",
+      "onyomi": [
+        {
+          "reading": "カ",
+          "hangul": "카"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かわ",
+          "hangul": "카와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "沸",
+      "unicode": 27832,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "비",
+      "meaning": "끓다",
+      "onyomi": [
+        {
+          "reading": "フツ",
+          "hangul": "후쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "わ.く",
+          "hangul": "와"
+        },
+        {
+          "reading": "わ.かす",
+          "hangul": "와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "油",
+      "unicode": 27833,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "유",
+      "meaning": "기름",
+      "onyomi": [
+        {
+          "reading": "ユ",
+          "hangul": "유"
+        },
+        {
+          "reading": "ユウ",
+          "hangul": "유우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あぶら",
+          "hangul": "아부라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "況",
+      "unicode": 27841,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "황",
+      "meaning": "형편",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "まし.て",
+          "hangul": "마시"
+        },
+        {
+          "reading": "いわ.んや",
+          "hangul": "이와"
+        },
+        {
+          "reading": "おもむき",
+          "hangul": "오모무키"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "泊",
+      "unicode": 27850,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "박",
+      "meaning": "묵다",
+      "onyomi": [
+        {
+          "reading": "ハク",
+          "hangul": "하쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "と.まる",
+          "hangul": "토"
+        },
+        {
+          "reading": "と.める",
+          "hangul": "토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "波",
+      "unicode": 27874,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "파",
+      "meaning": "물결",
+      "onyomi": [
+        {
+          "reading": "ハ",
+          "hangul": "하"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "なみ",
+          "hangul": "나미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "泥",
+      "unicode": 27877,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "니",
+      "meaning": "진흙",
+      "onyomi": [
+        {
+          "reading": "デイ",
+          "hangul": "데이"
+        },
+        {
+          "reading": "ナイ",
+          "hangul": "나이"
+        },
+        {
+          "reading": "デ",
+          "hangul": "데"
+        },
+        {
+          "reading": "ニ",
+          "hangul": "니"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "どろ",
+          "hangul": "도로"
+        },
+        {
+          "reading": "なず.む",
+          "hangul": "나즈"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "版",
+      "unicode": 29256,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "판",
+      "meaning": "판",
+      "onyomi": [
+        {
+          "reading": "ハン",
+          "hangul": "하응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "祈",
+      "unicode": 31048,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "기",
+      "meaning": "빌다",
+      "onyomi": [
+        {
+          "reading": "キ",
+          "hangul": "키"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いの.る",
+          "hangul": "이노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "肩",
+      "unicode": 32937,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "견",
+      "meaning": "어깨",
+      "onyomi": [
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かた",
+          "hangul": "카타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "肯",
+      "unicode": 32943,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "긍",
+      "meaning": "즐기다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "がえんじ.る",
+          "hangul": "가에응지"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "述",
+      "unicode": 36848,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "술",
+      "meaning": "말하다",
+      "onyomi": [
+        {
+          "reading": "ジゅツ",
+          "hangul": "지ゅ쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "の.べる",
+          "hangul": "노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "門",
+      "unicode": 38272,
+      "strokeCount": 8,
+      "jlpt": "N2",
+      "hanja": "문",
+      "meaning": "문",
+      "onyomi": [
+        {
+          "reading": "モン",
+          "hangul": "모응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かど",
+          "hangul": "카도"
+        },
+        {
+          "reading": "と",
+          "hangul": "토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "則",
+      "unicode": 21063,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "칙",
+      "meaning": "법칙",
+      "onyomi": [
+        {
+          "reading": "ソク",
+          "hangul": "소쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "のっと.る",
+          "hangul": "노っ토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "勇",
+      "unicode": 21191,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "용",
+      "meaning": "용감하다",
+      "onyomi": [
+        {
+          "reading": "ユウ",
+          "hangul": "유우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いさ.む",
+          "hangul": "이사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "厚",
+      "unicode": 21402,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "후",
+      "meaning": "두텁다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あつ.い",
+          "hangul": "아쓰"
+        },
+        {
+          "reading": "あか",
+          "hangul": "아카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "咲",
+      "unicode": 21682,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "소",
+      "meaning": "(꽃이) 피다",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さ.く",
+          "hangul": "사"
+        },
+        {
+          "reading": "-ざき",
+          "hangul": "-자키"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "型",
+      "unicode": 22411,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "형",
+      "meaning": "거푸집, 형",
+      "onyomi": [
+        {
+          "reading": "ケイ",
+          "hangul": "케이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かた",
+          "hangul": "카타"
+        },
+        {
+          "reading": "-がた",
+          "hangul": "-가타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "城",
+      "unicode": 22478,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "성",
+      "meaning": "성",
+      "onyomi": [
+        {
+          "reading": "ジょウ",
+          "hangul": "지ょ우"
+        },
+        {
+          "reading": "セイ",
+          "hangul": "세이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しろ",
+          "hangul": "시로"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "封",
+      "unicode": 23553,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "봉",
+      "meaning": "봉하다",
+      "onyomi": [
+        {
+          "reading": "フウ",
+          "hangul": "후우"
+        },
+        {
+          "reading": "ホウ",
+          "hangul": "호우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "専",
+      "unicode": 23554,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "전",
+      "meaning": "오로지",
+      "onyomi": [
+        {
+          "reading": "セン",
+          "hangul": "세응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "もっぱ.ら",
+          "hangul": "모っ파"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "巻",
+      "unicode": 24059,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "권",
+      "meaning": "두루마리",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        },
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ま.く",
+          "hangul": "마"
+        },
+        {
+          "reading": "まき",
+          "hangul": "마키"
+        },
+        {
+          "reading": "ま.き",
+          "hangul": "마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "律",
+      "unicode": 24459,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "률",
+      "meaning": "법률",
+      "onyomi": [
+        {
+          "reading": "リツ",
+          "hangul": "리쓰"
+        },
+        {
+          "reading": "リチ",
+          "hangul": "리치"
+        },
+        {
+          "reading": "レツ",
+          "hangul": "레쓰"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "拾",
+      "unicode": 25342,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "습",
+      "meaning": "줍다",
+      "onyomi": [
+        {
+          "reading": "シゅウ",
+          "hangul": "시ゅ우"
+        },
+        {
+          "reading": "ジゅウ",
+          "hangul": "지ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ひろ.う",
+          "hangul": "히로"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "挟",
+      "unicode": 25375,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "협",
+      "meaning": "끼다",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        },
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はさ.む",
+          "hangul": "하사"
+        },
+        {
+          "reading": "はさ.まる",
+          "hangul": "하사"
+        },
+        {
+          "reading": "わきばさ.む",
+          "hangul": "와키바사"
+        },
+        {
+          "reading": "さしはさ.む",
+          "hangul": "사시하사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "星",
+      "unicode": 26143,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "성",
+      "meaning": "별",
+      "onyomi": [
+        {
+          "reading": "セイ",
+          "hangul": "세이"
+        },
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほし",
+          "hangul": "호시"
+        },
+        {
+          "reading": "-ぼし",
+          "hangul": "-보시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "枯",
+      "unicode": 26543,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "고",
+      "meaning": "마르다",
+      "onyomi": [
+        {
+          "reading": "コ",
+          "hangul": "코"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "か.れる",
+          "hangul": "카"
+        },
+        {
+          "reading": "か.らす",
+          "hangul": "카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "柔",
+      "unicode": 26580,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "유",
+      "meaning": "부드럽다",
+      "onyomi": [
+        {
+          "reading": "ジゅウ",
+          "hangul": "지ゅ우"
+        },
+        {
+          "reading": "ニゅウ",
+          "hangul": "니ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "やわ.らか",
+          "hangul": "야와"
+        },
+        {
+          "reading": "やわ.らかい",
+          "hangul": "야와"
+        },
+        {
+          "reading": "やわ",
+          "hangul": "야와"
+        },
+        {
+          "reading": "やわ.ら",
+          "hangul": "야와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "柱",
+      "unicode": 26609,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "주",
+      "meaning": "기둥",
+      "onyomi": [
+        {
+          "reading": "チゅウ",
+          "hangul": "치ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はしら",
+          "hangul": "하시라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "査",
+      "unicode": 26619,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "조사하다",
+      "onyomi": [
+        {
+          "reading": "サ",
+          "hangul": "사"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "栄",
+      "unicode": 26628,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "영",
+      "meaning": "영화롭다",
+      "onyomi": [
+        {
+          "reading": "エイ",
+          "hangul": "에이"
+        },
+        {
+          "reading": "ヨウ",
+          "hangul": "요우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さか.える",
+          "hangul": "사카"
+        },
+        {
+          "reading": "は.え",
+          "hangul": "하"
+        },
+        {
+          "reading": "-ば.え",
+          "hangul": "-바"
+        },
+        {
+          "reading": "は.える",
+          "hangul": "하"
+        },
+        {
+          "reading": "え",
+          "hangul": "에"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "泉",
+      "unicode": 27849,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "천",
+      "meaning": "샘",
+      "onyomi": [
+        {
+          "reading": "セン",
+          "hangul": "세응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いずみ",
+          "hangul": "이즈미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "浅",
+      "unicode": 27973,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "천",
+      "meaning": "얕다",
+      "onyomi": [
+        {
+          "reading": "セン",
+          "hangul": "세응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あさ.い",
+          "hangul": "아사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "炭",
+      "unicode": 28845,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "탄",
+      "meaning": "숯",
+      "onyomi": [
+        {
+          "reading": "タン",
+          "hangul": "타응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "すみ",
+          "hangul": "스미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "珍",
+      "unicode": 29645,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "진",
+      "meaning": "귀하다",
+      "onyomi": [
+        {
+          "reading": "チン",
+          "hangul": "치응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "めずら.しい",
+          "hangul": "메즈라"
+        },
+        {
+          "reading": "たから",
+          "hangul": "타카라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "省",
+      "unicode": 30465,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "성",
+      "meaning": "살피다, 성",
+      "onyomi": [
+        {
+          "reading": "セイ",
+          "hangul": "세이"
+        },
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かえり.みる",
+          "hangul": "카에리"
+        },
+        {
+          "reading": "はぶ.く",
+          "hangul": "하부"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "県",
+      "unicode": 30476,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "현",
+      "meaning": "현",
+      "onyomi": [
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "か.ける",
+          "hangul": "카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "砂",
+      "unicode": 30722,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "모래",
+      "onyomi": [
+        {
+          "reading": "サ",
+          "hangul": "사"
+        },
+        {
+          "reading": "シゃ",
+          "hangul": "시ゃ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "すな",
+          "hangul": "스나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "祝",
+      "unicode": 31069,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "축",
+      "meaning": "축하하다",
+      "onyomi": [
+        {
+          "reading": "シゅク",
+          "hangul": "시ゅ쿠"
+        },
+        {
+          "reading": "シゅウ",
+          "hangul": "시ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いわ.う",
+          "hangul": "이와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "秒",
+      "unicode": 31186,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "초",
+      "meaning": "초",
+      "onyomi": [
+        {
+          "reading": "ビょウ",
+          "hangul": "비ょ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "紅",
+      "unicode": 32005,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "홍",
+      "meaning": "붉다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        },
+        {
+          "reading": "ク",
+          "hangul": "쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "べに",
+          "hangul": "베니"
+        },
+        {
+          "reading": "くれない",
+          "hangul": "쿠레나이"
+        },
+        {
+          "reading": "あか.い",
+          "hangul": "아카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "胃",
+      "unicode": 32963,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "위",
+      "meaning": "위",
+      "onyomi": [
+        {
+          "reading": "イ",
+          "hangul": "이"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "荒",
+      "unicode": 33618,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "황",
+      "meaning": "거칠다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あら.い",
+          "hangul": "아라"
+        },
+        {
+          "reading": "あら-",
+          "hangul": "아라-"
+        },
+        {
+          "reading": "あ.れる",
+          "hangul": "아"
+        },
+        {
+          "reading": "あ.らす",
+          "hangul": "아"
+        },
+        {
+          "reading": "-あ.らし",
+          "hangul": "-아"
+        },
+        {
+          "reading": "すさ.む",
+          "hangul": "스사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "軍",
+      "unicode": 36557,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "군",
+      "meaning": "군사",
+      "onyomi": [
+        {
+          "reading": "グン",
+          "hangul": "구응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いくさ",
+          "hangul": "이쿠사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "逆",
+      "unicode": 36870,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "역",
+      "meaning": "거꾸로",
+      "onyomi": [
+        {
+          "reading": "ギゃク",
+          "hangul": "기ゃ쿠"
+        },
+        {
+          "reading": "ゲキ",
+          "hangul": "게키"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さか",
+          "hangul": "사카"
+        },
+        {
+          "reading": "さか.さ",
+          "hangul": "사카"
+        },
+        {
+          "reading": "さか.らう",
+          "hangul": "사카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "郊",
+      "unicode": 37066,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "교",
+      "meaning": "교외",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "革",
+      "unicode": 38761,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "혁",
+      "meaning": "가죽, 혁명",
+      "onyomi": [
+        {
+          "reading": "カク",
+          "hangul": "카쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かわ",
+          "hangul": "카와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "香",
+      "unicode": 39321,
+      "strokeCount": 9,
+      "jlpt": "N2",
+      "hanja": "향",
+      "meaning": "향기",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        },
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "か",
+          "hangul": "카"
+        },
+        {
+          "reading": "かお.り",
+          "hangul": "카오"
+        },
+        {
+          "reading": "かお.る",
+          "hangul": "카오"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "個",
+      "unicode": 20491,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "개",
+      "meaning": "낱",
+      "onyomi": [
+        {
+          "reading": "コ",
+          "hangul": "코"
+        },
+        {
+          "reading": "カ",
+          "hangul": "카"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "倍",
+      "unicode": 20493,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "배",
+      "meaning": "곱",
+      "onyomi": [
+        {
+          "reading": "バイ",
+          "hangul": "바이"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "党",
+      "unicode": 20826,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "당",
+      "meaning": "당, 무리",
+      "onyomi": [
+        {
+          "reading": "トウ",
+          "hangul": "토우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "なかま",
+          "hangul": "나카마"
+        },
+        {
+          "reading": "むら",
+          "hangul": "무라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "凍",
+      "unicode": 20941,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "동",
+      "meaning": "얼다",
+      "onyomi": [
+        {
+          "reading": "トウ",
+          "hangul": "토우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こお.る",
+          "hangul": "코오"
+        },
+        {
+          "reading": "こご.える",
+          "hangul": "코고"
+        },
+        {
+          "reading": "こご.る",
+          "hangul": "코고"
+        },
+        {
+          "reading": "い.てる",
+          "hangul": "이"
+        },
+        {
+          "reading": "し.みる",
+          "hangul": "시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "埋",
+      "unicode": 22475,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "매",
+      "meaning": "묻다",
+      "onyomi": [
+        {
+          "reading": "マイ",
+          "hangul": "마이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "う.める",
+          "hangul": "우"
+        },
+        {
+          "reading": "う.まる",
+          "hangul": "우"
+        },
+        {
+          "reading": "う.もれる",
+          "hangul": "우"
+        },
+        {
+          "reading": "うず.める",
+          "hangul": "우즈"
+        },
+        {
+          "reading": "うず.まる",
+          "hangul": "우즈"
+        },
+        {
+          "reading": "い.ける",
+          "hangul": "이"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "孫",
+      "unicode": 23403,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "손",
+      "meaning": "손자",
+      "onyomi": [
+        {
+          "reading": "ソン",
+          "hangul": "소응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "まご",
+          "hangul": "마고"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "将",
+      "unicode": 23558,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "장",
+      "meaning": "장수",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        },
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "まさ.に",
+          "hangul": "마사"
+        },
+        {
+          "reading": "はた",
+          "hangul": "하타"
+        },
+        {
+          "reading": "まさ",
+          "hangul": "마사"
+        },
+        {
+          "reading": "ひきい.る",
+          "hangul": "히키이"
+        },
+        {
+          "reading": "もって",
+          "hangul": "모っ테"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "島",
+      "unicode": 23798,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "도",
+      "meaning": "섬",
+      "onyomi": [
+        {
+          "reading": "トウ",
+          "hangul": "토우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しま",
+          "hangul": "시마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "帯",
+      "unicode": 24111,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "대",
+      "meaning": "띠, 지대",
+      "onyomi": [
+        {
+          "reading": "タイ",
+          "hangul": "타이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "お.びる",
+          "hangul": "오"
+        },
+        {
+          "reading": "おび",
+          "hangul": "오비"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "庫",
+      "unicode": 24235,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "고",
+      "meaning": "곳간",
+      "onyomi": [
+        {
+          "reading": "コ",
+          "hangul": "코"
+        },
+        {
+          "reading": "ク",
+          "hangul": "쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "くら",
+          "hangul": "쿠라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "弱",
+      "unicode": 24369,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "약",
+      "meaning": "약하다",
+      "onyomi": [
+        {
+          "reading": "ジゃク",
+          "hangul": "지ゃ쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "よわ.い",
+          "hangul": "요와"
+        },
+        {
+          "reading": "よわ.る",
+          "hangul": "요와"
+        },
+        {
+          "reading": "よわ.まる",
+          "hangul": "요와"
+        },
+        {
+          "reading": "よわ.める",
+          "hangul": "요와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "恋",
+      "unicode": 24651,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "련",
+      "meaning": "사랑하다",
+      "onyomi": [
+        {
+          "reading": "レン",
+          "hangul": "레응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こ.う",
+          "hangul": "코"
+        },
+        {
+          "reading": "こい",
+          "hangul": "코이"
+        },
+        {
+          "reading": "こい.しい",
+          "hangul": "코이"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "悩",
+      "unicode": 24745,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "뇌",
+      "meaning": "괴롭다",
+      "onyomi": [
+        {
+          "reading": "ノウ",
+          "hangul": "노우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "なや.む",
+          "hangul": "나야"
+        },
+        {
+          "reading": "なや.ます",
+          "hangul": "나야"
+        },
+        {
+          "reading": "なや.ましい",
+          "hangul": "나야"
+        },
+        {
+          "reading": "なやみ",
+          "hangul": "나야미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "捜",
+      "unicode": 25436,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "수",
+      "meaning": "찾다",
+      "onyomi": [
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        },
+        {
+          "reading": "シゅ",
+          "hangul": "시ゅ"
+        },
+        {
+          "reading": "シゅウ",
+          "hangul": "시ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さが.す",
+          "hangul": "사가"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "根",
+      "unicode": 26681,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "근",
+      "meaning": "뿌리",
+      "onyomi": [
+        {
+          "reading": "コン",
+          "hangul": "코응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ね",
+          "hangul": "네"
+        },
+        {
+          "reading": "-ね",
+          "hangul": "-네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "浴",
+      "unicode": 28020,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "욕",
+      "meaning": "목욕하다",
+      "onyomi": [
+        {
+          "reading": "ヨク",
+          "hangul": "요쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あ.びる",
+          "hangul": "아"
+        },
+        {
+          "reading": "あ.びせる",
+          "hangul": "아"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "涙",
+      "unicode": 28057,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "루",
+      "meaning": "눈물",
+      "onyomi": [
+        {
+          "reading": "ルイ",
+          "hangul": "루이"
+        },
+        {
+          "reading": "レイ",
+          "hangul": "레이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "なみだ",
+          "hangul": "나미다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "畜",
+      "unicode": 30044,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "축",
+      "meaning": "기르다",
+      "onyomi": [
+        {
+          "reading": "チク",
+          "hangul": "치쿠"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "粉",
+      "unicode": 31881,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "분",
+      "meaning": "가루",
+      "onyomi": [
+        {
+          "reading": "フン",
+          "hangul": "후응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "デシメートル",
+          "hangul": "デシメートル"
+        },
+        {
+          "reading": "こ",
+          "hangul": "코"
+        },
+        {
+          "reading": "こな",
+          "hangul": "코나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "純",
+      "unicode": 32020,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "순",
+      "meaning": "순수하다",
+      "onyomi": [
+        {
+          "reading": "ジゅン",
+          "hangul": "지ゅ응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "耕",
+      "unicode": 32789,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "경",
+      "meaning": "갈다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たがや.す",
+          "hangul": "타가야"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "胸",
+      "unicode": 33016,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "흉",
+      "meaning": "가슴",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "むね",
+          "hangul": "무네"
+        },
+        {
+          "reading": "むな-",
+          "hangul": "무나-"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "脂",
+      "unicode": 33026,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "지",
+      "meaning": "기름",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あぶら",
+          "hangul": "아부라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "航",
+      "unicode": 33322,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "항",
+      "meaning": "항해",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "般",
+      "unicode": 33324,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "반",
+      "meaning": "일반",
+      "onyomi": [
+        {
+          "reading": "ハン",
+          "hangul": "하응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "荷",
+      "unicode": 33655,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "하",
+      "meaning": "짐",
+      "onyomi": [
+        {
+          "reading": "カ",
+          "hangul": "카"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "に",
+          "hangul": "니"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "被",
+      "unicode": 34987,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "피",
+      "meaning": "입다, 당하다",
+      "onyomi": [
+        {
+          "reading": "ヒ",
+          "hangul": "히"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こうむ.る",
+          "hangul": "코우무"
+        },
+        {
+          "reading": "おお.う",
+          "hangul": "오오"
+        },
+        {
+          "reading": "かぶ.る",
+          "hangul": "카부"
+        },
+        {
+          "reading": "かぶ.せる",
+          "hangul": "카부"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "訓",
+      "unicode": 35347,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "훈",
+      "meaning": "가르치다",
+      "onyomi": [
+        {
+          "reading": "クン",
+          "hangul": "쿠응"
+        },
+        {
+          "reading": "キン",
+          "hangul": "키응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おし.える",
+          "hangul": "오시"
+        },
+        {
+          "reading": "よ.む",
+          "hangul": "요"
+        },
+        {
+          "reading": "くん.ずる",
+          "hangul": "쿠응"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "軒",
+      "unicode": 36562,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "헌",
+      "meaning": "처마",
+      "onyomi": [
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "のき",
+          "hangul": "노키"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "造",
+      "unicode": 36896,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "조",
+      "meaning": "만들다",
+      "onyomi": [
+        {
+          "reading": "ゾウ",
+          "hangul": "조우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つく.る",
+          "hangul": "쓰쿠"
+        },
+        {
+          "reading": "つく.り",
+          "hangul": "쓰쿠"
+        },
+        {
+          "reading": "-づく.り",
+          "hangul": "-즈쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "針",
+      "unicode": 37341,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "침",
+      "meaning": "바늘",
+      "onyomi": [
+        {
+          "reading": "シン",
+          "hangul": "시응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はり",
+          "hangul": "하리"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "隻",
+      "unicode": 38587,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "척",
+      "meaning": "척(배 세는 단위)",
+      "onyomi": [
+        {
+          "reading": "セキ",
+          "hangul": "세키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "骨",
+      "unicode": 39592,
+      "strokeCount": 10,
+      "jlpt": "N2",
+      "hanja": "골",
+      "meaning": "뼈",
+      "onyomi": [
+        {
+          "reading": "コツ",
+          "hangul": "코쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほね",
+          "hangul": "호네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "乾",
+      "unicode": 20094,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "건",
+      "meaning": "마르다",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        },
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かわ.く",
+          "hangul": "카와"
+        },
+        {
+          "reading": "かわ.かす",
+          "hangul": "카와"
+        },
+        {
+          "reading": "ほ.す",
+          "hangul": "호"
+        },
+        {
+          "reading": "ひ.る",
+          "hangul": "히"
+        },
+        {
+          "reading": "いぬい",
+          "hangul": "이누이"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "停",
+      "unicode": 20572,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "정",
+      "meaning": "멈추다",
+      "onyomi": [
+        {
+          "reading": "テイ",
+          "hangul": "테이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "と.める",
+          "hangul": "토"
+        },
+        {
+          "reading": "と.まる",
+          "hangul": "토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "副",
+      "unicode": 21103,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "부",
+      "meaning": "버금",
+      "onyomi": [
+        {
+          "reading": "フク",
+          "hangul": "후쿠"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "域",
+      "unicode": 22495,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "역",
+      "meaning": "지역",
+      "onyomi": [
+        {
+          "reading": "イキ",
+          "hangul": "이키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "患",
+      "unicode": 24739,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "환",
+      "meaning": "근심하다, 환자",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "わずら.う",
+          "hangul": "와즈라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "捨",
+      "unicode": 25448,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "버리다",
+      "onyomi": [
+        {
+          "reading": "シゃ",
+          "hangul": "시ゃ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "す.てる",
+          "hangul": "스"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "掃",
+      "unicode": 25475,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "소",
+      "meaning": "쓸다",
+      "onyomi": [
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        },
+        {
+          "reading": "シゅ",
+          "hangul": "시ゅ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "は.く",
+          "hangul": "하"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "掘",
+      "unicode": 25496,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "굴",
+      "meaning": "파다",
+      "onyomi": [
+        {
+          "reading": "クツ",
+          "hangul": "쿠쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほ.る",
+          "hangul": "호"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "採",
+      "unicode": 25505,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "채",
+      "meaning": "캐다, 채택",
+      "onyomi": [
+        {
+          "reading": "サイ",
+          "hangul": "사이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "と.る",
+          "hangul": "토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "接",
+      "unicode": 25509,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "접",
+      "meaning": "잇다, 접하다",
+      "onyomi": [
+        {
+          "reading": "セツ",
+          "hangul": "세쓰"
+        },
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つ.ぐ",
+          "hangul": "쓰"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "械",
+      "unicode": 26800,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "계",
+      "meaning": "기계",
+      "onyomi": [
+        {
+          "reading": "カイ",
+          "hangul": "카이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かせ",
+          "hangul": "카세"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "液",
+      "unicode": 28082,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "액",
+      "meaning": "진",
+      "onyomi": [
+        {
+          "reading": "エキ",
+          "hangul": "에키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "涼",
+      "unicode": 28092,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "량",
+      "meaning": "서늘하다",
+      "onyomi": [
+        {
+          "reading": "リょウ",
+          "hangul": "리ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "すず.しい",
+          "hangul": "스즈"
+        },
+        {
+          "reading": "すず.む",
+          "hangul": "스즈"
+        },
+        {
+          "reading": "すず.やか",
+          "hangul": "스즈"
+        },
+        {
+          "reading": "うす.い",
+          "hangul": "우스"
+        },
+        {
+          "reading": "ひや.す",
+          "hangul": "히야"
+        },
+        {
+          "reading": "まことに",
+          "hangul": "마코토니"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "混",
+      "unicode": 28151,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "혼",
+      "meaning": "섞다",
+      "onyomi": [
+        {
+          "reading": "コン",
+          "hangul": "코응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ま.じる",
+          "hangul": "마"
+        },
+        {
+          "reading": "-ま.じり",
+          "hangul": "-마"
+        },
+        {
+          "reading": "ま.ざる",
+          "hangul": "마"
+        },
+        {
+          "reading": "ま.ぜる",
+          "hangul": "마"
+        },
+        {
+          "reading": "こ.む",
+          "hangul": "코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "清",
+      "unicode": 28165,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "청",
+      "meaning": "맑다",
+      "onyomi": [
+        {
+          "reading": "セイ",
+          "hangul": "세이"
+        },
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        },
+        {
+          "reading": "シン",
+          "hangul": "시응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "きよ.い",
+          "hangul": "키요"
+        },
+        {
+          "reading": "きよ.まる",
+          "hangul": "키요"
+        },
+        {
+          "reading": "きよ.める",
+          "hangul": "키요"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "瓶",
+      "unicode": 29942,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "병",
+      "meaning": "병",
+      "onyomi": [
+        {
+          "reading": "ビン",
+          "hangul": "비응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かめ",
+          "hangul": "카메"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "略",
+      "unicode": 30053,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "략",
+      "meaning": "간략하다, 전략",
+      "onyomi": [
+        {
+          "reading": "リゃク",
+          "hangul": "리ゃ쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほぼ",
+          "hangul": "호보"
+        },
+        {
+          "reading": "はぶ.く",
+          "hangul": "하부"
+        },
+        {
+          "reading": "おか.す",
+          "hangul": "오카"
+        },
+        {
+          "reading": "おさ.める",
+          "hangul": "오사"
+        },
+        {
+          "reading": "はかりごと",
+          "hangul": "하카리고토"
+        },
+        {
+          "reading": "はか.る",
+          "hangul": "하카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "祭",
+      "unicode": 31085,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "제",
+      "meaning": "제사",
+      "onyomi": [
+        {
+          "reading": "サイ",
+          "hangul": "사이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "まつ.る",
+          "hangul": "마쓰"
+        },
+        {
+          "reading": "まつ.り",
+          "hangul": "마쓰"
+        },
+        {
+          "reading": "まつり",
+          "hangul": "마쓰리"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "移",
+      "unicode": 31227,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "이",
+      "meaning": "옮기다",
+      "onyomi": [
+        {
+          "reading": "イ",
+          "hangul": "이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うつ.る",
+          "hangul": "우쓰"
+        },
+        {
+          "reading": "うつ.す",
+          "hangul": "우쓰"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "章",
+      "unicode": 31456,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "장",
+      "meaning": "글",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "符",
+      "unicode": 31526,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "부",
+      "meaning": "부적, 부호",
+      "onyomi": [
+        {
+          "reading": "フ",
+          "hangul": "후"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "粒",
+      "unicode": 31890,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "립",
+      "meaning": "알갱이",
+      "onyomi": [
+        {
+          "reading": "リゅウ",
+          "hangul": "리ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つぶ",
+          "hangul": "쓰부"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "細",
+      "unicode": 32048,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "세",
+      "meaning": "가늘다",
+      "onyomi": [
+        {
+          "reading": "サイ",
+          "hangul": "사이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほそ.い",
+          "hangul": "호소"
+        },
+        {
+          "reading": "ほそ.る",
+          "hangul": "호소"
+        },
+        {
+          "reading": "こま.か",
+          "hangul": "코마"
+        },
+        {
+          "reading": "こま.かい",
+          "hangul": "코마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "紹",
+      "unicode": 32057,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "소",
+      "meaning": "잇다, 소개",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "翌",
+      "unicode": 32716,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "익",
+      "meaning": "다음 날",
+      "onyomi": [
+        {
+          "reading": "ヨク",
+          "hangul": "요쿠"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "脳",
+      "unicode": 33075,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "뇌",
+      "meaning": "뇌",
+      "onyomi": [
+        {
+          "reading": "ノウ",
+          "hangul": "노우"
+        },
+        {
+          "reading": "ドウ",
+          "hangul": "도우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "のうずる",
+          "hangul": "노우즈루"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "菓",
+      "unicode": 33747,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "과",
+      "meaning": "과자",
+      "onyomi": [
+        {
+          "reading": "カ",
+          "hangul": "카"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "菜",
+      "unicode": 33756,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "채",
+      "meaning": "채소",
+      "onyomi": [
+        {
+          "reading": "サイ",
+          "hangul": "사이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "な",
+          "hangul": "나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "著",
+      "unicode": 33879,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "저",
+      "meaning": "나타내다, 저자",
+      "onyomi": [
+        {
+          "reading": "チょ",
+          "hangul": "치ょ"
+        },
+        {
+          "reading": "チゃク",
+          "hangul": "치ゃ쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あらわ.す",
+          "hangul": "아라와"
+        },
+        {
+          "reading": "いちじる.しい",
+          "hangul": "이치지루"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "袋",
+      "unicode": 34955,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "대",
+      "meaning": "자루",
+      "onyomi": [
+        {
+          "reading": "タイ",
+          "hangul": "타이"
+        },
+        {
+          "reading": "ダイ",
+          "hangul": "다이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふくろ",
+          "hangul": "후쿠로"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "設",
+      "unicode": 35373,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "설",
+      "meaning": "설치하다",
+      "onyomi": [
+        {
+          "reading": "セツ",
+          "hangul": "세쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "もう.ける",
+          "hangul": "모우"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "貨",
+      "unicode": 36008,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "화",
+      "meaning": "재화",
+      "onyomi": [
+        {
+          "reading": "カ",
+          "hangul": "카"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たから",
+          "hangul": "타카라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "販",
+      "unicode": 36009,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "판",
+      "meaning": "팔다",
+      "onyomi": [
+        {
+          "reading": "ハン",
+          "hangul": "하응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "軟",
+      "unicode": 36575,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "연",
+      "meaning": "부드럽다",
+      "onyomi": [
+        {
+          "reading": "ナン",
+          "hangul": "나응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "やわ.らか",
+          "hangul": "야와"
+        },
+        {
+          "reading": "やわ.らかい",
+          "hangul": "야와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "郵",
+      "unicode": 37109,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "우",
+      "meaning": "우편",
+      "onyomi": [
+        {
+          "reading": "ユウ",
+          "hangul": "유우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "陸",
+      "unicode": 38520,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "륙",
+      "meaning": "뭍",
+      "onyomi": [
+        {
+          "reading": "リク",
+          "hangul": "리쿠"
+        },
+        {
+          "reading": "ロク",
+          "hangul": "로쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おか",
+          "hangul": "오카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "黄",
+      "unicode": 40644,
+      "strokeCount": 11,
+      "jlpt": "N2",
+      "hanja": "황",
+      "meaning": "노랗다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        },
+        {
+          "reading": "オウ",
+          "hangul": "오우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "き",
+          "hangul": "키"
+        },
+        {
+          "reading": "こ-",
+          "hangul": "코-"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "募",
+      "unicode": 21215,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "모",
+      "meaning": "모집하다",
+      "onyomi": [
+        {
+          "reading": "ボ",
+          "hangul": "보"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つの.る",
+          "hangul": "쓰노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "喫",
+      "unicode": 21931,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "끽",
+      "meaning": "마시다",
+      "onyomi": [
+        {
+          "reading": "キツ",
+          "hangul": "키쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "の.む",
+          "hangul": "노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "営",
+      "unicode": 21942,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "영",
+      "meaning": "경영하다",
+      "onyomi": [
+        {
+          "reading": "エイ",
+          "hangul": "에이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いとな.む",
+          "hangul": "이토나"
+        },
+        {
+          "reading": "いとな.み",
+          "hangul": "이토나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "塔",
+      "unicode": 22612,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "탑",
+      "meaning": "탑",
+      "onyomi": [
+        {
+          "reading": "トウ",
+          "hangul": "토우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "奥",
+      "unicode": 22885,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "오",
+      "meaning": "깊다",
+      "onyomi": [
+        {
+          "reading": "オウ",
+          "hangul": "오우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おく",
+          "hangul": "오쿠"
+        },
+        {
+          "reading": "おく.まる",
+          "hangul": "오쿠"
+        },
+        {
+          "reading": "くま",
+          "hangul": "쿠마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "尊",
+      "unicode": 23562,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "존",
+      "meaning": "높다, 존경",
+      "onyomi": [
+        {
+          "reading": "ソン",
+          "hangul": "소응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たっと.い",
+          "hangul": "타っ토"
+        },
+        {
+          "reading": "とうと.い",
+          "hangul": "토우토"
+        },
+        {
+          "reading": "たっと.ぶ",
+          "hangul": "타っ토"
+        },
+        {
+          "reading": "とうと.ぶ",
+          "hangul": "토우토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "帽",
+      "unicode": 24125,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "모",
+      "meaning": "모자",
+      "onyomi": [
+        {
+          "reading": "ボウ",
+          "hangul": "보우"
+        },
+        {
+          "reading": "モウ",
+          "hangul": "모우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ずきん",
+          "hangul": "즈키응"
+        },
+        {
+          "reading": "おお.う",
+          "hangul": "오오"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "幅",
+      "unicode": 24133,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "폭",
+      "meaning": "폭",
+      "onyomi": [
+        {
+          "reading": "フク",
+          "hangul": "후쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はば",
+          "hangul": "하바"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "復",
+      "unicode": 24489,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "복",
+      "meaning": "돌아오다",
+      "onyomi": [
+        {
+          "reading": "フク",
+          "hangul": "후쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "また",
+          "hangul": "마타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "換",
+      "unicode": 25563,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "환",
+      "meaning": "바꾸다",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "か.える",
+          "hangul": "카"
+        },
+        {
+          "reading": "-か.える",
+          "hangul": "-카"
+        },
+        {
+          "reading": "か.わる",
+          "hangul": "카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "敬",
+      "unicode": 25964,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "경",
+      "meaning": "공경하다",
+      "onyomi": [
+        {
+          "reading": "ケイ",
+          "hangul": "케이"
+        },
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うやま.う",
+          "hangul": "우야마"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "普",
+      "unicode": 26222,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "보",
+      "meaning": "널리",
+      "onyomi": [
+        {
+          "reading": "フ",
+          "hangul": "후"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あまね.く",
+          "hangul": "아마네"
+        },
+        {
+          "reading": "あまねし",
+          "hangul": "아마네시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "통신·법률"
+    },
+    {
+      "char": "替",
+      "unicode": 26367,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "체",
+      "meaning": "바꾸다",
+      "onyomi": [
+        {
+          "reading": "タイ",
+          "hangul": "타이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "か.える",
+          "hangul": "카"
+        },
+        {
+          "reading": "か.え-",
+          "hangul": "카"
+        },
+        {
+          "reading": "か.わる",
+          "hangul": "카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "棒",
+      "unicode": 26834,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "봉",
+      "meaning": "막대기",
+      "onyomi": [
+        {
+          "reading": "ボウ",
+          "hangul": "보우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "森",
+      "unicode": 26862,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "삼",
+      "meaning": "수풀",
+      "onyomi": [
+        {
+          "reading": "シン",
+          "hangul": "시응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "もり",
+          "hangul": "모리"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "植",
+      "unicode": 26893,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "식",
+      "meaning": "심다",
+      "onyomi": [
+        {
+          "reading": "シょク",
+          "hangul": "시ょ쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "う.える",
+          "hangul": "우"
+        },
+        {
+          "reading": "う.わる",
+          "hangul": "우"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "極",
+      "unicode": 26997,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "극",
+      "meaning": "극, 다하다",
+      "onyomi": [
+        {
+          "reading": "キょク",
+          "hangul": "키ょ쿠"
+        },
+        {
+          "reading": "ゴク",
+          "hangul": "고쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "きわ.める",
+          "hangul": "키와"
+        },
+        {
+          "reading": "きわ.まる",
+          "hangul": "키와"
+        },
+        {
+          "reading": "きわ.まり",
+          "hangul": "키와"
+        },
+        {
+          "reading": "きわ.み",
+          "hangul": "키와"
+        },
+        {
+          "reading": "き.める",
+          "hangul": "키"
+        },
+        {
+          "reading": "-ぎ.め",
+          "hangul": "-기"
+        },
+        {
+          "reading": "き.まる",
+          "hangul": "키"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "減",
+      "unicode": 28187,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "감",
+      "meaning": "줄다",
+      "onyomi": [
+        {
+          "reading": "ゲン",
+          "hangul": "게응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "へ.る",
+          "hangul": "헤"
+        },
+        {
+          "reading": "へ.らす",
+          "hangul": "헤"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "温",
+      "unicode": 28201,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "온",
+      "meaning": "따뜻하다",
+      "onyomi": [
+        {
+          "reading": "オン",
+          "hangul": "오응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あたた.か",
+          "hangul": "아타타"
+        },
+        {
+          "reading": "あたた.かい",
+          "hangul": "아타타"
+        },
+        {
+          "reading": "あたた.まる",
+          "hangul": "아타타"
+        },
+        {
+          "reading": "あたた.める",
+          "hangul": "아타타"
+        },
+        {
+          "reading": "ぬく",
+          "hangul": "누쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "測",
+      "unicode": 28204,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "측",
+      "meaning": "재다",
+      "onyomi": [
+        {
+          "reading": "ソク",
+          "hangul": "소쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はか.る",
+          "hangul": "하카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "湖",
+      "unicode": 28246,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "호",
+      "meaning": "호수",
+      "onyomi": [
+        {
+          "reading": "コ",
+          "hangul": "코"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "みずうみ",
+          "hangul": "미즈우미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "湯",
+      "unicode": 28271,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "탕",
+      "meaning": "뜨거운 물",
+      "onyomi": [
+        {
+          "reading": "トウ",
+          "hangul": "토우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ゆ",
+          "hangul": "유"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "기타"
+    },
+    {
+      "char": "湾",
+      "unicode": 28286,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "만",
+      "meaning": "만",
+      "onyomi": [
+        {
+          "reading": "ワン",
+          "hangul": "와응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いりえ",
+          "hangul": "이리에"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "湿",
+      "unicode": 28287,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "습",
+      "meaning": "축축하다",
+      "onyomi": [
+        {
+          "reading": "シツ",
+          "hangul": "시쓰"
+        },
+        {
+          "reading": "シゅウ",
+          "hangul": "시ゅ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しめ.る",
+          "hangul": "시메"
+        },
+        {
+          "reading": "しめ.す",
+          "hangul": "시메"
+        },
+        {
+          "reading": "うるお.う",
+          "hangul": "우루오"
+        },
+        {
+          "reading": "うるお.す",
+          "hangul": "우루오"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "焼",
+      "unicode": 28988,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "소",
+      "meaning": "태우다",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "や.く",
+          "hangul": "야"
+        },
+        {
+          "reading": "や.き",
+          "hangul": "야"
+        },
+        {
+          "reading": "や.き-",
+          "hangul": "야"
+        },
+        {
+          "reading": "-や.き",
+          "hangul": "-야"
+        },
+        {
+          "reading": "や.ける",
+          "hangul": "야"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "畳",
+      "unicode": 30067,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "첩",
+      "meaning": "다다미, 접다",
+      "onyomi": [
+        {
+          "reading": "ジょウ",
+          "hangul": "지ょ우"
+        },
+        {
+          "reading": "チょウ",
+          "hangul": "치ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "たた.む",
+          "hangul": "타타"
+        },
+        {
+          "reading": "たたみ",
+          "hangul": "타타미"
+        },
+        {
+          "reading": "かさ.なる",
+          "hangul": "카사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "短",
+      "unicode": 30701,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "단",
+      "meaning": "짧다",
+      "onyomi": [
+        {
+          "reading": "タン",
+          "hangul": "타응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "みじか.い",
+          "hangul": "미지카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "硬",
+      "unicode": 30828,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "경",
+      "meaning": "굳다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かた.い",
+          "hangul": "카타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "税",
+      "unicode": 31246,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "세",
+      "meaning": "세금",
+      "onyomi": [
+        {
+          "reading": "ゼイ",
+          "hangul": "제이"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "童",
+      "unicode": 31461,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "동",
+      "meaning": "아이",
+      "onyomi": [
+        {
+          "reading": "ドウ",
+          "hangul": "도우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "わらべ",
+          "hangul": "와라베"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "筆",
+      "unicode": 31558,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "필",
+      "meaning": "붓",
+      "onyomi": [
+        {
+          "reading": "ヒツ",
+          "hangul": "히쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふで",
+          "hangul": "후데"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "筒",
+      "unicode": 31570,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "통",
+      "meaning": "통",
+      "onyomi": [
+        {
+          "reading": "トウ",
+          "hangul": "토우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つつ",
+          "hangul": "쓰쓰"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "絡",
+      "unicode": 32097,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "락",
+      "meaning": "얽히다",
+      "onyomi": [
+        {
+          "reading": "ラク",
+          "hangul": "라쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "から.む",
+          "hangul": "카라"
+        },
+        {
+          "reading": "から.まる",
+          "hangul": "카라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "腕",
+      "unicode": 33109,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "완",
+      "meaning": "팔",
+      "onyomi": [
+        {
+          "reading": "ワン",
+          "hangul": "와응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うで",
+          "hangul": "우데"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "装",
+      "unicode": 35013,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "장",
+      "meaning": "꾸미다",
+      "onyomi": [
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        },
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "よそお.う",
+          "hangul": "요소오"
+        },
+        {
+          "reading": "よそお.い",
+          "hangul": "요소오"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "補",
+      "unicode": 35036,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "보",
+      "meaning": "보충하다",
+      "onyomi": [
+        {
+          "reading": "ホ",
+          "hangul": "호"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おぎな.う",
+          "hangul": "오기나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "詞",
+      "unicode": 35422,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "사",
+      "meaning": "말씀",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ことば",
+          "hangul": "코토바"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "象",
+      "unicode": 35937,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "상",
+      "meaning": "코끼리, 형상",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        },
+        {
+          "reading": "ゾウ",
+          "hangul": "조우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かたど.る",
+          "hangul": "카타도"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "貯",
+      "unicode": 36015,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "저",
+      "meaning": "저축하다",
+      "onyomi": [
+        {
+          "reading": "チょ",
+          "hangul": "치ょ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "た.める",
+          "hangul": "타"
+        },
+        {
+          "reading": "たくわ.える",
+          "hangul": "타쿠와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "貿",
+      "unicode": 36031,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "무",
+      "meaning": "무역",
+      "onyomi": [
+        {
+          "reading": "ボウ",
+          "hangul": "보우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "超",
+      "unicode": 36229,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "초",
+      "meaning": "뛰어넘다",
+      "onyomi": [
+        {
+          "reading": "チょウ",
+          "hangul": "치ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こ.える",
+          "hangul": "코"
+        },
+        {
+          "reading": "こ.す",
+          "hangul": "코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "軽",
+      "unicode": 36605,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "경",
+      "meaning": "가볍다",
+      "onyomi": [
+        {
+          "reading": "ケイ",
+          "hangul": "케이"
+        },
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        },
+        {
+          "reading": "キン",
+          "hangul": "키응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かる.い",
+          "hangul": "카루"
+        },
+        {
+          "reading": "かろ.やか",
+          "hangul": "카로"
+        },
+        {
+          "reading": "かろ.んじる",
+          "hangul": "카로"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "量",
+      "unicode": 37327,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "량",
+      "meaning": "양, 헤아리다",
+      "onyomi": [
+        {
+          "reading": "リょウ",
+          "hangul": "리ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はか.る",
+          "hangul": "하카"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "鈍",
+      "unicode": 37389,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "둔",
+      "meaning": "무디다",
+      "onyomi": [
+        {
+          "reading": "ドン",
+          "hangul": "도응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "にぶ.い",
+          "hangul": "니부"
+        },
+        {
+          "reading": "にぶ.る",
+          "hangul": "니부"
+        },
+        {
+          "reading": "にぶ-",
+          "hangul": "니부-"
+        },
+        {
+          "reading": "なま.る",
+          "hangul": "나마"
+        },
+        {
+          "reading": "なまく.ら",
+          "hangul": "나마쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "隅",
+      "unicode": 38533,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "우",
+      "meaning": "구석",
+      "onyomi": [
+        {
+          "reading": "グウ",
+          "hangul": "구우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "すみ",
+          "hangul": "스미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "階",
+      "unicode": 38542,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "계",
+      "meaning": "층계",
+      "onyomi": [
+        {
+          "reading": "カイ",
+          "hangul": "카이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "きざはし",
+          "hangul": "키자하시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "雇",
+      "unicode": 38599,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "고",
+      "meaning": "고용하다",
+      "onyomi": [
+        {
+          "reading": "コ",
+          "hangul": "코"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "やと.う",
+          "hangul": "야토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "雲",
+      "unicode": 38642,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "운",
+      "meaning": "구름",
+      "onyomi": [
+        {
+          "reading": "ウン",
+          "hangul": "우응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "くも",
+          "hangul": "쿠모"
+        },
+        {
+          "reading": "-ぐも",
+          "hangul": "-구모"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "順",
+      "unicode": 38918,
+      "strokeCount": 12,
+      "jlpt": "N2",
+      "hanja": "순",
+      "meaning": "순서",
+      "onyomi": [
+        {
+          "reading": "ジゅン",
+          "hangul": "지ゅ응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "傾",
+      "unicode": 20670,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "경",
+      "meaning": "기울다",
+      "onyomi": [
+        {
+          "reading": "ケイ",
+          "hangul": "케이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かたむ.く",
+          "hangul": "카타무"
+        },
+        {
+          "reading": "かたむ.ける",
+          "hangul": "카타무"
+        },
+        {
+          "reading": "かたぶ.く",
+          "hangul": "카타부"
+        },
+        {
+          "reading": "かた.げる",
+          "hangul": "카타"
+        },
+        {
+          "reading": "かし.げる",
+          "hangul": "카시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "勢",
+      "unicode": 21218,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "세",
+      "meaning": "기세",
+      "onyomi": [
+        {
+          "reading": "セイ",
+          "hangul": "세이"
+        },
+        {
+          "reading": "ゼイ",
+          "hangul": "제이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "いきお.い",
+          "hangul": "이키오"
+        },
+        {
+          "reading": "はずみ",
+          "hangul": "하즈미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "塗",
+      "unicode": 22615,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "도",
+      "meaning": "칠하다",
+      "onyomi": [
+        {
+          "reading": "ト",
+          "hangul": "토"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ぬ.る",
+          "hangul": "누"
+        },
+        {
+          "reading": "ぬ.り",
+          "hangul": "누"
+        },
+        {
+          "reading": "まみ.れる",
+          "hangul": "마미"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "塩",
+      "unicode": 22633,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "염",
+      "meaning": "소금",
+      "onyomi": [
+        {
+          "reading": "エン",
+          "hangul": "에응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しお",
+          "hangul": "시오"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "損",
+      "unicode": 25613,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "손",
+      "meaning": "잃다, 손해",
+      "onyomi": [
+        {
+          "reading": "ソン",
+          "hangul": "소응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "そこ.なう",
+          "hangul": "소코"
+        },
+        {
+          "reading": "そこな.う",
+          "hangul": "소코나"
+        },
+        {
+          "reading": "-そこ.なう",
+          "hangul": "-소코"
+        },
+        {
+          "reading": "そこ.ねる",
+          "hangul": "소코"
+        },
+        {
+          "reading": "-そこ.ねる",
+          "hangul": "-소코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "殿",
+      "unicode": 27583,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "전",
+      "meaning": "전각, 님",
+      "onyomi": [
+        {
+          "reading": "デン",
+          "hangul": "데응"
+        },
+        {
+          "reading": "テン",
+          "hangul": "테응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "との",
+          "hangul": "토노"
+        },
+        {
+          "reading": "-どの",
+          "hangul": "-도노"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "準",
+      "unicode": 28310,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "준",
+      "meaning": "준하다",
+      "onyomi": [
+        {
+          "reading": "ジゅン",
+          "hangul": "지ゅ응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "じゅん.じる",
+          "hangul": "지ゅ응"
+        },
+        {
+          "reading": "じゅん.ずる",
+          "hangul": "지ゅ응"
+        },
+        {
+          "reading": "なぞら.える",
+          "hangul": "나조라"
+        },
+        {
+          "reading": "のり",
+          "hangul": "노리"
+        },
+        {
+          "reading": "ひと.しい",
+          "hangul": "히토"
+        },
+        {
+          "reading": "みずもり",
+          "hangul": "미즈모리"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "溶",
+      "unicode": 28342,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "용",
+      "meaning": "녹다",
+      "onyomi": [
+        {
+          "reading": "ヨウ",
+          "hangul": "요우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "と.ける",
+          "hangul": "토"
+        },
+        {
+          "reading": "と.かす",
+          "hangul": "토"
+        },
+        {
+          "reading": "と.く",
+          "hangul": "토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "照",
+      "unicode": 29031,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "조",
+      "meaning": "비추다",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "て.る",
+          "hangul": "테"
+        },
+        {
+          "reading": "て.らす",
+          "hangul": "테"
+        },
+        {
+          "reading": "て.れる",
+          "hangul": "테"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "禁",
+      "unicode": 31105,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "금",
+      "meaning": "금하다",
+      "onyomi": [
+        {
+          "reading": "キン",
+          "hangul": "키응"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "署",
+      "unicode": 32626,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "서",
+      "meaning": "관청, 서명",
+      "onyomi": [
+        {
+          "reading": "シょ",
+          "hangul": "시ょ"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "群",
+      "unicode": 32676,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "군",
+      "meaning": "무리",
+      "onyomi": [
+        {
+          "reading": "グン",
+          "hangul": "구응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "む.れる",
+          "hangul": "무"
+        },
+        {
+          "reading": "む.れ",
+          "hangul": "무"
+        },
+        {
+          "reading": "むら",
+          "hangul": "무라"
+        },
+        {
+          "reading": "むら.がる",
+          "hangul": "무라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "腰",
+      "unicode": 33136,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "요",
+      "meaning": "허리",
+      "onyomi": [
+        {
+          "reading": "ヨウ",
+          "hangul": "요우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こし",
+          "hangul": "코시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "蒸",
+      "unicode": 33976,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "증",
+      "meaning": "찌다",
+      "onyomi": [
+        {
+          "reading": "ジょウ",
+          "hangul": "지ょ우"
+        },
+        {
+          "reading": "セイ",
+          "hangul": "세이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "む.す",
+          "hangul": "무"
+        },
+        {
+          "reading": "む.れる",
+          "hangul": "무"
+        },
+        {
+          "reading": "む.らす",
+          "hangul": "무"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "裏",
+      "unicode": 35023,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "리",
+      "meaning": "안, 뒤",
+      "onyomi": [
+        {
+          "reading": "リ",
+          "hangul": "리"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うら",
+          "hangul": "우라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "触",
+      "unicode": 35302,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "촉",
+      "meaning": "닿다",
+      "onyomi": [
+        {
+          "reading": "シょク",
+          "hangul": "시ょ쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふ.れる",
+          "hangul": "후"
+        },
+        {
+          "reading": "さわ.る",
+          "hangul": "사와"
+        },
+        {
+          "reading": "さわ",
+          "hangul": "사와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "詰",
+      "unicode": 35440,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "힐",
+      "meaning": "꾸짖다, 채우다",
+      "onyomi": [
+        {
+          "reading": "キツ",
+          "hangul": "키쓰"
+        },
+        {
+          "reading": "キチ",
+          "hangul": "키치"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "つ.める",
+          "hangul": "쓰"
+        },
+        {
+          "reading": "つ.め",
+          "hangul": "쓰"
+        },
+        {
+          "reading": "-づ.め",
+          "hangul": "-즈"
+        },
+        {
+          "reading": "つ.まる",
+          "hangul": "쓰"
+        },
+        {
+          "reading": "つ.む",
+          "hangul": "쓰"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "豊",
+      "unicode": 35914,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "풍",
+      "meaning": "풍년",
+      "onyomi": [
+        {
+          "reading": "ホウ",
+          "hangul": "호우"
+        },
+        {
+          "reading": "ブ",
+          "hangul": "부"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ゆた.か",
+          "hangul": "유타"
+        },
+        {
+          "reading": "とよ",
+          "hangul": "토요"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "跡",
+      "unicode": 36321,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "적",
+      "meaning": "자취",
+      "onyomi": [
+        {
+          "reading": "セキ",
+          "hangul": "세키"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あと",
+          "hangul": "아토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "農",
+      "unicode": 36786,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "농",
+      "meaning": "농사",
+      "onyomi": [
+        {
+          "reading": "ノウ",
+          "hangul": "노우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "鉄",
+      "unicode": 37444,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "철",
+      "meaning": "쇠",
+      "onyomi": [
+        {
+          "reading": "テツ",
+          "hangul": "테쓰"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "くろがね",
+          "hangul": "쿠로가네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "鉱",
+      "unicode": 37489,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "광",
+      "meaning": "광물",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あらがね",
+          "hangul": "아라가네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "零",
+      "unicode": 38646,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "영",
+      "meaning": "영, 떨어지다",
+      "onyomi": [
+        {
+          "reading": "レイ",
+          "hangul": "레이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ぜろ",
+          "hangul": "제로"
+        },
+        {
+          "reading": "こぼ.す",
+          "hangul": "코보"
+        },
+        {
+          "reading": "こぼ.れる",
+          "hangul": "코보"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "預",
+      "unicode": 38928,
+      "strokeCount": 13,
+      "jlpt": "N2",
+      "hanja": "예",
+      "meaning": "맡기다",
+      "onyomi": [
+        {
+          "reading": "ヨ",
+          "hangul": "요"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あず.ける",
+          "hangul": "아즈"
+        },
+        {
+          "reading": "あず.かる",
+          "hangul": "아즈"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "像",
+      "unicode": 20687,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "상",
+      "meaning": "형상",
+      "onyomi": [
+        {
+          "reading": "ゾウ",
+          "hangul": "조우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "境",
+      "unicode": 22659,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "경",
+      "meaning": "경계",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        },
+        {
+          "reading": "ケイ",
+          "hangul": "케이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "さかい",
+          "hangul": "사카이"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "層",
+      "unicode": 23652,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "층",
+      "meaning": "층",
+      "onyomi": [
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "憎",
+      "unicode": 24974,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "증",
+      "meaning": "미워하다",
+      "onyomi": [
+        {
+          "reading": "ゾウ",
+          "hangul": "조우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "にく.む",
+          "hangul": "니쿠"
+        },
+        {
+          "reading": "にく.い",
+          "hangul": "니쿠"
+        },
+        {
+          "reading": "にく.らしい",
+          "hangul": "니쿠"
+        },
+        {
+          "reading": "にく.しみ",
+          "hangul": "니쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "歴",
+      "unicode": 27508,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "력",
+      "meaning": "지나다",
+      "onyomi": [
+        {
+          "reading": "レキ",
+          "hangul": "레키"
+        },
+        {
+          "reading": "レっキ",
+          "hangul": "레っ키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "滴",
+      "unicode": 28404,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "적",
+      "meaning": "물방울",
+      "onyomi": [
+        {
+          "reading": "テキ",
+          "hangul": "테키"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しずく",
+          "hangul": "시즈쿠"
+        },
+        {
+          "reading": "したた.る",
+          "hangul": "시타타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "漁",
+      "unicode": 28417,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "어",
+      "meaning": "고기잡이",
+      "onyomi": [
+        {
+          "reading": "ギょ",
+          "hangul": "기ょ"
+        },
+        {
+          "reading": "リょウ",
+          "hangul": "리ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あさ.る",
+          "hangul": "아사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "算",
+      "unicode": 31639,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "산",
+      "meaning": "계산하다",
+      "onyomi": [
+        {
+          "reading": "サン",
+          "hangul": "사응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "そろ",
+          "hangul": "소로"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "管",
+      "unicode": 31649,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "관",
+      "meaning": "대롱, 관리",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "くだ",
+          "hangul": "쿠다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "綿",
+      "unicode": 32191,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "면",
+      "meaning": "솜",
+      "onyomi": [
+        {
+          "reading": "メン",
+          "hangul": "메응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "わた",
+          "hangul": "와타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "総",
+      "unicode": 32207,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "총",
+      "meaning": "모두",
+      "onyomi": [
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "す.べて",
+          "hangul": "스"
+        },
+        {
+          "reading": "すべ.て",
+          "hangul": "스베"
+        },
+        {
+          "reading": "ふさ",
+          "hangul": "후사"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "緑",
+      "unicode": 32209,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "록",
+      "meaning": "초록",
+      "onyomi": [
+        {
+          "reading": "リょク",
+          "hangul": "리ょ쿠"
+        },
+        {
+          "reading": "ロク",
+          "hangul": "로쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "みどり",
+          "hangul": "미도리"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "練",
+      "unicode": 32244,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "련",
+      "meaning": "익히다",
+      "onyomi": [
+        {
+          "reading": "レン",
+          "hangul": "레응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ね.る",
+          "hangul": "네"
+        },
+        {
+          "reading": "ね.り",
+          "hangul": "네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "複",
+      "unicode": 35079,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "복",
+      "meaning": "겹",
+      "onyomi": [
+        {
+          "reading": "フク",
+          "hangul": "후쿠"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "誌",
+      "unicode": 35468,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "지",
+      "meaning": "기록하다",
+      "onyomi": [
+        {
+          "reading": "シ",
+          "hangul": "시"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "踊",
+      "unicode": 36362,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "용",
+      "meaning": "춤추다",
+      "onyomi": [
+        {
+          "reading": "ヨウ",
+          "hangul": "요우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おど.る",
+          "hangul": "오도"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "銅",
+      "unicode": 37509,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "동",
+      "meaning": "구리",
+      "onyomi": [
+        {
+          "reading": "ドウ",
+          "hangul": "도우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あかがね",
+          "hangul": "아카가네"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "領",
+      "unicode": 38936,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "령",
+      "meaning": "이끌다, 영토",
+      "onyomi": [
+        {
+          "reading": "リょウ",
+          "hangul": "리ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "えり",
+          "hangul": "에리"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사고·판단"
+    },
+    {
+      "char": "鼻",
+      "unicode": 40763,
+      "strokeCount": 14,
+      "jlpt": "N2",
+      "hanja": "비",
+      "meaning": "코",
+      "onyomi": [
+        {
+          "reading": "ビ",
+          "hangul": "비"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はな",
+          "hangul": "하나"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "장소·건물"
+    },
+    {
+      "char": "億",
+      "unicode": 20740,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "억",
+      "meaning": "억",
+      "onyomi": [
+        {
+          "reading": "オク",
+          "hangul": "오쿠"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "劇",
+      "unicode": 21127,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "극",
+      "meaning": "연극",
+      "onyomi": [
+        {
+          "reading": "ゲキ",
+          "hangul": "게키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "생활·문화"
+    },
+    {
+      "char": "導",
+      "unicode": 23566,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "도",
+      "meaning": "이끌다",
+      "onyomi": [
+        {
+          "reading": "ドウ",
+          "hangul": "도우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "みちび.く",
+          "hangul": "미치비"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "暴",
+      "unicode": 26292,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "폭",
+      "meaning": "사나운",
+      "onyomi": [
+        {
+          "reading": "ボウ",
+          "hangul": "보우"
+        },
+        {
+          "reading": "バク",
+          "hangul": "바쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あば.く",
+          "hangul": "아바"
+        },
+        {
+          "reading": "あば.れる",
+          "hangul": "아바"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "線",
+      "unicode": 32218,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "선",
+      "meaning": "줄",
+      "onyomi": [
+        {
+          "reading": "セン",
+          "hangul": "세응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "すじ",
+          "hangul": "스지"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "編",
+      "unicode": 32232,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "편",
+      "meaning": "엮다",
+      "onyomi": [
+        {
+          "reading": "ヘン",
+          "hangul": "헤응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "あ.む",
+          "hangul": "아"
+        },
+        {
+          "reading": "-あ.み",
+          "hangul": "-아"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "膚",
+      "unicode": 33178,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "부",
+      "meaning": "살갗",
+      "onyomi": [
+        {
+          "reading": "フ",
+          "hangul": "후"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はだ",
+          "hangul": "하다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "蔵",
+      "unicode": 34101,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "장",
+      "meaning": "감추다",
+      "onyomi": [
+        {
+          "reading": "ゾウ",
+          "hangul": "조우"
+        },
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "くら",
+          "hangul": "쿠라"
+        },
+        {
+          "reading": "おさ.める",
+          "hangul": "오사"
+        },
+        {
+          "reading": "かく.れる",
+          "hangul": "카쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "課",
+      "unicode": 35506,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "과",
+      "meaning": "과정, 부과",
+      "onyomi": [
+        {
+          "reading": "カ",
+          "hangul": "카"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "諸",
+      "unicode": 35576,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "제",
+      "meaning": "모든",
+      "onyomi": [
+        {
+          "reading": "シょ",
+          "hangul": "시ょ"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "もろ",
+          "hangul": "모로"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "賞",
+      "unicode": 36062,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "상",
+      "meaning": "상주다",
+      "onyomi": [
+        {
+          "reading": "シょウ",
+          "hangul": "시ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ほ.める",
+          "hangul": "호"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "輪",
+      "unicode": 36650,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "륜",
+      "meaning": "바퀴",
+      "onyomi": [
+        {
+          "reading": "リン",
+          "hangul": "리응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "わ",
+          "hangul": "와"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "鋭",
+      "unicode": 37613,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "예",
+      "meaning": "날카롭다",
+      "onyomi": [
+        {
+          "reading": "エイ",
+          "hangul": "에이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "するど.い",
+          "hangul": "스루도"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "震",
+      "unicode": 38663,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "진",
+      "meaning": "떨다",
+      "onyomi": [
+        {
+          "reading": "シン",
+          "hangul": "시응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ふる.う",
+          "hangul": "후루"
+        },
+        {
+          "reading": "ふる.える",
+          "hangul": "후루"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "駐",
+      "unicode": 39376,
+      "strokeCount": 15,
+      "jlpt": "N2",
+      "hanja": "주",
+      "meaning": "머무르다",
+      "onyomi": [
+        {
+          "reading": "チゅウ",
+          "hangul": "치ゅ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "曇",
+      "unicode": 26311,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "담",
+      "meaning": "흐리다",
+      "onyomi": [
+        {
+          "reading": "ドン",
+          "hangul": "도응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "くも.る",
+          "hangul": "쿠모"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "橋",
+      "unicode": 27211,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "교",
+      "meaning": "다리",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はし",
+          "hangul": "하시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "濃",
+      "unicode": 28611,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "농",
+      "meaning": "짙다",
+      "onyomi": [
+        {
+          "reading": "ノウ",
+          "hangul": "노우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "こ.い",
+          "hangul": "코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "燃",
+      "unicode": 29123,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "연",
+      "meaning": "태우다",
+      "onyomi": [
+        {
+          "reading": "ネン",
+          "hangul": "네응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "も.える",
+          "hangul": "모"
+        },
+        {
+          "reading": "も.やす",
+          "hangul": "모"
+        },
+        {
+          "reading": "も.す",
+          "hangul": "모"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "磨",
+      "unicode": 30952,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "마",
+      "meaning": "갈다",
+      "onyomi": [
+        {
+          "reading": "マ",
+          "hangul": "마"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "みが.く",
+          "hangul": "미가"
+        },
+        {
+          "reading": "す.る",
+          "hangul": "스"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "築",
+      "unicode": 31689,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "축",
+      "meaning": "쌓다",
+      "onyomi": [
+        {
+          "reading": "チク",
+          "hangul": "치쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "きず.く",
+          "hangul": "키즈"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "薄",
+      "unicode": 34180,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "박",
+      "meaning": "얇다",
+      "onyomi": [
+        {
+          "reading": "ハク",
+          "hangul": "하쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "うす.い",
+          "hangul": "우스"
+        },
+        {
+          "reading": "うす-",
+          "hangul": "우스-"
+        },
+        {
+          "reading": "-うす",
+          "hangul": "-우스"
+        },
+        {
+          "reading": "うす.める",
+          "hangul": "우스"
+        },
+        {
+          "reading": "うす.まる",
+          "hangul": "우스"
+        },
+        {
+          "reading": "うす.らぐ",
+          "hangul": "우스"
+        },
+        {
+          "reading": "うす.ら-",
+          "hangul": "우스"
+        },
+        {
+          "reading": "うす.れる",
+          "hangul": "우스"
+        },
+        {
+          "reading": "すすき",
+          "hangul": "스스키"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "賢",
+      "unicode": 36066,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "현",
+      "meaning": "어질다",
+      "onyomi": [
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "かしこ.い",
+          "hangul": "카시코"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "輸",
+      "unicode": 36664,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "수",
+      "meaning": "나르다, 수출",
+      "onyomi": [
+        {
+          "reading": "ユ",
+          "hangul": "유"
+        },
+        {
+          "reading": "シゅ",
+          "hangul": "시ゅ"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "録",
+      "unicode": 37682,
+      "strokeCount": 16,
+      "jlpt": "N2",
+      "hanja": "록",
+      "meaning": "기록하다",
+      "onyomi": [
+        {
+          "reading": "ロク",
+          "hangul": "로쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "しる.す",
+          "hangul": "시루"
+        },
+        {
+          "reading": "と.る",
+          "hangul": "토"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "濯",
+      "unicode": 28655,
+      "strokeCount": 17,
+      "jlpt": "N2",
+      "hanja": "탁",
+      "meaning": "씻다, 빨다",
+      "onyomi": [
+        {
+          "reading": "タク",
+          "hangul": "타쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "すす.ぐ",
+          "hangul": "스스"
+        },
+        {
+          "reading": "ゆす.ぐ",
+          "hangul": "유스"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "燥",
+      "unicode": 29157,
+      "strokeCount": 17,
+      "jlpt": "N2",
+      "hanja": "조",
+      "meaning": "마르다",
+      "onyomi": [
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はしゃ.ぐ",
+          "hangul": "하시ゃ"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "療",
+      "unicode": 30274,
+      "strokeCount": 17,
+      "jlpt": "N2",
+      "hanja": "료",
+      "meaning": "치료하다",
+      "onyomi": [
+        {
+          "reading": "リょウ",
+          "hangul": "리ょ우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "績",
+      "unicode": 32318,
+      "strokeCount": 17,
+      "jlpt": "N2",
+      "hanja": "적",
+      "meaning": "길쌈, 실적",
+      "onyomi": [
+        {
+          "reading": "セキ",
+          "hangul": "세키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "행동·동작"
+    },
+    {
+      "char": "講",
+      "unicode": 35611,
+      "strokeCount": 17,
+      "jlpt": "N2",
+      "hanja": "강",
+      "meaning": "강의하다",
+      "onyomi": [
+        {
+          "reading": "コウ",
+          "hangul": "코우"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "齢",
+      "unicode": 40802,
+      "strokeCount": 17,
+      "jlpt": "N2",
+      "hanja": "령",
+      "meaning": "나이",
+      "onyomi": [
+        {
+          "reading": "レイ",
+          "hangul": "레이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "よわい",
+          "hangul": "요와이"
+        },
+        {
+          "reading": "とし",
+          "hangul": "토시"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "상태·성질"
+    },
+    {
+      "char": "簡",
+      "unicode": 31777,
+      "strokeCount": 18,
+      "jlpt": "N2",
+      "hanja": "간",
+      "meaning": "간략하다",
+      "onyomi": [
+        {
+          "reading": "カン",
+          "hangul": "카응"
+        },
+        {
+          "reading": "ケン",
+          "hangul": "케응"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "えら.ぶ",
+          "hangul": "에라"
+        },
+        {
+          "reading": "ふだ",
+          "hangul": "후다"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "경제·산업"
+    },
+    {
+      "char": "贈",
+      "unicode": 36104,
+      "strokeCount": 18,
+      "jlpt": "N2",
+      "hanja": "증",
+      "meaning": "주다",
+      "onyomi": [
+        {
+          "reading": "ゾウ",
+          "hangul": "조우"
+        },
+        {
+          "reading": "ソウ",
+          "hangul": "소우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "おく.る",
+          "hangul": "오쿠"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "額",
+      "unicode": 38989,
+      "strokeCount": 18,
+      "jlpt": "N2",
+      "hanja": "액",
+      "meaning": "이마, 금액",
+      "onyomi": [
+        {
+          "reading": "ガク",
+          "hangul": "가쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "ひたい",
+          "hangul": "히타이"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "爆",
+      "unicode": 29190,
+      "strokeCount": 19,
+      "jlpt": "N2",
+      "hanja": "폭",
+      "meaning": "터지다",
+      "onyomi": [
+        {
+          "reading": "バク",
+          "hangul": "바쿠"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "は.ぜる",
+          "hangul": "하"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "자연·과학"
+    },
+    {
+      "char": "臓",
+      "unicode": 33235,
+      "strokeCount": 19,
+      "jlpt": "N2",
+      "hanja": "장",
+      "meaning": "장기",
+      "onyomi": [
+        {
+          "reading": "ゾウ",
+          "hangul": "조우"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "はらわた",
+          "hangul": "하라와타"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "인체·의료"
+    },
+    {
+      "char": "競",
+      "unicode": 31478,
+      "strokeCount": 20,
+      "jlpt": "N2",
+      "hanja": "경",
+      "meaning": "겨루다",
+      "onyomi": [
+        {
+          "reading": "キょウ",
+          "hangul": "키ょ우"
+        },
+        {
+          "reading": "ケイ",
+          "hangul": "케이"
+        }
+      ],
+      "kunyomi": [
+        {
+          "reading": "きそ.う",
+          "hangul": "키소"
+        },
+        {
+          "reading": "せ.る",
+          "hangul": "세"
+        },
+        {
+          "reading": "くら.べる",
+          "hangul": "쿠라"
+        }
+      ],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    },
+    {
+      "char": "籍",
+      "unicode": 31821,
+      "strokeCount": 20,
+      "jlpt": "N2",
+      "hanja": "적",
+      "meaning": "문서, 호적",
+      "onyomi": [
+        {
+          "reading": "セキ",
+          "hangul": "세키"
+        }
+      ],
+      "kunyomi": [],
+      "words": [],
+      "mnemonic": "",
+      "category": "사회·정치"
+    }
+  ]
+}
