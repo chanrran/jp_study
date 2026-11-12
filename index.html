@@ -562,6 +562,32 @@
       font-size: 0.82rem; color: var(--fg-secondary); margin-top: 4px;
     }
 
+    /* ─── Conversation (여행회화) styles ─── */
+    .conv-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 14px 16px;
+      box-shadow: var(--shadow-sm);
+    }
+    .conv-ja {
+      font-family: var(--font-jp); font-size: 1.2rem; font-weight: 600;
+      color: var(--fg); line-height: 1.6;
+    }
+    .conv-reading {
+      font-family: var(--font-jp); font-size: 0.82rem;
+      color: var(--fg-secondary); margin-top: 2px;
+    }
+    .conv-ko {
+      font-size: 0.92rem; font-weight: 500; color: var(--accent-text);
+      margin-top: 6px;
+    }
+    .conv-num {
+      display: inline-block;
+      font-size: 0.65rem; font-weight: 700;
+      color: var(--fg-tertiary); background: var(--tag-bg);
+      border-radius: 4px; padding: 1px 6px;
+      margin-bottom: 6px;
+    }
+
     /* Empty state */
     .empty-state {
       text-align: center; padding: 48px 20px;
@@ -610,15 +636,10 @@
         <div class="label">어휘</div>
         <div class="sub">N5~N2 필수 단어 692개</div>
       </div>
-      <div class="menu-card disabled">
-        <div class="icon">文</div>
-        <div class="label">문법</div>
-        <div class="sub">준비 중</div>
-      </div>
-      <div class="menu-card disabled">
+      <div class="menu-card" onclick="navigate('conv')">
         <div class="icon">話</div>
-        <div class="label">회화</div>
-        <div class="sub">준비 중</div>
+        <div class="label">여행회화</div>
+        <div class="sub">상황별 실전 회화 185문장</div>
       </div>
     </div>
   </div>
@@ -767,6 +788,31 @@
     <div class="char-list" id="vocabList"></div>
   </div>
 
+  <!-- ═══ CONVERSATION PAGE ═══ -->
+  <div id="page-conv" class="page">
+    <div class="sticky-controls">
+      <div class="sub-header">
+        <button class="back-btn" onclick="navigate('home')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <h2>여행회화</h2>
+      </div>
+
+      <!-- Category tabs -->
+      <div class="filter-bar" id="convFilter">
+        <button class="filter-btn active" data-cat="all">전체</button>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" class="search-input" id="searchInputConv"
+          placeholder="검색 (일본어, 한국어)">
+      </div>
+    </div>
+
+    <div class="count-label" id="countLabelConv"></div>
+    <div class="char-list" id="convList"></div>
+  </div>
+
   <!-- ═══ Bottom Nav ═══ -->
   <nav class="bottom-nav">
     <button class="nav-item active" data-page="home">
@@ -789,6 +835,10 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">語</text></svg>
       어휘
     </button>
+    <button class="nav-item" data-page="conv">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><text x="3" y="18" font-size="16" font-family="Noto Sans JP" fill="currentColor" stroke="none">話</text></svg>
+      회화
+    </button>
   </nav>
 
   <script>
@@ -809,6 +859,12 @@
     let currentCatVocab = 'all';
     let currentVocabLevel = 'N5';
     let searchQueryVocab = '';
+
+    // Conversation state
+    let convData = []; // raw array from conversation.json
+    let convFlat = []; // flattened phrases with category info
+    let currentCatConv = 'all';
+    let searchQueryConv = '';
 
     // Vocab level data cache
     const vocabCache = {};
@@ -927,10 +983,22 @@
         katakanaData = kJson.data;
         renderList();
         renderListKata();
-        // Load kanji N5 and vocab N5 as defaults
+        // Load kanji N5, vocab N5, and conversation data
+        const convResp = fetch('data/conversation.json').then(r => r.json());
         await Promise.all([
           loadKanjiLevel('N5'),
-          loadVocabLevel('N5')
+          loadVocabLevel('N5'),
+          convResp.then(json => {
+            convData = json;
+            convFlat = [];
+            json.forEach(cat => {
+              cat.phrases.forEach((p, i) => {
+                convFlat.push({ ...p, category: cat.category, icon: cat.icon, idx: i + 1 });
+              });
+            });
+            buildConvCategoryFilter();
+            renderConvList();
+          })
         ]);
         updateProgress();
       } catch (e) {
@@ -1232,6 +1300,60 @@
       renderListVocab();
     });
 
+    // ─── Conversation rendering ───
+    function buildConvCategoryFilter() {
+      const bar = document.getElementById('convFilter');
+      bar.innerHTML = '<button class="filter-btn active" data-cat="all">전체</button>';
+      convData.forEach(cat => {
+        bar.innerHTML += `<button class="filter-btn" data-cat="${cat.category}">${cat.icon} ${cat.category} <span style="font-size:0.7rem;opacity:0.7">${cat.phrases.length}</span></button>`;
+      });
+    }
+
+    function renderConvList() {
+      const q = searchQueryConv.toLowerCase();
+      let filtered = convFlat;
+      if (currentCatConv !== 'all') {
+        filtered = filtered.filter(p => p.category === currentCatConv);
+      }
+      if (q) {
+        filtered = filtered.filter(p =>
+          p.ja.includes(q) || p.reading.includes(q) || p.ko.includes(q)
+        );
+      }
+      const listEl = document.getElementById('convList');
+      document.getElementById('countLabelConv').textContent = filtered.length + '문장';
+      listEl.innerHTML = filtered.map(p => `
+        <div class="conv-card">
+          <div class="conv-num">${p.icon} ${p.category} #${p.idx}</div>
+          <div class="conv-ja">${p.ja}</div>
+          <div class="conv-reading">${p.reading}</div>
+          <div class="conv-ko">${p.ko}</div>
+        </div>
+      `).join('');
+    }
+
+    // ─── Conversation filter click ───
+    document.getElementById('convFilter').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn || btn.dataset.cat === undefined) return;
+      const wasActive = btn.classList.contains('active') && btn.dataset.cat !== 'all';
+      document.querySelectorAll('#convFilter .filter-btn').forEach(b => b.classList.remove('active'));
+      if (wasActive) {
+        currentCatConv = 'all';
+        document.querySelector('#convFilter .filter-btn[data-cat="all"]').classList.add('active');
+      } else {
+        btn.classList.add('active');
+        currentCatConv = btn.dataset.cat;
+      }
+      renderConvList();
+    });
+
+    // ─── Conversation search ───
+    document.getElementById('searchInputConv').addEventListener('input', (e) => {
+      searchQueryConv = e.target.value.trim();
+      renderConvList();
+    });
+
     // ─── Combined filter (행 + 타입, 한 줄) ───
     document.getElementById('combinedFilter').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
@@ -1298,11 +1420,12 @@
     function updateProgress() {
       const kanjiTotal = Object.values(kanjiCache).reduce((s, d) => s + d.length, 0) || kanjiData.length;
       const vocabTotal = Object.values(vocabCache).reduce((s, d) => s + d.length, 0) || vocabData.length;
-      const total = hiraganaData.length + katakanaData.length + kanjiTotal + vocabTotal;
+      const convTotal = convFlat.length;
+      const total = hiraganaData.length + katakanaData.length + kanjiTotal + vocabTotal + convTotal;
       let learned = 0;
       try {
         const saved = JSON.parse(localStorage.getItem('jp_progress') || '{}');
-        learned = Object.keys(saved.hiragana || {}).length + Object.keys(saved.katakana || {}).length + Object.keys(saved.kanji || {}).length + Object.keys(saved.vocab || {}).length;
+        learned = Object.keys(saved.hiragana || {}).length + Object.keys(saved.katakana || {}).length + Object.keys(saved.kanji || {}).length + Object.keys(saved.vocab || {}).length + Object.keys(saved.conv || {}).length;
       } catch (e) {}
       const pct = total > 0 ? Math.round((learned / total) * 100) : 0;
       const el = document.getElementById('totalProgress');
