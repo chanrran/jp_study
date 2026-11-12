@@ -16,7 +16,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "了解",
+          "reading": "りょうかい",
+          "meaning": "이해, 알겠습니다"
+        },
+        {
+          "word": "完了",
+          "reading": "かんりょう",
+          "meaning": "완료"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -47,7 +58,18 @@
           "hangul": "마루"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "丸い",
+          "reading": "まるい",
+          "meaning": "둥근"
+        },
+        {
+          "word": "丸",
+          "reading": "まる",
+          "meaning": "원"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -74,7 +96,18 @@
           "hangul": "히사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "久しぶり",
+          "reading": "ひさしぶり",
+          "meaning": "오랜만"
+        },
+        {
+          "word": "永久",
+          "reading": "えいきゅう",
+          "meaning": "영구"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -109,7 +142,18 @@
           "hangul": "히"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "干す",
+          "reading": "ほす",
+          "meaning": "말리다"
+        },
+        {
+          "word": "干渉",
+          "reading": "かんしょう",
+          "meaning": "간섭"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -127,7 +171,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "紹介",
+          "reading": "しょうかい",
+          "meaning": "소개"
+        },
+        {
+          "word": "介護",
+          "reading": "かいご",
+          "meaning": "간병"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -154,7 +209,18 @@
           "hangul": "호토케"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "仏教",
+          "reading": "ぶっきょう",
+          "meaning": "불교"
+        },
+        {
+          "word": "仏像",
+          "reading": "ぶつぞう",
+          "meaning": "불상"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -177,7 +243,13 @@
           "hangul": "히키"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "一匹",
+          "reading": "いっぴき",
+          "meaning": "한 마리"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -203,7 +275,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "区別",
+          "reading": "くべつ",
+          "meaning": "구별"
+        },
+        {
+          "word": "地区",
+          "reading": "ちく",
+          "meaning": "지구"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -238,7 +321,13 @@
           "hangul": "후타쓰"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "双子",
+          "reading": "ふたご",
+          "meaning": "쌍둥이"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -261,7 +350,18 @@
           "hangul": "토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "戸",
+          "reading": "と",
+          "meaning": "문"
+        },
+        {
+          "word": "江戸",
+          "reading": "えど",
+          "meaning": "에도"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -284,7 +384,18 @@
           "hangul": "쿠라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "比べる",
+          "reading": "くらべる",
+          "meaning": "비교하다"
+        },
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "meaning": "비교"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -307,7 +418,18 @@
           "hangul": "케"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "毛",
+          "reading": "け",
+          "meaning": "털"
+        },
+        {
+          "word": "毛布",
+          "reading": "もうふ",
+          "meaning": "담요"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -334,7 +456,18 @@
           "hangul": "카타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "片付ける",
+          "reading": "かたづける",
+          "meaning": "정리하다"
+        },
+        {
+          "word": "片道",
+          "reading": "かたみち",
+          "meaning": "편도"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -352,7 +485,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "命令",
+          "reading": "めいれい",
+          "meaning": "명령"
+        },
+        {
+          "word": "令和",
+          "reading": "れいわ",
+          "meaning": "레이와"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -379,7 +523,13 @@
           "hangul": "후미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "一冊",
+          "reading": "いっさつ",
+          "meaning": "한 권"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -397,7 +547,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "出版",
+          "reading": "しゅっぱん",
+          "meaning": "출판"
+        },
+        {
+          "word": "刊行",
+          "reading": "かんこう",
+          "meaning": "간행"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -424,7 +585,18 @@
           "hangul": "쿠루"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "包む",
+          "reading": "つつむ",
+          "meaning": "싸다"
+        },
+        {
+          "word": "包丁",
+          "reading": "ほうちょう",
+          "meaning": "칼"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -451,7 +623,18 @@
           "hangul": "우라나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "占める",
+          "reading": "しめる",
+          "meaning": "차지하다"
+        },
+        {
+          "word": "占い",
+          "reading": "うらない",
+          "meaning": "점"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -474,7 +657,13 @@
           "hangul": "메"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "召し上がる",
+          "reading": "めしあがる",
+          "meaning": "드시다(존경)"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -492,7 +681,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "歴史",
+          "reading": "れきし",
+          "meaning": "역사"
+        },
+        {
+          "word": "史上",
+          "reading": "しじょう",
+          "meaning": "사상"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -535,7 +735,18 @@
           "hangul": "오"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "圧力",
+          "reading": "あつりょく",
+          "meaning": "압력"
+        },
+        {
+          "word": "気圧",
+          "reading": "きあつ",
+          "meaning": "기압"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -553,7 +764,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "中央",
+          "reading": "ちゅうおう",
+          "meaning": "중앙"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -571,7 +788,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "巨大",
+          "reading": "きょだい",
+          "meaning": "거대"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -594,7 +817,18 @@
           "hangul": "누노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "布",
+          "reading": "ぬの",
+          "meaning": "천"
+        },
+        {
+          "word": "財布",
+          "reading": "さいふ",
+          "meaning": "지갑"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -617,7 +851,18 @@
           "hangul": "오사나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "幼い",
+          "reading": "おさない",
+          "meaning": "어린"
+        },
+        {
+          "word": "幼稚園",
+          "reading": "ようちえん",
+          "meaning": "유치원"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -644,7 +889,18 @@
           "hangul": "야쿠시ょ"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "官庁",
+          "reading": "かんちょう",
+          "meaning": "관청"
+        },
+        {
+          "word": "県庁",
+          "reading": "けんちょう",
+          "meaning": "현청"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -671,7 +927,18 @@
           "hangul": "모토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "旧",
+          "reading": "きゅう",
+          "meaning": "옛, 구"
+        },
+        {
+          "word": "旧正月",
+          "reading": "きゅうしょうがつ",
+          "meaning": "구정"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -694,7 +961,18 @@
           "hangul": "후다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "お札",
+          "reading": "おさつ",
+          "meaning": "지폐"
+        },
+        {
+          "word": "名札",
+          "reading": "なふだ",
+          "meaning": "명찰"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -725,7 +1003,13 @@
           "hangul": "코오"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "氷",
+          "reading": "こおり",
+          "meaning": "얼음"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -748,7 +1032,18 @@
           "hangul": "나가"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "永遠",
+          "reading": "えいえん",
+          "meaning": "영원"
+        },
+        {
+          "word": "永久",
+          "reading": "えいきゅう",
+          "meaning": "영구"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -779,7 +1074,18 @@
           "hangul": "-다마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "玉",
+          "reading": "たま",
+          "meaning": "구슬"
+        },
+        {
+          "word": "お年玉",
+          "reading": "おとしだま",
+          "meaning": "세뱃돈"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -814,7 +1120,18 @@
           "hangul": "우마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "甘い",
+          "reading": "あまい",
+          "meaning": "달콤한"
+        },
+        {
+          "word": "甘える",
+          "reading": "あまえる",
+          "meaning": "응석부리다"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -837,7 +1154,18 @@
           "hangul": "카와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "皮",
+          "reading": "かわ",
+          "meaning": "껍질, 가죽"
+        },
+        {
+          "word": "皮膚",
+          "reading": "ひふ",
+          "meaning": "피부"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -860,7 +1188,13 @@
           "hangul": "사라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "皿",
+          "reading": "さら",
+          "meaning": "접시"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -891,7 +1225,18 @@
           "hangul": "-베"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "この辺",
+          "reading": "このへん",
+          "meaning": "이 근처"
+        },
+        {
+          "word": "周辺",
+          "reading": "しゅうへん",
+          "meaning": "주변"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -914,7 +1259,18 @@
           "hangul": "나카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "仲間",
+          "reading": "なかま",
+          "meaning": "동료"
+        },
+        {
+          "word": "仲良し",
+          "reading": "なかよし",
+          "meaning": "사이좋은"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -941,7 +1297,18 @@
           "hangul": "키자"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "兆",
+          "reading": "ちょう",
+          "meaning": "조(숫자)"
+        },
+        {
+          "word": "前兆",
+          "reading": "ぜんちょう",
+          "meaning": "전조"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -968,7 +1335,18 @@
           "hangul": "후타타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "再び",
+          "reading": "ふたたび",
+          "meaning": "다시"
+        },
+        {
+          "word": "再生",
+          "reading": "さいせい",
+          "meaning": "재생"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -999,7 +1377,18 @@
           "hangul": "시루"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "印象",
+          "reading": "いんしょう",
+          "meaning": "인상"
+        },
+        {
+          "word": "印刷",
+          "reading": "いんさつ",
+          "meaning": "인쇄"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -1022,7 +1411,13 @@
           "hangul": "사케"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "叫ぶ",
+          "reading": "さけぶ",
+          "meaning": "외치다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -1045,7 +1440,18 @@
           "hangul": "오노오노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "各地",
+          "reading": "かくち",
+          "meaning": "각지"
+        },
+        {
+          "word": "各自",
+          "reading": "かくじ",
+          "meaning": "각자"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -1076,7 +1482,18 @@
           "hangul": "마루"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "団体",
+          "reading": "だんたい",
+          "meaning": "단체"
+        },
+        {
+          "word": "布団",
+          "reading": "ふとん",
+          "meaning": "이불"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -1094,7 +1511,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "宇宙",
+          "reading": "うちゅう",
+          "meaning": "우주"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -1117,7 +1540,13 @@
           "hangul": "테라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "お寺",
+          "reading": "おてら",
+          "meaning": "절"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -1144,7 +1573,18 @@
           "hangul": "스"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "州",
+          "reading": "しゅう",
+          "meaning": "주(州)"
+        },
+        {
+          "word": "九州",
+          "reading": "きゅうしゅう",
+          "meaning": "규슈"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -1167,7 +1607,13 @@
           "hangul": "쓰쿠에"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "机",
+          "reading": "つくえ",
+          "meaning": "책상"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1190,7 +1636,13 @@
           "hangul": "아세"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "汗",
+          "reading": "あせ",
+          "meaning": "땀"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1233,7 +1685,18 @@
           "hangul": "키타나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "汚い",
+          "reading": "きたない",
+          "meaning": "더러운"
+        },
+        {
+          "word": "汚れる",
+          "reading": "よごれる",
+          "meaning": "더러워지다"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1256,7 +1719,18 @@
           "hangul": "이케"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "池",
+          "reading": "いけ",
+          "meaning": "연못"
+        },
+        {
+          "word": "電池",
+          "reading": "でんち",
+          "meaning": "전지"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -1295,7 +1769,13 @@
           "hangul": "아카리"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "電灯",
+          "reading": "でんとう",
+          "meaning": "전등"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1318,7 +1798,18 @@
           "hangul": "하이"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "灰",
+          "reading": "はい",
+          "meaning": "재"
+        },
+        {
+          "word": "灰色",
+          "reading": "はいいろ",
+          "meaning": "회색"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -1341,7 +1832,13 @@
           "hangul": "타케"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "竹",
+          "reading": "たけ",
+          "meaning": "대나무"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -1364,7 +1861,13 @@
           "hangul": "이토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "糸",
+          "reading": "いと",
+          "meaning": "실"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1387,7 +1890,18 @@
           "hangul": "카마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "缶",
+          "reading": "かん",
+          "meaning": "캔"
+        },
+        {
+          "word": "缶詰",
+          "reading": "かんづめ",
+          "meaning": "통조림"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1418,7 +1932,13 @@
           "hangul": "하네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "羽",
+          "reading": "はね",
+          "meaning": "날개"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1441,7 +1961,13 @@
           "hangul": "하다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "肌",
+          "reading": "はだ",
+          "meaning": "피부"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -1472,7 +1998,13 @@
           "hangul": "-부네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "舟",
+          "reading": "ふね",
+          "meaning": "배(작은)"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1499,7 +2031,18 @@
           "hangul": "무시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "虫",
+          "reading": "むし",
+          "meaning": "벌레"
+        },
+        {
+          "word": "虫歯",
+          "reading": "むしば",
+          "meaning": "충치"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -1522,7 +2065,18 @@
           "hangul": "치"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "血",
+          "reading": "ち",
+          "meaning": "피"
+        },
+        {
+          "word": "血液",
+          "reading": "けつえき",
+          "meaning": "혈액"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -1557,7 +2111,18 @@
           "hangul": "-기"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "衣服",
+          "reading": "いふく",
+          "meaning": "의복"
+        },
+        {
+          "word": "浴衣",
+          "reading": "ゆかた",
+          "meaning": "유카타"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1604,7 +2169,18 @@
           "hangul": "와타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "乱れる",
+          "reading": "みだれる",
+          "meaning": "흐트러지다"
+        },
+        {
+          "word": "混乱",
+          "reading": "こんらん",
+          "meaning": "혼란"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -1639,7 +2215,18 @@
           "hangul": "노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "伸びる",
+          "reading": "のびる",
+          "meaning": "늘어나다"
+        },
+        {
+          "word": "伸ばす",
+          "reading": "のばす",
+          "meaning": "늘리다"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1662,7 +2249,13 @@
           "hangul": "우카가"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "伺う",
+          "reading": "うかがう",
+          "meaning": "여쭙다, 방문하다(겸양)"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1693,7 +2286,18 @@
           "hangul": "히쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "低い",
+          "reading": "ひくい",
+          "meaning": "낮은"
+        },
+        {
+          "word": "最低",
+          "reading": "さいてい",
+          "meaning": "최저"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1732,7 +2336,18 @@
           "hangul": "-っ코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "幼児",
+          "reading": "ようじ",
+          "meaning": "유아"
+        },
+        {
+          "word": "児童",
+          "reading": "じどう",
+          "meaning": "아동"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1759,7 +2374,13 @@
           "hangul": "쓰와모노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "兵士",
+          "reading": "へいし",
+          "meaning": "병사"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1782,7 +2403,13 @@
           "hangul": "타마고"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "卵",
+          "reading": "たまご",
+          "meaning": "달걀"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -1809,7 +2436,18 @@
           "hangul": "후쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "含む",
+          "reading": "ふくむ",
+          "meaning": "포함하다"
+        },
+        {
+          "word": "含める",
+          "reading": "ふくめる",
+          "meaning": "포함시키다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -1840,7 +2478,18 @@
           "hangul": "카코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "囲む",
+          "reading": "かこむ",
+          "meaning": "둘러싸다"
+        },
+        {
+          "word": "範囲",
+          "reading": "はんい",
+          "meaning": "범위"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -1863,7 +2512,18 @@
           "hangul": "사카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "坂",
+          "reading": "さか",
+          "meaning": "언덕"
+        },
+        {
+          "word": "上り坂",
+          "reading": "のぼりざか",
+          "meaning": "오르막길"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -1886,7 +2546,18 @@
           "hangul": "나라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "平均",
+          "reading": "へいきん",
+          "meaning": "평균"
+        },
+        {
+          "word": "均等",
+          "reading": "きんとう",
+          "meaning": "균등"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -1913,7 +2584,13 @@
           "hangul": "마레"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "希望",
+          "reading": "きぼう",
+          "meaning": "희망"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -1940,7 +2617,13 @@
           "hangul": "유카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "床",
+          "reading": "ゆか",
+          "meaning": "바닥"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -1963,7 +2646,18 @@
           "hangul": "코코로요"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "快適",
+          "reading": "かいてき",
+          "meaning": "쾌적"
+        },
+        {
+          "word": "愉快",
+          "reading": "ゆかい",
+          "meaning": "유쾌"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -1986,7 +2680,13 @@
           "hangul": "와자"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "技術",
+          "reading": "ぎじゅつ",
+          "meaning": "기술"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -2013,7 +2713,18 @@
           "hangul": "아라타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "meaning": "개선"
+        },
+        {
+          "word": "改札",
+          "reading": "かいさつ",
+          "meaning": "개찰"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -2031,7 +2742,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "材料",
+          "reading": "ざいりょう",
+          "meaning": "재료"
+        },
+        {
+          "word": "人材",
+          "reading": "じんざい",
+          "meaning": "인재"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -2054,7 +2776,13 @@
           "hangul": "무라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "村",
+          "reading": "むら",
+          "meaning": "마을"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -2085,7 +2813,18 @@
           "hangul": "시즈"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "沈む",
+          "reading": "しずむ",
+          "meaning": "가라앉다"
+        },
+        {
+          "word": "沈黙",
+          "reading": "ちんもく",
+          "meaning": "침묵"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -2107,7 +2846,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "大臣",
+          "reading": "だいじん",
+          "meaning": "대신"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -2142,7 +2887,13 @@
           "hangul": "와자"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "芸術",
+          "reading": "げいじゅつ",
+          "meaning": "예술"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -2169,7 +2920,18 @@
           "hangul": "쓰노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "角",
+          "reading": "かど",
+          "meaning": "모퉁이"
+        },
+        {
+          "word": "三角",
+          "reading": "さんかく",
+          "meaning": "삼각"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -2196,7 +2958,13 @@
           "hangul": "키와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "谷",
+          "reading": "たに",
+          "meaning": "골짜기"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -2219,7 +2987,13 @@
           "hangul": "카이"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "貝",
+          "reading": "かい",
+          "meaning": "조개"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -2254,7 +3028,13 @@
           "hangul": "카노토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "辛い",
+          "reading": "からい",
+          "meaning": "매운, 괴로운"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -2277,7 +3057,18 @@
           "hangul": "후세"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "防ぐ",
+          "reading": "ふせぐ",
+          "meaning": "막다"
+        },
+        {
+          "word": "予防",
+          "reading": "よぼう",
+          "meaning": "예방"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -2300,7 +3091,13 @@
           "hangul": "무기"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "小麦",
+          "reading": "こむぎ",
+          "meaning": "밀"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -2343,7 +3140,18 @@
           "hangul": "나라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "並ぶ",
+          "reading": "ならぶ",
+          "meaning": "줄서다"
+        },
+        {
+          "word": "並べる",
+          "reading": "ならべる",
+          "meaning": "늘어놓다"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -2370,7 +3178,13 @@
           "hangul": "치"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "牛乳",
+          "reading": "ぎゅうにゅう",
+          "meaning": "우유"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -2397,7 +3211,13 @@
           "hangul": "요"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "依頼",
+          "reading": "いらい",
+          "meaning": "의뢰"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -2432,7 +3252,13 @@
           "hangul": "하"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "印刷",
+          "reading": "いんさつ",
+          "meaning": "인쇄"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2450,7 +3276,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "切符",
+          "reading": "きっぷ",
+          "meaning": "표"
+        },
+        {
+          "word": "入場券",
+          "reading": "にゅうじょうけん",
+          "meaning": "입장권"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2489,7 +3326,18 @@
           "hangul": "토게"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "名刺",
+          "reading": "めいし",
+          "meaning": "명함"
+        },
+        {
+          "word": "刺す",
+          "reading": "さす",
+          "meaning": "찌르다"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2520,7 +3368,18 @@
           "hangul": "나라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "meaning": "효과"
+        },
+        {
+          "word": "有効",
+          "reading": "ゆうこう",
+          "meaning": "유효"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2563,7 +3422,13 @@
           "hangul": "니와카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "卒業",
+          "reading": "そつぎょう",
+          "meaning": "졸업"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2581,7 +3446,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "協力",
+          "reading": "きょうりょく",
+          "meaning": "협력"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2604,7 +3475,18 @@
           "hangul": "마와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "周り",
+          "reading": "まわり",
+          "meaning": "주위"
+        },
+        {
+          "word": "周辺",
+          "reading": "しゅうへん",
+          "meaning": "주변"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -2639,7 +3521,13 @@
           "hangul": "카타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "固い",
+          "reading": "かたい",
+          "meaning": "단단한"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -2661,7 +3549,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "姓",
+          "reading": "せい",
+          "meaning": "성(姓)"
+        },
+        {
+          "word": "姓名",
+          "reading": "せいめい",
+          "meaning": "성명"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -2684,7 +3583,13 @@
           "hangul": "유다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "委員",
+          "reading": "いいん",
+          "meaning": "위원"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2702,7 +3607,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "季節",
+          "reading": "きせつ",
+          "meaning": "계절"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -2725,7 +3636,18 @@
           "hangul": "타카라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "宝物",
+          "reading": "たからもの",
+          "meaning": "보물"
+        },
+        {
+          "word": "宝石",
+          "reading": "ほうせき",
+          "meaning": "보석"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -2756,7 +3678,18 @@
           "hangul": "토도"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "届く",
+          "reading": "とどく",
+          "meaning": "닿다"
+        },
+        {
+          "word": "届ける",
+          "reading": "とどける",
+          "meaning": "전하다"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2779,7 +3712,13 @@
           "hangul": "이와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "岩",
+          "reading": "いわ",
+          "meaning": "바위"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -2802,7 +3741,13 @@
           "hangul": "키시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "海岸",
+          "reading": "かいがん",
+          "meaning": "해안"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -2825,7 +3770,13 @@
           "hangul": "소코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "底",
+          "reading": "そこ",
+          "meaning": "바닥"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -2843,7 +3794,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "政府",
+          "reading": "せいふ",
+          "meaning": "정부"
+        },
+        {
+          "word": "大阪府",
+          "reading": "おおさかふ",
+          "meaning": "오사카부"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2878,7 +3840,18 @@
           "hangul": "노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "延びる",
+          "reading": "のびる",
+          "meaning": "늘어나다"
+        },
+        {
+          "word": "延長",
+          "reading": "えんちょう",
+          "meaning": "연장"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -2909,7 +3882,18 @@
           "hangul": "우"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "承知",
+          "reading": "しょうち",
+          "meaning": "알겠습니다"
+        },
+        {
+          "word": "承認",
+          "reading": "しょうにん",
+          "meaning": "승인"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -2936,7 +3920,18 @@
           "hangul": "니나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "担当",
+          "reading": "たんとう",
+          "meaning": "담당"
+        },
+        {
+          "word": "負担",
+          "reading": "ふたん",
+          "meaning": "부담"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -2963,7 +3958,13 @@
           "hangul": "오로가"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "拝見",
+          "reading": "はいけん",
+          "meaning": "(겸양) 보다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -2986,7 +3987,13 @@
           "hangul": "노보"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "上昇",
+          "reading": "じょうしょう",
+          "meaning": "상승"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -3013,7 +4020,18 @@
           "hangul": "이타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "板",
+          "reading": "いた",
+          "meaning": "판자"
+        },
+        {
+          "word": "黒板",
+          "reading": "こくばん",
+          "meaning": "칠판"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -3036,7 +4054,18 @@
           "hangul": "하야시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "林",
+          "reading": "はやし",
+          "meaning": "숲"
+        },
+        {
+          "word": "森林",
+          "reading": "しんりん",
+          "meaning": "삼림"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -3058,7 +4087,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "一枚",
+          "reading": "いちまい",
+          "meaning": "한 장"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -3081,7 +4116,13 @@
           "hangul": "에다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "枝",
+          "reading": "えだ",
+          "meaning": "가지"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -3108,7 +4149,13 @@
           "hangul": "하"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "欧米",
+          "reading": "おうべい",
+          "meaning": "구미(서양)"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -3139,7 +4186,13 @@
           "hangul": "타케"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "武器",
+          "reading": "ぶき",
+          "meaning": "무기"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -3157,7 +4210,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "毒",
+          "reading": "どく",
+          "meaning": "독"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -3180,7 +4239,18 @@
           "hangul": "카와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "河",
+          "reading": "かわ",
+          "meaning": "강"
+        },
+        {
+          "word": "銀河",
+          "reading": "ぎんが",
+          "meaning": "은하"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -3207,7 +4277,18 @@
           "hangul": "와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "沸く",
+          "reading": "わく",
+          "meaning": "끓다"
+        },
+        {
+          "word": "沸かす",
+          "reading": "わかす",
+          "meaning": "끓이다"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -3234,7 +4315,18 @@
           "hangul": "아부라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "油",
+          "reading": "あぶら",
+          "meaning": "기름"
+        },
+        {
+          "word": "石油",
+          "reading": "せきゆ",
+          "meaning": "석유"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -3265,7 +4357,13 @@
           "hangul": "오모무키"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "状況",
+          "reading": "じょうきょう",
+          "meaning": "상황"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -3292,7 +4390,18 @@
           "hangul": "토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "泊まる",
+          "reading": "とまる",
+          "meaning": "묵다"
+        },
+        {
+          "word": "一泊",
+          "reading": "いっぱく",
+          "meaning": "1박"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -3315,7 +4424,18 @@
           "hangul": "나미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "波",
+          "reading": "なみ",
+          "meaning": "파도"
+        },
+        {
+          "word": "電波",
+          "reading": "でんぱ",
+          "meaning": "전파"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -3354,7 +4474,18 @@
           "hangul": "나즈"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "泥",
+          "reading": "どろ",
+          "meaning": "진흙"
+        },
+        {
+          "word": "泥棒",
+          "reading": "どろぼう",
+          "meaning": "도둑"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -3372,7 +4503,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "出版",
+          "reading": "しゅっぱん",
+          "meaning": "출판"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -3395,7 +4532,13 @@
           "hangul": "이노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "祈る",
+          "reading": "いのる",
+          "meaning": "빌다, 기도하다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -3418,7 +4561,13 @@
           "hangul": "카타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "肩",
+          "reading": "かた",
+          "meaning": "어깨"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -3441,7 +4590,13 @@
           "hangul": "가에응지"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "肯定",
+          "reading": "こうてい",
+          "meaning": "긍정"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -3464,7 +4619,13 @@
           "hangul": "노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "述べる",
+          "reading": "のべる",
+          "meaning": "서술하다"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -3491,7 +4652,18 @@
           "hangul": "토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "門",
+          "reading": "もん",
+          "meaning": "문"
+        },
+        {
+          "word": "専門",
+          "reading": "せんもん",
+          "meaning": "전문"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -3514,7 +4686,18 @@
           "hangul": "노っ토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "規則",
+          "reading": "きそく",
+          "meaning": "규칙"
+        },
+        {
+          "word": "原則",
+          "reading": "げんそく",
+          "meaning": "원칙"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -3537,7 +4720,13 @@
           "hangul": "이사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "勇気",
+          "reading": "ゆうき",
+          "meaning": "용기"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -3564,7 +4753,13 @@
           "hangul": "아카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "厚い",
+          "reading": "あつい",
+          "meaning": "두꺼운"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -3591,7 +4786,13 @@
           "hangul": "-자키"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "咲く",
+          "reading": "さく",
+          "meaning": "(꽃이) 피다"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -3618,7 +4819,18 @@
           "hangul": "-가타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "大型",
+          "reading": "おおがた",
+          "meaning": "대형"
+        },
+        {
+          "word": "血液型",
+          "reading": "けつえきがた",
+          "meaning": "혈액형"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -3645,7 +4857,13 @@
           "hangul": "시로"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "城",
+          "reading": "しろ",
+          "meaning": "성"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -3667,7 +4885,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "封筒",
+          "reading": "ふうとう",
+          "meaning": "봉투"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -3690,7 +4914,13 @@
           "hangul": "모っ파"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "専門",
+          "reading": "せんもん",
+          "meaning": "전문"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -3725,7 +4955,13 @@
           "hangul": "마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "巻く",
+          "reading": "まく",
+          "meaning": "감다"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -3751,7 +4987,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "法律",
+          "reading": "ほうりつ",
+          "meaning": "법률"
+        },
+        {
+          "word": "規律",
+          "reading": "きりつ",
+          "meaning": "규율"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -3778,7 +5025,13 @@
           "hangul": "히로"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "拾う",
+          "reading": "ひろう",
+          "meaning": "줍다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -3817,7 +5070,13 @@
           "hangul": "사시하사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "挟む",
+          "reading": "はさむ",
+          "meaning": "끼우다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -3848,7 +5107,13 @@
           "hangul": "-보시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "星",
+          "reading": "ほし",
+          "meaning": "별"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -3875,7 +5140,13 @@
           "hangul": "카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "枯れる",
+          "reading": "かれる",
+          "meaning": "시들다"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -3914,7 +5185,18 @@
           "hangul": "야와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "柔らかい",
+          "reading": "やわらかい",
+          "meaning": "부드러운"
+        },
+        {
+          "word": "柔道",
+          "reading": "じゅうどう",
+          "meaning": "유도"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -3937,7 +5219,13 @@
           "hangul": "하시라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "柱",
+          "reading": "はしら",
+          "meaning": "기둥"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -3955,7 +5243,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "調査",
+          "reading": "ちょうさ",
+          "meaning": "조사"
+        },
+        {
+          "word": "検査",
+          "reading": "けんさ",
+          "meaning": "검사"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -3998,7 +5297,13 @@
           "hangul": "에"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "栄養",
+          "reading": "えいよう",
+          "meaning": "영양"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4021,7 +5326,13 @@
           "hangul": "이즈미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "温泉",
+          "reading": "おんせん",
+          "meaning": "온천"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -4044,7 +5355,13 @@
           "hangul": "아사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "浅い",
+          "reading": "あさい",
+          "meaning": "얕은"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4067,7 +5384,13 @@
           "hangul": "스미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "石炭",
+          "reading": "せきたん",
+          "meaning": "석탄"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -4094,7 +5417,13 @@
           "hangul": "타카라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "珍しい",
+          "reading": "めずらしい",
+          "meaning": "드문, 신기한"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4125,7 +5454,18 @@
           "hangul": "하부"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "省エネ",
+          "reading": "しょうエネ",
+          "meaning": "에너지 절약"
+        },
+        {
+          "word": "反省",
+          "reading": "はんせい",
+          "meaning": "반성"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -4148,7 +5488,13 @@
           "hangul": "카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "県",
+          "reading": "けん",
+          "meaning": "현(県)"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -4175,7 +5521,18 @@
           "hangul": "스나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "砂",
+          "reading": "すな",
+          "meaning": "모래"
+        },
+        {
+          "word": "砂糖",
+          "reading": "さとう",
+          "meaning": "설탕"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -4202,7 +5559,18 @@
           "hangul": "이와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "お祝い",
+          "reading": "おいわい",
+          "meaning": "축하"
+        },
+        {
+          "word": "祝日",
+          "reading": "しゅくじつ",
+          "meaning": "공휴일"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4220,7 +5588,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "秒",
+          "reading": "びょう",
+          "meaning": "초"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -4255,7 +5629,18 @@
           "hangul": "아카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "紅葉",
+          "reading": "もみじ",
+          "meaning": "단풍"
+        },
+        {
+          "word": "口紅",
+          "reading": "くちべに",
+          "meaning": "립스틱"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -4273,7 +5658,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "胃",
+          "reading": "い",
+          "meaning": "위(胃)"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -4316,7 +5707,13 @@
           "hangul": "스사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "荒れる",
+          "reading": "あれる",
+          "meaning": "거칠어지다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4339,7 +5736,18 @@
           "hangul": "이쿠사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "軍",
+          "reading": "ぐん",
+          "meaning": "군대"
+        },
+        {
+          "word": "軍隊",
+          "reading": "ぐんたい",
+          "meaning": "군대"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -4374,7 +5782,18 @@
           "hangul": "사카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "逆",
+          "reading": "ぎゃく",
+          "meaning": "반대, 역"
+        },
+        {
+          "word": "逆転",
+          "reading": "ぎゃくてん",
+          "meaning": "역전"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4392,7 +5811,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "郊外",
+          "reading": "こうがい",
+          "meaning": "교외"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -4415,7 +5840,18 @@
           "hangul": "카와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "革",
+          "reading": "かわ",
+          "meaning": "가죽"
+        },
+        {
+          "word": "改革",
+          "reading": "かいかく",
+          "meaning": "개혁"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -4450,7 +5886,13 @@
           "hangul": "카오"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "香り",
+          "reading": "かおり",
+          "meaning": "향기"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -4472,7 +5914,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "個人",
+          "reading": "こじん",
+          "meaning": "개인"
+        },
+        {
+          "word": "一個",
+          "reading": "いっこ",
+          "meaning": "한 개"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -4490,7 +5943,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "倍",
+          "reading": "ばい",
+          "meaning": "배(倍)"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -4517,7 +5976,13 @@
           "hangul": "무라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "政党",
+          "reading": "せいとう",
+          "meaning": "정당"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -4556,7 +6021,18 @@
           "hangul": "시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "冷凍",
+          "reading": "れいとう",
+          "meaning": "냉동"
+        },
+        {
+          "word": "凍る",
+          "reading": "こおる",
+          "meaning": "얼다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4599,7 +6075,13 @@
           "hangul": "이"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "埋める",
+          "reading": "うめる",
+          "meaning": "묻다, 메우다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4622,7 +6104,13 @@
           "hangul": "마고"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "孫",
+          "reading": "まご",
+          "meaning": "손자"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -4665,7 +6153,13 @@
           "hangul": "모っ테"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "将来",
+          "reading": "しょうらい",
+          "meaning": "장래"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -4688,7 +6182,18 @@
           "hangul": "시마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "島",
+          "reading": "しま",
+          "meaning": "섬"
+        },
+        {
+          "word": "半島",
+          "reading": "はんとう",
+          "meaning": "반도"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -4715,7 +6220,18 @@
           "hangul": "오비"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "地帯",
+          "reading": "ちたい",
+          "meaning": "지대"
+        },
+        {
+          "word": "携帯",
+          "reading": "けいたい",
+          "meaning": "휴대"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -4742,7 +6258,18 @@
           "hangul": "쿠라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "meaning": "냉장고"
+        },
+        {
+          "word": "倉庫",
+          "reading": "そうこ",
+          "meaning": "창고"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -4777,7 +6304,13 @@
           "hangul": "요와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "弱い",
+          "reading": "よわい",
+          "meaning": "약한"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -4808,7 +6341,18 @@
           "hangul": "코이"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "恋",
+          "reading": "こい",
+          "meaning": "사랑"
+        },
+        {
+          "word": "恋人",
+          "reading": "こいびと",
+          "meaning": "연인"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -4843,7 +6387,18 @@
           "hangul": "나야미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "悩む",
+          "reading": "なやむ",
+          "meaning": "고민하다"
+        },
+        {
+          "word": "悩み",
+          "reading": "なやみ",
+          "meaning": "고민"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -4874,7 +6429,13 @@
           "hangul": "사가"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "捜す",
+          "reading": "さがす",
+          "meaning": "(수색하여) 찾다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4901,7 +6462,18 @@
           "hangul": "-네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "根",
+          "reading": "ね",
+          "meaning": "뿌리"
+        },
+        {
+          "word": "屋根",
+          "reading": "やね",
+          "meaning": "지붕"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -4928,7 +6500,13 @@
           "hangul": "아"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "入浴",
+          "reading": "にゅうよく",
+          "meaning": "입욕"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -4955,7 +6533,13 @@
           "hangul": "나미다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "涙",
+          "reading": "なみだ",
+          "meaning": "눈물"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -4973,7 +6557,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "家畜",
+          "reading": "かちく",
+          "meaning": "가축"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -5004,7 +6594,18 @@
           "hangul": "코나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "粉",
+          "reading": "こな",
+          "meaning": "가루"
+        },
+        {
+          "word": "小麦粉",
+          "reading": "こむぎこ",
+          "meaning": "밀가루"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5022,7 +6623,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "純粋",
+          "reading": "じゅんすい",
+          "meaning": "순수"
+        },
+        {
+          "word": "単純",
+          "reading": "たんじゅん",
+          "meaning": "단순"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -5045,7 +6657,13 @@
           "hangul": "타가야"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "耕す",
+          "reading": "たがやす",
+          "meaning": "경작하다"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -5072,7 +6690,13 @@
           "hangul": "무나-"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "胸",
+          "reading": "むね",
+          "meaning": "가슴"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -5095,7 +6719,13 @@
           "hangul": "아부라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "脂肪",
+          "reading": "しぼう",
+          "meaning": "지방"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -5113,7 +6743,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "航空",
+          "reading": "こうくう",
+          "meaning": "항공"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5131,7 +6767,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "一般",
+          "reading": "いっぱん",
+          "meaning": "일반"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5154,7 +6796,13 @@
           "hangul": "니"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "荷物",
+          "reading": "にもつ",
+          "meaning": "짐"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5189,7 +6837,13 @@
           "hangul": "카부"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "被害",
+          "reading": "ひがい",
+          "meaning": "피해"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5224,7 +6878,13 @@
           "hangul": "쿠응"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "訓練",
+          "reading": "くんれん",
+          "meaning": "훈련"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5247,7 +6907,13 @@
           "hangul": "노키"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "一軒",
+          "reading": "いっけん",
+          "meaning": "한 채"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5278,7 +6944,18 @@
           "hangul": "-즈쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "製造",
+          "reading": "せいぞう",
+          "meaning": "제조"
+        },
+        {
+          "word": "構造",
+          "reading": "こうぞう",
+          "meaning": "구조"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5301,7 +6978,18 @@
           "hangul": "하리"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "針",
+          "reading": "はり",
+          "meaning": "바늘"
+        },
+        {
+          "word": "方針",
+          "reading": "ほうしん",
+          "meaning": "방침"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5319,7 +7007,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "一隻",
+          "reading": "いっせき",
+          "meaning": "한 척(배)"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -5342,7 +7036,18 @@
           "hangul": "호네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "骨",
+          "reading": "ほね",
+          "meaning": "뼈"
+        },
+        {
+          "word": "骨折",
+          "reading": "こっせつ",
+          "meaning": "골절"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -5385,7 +7090,18 @@
           "hangul": "이누이"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "乾く",
+          "reading": "かわく",
+          "meaning": "마르다"
+        },
+        {
+          "word": "乾燥",
+          "reading": "かんそう",
+          "meaning": "건조"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -5412,7 +7128,18 @@
           "hangul": "토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "バス停",
+          "reading": "バスてい",
+          "meaning": "버스 정류장"
+        },
+        {
+          "word": "停電",
+          "reading": "ていでん",
+          "meaning": "정전"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -5430,7 +7157,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "副",
+          "reading": "ふく",
+          "meaning": "부(副)"
+        },
+        {
+          "word": "副作用",
+          "reading": "ふくさよう",
+          "meaning": "부작용"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -5448,7 +7186,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "지역"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -5471,7 +7215,13 @@
           "hangul": "와즈라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "患者",
+          "reading": "かんじゃ",
+          "meaning": "환자"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -5494,7 +7244,13 @@
           "hangul": "스"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "捨てる",
+          "reading": "すてる",
+          "meaning": "버리다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5521,7 +7277,13 @@
           "hangul": "하"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "掃除",
+          "reading": "そうじ",
+          "meaning": "청소"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5544,7 +7306,13 @@
           "hangul": "호"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "掘る",
+          "reading": "ほる",
+          "meaning": "파다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5567,7 +7335,13 @@
           "hangul": "토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "採用",
+          "reading": "さいよう",
+          "meaning": "채용"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5594,7 +7368,18 @@
           "hangul": "쓰"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "接する",
+          "reading": "せっする",
+          "meaning": "접하다"
+        },
+        {
+          "word": "直接",
+          "reading": "ちょくせつ",
+          "meaning": "직접"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5617,7 +7402,13 @@
           "hangul": "카세"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "機械",
+          "reading": "きかい",
+          "meaning": "기계"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -5635,7 +7426,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "液体",
+          "reading": "えきたい",
+          "meaning": "액체"
+        },
+        {
+          "word": "血液",
+          "reading": "けつえき",
+          "meaning": "혈액"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -5678,7 +7480,13 @@
           "hangul": "마코토니"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "涼しい",
+          "reading": "すずしい",
+          "meaning": "시원한"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -5717,7 +7525,18 @@
           "hangul": "코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "混む",
+          "reading": "こむ",
+          "meaning": "붐비다"
+        },
+        {
+          "word": "混乱",
+          "reading": "こんらん",
+          "meaning": "혼란"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5756,7 +7575,13 @@
           "hangul": "키요"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "清潔",
+          "reading": "せいけつ",
+          "meaning": "청결"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5779,7 +7604,13 @@
           "hangul": "카메"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "瓶",
+          "reading": "びん",
+          "meaning": "병(유리)"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5822,7 +7653,13 @@
           "hangul": "하카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "省略",
+          "reading": "しょうりゃく",
+          "meaning": "생략"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -5853,7 +7690,18 @@
           "hangul": "마쓰리"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "お祭り",
+          "reading": "おまつり",
+          "meaning": "축제"
+        },
+        {
+          "word": "祭日",
+          "reading": "さいじつ",
+          "meaning": "제일"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5880,7 +7728,18 @@
           "hangul": "우쓰"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "移る",
+          "reading": "うつる",
+          "meaning": "옮기다"
+        },
+        {
+          "word": "移動",
+          "reading": "いどう",
+          "meaning": "이동"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -5898,7 +7757,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "文章",
+          "reading": "ぶんしょう",
+          "meaning": "문장"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5916,7 +7781,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "切符",
+          "reading": "きっぷ",
+          "meaning": "표"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5939,7 +7810,13 @@
           "hangul": "쓰부"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "粒",
+          "reading": "つぶ",
+          "meaning": "알갱이"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5974,7 +7851,18 @@
           "hangul": "코마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "細い",
+          "reading": "ほそい",
+          "meaning": "가는"
+        },
+        {
+          "word": "細かい",
+          "reading": "こまかい",
+          "meaning": "세밀한"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -5992,7 +7880,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "紹介",
+          "reading": "しょうかい",
+          "meaning": "소개"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -6010,7 +7904,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "翌日",
+          "reading": "よくじつ",
+          "meaning": "다음 날"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -6037,7 +7937,13 @@
           "hangul": "노우즈루"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "脳",
+          "reading": "のう",
+          "meaning": "뇌"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -6055,7 +7961,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "お菓子",
+          "reading": "おかし",
+          "meaning": "과자"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -6078,7 +7990,13 @@
           "hangul": "나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "野菜",
+          "reading": "やさい",
+          "meaning": "야채"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -6109,7 +8027,18 @@
           "hangul": "이치지루"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "著者",
+          "reading": "ちょしゃ",
+          "meaning": "저자"
+        },
+        {
+          "word": "著しい",
+          "reading": "いちじるしい",
+          "meaning": "현저한"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -6136,7 +8065,13 @@
           "hangul": "후쿠로"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "袋",
+          "reading": "ふくろ",
+          "meaning": "봉지"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -6159,7 +8094,18 @@
           "hangul": "모우"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "設計",
+          "reading": "せっけい",
+          "meaning": "설계"
+        },
+        {
+          "word": "設備",
+          "reading": "せつび",
+          "meaning": "설비"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -6182,7 +8128,18 @@
           "hangul": "타카라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "貨物",
+          "reading": "かもつ",
+          "meaning": "화물"
+        },
+        {
+          "word": "通貨",
+          "reading": "つうか",
+          "meaning": "통화"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -6200,7 +8157,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "販売",
+          "reading": "はんばい",
+          "meaning": "판매"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -6227,7 +8190,13 @@
           "hangul": "야와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "柔軟",
+          "reading": "じゅうなん",
+          "meaning": "유연"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -6245,7 +8214,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "郵便",
+          "reading": "ゆうびん",
+          "meaning": "우편"
+        },
+        {
+          "word": "郵便局",
+          "reading": "ゆうびんきょく",
+          "meaning": "우체국"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -6272,7 +8252,18 @@
           "hangul": "오카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "大陸",
+          "reading": "たいりく",
+          "meaning": "대륙"
+        },
+        {
+          "word": "陸",
+          "reading": "りく",
+          "meaning": "육지"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -6303,7 +8294,13 @@
           "hangul": "코-"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "黄色",
+          "reading": "きいろ",
+          "meaning": "노란색"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -6326,7 +8323,13 @@
           "hangul": "쓰노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "募集",
+          "reading": "ぼしゅう",
+          "meaning": "모집"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -6349,7 +8352,13 @@
           "hangul": "노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "喫茶店",
+          "reading": "きっさてん",
+          "meaning": "다방"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -6376,7 +8385,13 @@
           "hangul": "이토나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "営業",
+          "reading": "えいぎょう",
+          "meaning": "영업"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -6394,7 +8409,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "塔",
+          "reading": "とう",
+          "meaning": "탑"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -6425,7 +8446,18 @@
           "hangul": "쿠마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "奥",
+          "reading": "おく",
+          "meaning": "안쪽"
+        },
+        {
+          "word": "奥さん",
+          "reading": "おくさん",
+          "meaning": "아내(존칭)"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -6460,7 +8492,13 @@
           "hangul": "토우토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "尊敬",
+          "reading": "そんけい",
+          "meaning": "존경"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -6491,7 +8529,13 @@
           "hangul": "오오"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "帽子",
+          "reading": "ぼうし",
+          "meaning": "모자"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -6514,7 +8558,13 @@
           "hangul": "하바"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "幅",
+          "reading": "はば",
+          "meaning": "폭"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -6537,7 +8587,18 @@
           "hangul": "마타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "回復",
+          "reading": "かいふく",
+          "meaning": "회복"
+        },
+        {
+          "word": "復習",
+          "reading": "ふくしゅう",
+          "meaning": "복습"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -6568,7 +8629,18 @@
           "hangul": "카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "交換",
+          "reading": "こうかん",
+          "meaning": "교환"
+        },
+        {
+          "word": "換気",
+          "reading": "かんき",
+          "meaning": "환기"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -6595,7 +8667,18 @@
           "hangul": "우야마"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "尊敬",
+          "reading": "そんけい",
+          "meaning": "존경"
+        },
+        {
+          "word": "敬語",
+          "reading": "けいご",
+          "meaning": "경어"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -6622,7 +8705,13 @@
           "hangul": "아마네시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "普通",
+          "reading": "ふつう",
+          "meaning": "보통"
+        }
+      ],
       "mnemonic": "",
       "category": "통신·법률"
     },
@@ -6653,7 +8742,13 @@
           "hangul": "카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "両替",
+          "reading": "りょうがえ",
+          "meaning": "환전"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -6671,7 +8766,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "棒",
+          "reading": "ぼう",
+          "meaning": "막대기"
+        },
+        {
+          "word": "泥棒",
+          "reading": "どろぼう",
+          "meaning": "도둑"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -6694,7 +8800,13 @@
           "hangul": "모리"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "森",
+          "reading": "もり",
+          "meaning": "숲"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -6721,7 +8833,18 @@
           "hangul": "우"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "植物",
+          "reading": "しょくぶつ",
+          "meaning": "식물"
+        },
+        {
+          "word": "植える",
+          "reading": "うえる",
+          "meaning": "심다"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -6772,7 +8895,13 @@
           "hangul": "키"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "積極的",
+          "reading": "せっきょくてき",
+          "meaning": "적극적"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -6799,7 +8928,18 @@
           "hangul": "헤"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "減る",
+          "reading": "へる",
+          "meaning": "줄다"
+        },
+        {
+          "word": "減少",
+          "reading": "げんしょう",
+          "meaning": "감소"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -6838,7 +8978,18 @@
           "hangul": "누쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "温かい",
+          "reading": "あたたかい",
+          "meaning": "따뜻한"
+        },
+        {
+          "word": "温度",
+          "reading": "おんど",
+          "meaning": "온도"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -6861,7 +9012,18 @@
           "hangul": "하카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "測る",
+          "reading": "はかる",
+          "meaning": "측정하다"
+        },
+        {
+          "word": "観測",
+          "reading": "かんそく",
+          "meaning": "관측"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -6884,7 +9046,13 @@
           "hangul": "미즈우미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "湖",
+          "reading": "みずうみ",
+          "meaning": "호수"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -6907,7 +9075,13 @@
           "hangul": "유"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "お湯",
+          "reading": "おゆ",
+          "meaning": "뜨거운 물"
+        }
+      ],
       "mnemonic": "",
       "category": "기타"
     },
@@ -6930,7 +9104,13 @@
           "hangul": "이리에"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "湾",
+          "reading": "わん",
+          "meaning": "만(灣)"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -6969,7 +9149,13 @@
           "hangul": "우루오"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "湿気",
+          "reading": "しっけ",
+          "meaning": "습기"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -7008,7 +9194,18 @@
           "hangul": "야"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "焼く",
+          "reading": "やく",
+          "meaning": "굽다"
+        },
+        {
+          "word": "焼き鳥",
+          "reading": "やきとり",
+          "meaning": "야키토리"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -7043,7 +9240,13 @@
           "hangul": "카사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "畳",
+          "reading": "たたみ",
+          "meaning": "다다미"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -7066,7 +9269,13 @@
           "hangul": "미지카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "短い",
+          "reading": "みじかい",
+          "meaning": "짧은"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -7089,7 +9298,13 @@
           "hangul": "카타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "硬い",
+          "reading": "かたい",
+          "meaning": "딱딱한"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -7107,7 +9322,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "税金",
+          "reading": "ぜいきん",
+          "meaning": "세금"
+        },
+        {
+          "word": "消費税",
+          "reading": "しょうひぜい",
+          "meaning": "소비세"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -7130,7 +9356,13 @@
           "hangul": "와라베"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "児童",
+          "reading": "じどう",
+          "meaning": "아동"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -7153,7 +9385,18 @@
           "hangul": "후데"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "筆",
+          "reading": "ふで",
+          "meaning": "붓"
+        },
+        {
+          "word": "鉛筆",
+          "reading": "えんぴつ",
+          "meaning": "연필"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -7176,7 +9419,13 @@
           "hangul": "쓰쓰"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "封筒",
+          "reading": "ふうとう",
+          "meaning": "봉투"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -7203,7 +9452,13 @@
           "hangul": "카라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "meaning": "연락"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -7226,7 +9481,13 @@
           "hangul": "우데"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "腕",
+          "reading": "うで",
+          "meaning": "팔"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -7257,7 +9518,18 @@
           "hangul": "요소오"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "服装",
+          "reading": "ふくそう",
+          "meaning": "복장"
+        },
+        {
+          "word": "装置",
+          "reading": "そうち",
+          "meaning": "장치"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -7280,7 +9552,18 @@
           "hangul": "오기나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "補う",
+          "reading": "おぎなう",
+          "meaning": "보충하다"
+        },
+        {
+          "word": "候補",
+          "reading": "こうほ",
+          "meaning": "후보"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -7303,7 +9586,18 @@
           "hangul": "코토바"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "名詞",
+          "reading": "めいし",
+          "meaning": "명사"
+        },
+        {
+          "word": "歌詞",
+          "reading": "かし",
+          "meaning": "가사"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -7330,7 +9624,18 @@
           "hangul": "카타도"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "印象",
+          "reading": "いんしょう",
+          "meaning": "인상"
+        },
+        {
+          "word": "対象",
+          "reading": "たいしょう",
+          "meaning": "대상"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -7357,7 +9662,13 @@
           "hangul": "타쿠와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "貯金",
+          "reading": "ちょきん",
+          "meaning": "저금"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -7375,7 +9686,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "貿易",
+          "reading": "ぼうえき",
+          "meaning": "무역"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -7402,7 +9719,13 @@
           "hangul": "코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "超える",
+          "reading": "こえる",
+          "meaning": "초과하다"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -7441,7 +9764,13 @@
           "hangul": "카로"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "軽い",
+          "reading": "かるい",
+          "meaning": "가벼운"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -7464,7 +9793,18 @@
           "hangul": "하카"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "量",
+          "reading": "りょう",
+          "meaning": "양"
+        },
+        {
+          "word": "大量",
+          "reading": "たいりょう",
+          "meaning": "대량"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -7503,7 +9843,13 @@
           "hangul": "나마쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "鈍い",
+          "reading": "にぶい",
+          "meaning": "둔한"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -7526,7 +9872,13 @@
           "hangul": "스미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "隅",
+          "reading": "すみ",
+          "meaning": "구석"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -7549,7 +9901,18 @@
           "hangul": "키자하시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "階段",
+          "reading": "かいだん",
+          "meaning": "계단"
+        },
+        {
+          "word": "一階",
+          "reading": "いっかい",
+          "meaning": "1층"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -7572,7 +9935,13 @@
           "hangul": "야토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "雇う",
+          "reading": "やとう",
+          "meaning": "고용하다"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -7599,7 +9968,13 @@
           "hangul": "-구모"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "雲",
+          "reading": "くも",
+          "meaning": "구름"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -7617,7 +9992,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "順番",
+          "reading": "じゅんばん",
+          "meaning": "순번"
+        },
+        {
+          "word": "順調",
+          "reading": "じゅんちょう",
+          "meaning": "순조"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -7656,7 +10042,18 @@
           "hangul": "카시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "傾向",
+          "reading": "けいこう",
+          "meaning": "경향"
+        },
+        {
+          "word": "傾く",
+          "reading": "かたむく",
+          "meaning": "기울다"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -7687,7 +10084,18 @@
           "hangul": "하즈미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "勢い",
+          "reading": "いきおい",
+          "meaning": "기세"
+        },
+        {
+          "word": "姿勢",
+          "reading": "しせい",
+          "meaning": "자세"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -7718,7 +10126,13 @@
           "hangul": "마미"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "塗る",
+          "reading": "ぬる",
+          "meaning": "칠하다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -7741,7 +10155,13 @@
           "hangul": "시오"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "塩",
+          "reading": "しお",
+          "meaning": "소금"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -7780,7 +10200,18 @@
           "hangul": "-소코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "損",
+          "reading": "そん",
+          "meaning": "손해"
+        },
+        {
+          "word": "損害",
+          "reading": "そんがい",
+          "meaning": "손해"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -7811,7 +10242,13 @@
           "hangul": "-도노"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "殿様",
+          "reading": "とのさま",
+          "meaning": "영주"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -7854,7 +10291,18 @@
           "hangul": "미즈모리"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "準備",
+          "reading": "じゅんび",
+          "meaning": "준비"
+        },
+        {
+          "word": "基準",
+          "reading": "きじゅん",
+          "meaning": "기준"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -7885,7 +10333,13 @@
           "hangul": "토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "溶ける",
+          "reading": "とける",
+          "meaning": "녹다"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -7916,7 +10370,18 @@
           "hangul": "테"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "照らす",
+          "reading": "てらす",
+          "meaning": "비추다"
+        },
+        {
+          "word": "参照",
+          "reading": "さんしょう",
+          "meaning": "참조"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -7934,7 +10399,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "禁止",
+          "reading": "きんし",
+          "meaning": "금지"
+        },
+        {
+          "word": "禁煙",
+          "reading": "きんえん",
+          "meaning": "금연"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -7952,7 +10428,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "警察署",
+          "reading": "けいさつしょ",
+          "meaning": "경찰서"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -7987,7 +10469,13 @@
           "hangul": "무라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "群れ",
+          "reading": "むれ",
+          "meaning": "무리"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -8010,7 +10498,13 @@
           "hangul": "코시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "腰",
+          "reading": "こし",
+          "meaning": "허리"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -8045,7 +10539,18 @@
           "hangul": "무"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "蒸す",
+          "reading": "むす",
+          "meaning": "찌다"
+        },
+        {
+          "word": "蒸し暑い",
+          "reading": "むしあつい",
+          "meaning": "무더운"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8068,7 +10573,13 @@
           "hangul": "우라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "裏",
+          "reading": "うら",
+          "meaning": "뒤, 뒷면"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8099,7 +10610,18 @@
           "hangul": "사와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "触る",
+          "reading": "さわる",
+          "meaning": "만지다"
+        },
+        {
+          "word": "触れる",
+          "reading": "ふれる",
+          "meaning": "닿다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8142,7 +10664,13 @@
           "hangul": "쓰"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "詰める",
+          "reading": "つめる",
+          "meaning": "채우다"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8173,7 +10701,18 @@
           "hangul": "토요"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "豊か",
+          "reading": "ゆたか",
+          "meaning": "풍요로운"
+        },
+        {
+          "word": "豊富",
+          "reading": "ほうふ",
+          "meaning": "풍부"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -8196,7 +10735,13 @@
           "hangul": "아토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "足跡",
+          "reading": "あしあと",
+          "meaning": "발자국"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8214,7 +10759,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "農業",
+          "reading": "のうぎょう",
+          "meaning": "농업"
+        },
+        {
+          "word": "農家",
+          "reading": "のうか",
+          "meaning": "농가"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -8237,7 +10793,18 @@
           "hangul": "쿠로가네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "鉄",
+          "reading": "てつ",
+          "meaning": "철"
+        },
+        {
+          "word": "地下鉄",
+          "reading": "ちかてつ",
+          "meaning": "지하철"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -8260,7 +10827,13 @@
           "hangul": "아라가네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "鉱物",
+          "reading": "こうぶつ",
+          "meaning": "광물"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -8291,7 +10864,13 @@
           "hangul": "코보"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "零",
+          "reading": "れい",
+          "meaning": "0, 영"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -8318,7 +10897,18 @@
           "hangul": "아즈"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "預ける",
+          "reading": "あずける",
+          "meaning": "맡기다"
+        },
+        {
+          "word": "預金",
+          "reading": "よきん",
+          "meaning": "예금"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -8336,7 +10926,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "想像",
+          "reading": "そうぞう",
+          "meaning": "상상"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -8363,7 +10959,18 @@
           "hangul": "사카이"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "meaning": "환경"
+        },
+        {
+          "word": "国境",
+          "reading": "こっきょう",
+          "meaning": "국경"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -8381,7 +10988,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "層",
+          "reading": "そう",
+          "meaning": "층"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -8416,7 +11029,18 @@
           "hangul": "니쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "憎い",
+          "reading": "にくい",
+          "meaning": "밉다"
+        },
+        {
+          "word": "憎む",
+          "reading": "にくむ",
+          "meaning": "미워하다"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -8438,7 +11062,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "歴史",
+          "reading": "れきし",
+          "meaning": "역사"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -8465,7 +11095,13 @@
           "hangul": "시타타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "水滴",
+          "reading": "すいてき",
+          "meaning": "물방울"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -8492,7 +11128,13 @@
           "hangul": "아사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "漁業",
+          "reading": "ぎょぎょう",
+          "meaning": "어업"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -8515,7 +11157,18 @@
           "hangul": "소로"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "計算",
+          "reading": "けいさん",
+          "meaning": "계산"
+        },
+        {
+          "word": "予算",
+          "reading": "よさん",
+          "meaning": "예산"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -8538,7 +11191,13 @@
           "hangul": "쿠다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "管理",
+          "reading": "かんり",
+          "meaning": "관리"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -8561,7 +11220,13 @@
           "hangul": "와타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "綿",
+          "reading": "めん",
+          "meaning": "면(綿)"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -8592,7 +11257,13 @@
           "hangul": "후사"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "総合",
+          "reading": "そうごう",
+          "meaning": "종합"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -8619,7 +11290,13 @@
           "hangul": "미도리"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "緑",
+          "reading": "みどり",
+          "meaning": "초록"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -8646,7 +11323,13 @@
           "hangul": "네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "연습"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8664,7 +11347,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "複雑",
+          "reading": "ふくざつ",
+          "meaning": "복잡"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8682,7 +11371,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "雑誌",
+          "reading": "ざっし",
+          "meaning": "잡지"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8705,7 +11400,18 @@
           "hangul": "오도"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "踊る",
+          "reading": "おどる",
+          "meaning": "춤추다"
+        },
+        {
+          "word": "踊り",
+          "reading": "おどり",
+          "meaning": "춤"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8728,7 +11434,13 @@
           "hangul": "아카가네"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "銅",
+          "reading": "どう",
+          "meaning": "구리"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -8751,7 +11463,18 @@
           "hangul": "에리"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "大統領",
+          "reading": "だいとうりょう",
+          "meaning": "대통령"
+        },
+        {
+          "word": "領収書",
+          "reading": "りょうしゅうしょ",
+          "meaning": "영수증"
+        }
+      ],
       "mnemonic": "",
       "category": "사고·판단"
     },
@@ -8774,7 +11497,13 @@
           "hangul": "하나"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "鼻",
+          "reading": "はな",
+          "meaning": "코"
+        }
+      ],
       "mnemonic": "",
       "category": "장소·건물"
     },
@@ -8792,7 +11521,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "億",
+          "reading": "おく",
+          "meaning": "억"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -8810,7 +11545,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "演劇",
+          "reading": "えんげき",
+          "meaning": "연극"
+        },
+        {
+          "word": "劇場",
+          "reading": "げきじょう",
+          "meaning": "극장"
+        }
+      ],
       "mnemonic": "",
       "category": "생활·문화"
     },
@@ -8833,7 +11579,13 @@
           "hangul": "미치비"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "指導",
+          "reading": "しどう",
+          "meaning": "지도"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -8864,7 +11616,13 @@
           "hangul": "아바"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "暴力",
+          "reading": "ぼうりょく",
+          "meaning": "폭력"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8887,7 +11645,18 @@
           "hangul": "스지"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "線",
+          "reading": "せん",
+          "meaning": "선, 노선"
+        },
+        {
+          "word": "新幹線",
+          "reading": "しんかんせん",
+          "meaning": "신칸센"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -8914,7 +11683,13 @@
           "hangul": "-아"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "編集",
+          "reading": "へんしゅう",
+          "meaning": "편집"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8937,7 +11712,13 @@
           "hangul": "하다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "皮膚",
+          "reading": "ひふ",
+          "meaning": "피부"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -8972,7 +11753,13 @@
           "hangul": "카쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "meaning": "냉장고"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -8990,7 +11777,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "課題",
+          "reading": "かだい",
+          "meaning": "과제"
+        },
+        {
+          "word": "課長",
+          "reading": "かちょう",
+          "meaning": "과장"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9013,7 +11811,13 @@
           "hangul": "모로"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "諸国",
+          "reading": "しょこく",
+          "meaning": "여러 나라"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9036,7 +11840,18 @@
           "hangul": "호"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "賞",
+          "reading": "しょう",
+          "meaning": "상"
+        },
+        {
+          "word": "賞品",
+          "reading": "しょうひん",
+          "meaning": "상품"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9059,7 +11874,13 @@
           "hangul": "와"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "指輪",
+          "reading": "ゆびわ",
+          "meaning": "반지"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -9082,7 +11903,13 @@
           "hangul": "스루도"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "鋭い",
+          "reading": "するどい",
+          "meaning": "날카로운"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -9109,7 +11936,13 @@
           "hangul": "후루"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "地震",
+          "reading": "じしん",
+          "meaning": "지진"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -9127,7 +11960,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "駐車場",
+          "reading": "ちゅうしゃじょう",
+          "meaning": "주차장"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -9150,7 +11989,18 @@
           "hangul": "쿠모"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "曇り",
+          "reading": "くもり",
+          "meaning": "흐림"
+        },
+        {
+          "word": "曇る",
+          "reading": "くもる",
+          "meaning": "흐려지다"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -9173,7 +12023,13 @@
           "hangul": "하시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "橋",
+          "reading": "はし",
+          "meaning": "다리"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -9196,7 +12052,13 @@
           "hangul": "코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "濃い",
+          "reading": "こい",
+          "meaning": "진한"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -9227,7 +12089,18 @@
           "hangul": "모"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "燃える",
+          "reading": "もえる",
+          "meaning": "타다"
+        },
+        {
+          "word": "燃料",
+          "reading": "ねんりょう",
+          "meaning": "연료"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -9254,7 +12127,13 @@
           "hangul": "스"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "磨く",
+          "reading": "みがく",
+          "meaning": "닦다"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -9277,7 +12156,13 @@
           "hangul": "키즈"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "建築",
+          "reading": "けんちく",
+          "meaning": "건축"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9332,7 +12217,13 @@
           "hangul": "스스키"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "薄い",
+          "reading": "うすい",
+          "meaning": "얇은, 옅은"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -9355,7 +12246,13 @@
           "hangul": "카시코"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "賢い",
+          "reading": "かしこい",
+          "meaning": "현명한"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -9377,7 +12274,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "輸入",
+          "reading": "ゆにゅう",
+          "meaning": "수입"
+        },
+        {
+          "word": "輸出",
+          "reading": "ゆしゅつ",
+          "meaning": "수출"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -9404,7 +12312,18 @@
           "hangul": "토"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "記録",
+          "reading": "きろく",
+          "meaning": "기록"
+        },
+        {
+          "word": "録音",
+          "reading": "ろくおん",
+          "meaning": "녹음"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9431,7 +12350,13 @@
           "hangul": "유스"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "洗濯",
+          "reading": "せんたく",
+          "meaning": "세탁"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -9454,7 +12379,13 @@
           "hangul": "하시ゃ"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "乾燥",
+          "reading": "かんそう",
+          "meaning": "건조"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -9472,7 +12403,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "治療",
+          "reading": "ちりょう",
+          "meaning": "치료"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -9490,7 +12427,13 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "成績",
+          "reading": "せいせき",
+          "meaning": "성적"
+        }
+      ],
       "mnemonic": "",
       "category": "행동·동작"
     },
@@ -9508,7 +12451,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "講義",
+          "reading": "こうぎ",
+          "meaning": "강의"
+        },
+        {
+          "word": "講演",
+          "reading": "こうえん",
+          "meaning": "강연"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9535,7 +12489,13 @@
           "hangul": "토시"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "年齢",
+          "reading": "ねんれい",
+          "meaning": "나이"
+        }
+      ],
       "mnemonic": "",
       "category": "상태·성질"
     },
@@ -9566,7 +12526,13 @@
           "hangul": "후다"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "簡単",
+          "reading": "かんたん",
+          "meaning": "간단"
+        }
+      ],
       "mnemonic": "",
       "category": "경제·산업"
     },
@@ -9593,7 +12559,18 @@
           "hangul": "오쿠"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "贈る",
+          "reading": "おくる",
+          "meaning": "선물하다"
+        },
+        {
+          "word": "贈り物",
+          "reading": "おくりもの",
+          "meaning": "선물"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9616,7 +12593,18 @@
           "hangul": "히타이"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "金額",
+          "reading": "きんがく",
+          "meaning": "금액"
+        },
+        {
+          "word": "額",
+          "reading": "ひたい",
+          "meaning": "이마"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9639,7 +12627,13 @@
           "hangul": "하"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "爆発",
+          "reading": "ばくはつ",
+          "meaning": "폭발"
+        }
+      ],
       "mnemonic": "",
       "category": "자연·과학"
     },
@@ -9662,7 +12656,13 @@
           "hangul": "하라와타"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "心臓",
+          "reading": "しんぞう",
+          "meaning": "심장"
+        }
+      ],
       "mnemonic": "",
       "category": "인체·의료"
     },
@@ -9697,7 +12697,13 @@
           "hangul": "쿠라"
         }
       ],
-      "words": [],
+      "words": [
+        {
+          "word": "競争",
+          "reading": "きょうそう",
+          "meaning": "경쟁"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     },
@@ -9715,7 +12721,18 @@
         }
       ],
       "kunyomi": [],
-      "words": [],
+      "words": [
+        {
+          "word": "国籍",
+          "reading": "こくせき",
+          "meaning": "국적"
+        },
+        {
+          "word": "書籍",
+          "reading": "しょせき",
+          "meaning": "서적"
+        }
+      ],
       "mnemonic": "",
       "category": "사회·정치"
     }
