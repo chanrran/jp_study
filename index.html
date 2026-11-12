@@ -600,7 +600,7 @@
       <div class="menu-card" onclick="navigate('vocab')">
         <div class="icon">語</div>
         <div class="label">어휘</div>
-        <div class="sub">N5 필수 단어 164개</div>
+        <div class="sub">N5~N2 필수 단어 692개</div>
       </div>
       <div class="menu-card disabled">
         <div class="icon">文</div>
@@ -733,7 +733,15 @@
         <button class="back-btn" onclick="navigate('home')">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
         </button>
-        <h2>어휘 · N5</h2>
+        <h2>어휘</h2>
+      </div>
+
+      <!-- Level tabs (1st tier) -->
+      <div class="filter-bar" id="vocabLevelTabs">
+        <button class="filter-btn level-tab active" data-level="N5">N5 <span class="level-count">164</span></button>
+        <button class="filter-btn level-tab" data-level="N4">N4 <span class="level-count">202</span></button>
+        <button class="filter-btn level-tab" data-level="N3">N3 <span class="level-count">165</span></button>
+        <button class="filter-btn level-tab" data-level="N2">N2 <span class="level-count">161</span></button>
       </div>
 
       <div class="search-bar">
@@ -741,23 +749,9 @@
           placeholder="검색 (단어, 한자, 의미, 읽기)">
       </div>
 
+      <!-- Category filters (2nd tier, dynamically populated) -->
       <div class="filter-bar" id="vocabFilter">
         <button class="filter-btn active" data-cat="all">전체</button>
-        <button class="filter-btn" data-cat="사람">사람</button>
-        <button class="filter-btn" data-cat="가족">가족</button>
-        <button class="filter-btn" data-cat="동작">동작</button>
-        <button class="filter-btn" data-cat="형용사">형용사</button>
-        <button class="filter-btn" data-cat="음식">음식</button>
-        <button class="filter-btn" data-cat="장소">장소</button>
-        <button class="filter-btn" data-cat="시간">시간</button>
-        <button class="filter-btn" data-cat="사물">사물</button>
-        <button class="filter-btn" data-cat="자연">자연</button>
-        <button class="filter-btn" data-cat="위치">위치</button>
-        <button class="filter-btn" data-cat="숫자">숫자</button>
-        <button class="filter-btn" data-cat="감정">감정</button>
-        <button class="filter-btn" data-cat="생활">생활</button>
-        <button class="filter-btn" data-cat="표현">표현</button>
-        <button class="filter-btn" data-cat="인사">인사</button>
       </div>
     </div>
 
@@ -805,7 +799,11 @@
     let searchQueryKanji = '';
     let vocabData = [];
     let currentCatVocab = 'all';
+    let currentVocabLevel = 'N5';
     let searchQueryVocab = '';
+
+    // Vocab level data cache
+    const vocabCache = {};
 
     // Kanji level data cache
     const kanjiCache = {};
@@ -854,6 +852,45 @@
       currentCatKanji = 'all';
     }
 
+    // Load vocab data for a level (lazy)
+    async function loadVocabLevel(level) {
+      if (vocabCache[level]) {
+        vocabData = vocabCache[level];
+        buildVocabCategoryFilter();
+        renderListVocab();
+        return;
+      }
+      const listEl = document.getElementById('vocabList');
+      listEl.innerHTML = '<div class="empty-state">불러오는 중...</div>';
+      try {
+        const resp = await fetch(`data/vocab_${level.toLowerCase()}.json`);
+        const json = await resp.json();
+        vocabCache[level] = Array.isArray(json) ? json : json.data;
+        vocabData = vocabCache[level];
+        buildVocabCategoryFilter();
+        renderListVocab();
+      } catch (e) {
+        listEl.innerHTML = '<div class="empty-state">데이터를 불러올 수 없습니다.</div>';
+      }
+    }
+
+    // Build category filter buttons from current vocabData
+    function buildVocabCategoryFilter() {
+      const cats = {};
+      vocabData.forEach(v => {
+        const c = v.category || '기타';
+        cats[c] = (cats[c] || 0) + 1;
+      });
+      const sorted = Object.entries(cats).sort((a, b) => b[1] - a[1]);
+      const filterEl = document.getElementById('vocabFilter');
+      let html = '<button class="filter-btn active" data-cat="all">전체</button>';
+      sorted.forEach(([cat, count]) => {
+        html += `<button class="filter-btn" data-cat="${cat}">${cat}</button>`;
+      });
+      filterEl.innerHTML = html;
+      currentCatVocab = 'all';
+    }
+
     // ─── Navigation ───
     function navigate(page) {
       document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
@@ -872,22 +909,21 @@
     // ─── Load data ───
     async function loadData() {
       try {
-        const [hResp, kResp, vResp] = await Promise.all([
+        const [hResp, kResp] = await Promise.all([
           fetch('data/hiragana.json'),
-          fetch('data/katakana.json'),
-          fetch('data/vocab_n5.json')
+          fetch('data/katakana.json')
         ]);
         const hJson = await hResp.json();
         const kJson = await kResp.json();
-        const vJson = await vResp.json();
         hiraganaData = hJson.data;
         katakanaData = kJson.data;
-        vocabData = Array.isArray(vJson) ? vJson : vJson.data;
         renderList();
         renderListKata();
-        renderListVocab();
-        // Load kanji N5 as default
-        await loadKanjiLevel('N5');
+        // Load kanji N5 and vocab N5 as defaults
+        await Promise.all([
+          loadKanjiLevel('N5'),
+          loadVocabLevel('N5')
+        ]);
         updateProgress();
       } catch (e) {
         document.getElementById('charList').innerHTML =
@@ -1153,6 +1189,19 @@
       listEl.innerHTML = filtered.map(v => renderVocabCard(v)).join('');
     }
 
+    // ─── Vocab level tabs ───
+    document.getElementById('vocabLevelTabs').addEventListener('click', (e) => {
+      const btn = e.target.closest('.level-tab');
+      if (!btn || !btn.dataset.level) return;
+      if (btn.classList.contains('active')) return;
+      document.querySelectorAll('#vocabLevelTabs .level-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentVocabLevel = btn.dataset.level;
+      searchQueryVocab = '';
+      document.getElementById('searchInputVocab').value = '';
+      loadVocabLevel(currentVocabLevel);
+    });
+
     // ─── Vocab filter ───
     document.getElementById('vocabFilter').addEventListener('click', (e) => {
       const btn = e.target.closest('.filter-btn');
@@ -1240,7 +1289,8 @@
     // ─── Progress (localStorage) ───
     function updateProgress() {
       const kanjiTotal = Object.values(kanjiCache).reduce((s, d) => s + d.length, 0) || kanjiData.length;
-      const total = hiraganaData.length + katakanaData.length + kanjiTotal + vocabData.length;
+      const vocabTotal = Object.values(vocabCache).reduce((s, d) => s + d.length, 0) || vocabData.length;
+      const total = hiraganaData.length + katakanaData.length + kanjiTotal + vocabTotal;
       let learned = 0;
       try {
         const saved = JSON.parse(localStorage.getItem('jp_progress') || '{}');
