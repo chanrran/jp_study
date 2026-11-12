@@ -234,8 +234,16 @@
     /* Character list */
     .char-list {
       padding: 0 16px 20px;
-      display: flex; flex-direction: column; gap: 10px;
-      max-width: 600px; margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      max-width: 900px; margin: 0 auto;
+    }
+    @media (max-width: 640px) {
+      .char-list {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+      }
     }
 
     /* Single character card — reference style, all info visible */
